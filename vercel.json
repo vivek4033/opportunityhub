@@ -1,0 +1,4 @@
+{
+  "rewrites": [{ "source": "/((?!openings\\.json|assets/).*)", "destination": "/index.html" }],
+  "headers": [{ "source": "/openings.json", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] }]
+}

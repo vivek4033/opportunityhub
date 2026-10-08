@@ -1,0 +1,50 @@
+{
+ "updated_at": "2026-10-08T03:12:35Z",
+ "note": "Written by the daily OpportunityHub scan. Facts come from official notifications.",
+ "openings": [
+  {
+   "id": "canara-bank--engagement-of-graduate-apprentices-under-apprentices-act-1961-for-fy-2026-27",
+   "organization": "Canara Bank",
+   "title": "Engagement of Graduate Apprentices under Apprentices Act, 1961 for FY 2026-27",
+   "track": "apprenticeship",
+   "subcategory": "psu_bank",
+   "employment_type": "apprenticeship",
+   "location": "All India (state-wise seats; Tamil Nadu 391, Kerala 240)",
+   "posted_date": "2026-09-25",
+   "application_start": "2026-10-01",
+   "application_end": "2026-10-17",
+   "qualification_text": "Graduation in any discipline from a university recognised by Govt. of India (or equivalent), completed between 01.01.2023 and 01.09.2026 (both inclusive).",
+   "age_limit_text": "20–28 years as on 01.09.2026 (born 02.09.1998 to 01.09.2006). Relaxation: SC/ST 5 yrs, OBC-NCL 3 yrs, PwBD 10 yrs; widows/divorced women up to 35/38/40 (Gen-EWS/OBC/SC-ST).",
+   "salary_text": "Stipend Rs. 16,650 per month (Bank Rs. 10,500 + Govt Rs. 6,150 via DBT); 12-month training.",
+   "vacancies": "3,500 (provisional); Tamil Nadu 391, Kerala 240",
+   "notification_url": "https://www.canarabank.bank.in/documents/d/guest/apprenticeship-advertisement-2026-27",
+   "apply_url": "https://ibpsreg.ibps.in/cabgasep26/",
+   "org_website": "https://canarabank.com",
+   "requirements": {
+    "_extraction": "ai",
+    "age_cutoff_date": "2026-09-01",
+    "age_max": 28,
+    "age_min": 20,
+    "age_relaxation": {
+     "OBC": 3,
+     "PwBD": 10,
+     "SC": 5,
+     "ST": 5
+    },
+    "min_education": "bachelor",
+    "other_requirements": [
+     "Graduation completed between 01.01.2023 and 01.09.2026",
+     "100% complete profile on NATS portal (nats.education.gov.in) with enrollment number before applying",
+     "Merit list state-wise from 12th/diploma marks; minimum 60% (55% SC/ST/PwBD)",
+     "Local language test at document verification if 10th/12th certificate does not show the opted local language",
+     "Application fee Rs. 500 (Nil for SC/ST/PwBD)"
+    ],
+    "subjects": [
+     "any"
+    ]
+   },
+   "ai_summary": "Canara Bank is engaging about 3,500 graduate apprentices for a 12-month training under the Apprentices Act with a Rs. 16,650 monthly stipend, selected on 12th-standard marks without a written test. Graduates in any discipline who finished their degree between Jan 2023 and Sep 2026, aged 20–28 and registered on the NATS portal, can apply by 17 Oct 2026.",
+   "first_seen_at": "2026-10-08T03:12:35Z"
+  }
+ ]
+}
