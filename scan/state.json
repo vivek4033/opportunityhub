@@ -1,0 +1,48 @@
+{
+ "last_checked": {
+  "sbi": "2026-10-08T03:12:35Z",
+  "ibps": "2026-10-08T03:12:35Z",
+  "bank-of-baroda": "2026-10-08T03:12:35Z",
+  "rbi": "2026-10-08T03:12:35Z",
+  "nabard": "2026-10-08T03:12:35Z",
+  "canara-bank": "2026-10-08T03:12:35Z",
+  "indian-bank": "2026-10-08T03:12:35Z",
+  "union-bank": "2026-10-08T03:12:35Z",
+  "iob": "2026-10-08T03:12:35Z",
+  "pnb": "2026-10-08T03:12:35Z",
+  "sidbi": "2026-10-08T03:12:35Z",
+  "bank-of-india": "2026-10-08T03:12:35Z",
+  "central-bank": "2026-10-08T03:12:35Z",
+  "psb": "2026-10-08T03:12:35Z",
+  "uco-bank": "2026-10-08T03:12:35Z"
+ },
+ "last_status": {
+  "sbi": "ok",
+  "ibps": "ok",
+  "bank-of-baroda": "ok",
+  "rbi": "blocked",
+  "nabard": "ok",
+  "canara-bank": "ok",
+  "indian-bank": "ok",
+  "union-bank": "ok",
+  "iob": "ok",
+  "pnb": "ok",
+  "sidbi": "ok",
+  "bank-of-india": "blocked",
+  "central-bank": "ok",
+  "psb": "ok",
+  "uco-bank": "ok"
+ },
+ "runs": [
+  {
+   "started_at": "2026-10-08T03:09:30Z",
+   "finished_at": "2026-10-08T03:12:35Z",
+   "status": "partial",
+   "sources_checked": 15,
+   "sources_failed": 2,
+   "new_count": 1,
+   "updated_count": 0,
+   "notes": "Checked the 15 PSU banking sources; RBI and Bank of India blocked automated reading."
+  }
+ ]
+}
