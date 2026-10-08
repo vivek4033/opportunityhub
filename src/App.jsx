@@ -8,7 +8,7 @@ import Mocks from "./pages/Mocks";
 import Openings from "./pages/Openings";
 import Profile from "./pages/Profile";
 import Upcoming from "./pages/Upcoming";
-import { AppContext, E, Loading, Modal, TAB_EMOJI as T, useInstall, useTheme } from "./ui";
+import { AppContext, E, Loading, Modal, TAB_EMOJI as T, useInstall } from "./ui";
 
 function SetupNeeded() {
   return (
@@ -27,7 +27,6 @@ export default function App() {
   const [openings, setOpenings] = useState({ items: [], updatedAt: null, loading: true, error: null });
   const [toast, setToast] = useState(null);
   const [iosHelp, setIosHelp] = useState(false);
-  const theme = useTheme();
   const inst = useInstall();
 
   const notify = useCallback((message, kind = "ok") => {
@@ -69,7 +68,6 @@ export default function App() {
           <div className="who">
             <span className="email">{session.user.email}</span>
             {inst.can && <button className="icon-btn" onClick={() => (inst.ios ? setIosHelp(true) : inst.install())}><E>📲</E><span className="lbl">Install app</span></button>}
-            <button className="icon-btn round" onClick={theme.toggle} aria-label="Switch light or dark mode" title="Light / dark">🌗</button>
             <button className="icon-btn" onClick={() => data.signOut()}><E>👋</E><span className="lbl">Log out</span></button>
           </div>
           {!needsProfile && (

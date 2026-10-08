@@ -56,18 +56,6 @@ export const STATUS_EMOJI = { to_apply: "📝", applied: "📨", exam: "✍️",
 export const ELIG_EMOJI = { CURRENTLY_ELIGIBLE: "✅", POTENTIALLY_ELIGIBLE: "🤔", ELIGIBLE_AFTER_BED: "⏳", ELIGIBLE_AFTER_TET: "📘", NOT_ELIGIBLE: "❌" };
 export const E = ({ children }) => <span className="e" aria-hidden="true">{children}</span>;
 
-/** Light/dark: follows the device until the user taps 🌗 (choice remembered on this device). */
-export function useTheme() {
-  const read = () => { try { return localStorage.getItem("oh-theme"); } catch { return null; } };
-  const [theme, setTheme] = useState(read);
-  useEffect(() => {
-    if (theme) document.documentElement.setAttribute("data-theme", theme); else document.documentElement.removeAttribute("data-theme");
-    try { theme ? localStorage.setItem("oh-theme", theme) : localStorage.removeItem("oh-theme"); } catch { /* private mode */ }
-  }, [theme]);
-  const isDark = () => theme ? theme === "dark" : window.matchMedia?.("(prefers-color-scheme: dark)").matches;
-  return { toggle: () => setTheme(isDark() ? "light" : "dark") };
-}
-
 /** "Install app" — Android/desktop Chrome gives a prompt event; iPhone needs Share → Add to Home Screen. */
 export function useInstall() {
   const [evt, setEvt] = useState(null);
