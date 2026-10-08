@@ -186,6 +186,61 @@ tr.click { cursor: pointer; } tr.click:hover td { background: var(--hover); } tr
 .auth-box .brand-lg { font-size: 30px; font-weight: 800; letter-spacing: -0.03em; }
 .auth-box .tagline { color: var(--muted); margin: 6px 0 22px; }
 
+/* ------------------------------------------------ profile button + right-side profile panel */
+.badge.accent { background: var(--accent-soft); color: var(--accent); }
+.me { display: flex; align-items: center; gap: 10px; background: var(--surface); border: 1px solid var(--rule); border-radius: 999px;
+  padding: 4px 4px 4px 14px; font: inherit; color: var(--ink); cursor: pointer; text-align: right; }
+.me:hover { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+.me-text { display: flex; flex-direction: column; align-items: flex-end; line-height: 1.2; }
+.me-text strong { font-size: 14px; }
+.me-text small { font-size: 13px; color: var(--muted); letter-spacing: 2px; }
+.avatar { width: 34px; height: 34px; border-radius: 50%; background: linear-gradient(135deg, #7c7cf0, #5b5bd6); color: #ffffff;
+  display: grid; place-items: center; font-weight: 800; font-size: 13px; letter-spacing: 0.02em; flex: none; }
+.avatar.lg { width: 56px; height: 56px; font-size: 20px; }
+.drawer-back { position: fixed; inset: 0; background: rgba(15, 21, 25, 0.38); z-index: 45; display: flex; justify-content: flex-end; animation: fade .18s ease-out; }
+.drawer { width: min(580px, 100%); height: 100%; background: var(--paper); display: flex; flex-direction: column;
+  box-shadow: -12px 0 40px rgba(29, 36, 51, 0.18); animation: slide-in .24s cubic-bezier(.2, .8, .2, 1); outline: none; }
+.drawer-head { display: flex; gap: 14px; align-items: flex-start; padding: calc(18px + env(safe-area-inset-top, 0px)) 20px 16px;
+  background: var(--surface); border-bottom: 1px solid var(--rule); }
+.drawer-head h2 { font-size: 20px; }
+.drawer-body { flex: 1; overflow-y: auto; padding: 16px 20px 0; overscroll-behavior: contain; }
+.drawer-out { padding: 12px 20px calc(12px + env(safe-area-inset-bottom, 0px)); border-top: 1px solid var(--rule); background: var(--surface); }
+.psec { background: var(--surface); border: 1px solid var(--rule); border-radius: var(--radius-m); padding: 16px; min-width: 0; }
+.panel-foot { position: sticky; bottom: 0; background: linear-gradient(to bottom, transparent, var(--paper) 30%); padding: 18px 0 14px; display: flex; justify-content: flex-end; }
+@keyframes slide-in { from { transform: translateX(100%); } to { transform: none; } }
+@keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+
+/* role picker */
+.roles { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 8px; }
+.role { position: relative; display: flex; align-items: center; gap: 10px; text-align: left; font: inherit; color: var(--ink); cursor: pointer;
+  background: var(--surface); border: 1.5px solid var(--rule); border-radius: var(--radius-s); padding: 10px 34px 10px 12px; }
+.role:hover { border-color: var(--rule-strong); background: var(--hover); }
+.role .e { font-size: 24px; flex: none; }
+.role strong { display: block; font-size: 14px; line-height: 1.25; }
+.role small { display: block; font-size: 12px; color: var(--muted); line-height: 1.3; }
+.role.on { border-color: var(--accent); background: var(--accent-soft); }
+.role .tick { position: absolute; top: 8px; right: 8px; width: 20px; height: 20px; border-radius: 50%; background: var(--accent); color: #ffffff;
+  display: grid; place-items: center; font-size: 12px; font-weight: 800; }
+
+/* role tag on opening cards */
+.role-tag { display: inline-flex; flex-wrap: wrap; row-gap: 2px; align-self: flex-start; align-items: center; max-width: 100%; font-size: 12px; font-weight: 700; padding: 3px 10px 3px 8px;
+  border-radius: 999px; background: var(--surface-2); color: var(--ink-2); margin-bottom: 8px; }
+.role-tag .e { font-size: 14px; margin-right: 4px; }
+.role-tag > span { white-space: nowrap; display: inline-flex; align-items: center; }
+.role-tag > span + span::before { content: "·"; margin: 0 6px; opacity: 0.5; }
+.role-tag .yours { font-weight: 800; }
+.role-tag.r-banking { background: #e7f6ef; color: #0f7a4a; }
+.role-tag.r-government { background: #eef1fb; color: #3a4aa8; }
+.role-tag.r-schools { background: #fff1e3; color: #b65a05; }
+.role-tag.r-physics_research { background: #f1ebfd; color: #6b3fc4; }
+.role-tag.r-colleges { background: #e9f0ff; color: #1d4fc2; }
+.role-tag.r-insurance { background: #e6f6f8; color: #0b7285; }
+.role-tag.r-corporate { background: #f2f3f6; color: #3d4556; }
+.role-tag.r-apprenticeship { background: #fdf6dc; color: #8a6406; }
+.linkish { background: none; border: 0; padding: 0; font: inherit; color: var(--accent); font-weight: 600; cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
+code.sql { display: block; margin-top: 6px; padding: 8px 10px; background: var(--surface); border: 1px solid var(--rule); border-radius: 8px;
+  font-size: 12px; overflow-wrap: anywhere; white-space: pre-wrap; }
+
 @media (max-width: 760px) {
   /* backdrop-filter would make the header the containing block for the fixed bottom tab bar */
   .top { backdrop-filter: none; -webkit-backdrop-filter: none; background: var(--surface); }
@@ -208,4 +263,9 @@ tr.click { cursor: pointer; } tr.click:hover td { background: var(--hover); } tr
   
   .who .email { display: none; }
   .who .lbl { display: none; }
+  .me { padding: 3px; border: 0; background: transparent; }
+  .me-text { display: none; }
+  .drawer-head { padding-left: 16px; padding-right: 16px; }
+  .drawer-body { padding: 14px 16px 0; }
+  .roles { grid-template-columns: minmax(0, 1fr); }
 }

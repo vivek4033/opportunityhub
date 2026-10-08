@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { saveProfile } from "../lib/data";
-import { E, Field, useApp } from "../ui";
+import { E, Field, RolePicker, useApp } from "../ui";
 
 const LEVELS = [["10th", "10th"], ["12th", "12th"], ["diploma", "Diploma"], ["bachelor", "Bachelor's"], ["master", "Master's"], ["bed", "B.Ed"], ["phd", "PhD"]];
 const STARTER = [
@@ -11,10 +11,12 @@ const STARTER = [
 ];
 const toList = (s) => String(s || "").split(",").map((x) => x.trim()).filter(Boolean);
 
-export default function Profile({ firstTime = false }) {
+/** Profile form. `firstTime` = full-page onboarding; `inPanel` = inside the right-side profile panel. */
+export default function Profile({ firstTime = false, inPanel = false, onSaved }) {
   const { uid, email, profile, setProfile, notify } = useApp();
   const nav = useNavigate();
   const p = profile || {};
+  const [roles, setRoles] = useState(p.target_roles || []);
   const [f, setF] = useState({
     full_name: p.full_name || "", phone: p.phone || "", date_of_birth: p.date_of_birth || "", home_state: p.home_state || "",
     reservation_category: p.reservation_category || "", experience_years: p.experience_years ?? 0,
@@ -30,6 +32,7 @@ export default function Profile({ firstTime = false }) {
   const save = async (e) => {
     e.preventDefault();
     setError(null);
+    if (!roles.length) return setError("Pick at least one type of role you're looking for.");
     if (!f.full_name.trim()) return setError("Enter your name.");
     if (f.date_of_birth && f.date_of_birth >= new Date().toISOString().slice(0, 10)) return setError("Date of birth must be in the past.");
     if (f.phone && !/^[+\d][\d\s-]{7,15}$/.test(f.phone.trim())) return setError("Enter a valid phone number, or leave it empty.");
@@ -42,29 +45,42 @@ export default function Profile({ firstTime = false }) {
     setBusy(true);
     try {
       const saved = await saveProfile(uid, email, {
+        target_roles: roles,
         full_name: f.full_name.trim(), phone: f.phone.trim() || null, date_of_birth: f.date_of_birth || null, home_state: f.home_state.trim() || null,
         reservation_category: f.reservation_category || null, experience_years: Number(f.experience_years || 0),
         languages: toList(f.languages), tets_cleared: toList(f.tets_cleared), exams_cleared: toList(f.exams_cleared),
         preferred_locations: toList(f.preferred_locations), bed_final_year: f.bed_final_year, education,
       });
-      setProfile(saved);
-      notify(firstTime ? "Profile saved. Here are the openings that fit you." : "Profile saved. Eligibility updated.");
+      // If the database can't store roles yet, keep them for this visit so filters still work.
+      setProfile(saved._rolesNotSaved ? { ...saved, target_roles: roles } : saved);
+      if (saved._rolesNotSaved) notify("Profile saved. Roles will be remembered after the admin's one-time database update.", "error");
+      else notify(firstTime ? "🎉 Profile saved. Here are the openings for your roles." : "💾 Profile saved. Eligibility updated.");
       if (firstTime) nav("/openings");
+      onSaved?.();
     } catch (err) { setError(err.message); }
     setBusy(false);
   };
 
+  const saveBtn = <button className="btn primary" disabled={busy}>{busy ? "Saving…" : "💾 Save profile"}</button>;
+
   return (
-    <form onSubmit={save} noValidate>
-      <div className="head">
-        <div>
-          <h1><E>{firstTime ? "👋" : "👤"}</E>{firstTime ? "Set up your profile" : "Profile"}</h1>
-          <p>{firstTime ? "Takes 2 minutes. Your education and age decide which openings you're eligible for." : "Changes here update your eligibility on every opening."}</p>
+    <form onSubmit={save} noValidate className={inPanel ? "stack" : ""}>
+      {!inPanel && (
+        <div className="head">
+          <div>
+            <h1><E>👋</E>Set up your profile</h1>
+            <p>Takes 2 minutes. Your roles decide what you see first; your education and age decide what you're eligible for.</p>
+          </div>
+          {saveBtn}
         </div>
-        <button className="btn primary" disabled={busy}>{busy ? "Saving…" : "💾 Save profile"}</button>
-      </div>
-      {error && <div className="error mb">{error}</div>}
-      <section className="panel mb">
+      )}
+      {error && <div className={`error ${inPanel ? "" : "mb"}`}>{error}</div>}
+      <section className={inPanel ? "psec" : "panel mb"}>
+        <h2 className="mb"><E>🎯</E>Roles I'm looking for</h2>
+        <p className="small muted mb" style={{ marginTop: -8 }}>Pick one or more. Openings shows these first.</p>
+        <RolePicker value={roles} onChange={setRoles} />
+      </section>
+      <section className={inPanel ? "psec" : "panel mb"}>
         <h2 className="mb"><E>🙋</E>About you</h2>
         <div className="form-grid">
           <Field label="Full name"><input id="p-name" value={f.full_name} onChange={set("full_name")} /></Field>
@@ -81,7 +97,7 @@ export default function Profile({ firstTime = false }) {
           <Field label="Exams cleared" hint="e.g. CSIR NET, GATE"><input id="p-exams" value={f.exams_cleared} onChange={set("exams_cleared")} /></Field>
         </div>
       </section>
-      <section className="panel">
+      <section className={inPanel ? "psec" : "panel"}>
         <div className="spread mb"><h2><E>🎓</E>Education</h2>
           <button type="button" className="btn sm" onClick={() => setEdu([...edu, { level: "master", degree: "", subject: "", percentage: "", status: "completed", completion_year: "" }])}>➕ Add qualification</button></div>
         <div className="table-wrap"><table>
@@ -102,6 +118,7 @@ export default function Profile({ firstTime = false }) {
           <label className="check mt"><input id="p-bedfinal" type="checkbox" checked={f.bed_final_year} onChange={set("bed_final_year")} /> I'm in the final year of B.Ed (some exams like CTET accept this)</label>
         )}
       </section>
+      {inPanel && <div className="panel-foot">{saveBtn}</div>}
     </form>
   );
 }

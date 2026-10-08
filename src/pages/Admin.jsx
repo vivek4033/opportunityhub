@@ -2,8 +2,14 @@ import { useEffect, useMemo, useState } from "react";
 import { adminAll, EXAM_GROUPS, STATUSES, STATUS_LABEL } from "../lib/data";
 import { candidateSummary } from "../lib/eligibility";
 import { daysFrom, fmtDate, fmtWhen, mockSummary } from "../lib/util";
-import { E, Loading, STATUS_EMOJI, STATUS_TONE, useApp } from "../ui";
+import { E, Loading, ROLE, STATUS_EMOJI, STATUS_TONE, useApp } from "../ui";
 import { Spark } from "./Mocks";
+
+const RoleList = ({ roles, short }) => (roles?.length
+  ? <span className="row" style={{ gap: 4 }}>{roles.filter((r) => ROLE[r]).map((r) => <span key={r} className="badge accent" title={ROLE[r].label}>{ROLE[r].e}{short ? "" : ` ${ROLE[r].label}`}</span>)}</span>
+  : <span className="muted">Not set</span>);
+
+const ROLES_SQL = "alter table public.profiles add column if not exists target_roles text[] not null default '{}';";
 
 function FriendDetail({ p, apps, mocks, onClose }) {
   const s = mockSummary(mocks);
@@ -16,6 +22,7 @@ function FriendDetail({ p, apps, mocks, onClose }) {
       <div className="grid-2">
         <div className="stack">
           <dl className="facts">
+            <dt>Looking for</dt><dd><RoleList roles={p.target_roles} /></dd>
             <dt>Qualification</dt><dd>{candidateSummary(p) || "—"}</dd>
             <dt>Date of birth</dt><dd>{p.date_of_birth ? fmtDate(p.date_of_birth) : "—"}</dd>
             <dt>Home state</dt><dd>{p.home_state || "—"}</dd>
@@ -84,6 +91,8 @@ export default function Admin() {
   const shown = rows.filter((r) => !q || `${r.p.full_name} ${r.p.email} ${r.p.phone || ""}`.toLowerCase().includes(q.toLowerCase()));
   const selected = rows.find((r) => r.p.id === sel);
   const total = (k) => rows.reduce((a, r) => a + r.c[k], 0);
+  const needsRolesColumn = d.profiles.length > 0 && !d.profiles.some((p) => "target_roles" in p);
+  const byRole = Object.values(ROLE).map((r) => ({ ...r, n: rows.filter((x) => x.p.target_roles?.includes(r.key)).length })).filter((r) => r.n);
 
   return (
     <>
@@ -91,6 +100,17 @@ export default function Admin() {
         <div><h1><E>🛡️</E>Admin</h1><p>Everyone who signed up, what they applied for, and how they're doing. 👀 Read-only.</p></div>
         <button className="btn" onClick={load}>🔄 Refresh</button>
       </div>
+      {needsRolesColumn && (
+        <div className="install" role="alert">
+          <span className="e">🛠️</span>
+          <div style={{ flex: 1, minWidth: 0 }}>
+            <strong>One-time database update needed to save everyone's roles.</strong>
+            <div className="small">Supabase → SQL Editor → New query → paste this → Run:</div>
+            <code className="sql">{ROLES_SQL}</code>
+          </div>
+          <button className="btn sm" onClick={() => navigator.clipboard?.writeText(ROLES_SQL).then(() => notify("📋 SQL copied"))}>📋 Copy</button>
+        </div>
+      )}
       <div className="strip">
         <div><span className="ic">👥</span><div className="n">{rows.length}</div><div className="l">Friends signed up</div></div>
         <div><span className="ic">🟢</span><div className="n">{rows.filter((r) => (r.lastAct || "") >= weekAgo).length}</div><div className="l">Active this week</div></div>
@@ -99,15 +119,22 @@ export default function Admin() {
         <div><span className="ic">🎉</span><div className="n">{total("selected")}</div><div className="l">Selected</div></div>
         <div><span className="ic">🔎</span><div className="n">{openings.items.length}</div><div className="l">Openings listed</div></div>
       </div>
+      {byRole.length > 0 && (
+        <div className="row mb" style={{ gap: 6 }} aria-label="What friends are looking for">
+          <span className="small muted">🎯 Looking for:</span>
+          {byRole.map((r) => <span key={r.key} className="badge accent">{r.e} {r.label} · {r.n}</span>)}
+        </div>
+      )}
       <section className="panel">
         <div className="spread mb"><h2><E>👥</E>Friends</h2><input id="admin-search" placeholder="🔍 Search name, email, phone…" value={q} onChange={(e) => setQ(e.target.value)} style={{ maxWidth: 260 }} aria-label="Search friends" /></div>
         {shown.length ? (
           <div className="table-wrap"><table>
-            <thead><tr><th>👤 Name</th><th>🎓 Qualification</th><th>📝 To apply</th><th>📨 Applied</th><th>✍️ Exam / 🎤 Interview</th><th>🎉 Selected</th><th>📊 Mock avg</th><th>🕒 Last active</th></tr></thead>
+            <thead><tr><th>👤 Name</th><th>🎯 Looking for</th><th>🎓 Qualification</th><th>📝 To apply</th><th>📨 Applied</th><th>✍️ Exam / 🎤 Interview</th><th>🎉 Selected</th><th>📊 Mock avg</th><th>🕒 Last active</th></tr></thead>
             <tbody>{shown.map((r) => (
               <tr key={r.p.id} className={`click ${sel === r.p.id ? "sel" : ""}`} onClick={() => setSel(sel === r.p.id ? null : r.p.id)} tabIndex={0}
                 onKeyDown={(e) => e.key === "Enter" && setSel(sel === r.p.id ? null : r.p.id)}>
                 <td><div className="strong">{r.p.full_name || "(no name yet)"}</div><div className="tiny muted">{r.p.email}{r.p.phone ? ` · ${r.p.phone}` : ""}</div></td>
+                <td className="small"><RoleList roles={r.p.target_roles} short /></td>
                 <td className="small">{candidateSummary(r.p) || "—"}</td>
                 <td>{r.c.to_apply}</td><td>{r.c.applied}</td><td>{r.c.exam + r.c.interview}</td>
                 <td>{r.c.selected ? <span className="badge green">🎉 {r.c.selected}</span> : 0}</td>

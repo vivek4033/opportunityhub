@@ -37,9 +37,18 @@ export const isAdmin = async () => Boolean(await run(sb.rpc("is_admin")));
 
 // ---------------------------------------------------------------- profile
 export const getProfile = async (uid) => (await run(sb.from("profiles").select("*").eq("id", uid).limit(1)))[0] || null;
-export const saveProfile = (uid, email, p) => run(sb.from("profiles").upsert({
-  ...p, id: uid, email, updated_at: new Date().toISOString(), last_seen_at: new Date().toISOString(),
-}).select().single());
+export async function saveProfile(uid, email, p) {
+  const row = { ...p, id: uid, email, updated_at: new Date().toISOString(), last_seen_at: new Date().toISOString() };
+  const { data, error } = await sb.from("profiles").upsert(row).select().single();
+  if (!error) return data;
+  // Database not yet updated with the target_roles column (supabase/migrations/002_target_roles.sql): save the rest.
+  if (/target_roles/i.test(error.message || "")) {
+    const { target_roles: _r, ...rest } = row;
+    const saved = await run(sb.from("profiles").upsert(rest).select().single());
+    return { ...saved, _rolesNotSaved: true };
+  }
+  throw new AppError(friendly(error));
+}
 export const touchLastSeen = (uid) => sb.from("profiles").update({ last_seen_at: new Date().toISOString() }).eq("id", uid).then(() => {}, () => {});
 
 // ---------------------------------------------------------------- applications

@@ -42,10 +42,13 @@ create table if not exists public.profiles (
   bed_final_year      boolean not null default false,
   preferred_locations text[] not null default '{}',
   education           jsonb not null default '[]',
+  target_roles        text[] not null default '{}',   -- role types they want: banking, schools, government, ...
   created_at          timestamptz not null default now(),
   updated_at          timestamptz not null default now(),
   last_seen_at        timestamptz not null default now()
 );
+-- Safe to re-run on a database created before roles existed.
+alter table public.profiles add column if not exists target_roles text[] not null default '{}';
 
 -- ------------------------------------------------------------------ applications
 create table if not exists public.applications (

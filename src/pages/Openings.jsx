@@ -1,9 +1,8 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { addApplication, listApplications, STATUS_LABEL } from "../lib/data";
-import { TRACKS } from "../lib/tracks";
 import { fmtDate, leftText, rate } from "../lib/util";
-import { E, ELIG_EMOJI, ELIG_TONE, Loading, NA, Stamp, STATUS_EMOJI, TRACK_EMOJI, useApp } from "../ui";
+import { E, ELIG_EMOJI, ELIG_TONE, Loading, NA, ROLE, ROLE_TYPES, rolesOf, Stamp, STATUS_EMOJI, useApp } from "../ui";
 
 const RESULT_CLASS = { pass: "pass", fail: "fail", pending_bed: "pend", pending_tet: "pend" };
 
@@ -12,6 +11,12 @@ function OpeningCard({ o, app, onTrack }) {
   const notEligible = o.elig.status === "NOT_ELIGIBLE";
   return (
     <article className={`card ${notEligible ? "dim" : ""}`}>
+      {o.roles?.length > 0 && (
+        <div className={`role-tag r-${o.roles[0]}`}>
+          {o.roles.map((r) => <span key={r}><E>{ROLE[r].e}</E>{ROLE[r].label}</span>)}
+          {o.mine && <span className="yours">🎯 your role</span>}
+        </div>
+      )}
       <div className="top-row">
         <Stamp date={o.application_end} days={o.daysLeft} />
         <div style={{ flex: 1, minWidth: 0 }}>
@@ -22,7 +27,6 @@ function OpeningCard({ o, app, onTrack }) {
       </div>
       <div className="row" style={{ gap: 6 }}>
         <span className={`badge ${ELIG_TONE[o.elig.status]}`}><E>{ELIG_EMOJI[o.elig.status]}</E>{o.elig.label}</span>
-        <span className="badge"><E>{TRACK_EMOJI[o.track] || "📌"}</E>{TRACKS.find((t) => t.key === o.track)?.label || o.track}</span>
       </div>
       <dl className="facts">
         <dt><E>⏰</E>Apply by</dt><dd>{o.application_end ? `${fmtDate(o.application_end)} · ${leftText(o.daysLeft)}` : <NA />}</dd>
@@ -52,22 +56,27 @@ function OpeningCard({ o, app, onTrack }) {
 }
 
 export default function Openings() {
-  const { uid, profile, openings, notify } = useApp();
+  const { uid, profile, openings, notify, openProfile } = useApp();
+  const myRoles = profile?.target_roles || [];
   const [apps, setApps] = useState(null);
-  const [filter, setFilter] = useState("fit");
+  const [filter, setFilter] = useState(myRoles.length ? "mine" : "fit");
   const [track, setTrack] = useState("");
   const [q, setQ] = useState("");
 
   useEffect(() => { listApplications(uid).then(setApps).catch((e) => notify(e.message, "error")); }, [uid, notify]);
 
-  const rated = useMemo(() => rate(openings.items, profile), [openings.items, profile]);
+  const rated = useMemo(() => rate(openings.items, profile).map((o) => {
+    const roles = rolesOf(o);
+    return { ...o, roles, mine: roles.some((r) => myRoles.includes(r)) };
+  }), [openings.items, profile]); // eslint-disable-line react-hooks/exhaustive-deps
   const byOpening = useMemo(() => new Map((apps || []).filter((a) => a.opening_id).map((a) => [a.opening_id, a])), [apps]);
   const shown = rated
     .filter((o) => o.daysLeft == null || o.daysLeft >= 0)
-    .filter((o) => filter === "all" || (filter === "fit" ? o.elig.status !== "NOT_ELIGIBLE" : true))
-    .filter((o) => !track || o.track === track)
+    .filter((o) => filter === "all" || o.elig.status !== "NOT_ELIGIBLE")
+    .filter((o) => filter !== "mine" || o.mine)
+    .filter((o) => !track || o.roles.includes(track))
     .filter((o) => !q || `${o.title} ${o.organization} ${o.location || ""}`.toLowerCase().includes(q.toLowerCase()))
-    .sort((a, b) => b.match - a.match || (a.application_end || "9").localeCompare(b.application_end || "9"));
+    .sort((a, b) => Number(b.mine) - Number(a.mine) || b.match - a.match || (a.application_end || "9").localeCompare(b.application_end || "9"));
 
   const track_ = async (o) => {
     try {
@@ -82,23 +91,31 @@ export default function Openings() {
   return (
     <>
       <div className="head">
-        <div><h1><E>🔎</E>Openings</h1><p>Found by the daily scan of official sites{openings.updatedAt ? ` · updated ${fmtDate(openings.updatedAt.slice(0, 10))}` : ""}. Sorted by how well they fit you.</p></div>
+        <div><h1><E>🔎</E>Openings</h1><p>Found by the daily scan of official sites{openings.updatedAt ? ` · updated ${fmtDate(openings.updatedAt.slice(0, 10))}` : ""}. Your roles first, then by how well they fit you.</p></div>
       </div>
       {openings.error && <div className="error mb">{openings.error}</div>}
       <div className="panel mb stack">
         <input id="o-search" placeholder="🔍 Search openings…" value={q} onChange={(e) => setQ(e.target.value)} aria-label="Search openings" />
         <div className="row">
           <div className="chips">
-            <button className={`chip ${filter === "fit" ? "on" : ""}`} onClick={() => setFilter("fit")}>✅ For me</button>
+            <button className={`chip ${filter === "mine" ? "on" : ""}`} onClick={() => setFilter("mine")} disabled={!myRoles.length}>🎯 My roles</button>
+            <button className={`chip ${filter === "fit" ? "on" : ""}`} onClick={() => setFilter("fit")}>✅ All I'm eligible for</button>
             <button className={`chip ${filter === "all" ? "on" : ""}`} onClick={() => setFilter("all")}>🌍 Show all</button>
           </div>
-          <select id="o-track" value={track} onChange={(e) => setTrack(e.target.value)} style={{ width: "auto" }} aria-label="Category">
-            <option value="">📂 All categories</option>{TRACKS.map((t) => <option key={t.key} value={t.key}>{TRACK_EMOJI[t.key]} {t.label}</option>)}
+          <select id="o-track" value={track} onChange={(e) => setTrack(e.target.value)} style={{ width: "auto" }} aria-label="Role type">
+            <option value="">📂 Every role type</option>{ROLE_TYPES.map((r) => <option key={r.key} value={r.key}>{r.e} {r.label}</option>)}
           </select>
+        </div>
+        <div className="small muted">
+          {myRoles.length ? <>Your roles: {myRoles.map((r) => ROLE[r] && `${ROLE[r].e} ${ROLE[r].label}`).filter(Boolean).join(" · ")} · </> : "You haven't picked your roles yet · "}
+          <button className="linkish" onClick={openProfile}>change</button>
         </div>
       </div>
       {shown.length ? <div className="cards">{shown.map((o) => <OpeningCard key={o.id} o={o} app={byOpening.get(o.id)} onTrack={track_} />)}</div>
-        : <div className="panel state"><span className="empty-e">🌱</span><h3>No open openings match</h3><p>New openings are added every morning. Try "Show all" or another category.</p></div>}
+        : <div className="panel state"><span className="empty-e">🌱</span>
+            <h3>{filter === "mine" ? "No open openings for your roles right now" : "No open openings match"}</h3>
+            <p>New openings are added every morning.{filter === "mine" ? " Meanwhile, see what's open in other roles." : " Try \"Show all\" or another role type."}</p>
+            {filter === "mine" && <button className="btn primary" onClick={() => setFilter("fit")}>✅ All I'm eligible for</button>}</div>}
     </>
   );
 }

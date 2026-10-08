@@ -71,3 +71,48 @@ export function useInstall() {
     install: async () => { if (evt) { evt.prompt(); await evt.userChoice.catch(() => {}); setEvt(null); } },
   };
 }
+
+// ---------------------------------------------------------------- role types people look for (map onto opening categories)
+export const ROLE_TYPES = [
+  { key: "banking", e: "🏦", label: "Banking", hint: "PO, clerk, bank officer" },
+  { key: "government", e: "🏛️", label: "Government jobs & exams", hint: "SSC, railways, TNPSC" },
+  { key: "schools", e: "👩‍🏫", label: "Teaching", hint: "School teacher, PGT/TGT, CTET/TET" },
+  { key: "physics_research", e: "🔬", label: "Research", hint: "NET, CSIR, GATE, project roles" },
+  { key: "colleges", e: "🎓", label: "College & university staff", hint: "IIT/NIT project, lab, office roles" },
+  { key: "insurance", e: "☂️", label: "Insurance", hint: "LIC, NIACL officer / assistant" },
+  { key: "corporate", e: "💼", label: "Corporate / MNC", hint: "Operations, analyst, process roles" },
+  { key: "apprenticeship", e: "🛠️", label: "Apprenticeship / internship", hint: "Paid training, work experience" },
+];
+export const ROLE = Object.fromEntries(ROLE_TYPES.map((r) => [r.key, r]));
+/** Role type of an opening: its category, except teaching-eligibility exams (CTET, TNTET) count as Teaching. */
+export const roleOf = (o) => (o.track === "physics_research" && o.subcategory === "teaching_exam" ? "schools" : o.track);
+/** All role types an opening counts for: e.g. a Canara Bank apprenticeship is both Apprenticeship and Banking. */
+export const rolesOf = (o) => {
+  const out = [roleOf(o)];
+  const sub = o.subcategory || "";
+  if (/bank/.test(sub)) out.push("banking");
+  if (sub === "public_insurer") out.push("insurance");
+  return [...new Set(out)].filter((r) => ROLE[r]);
+};
+
+export function RolePicker({ value, onChange }) {
+  const toggle = (k) => onChange(value.includes(k) ? value.filter((x) => x !== k) : [...value, k]);
+  return (
+    <div className="roles" role="group" aria-label="Roles I'm looking for">
+      {ROLE_TYPES.map((r) => {
+        const on = value.includes(r.key);
+        return (
+          <button type="button" key={r.key} className={`role ${on ? "on" : ""}`} aria-pressed={on} onClick={() => toggle(r.key)}>
+            <span className="e">{r.e}</span><span><strong>{r.label}</strong><small>{r.hint}</small></span>{on && <span className="tick">✓</span>}
+          </button>
+        );
+      })}
+    </div>
+  );
+}
+
+export const initials = (name, email) => {
+  const s = String(name || "").trim();
+  if (s) return s.split(/\s+/).slice(0, 2).map((w) => w[0]).join("").toUpperCase();
+  return String(email || "?")[0].toUpperCase();
+};

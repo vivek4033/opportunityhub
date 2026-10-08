@@ -36,3 +36,9 @@ You need three free accounts: **GitHub** (holds the code), **Supabase** (logins 
 
 - **Password reset emails / phone-number login**: both need an email or SMS provider connected in Supabase (Authentication → Emails → SMTP, or Phone provider such as Twilio, which is paid). The site works without them; until then, if a friend forgets their password, delete their user in Supabase → Authentication → Users and they can sign up again (their old data is removed with it).
 - **Own domain**: Vercel → Project → Settings → Domains.
+
+## Updating an existing database
+
+When a new version adds a database column, run the matching file from `supabase/migrations/` once in Supabase → **SQL Editor**. Each file is safe to run again.
+
+- `002_target_roles.sql` — saves each person's "Roles I'm looking for" (Banking, Teaching, Government…). Until it's run, the Admin page shows a reminder with the line to paste.
