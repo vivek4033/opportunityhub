@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { adminAll, EXAM_GROUPS, STATUSES, STATUS_LABEL } from "../lib/data";
 import { candidateSummary } from "../lib/eligibility";
 import { daysFrom, fmtDate, fmtWhen, mockSummary } from "../lib/util";
-import { Loading, STATUS_TONE, useApp } from "../ui";
+import { E, Loading, STATUS_EMOJI, STATUS_TONE, useApp } from "../ui";
 import { Spark } from "./Mocks";
 
 function FriendDetail({ p, apps, mocks, onClose }) {
@@ -11,7 +11,7 @@ function FriendDetail({ p, apps, mocks, onClose }) {
     <section className="panel mt" aria-label={`Details for ${p.full_name}`}>
       <div className="spread mb">
         <div><h2>{p.full_name || "(no name yet)"}</h2><p className="small muted">{p.email}{p.phone ? ` · ${p.phone}` : ""}</p></div>
-        <button className="btn sm" onClick={onClose}>Close</button>
+        <button className="btn sm" onClick={onClose}>✖️ Close</button>
       </div>
       <div className="grid-2">
         <div className="stack">
@@ -24,7 +24,7 @@ function FriendDetail({ p, apps, mocks, onClose }) {
             <dt>Last active</dt><dd>{fmtWhen(p.last_seen_at)}</dd>
           </dl>
           <div>
-            <h3 style={{ marginBottom: 6 }}>Mock tests</h3>
+            <h3 style={{ marginBottom: 6 }}><E>📊</E>Mock tests</h3>
             {s ? (<>
               <p className="small">{s.count} mocks · average <strong>{s.average}%</strong> · best {s.best}% · change {s.change > 0 ? "+" : ""}{s.change} pts</p>
               <Spark series={s.series} />
@@ -35,7 +35,7 @@ function FriendDetail({ p, apps, mocks, onClose }) {
           </div>
         </div>
         <div>
-          <h3 style={{ marginBottom: 6 }}>Applications ({apps.length})</h3>
+          <h3 style={{ marginBottom: 6 }}><E>📝</E>Applications ({apps.length})</h3>
           {apps.length ? (
             <div className="list">{apps.map((a) => (
               <div className="item" key={a.id} style={{ alignItems: "flex-start" }}>
@@ -48,9 +48,9 @@ function FriendDetail({ p, apps, mocks, onClose }) {
                     {a.interview_date && <span>· interview {fmtDate(a.interview_date, false)}</span>}
                     {a.status === "to_apply" && a.deadline && <span>· deadline {fmtDate(a.deadline, false)}{daysFrom(a.deadline) < 0 ? " (missed)" : ""}</span>}
                   </div>
-                  {a.history?.length > 1 && <div className="tiny muted" style={{ marginTop: 2 }}>{a.history.map((h) => STATUS_LABEL[h.to]).join(" → ")}</div>}
+                  {a.history?.length > 1 && <div className="tiny muted" style={{ marginTop: 2 }}>{a.history.map((h) => `${STATUS_EMOJI[h.to]} ${STATUS_LABEL[h.to]}`).join(" → ")}</div>}
                 </div>
-                <span className={`badge ${STATUS_TONE[a.status]}`}>{STATUS_LABEL[a.status]}</span>
+                <span className={`badge ${STATUS_TONE[a.status]}`}>{STATUS_EMOJI[a.status]} {STATUS_LABEL[a.status]}</span>
               </div>))}</div>
           ) : <p className="small muted">Hasn't tracked any applications yet.</p>}
         </div>
@@ -88,34 +88,34 @@ export default function Admin() {
   return (
     <>
       <div className="head">
-        <div><h1>Admin</h1><p>Everyone who signed up, what they applied for, and how they're doing. Read-only.</p></div>
-        <button className="btn" onClick={load}>Refresh</button>
+        <div><h1><E>🛡️</E>Admin</h1><p>Everyone who signed up, what they applied for, and how they're doing. 👀 Read-only.</p></div>
+        <button className="btn" onClick={load}>🔄 Refresh</button>
       </div>
       <div className="strip">
-        <div><div className="n">{rows.length}</div><div className="l">Friends signed up</div></div>
-        <div><div className="n">{rows.filter((r) => (r.lastAct || "") >= weekAgo).length}</div><div className="l">Active this week</div></div>
-        <div><div className="n">{rows.reduce((a, r) => a + r.submitted, 0)}</div><div className="l">Applications sent</div></div>
-        <div><div className="n">{total("exam") + total("interview")}</div><div className="l">At exam / interview</div></div>
-        <div><div className="n">{total("selected")}</div><div className="l">Selected</div></div>
-        <div><div className="n">{openings.items.length}</div><div className="l">Openings listed</div></div>
+        <div><span className="ic">👥</span><div className="n">{rows.length}</div><div className="l">Friends signed up</div></div>
+        <div><span className="ic">🟢</span><div className="n">{rows.filter((r) => (r.lastAct || "") >= weekAgo).length}</div><div className="l">Active this week</div></div>
+        <div><span className="ic">📨</span><div className="n">{rows.reduce((a, r) => a + r.submitted, 0)}</div><div className="l">Applications sent</div></div>
+        <div><span className="ic">✍️</span><div className="n">{total("exam") + total("interview")}</div><div className="l">At exam / interview</div></div>
+        <div><span className="ic">🎉</span><div className="n">{total("selected")}</div><div className="l">Selected</div></div>
+        <div><span className="ic">🔎</span><div className="n">{openings.items.length}</div><div className="l">Openings listed</div></div>
       </div>
       <section className="panel">
-        <div className="spread mb"><h2>Friends</h2><input id="admin-search" placeholder="Search name, email, phone…" value={q} onChange={(e) => setQ(e.target.value)} style={{ maxWidth: 260 }} aria-label="Search friends" /></div>
+        <div className="spread mb"><h2><E>👥</E>Friends</h2><input id="admin-search" placeholder="🔍 Search name, email, phone…" value={q} onChange={(e) => setQ(e.target.value)} style={{ maxWidth: 260 }} aria-label="Search friends" /></div>
         {shown.length ? (
           <div className="table-wrap"><table>
-            <thead><tr><th>Name</th><th>Qualification</th><th>To apply</th><th>Applied</th><th>Exam / Interview</th><th>Selected</th><th>Mock avg</th><th>Last active</th></tr></thead>
+            <thead><tr><th>👤 Name</th><th>🎓 Qualification</th><th>📝 To apply</th><th>📨 Applied</th><th>✍️ Exam / 🎤 Interview</th><th>🎉 Selected</th><th>📊 Mock avg</th><th>🕒 Last active</th></tr></thead>
             <tbody>{shown.map((r) => (
               <tr key={r.p.id} className={`click ${sel === r.p.id ? "sel" : ""}`} onClick={() => setSel(sel === r.p.id ? null : r.p.id)} tabIndex={0}
                 onKeyDown={(e) => e.key === "Enter" && setSel(sel === r.p.id ? null : r.p.id)}>
                 <td><div className="strong">{r.p.full_name || "(no name yet)"}</div><div className="tiny muted">{r.p.email}{r.p.phone ? ` · ${r.p.phone}` : ""}</div></td>
                 <td className="small">{candidateSummary(r.p) || "—"}</td>
                 <td>{r.c.to_apply}</td><td>{r.c.applied}</td><td>{r.c.exam + r.c.interview}</td>
-                <td>{r.c.selected ? <span className="badge green">{r.c.selected}</span> : 0}</td>
+                <td>{r.c.selected ? <span className="badge green">🎉 {r.c.selected}</span> : 0}</td>
                 <td>{r.mock ? `${r.mock.average}%` : "—"}</td>
                 <td className="small">{fmtWhen(r.lastAct)}</td>
               </tr>))}</tbody>
           </table></div>
-        ) : <div className="state"><h3>No one has signed up yet</h3><p>Share the website link with your friends. They'll appear here after they create an account and fill in their profile.</p></div>}
+        ) : <div className="state"><span className="empty-e">📣</span><h3>No one has signed up yet</h3><p>Share the website link with your friends. They'll appear here after they create an account and fill in their profile.</p></div>}
       </section>
       {selected && <FriendDetail p={selected.p} apps={selected.apps} mocks={selected.mocks} onClose={() => setSel(null)} />}
     </>

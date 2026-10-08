@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { saveProfile } from "../lib/data";
-import { Field, useApp } from "../ui";
+import { E, Field, useApp } from "../ui";
 
 const LEVELS = [["10th", "10th"], ["12th", "12th"], ["diploma", "Diploma"], ["bachelor", "Bachelor's"], ["master", "Master's"], ["bed", "B.Ed"], ["phd", "PhD"]];
 const STARTER = [
@@ -58,14 +58,14 @@ export default function Profile({ firstTime = false }) {
     <form onSubmit={save} noValidate>
       <div className="head">
         <div>
-          <h1>{firstTime ? "Set up your profile" : "Profile"}</h1>
+          <h1><E>{firstTime ? "👋" : "👤"}</E>{firstTime ? "Set up your profile" : "Profile"}</h1>
           <p>{firstTime ? "Takes 2 minutes. Your education and age decide which openings you're eligible for." : "Changes here update your eligibility on every opening."}</p>
         </div>
-        <button className="btn primary" disabled={busy}>{busy ? "Saving…" : "Save profile"}</button>
+        <button className="btn primary" disabled={busy}>{busy ? "Saving…" : "💾 Save profile"}</button>
       </div>
       {error && <div className="error mb">{error}</div>}
       <section className="panel mb">
-        <h2 className="mb">About you</h2>
+        <h2 className="mb"><E>🙋</E>About you</h2>
         <div className="form-grid">
           <Field label="Full name"><input id="p-name" value={f.full_name} onChange={set("full_name")} /></Field>
           <Field label="Phone (optional)" hint="So the admin can reach you"><input id="p-phone" type="tel" value={f.phone} onChange={set("phone")} /></Field>
@@ -82,8 +82,8 @@ export default function Profile({ firstTime = false }) {
         </div>
       </section>
       <section className="panel">
-        <div className="spread mb"><h2>Education</h2>
-          <button type="button" className="btn sm" onClick={() => setEdu([...edu, { level: "master", degree: "", subject: "", percentage: "", status: "completed", completion_year: "" }])}>Add qualification</button></div>
+        <div className="spread mb"><h2><E>🎓</E>Education</h2>
+          <button type="button" className="btn sm" onClick={() => setEdu([...edu, { level: "master", degree: "", subject: "", percentage: "", status: "completed", completion_year: "" }])}>➕ Add qualification</button></div>
         <div className="table-wrap"><table>
           <thead><tr><th>Level</th><th>Degree</th><th>Subject</th><th>%</th><th>Status</th><th>Year</th><th></th></tr></thead>
           <tbody>{edu.map((r, i) => (

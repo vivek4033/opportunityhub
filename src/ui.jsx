@@ -48,3 +48,38 @@ export function useConfirm() {
 
 export const ELIG_TONE = { CURRENTLY_ELIGIBLE: "green", POTENTIALLY_ELIGIBLE: "yellow", ELIGIBLE_AFTER_BED: "blue", ELIGIBLE_AFTER_TET: "blue", NOT_ELIGIBLE: "red" };
 export const STATUS_TONE = { to_apply: "", applied: "blue", exam: "orange", interview: "orange", selected: "green", rejected: "red" };
+
+// ---------------------------------------------------------------- emoji vocabulary (one meaning each, used everywhere)
+export const TAB_EMOJI = { openings: "🔎", applications: "📝", upcoming: "📅", mocks: "📊", profile: "👤", admin: "🛡️" };
+export const TRACK_EMOJI = { banking: "🏦", government: "🏛️", insurance: "☂️", physics_research: "🔬", schools: "🏫", colleges: "🎓", apprenticeship: "🛠️", corporate: "💼" };
+export const STATUS_EMOJI = { to_apply: "📝", applied: "📨", exam: "✍️", interview: "🎤", selected: "🎉", rejected: "🙁" };
+export const ELIG_EMOJI = { CURRENTLY_ELIGIBLE: "✅", POTENTIALLY_ELIGIBLE: "🤔", ELIGIBLE_AFTER_BED: "⏳", ELIGIBLE_AFTER_TET: "📘", NOT_ELIGIBLE: "❌" };
+export const E = ({ children }) => <span className="e" aria-hidden="true">{children}</span>;
+
+/** Light/dark: follows the device until the user taps 🌗 (choice remembered on this device). */
+export function useTheme() {
+  const read = () => { try { return localStorage.getItem("oh-theme"); } catch { return null; } };
+  const [theme, setTheme] = useState(read);
+  useEffect(() => {
+    if (theme) document.documentElement.setAttribute("data-theme", theme); else document.documentElement.removeAttribute("data-theme");
+    try { theme ? localStorage.setItem("oh-theme", theme) : localStorage.removeItem("oh-theme"); } catch { /* private mode */ }
+  }, [theme]);
+  const isDark = () => theme ? theme === "dark" : window.matchMedia?.("(prefers-color-scheme: dark)").matches;
+  return { toggle: () => setTheme(isDark() ? "light" : "dark") };
+}
+
+/** "Install app" — Android/desktop Chrome gives a prompt event; iPhone needs Share → Add to Home Screen. */
+export function useInstall() {
+  const [evt, setEvt] = useState(null);
+  const standalone = typeof window !== "undefined" && (window.matchMedia?.("(display-mode: standalone)").matches || window.navigator.standalone);
+  const ios = typeof navigator !== "undefined" && /iphone|ipad|ipod/i.test(navigator.userAgent);
+  useEffect(() => {
+    const h = (e) => { e.preventDefault(); setEvt(e); };
+    window.addEventListener("beforeinstallprompt", h);
+    return () => window.removeEventListener("beforeinstallprompt", h);
+  }, []);
+  return {
+    can: !standalone && (Boolean(evt) || ios), ios,
+    install: async () => { if (evt) { evt.prompt(); await evt.userChoice.catch(() => {}); setEvt(null); } },
+  };
+}

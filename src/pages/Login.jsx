@@ -29,12 +29,12 @@ export default function Login() {
     <div className="auth">
       <form className="auth-box panel stack" onSubmit={submit} noValidate>
         <div>
-          <div className="brand-lg">OpportunityHub</div>
-          <p className="tagline">Track bank, government, teaching and other openings — and your applications — in one place.</p>
+          <div className="brand-lg"><span className="e">🎯</span> OpportunityHub</div>
+          <p className="tagline">🏦 Bank, 🏛️ government, 🏫 teaching and 💼 company openings — and your applications — in one place.</p>
         </div>
         <div className="chips" role="tablist">
-          <button type="button" className={`chip ${mode === "login" ? "on" : ""}`} onClick={() => setMode("login")}>Log in</button>
-          <button type="button" className={`chip ${mode === "signup" ? "on" : ""}`} onClick={() => setMode("signup")}>Create account</button>
+          <button type="button" className={`chip ${mode === "login" ? "on" : ""}`} onClick={() => setMode("login")}>🔑 Log in</button>
+          <button type="button" className={`chip ${mode === "signup" ? "on" : ""}`} onClick={() => setMode("signup")}>✨ Create account</button>
         </div>
         <label className="field">Email<input id="login-email" type="email" autoComplete="email" value={email} onChange={(e) => setEmail(e.target.value)} /></label>
         <label className="field">Password
@@ -44,7 +44,7 @@ export default function Login() {
         {error && <div className="error">{error}</div>}
         {info && <div className="notice info">{info}</div>}
         <button className="btn primary full" disabled={busy}>{busy ? "Please wait…" : mode === "login" ? "Log in" : "Create account"}</button>
-        <p className="tiny muted">Your data is private: only you and the site admin can see it.</p>
+        <p className="tiny muted">🔒 Your data is private: only you and the site admin can see it.</p>
       </form>
     </div>
   );

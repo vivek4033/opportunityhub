@@ -8,12 +8,12 @@ import Mocks from "./pages/Mocks";
 import Openings from "./pages/Openings";
 import Profile from "./pages/Profile";
 import Upcoming from "./pages/Upcoming";
-import { AppContext, Loading } from "./ui";
+import { AppContext, E, Loading, Modal, TAB_EMOJI as T, useInstall, useTheme } from "./ui";
 
 function SetupNeeded() {
   return (
     <div className="auth"><div className="auth-box panel">
-      <div className="brand-lg">OpportunityHub</div>
+      <div className="brand-lg"><span className="e">🎯</span> OpportunityHub</div>
       <p className="tagline">This site isn't connected to its database yet.</p>
       <p className="small">Add <strong>VITE_SUPABASE_URL</strong> and <strong>VITE_SUPABASE_ANON_KEY</strong> in Vercel → Project → Settings → Environment Variables, then redeploy. See SETUP.md in the repository.</p>
     </div></div>
@@ -26,6 +26,9 @@ export default function App() {
   const [admin, setAdmin] = useState(false);
   const [openings, setOpenings] = useState({ items: [], updatedAt: null, loading: true, error: null });
   const [toast, setToast] = useState(null);
+  const [iosHelp, setIosHelp] = useState(false);
+  const theme = useTheme();
+  const inst = useInstall();
 
   const notify = useCallback((message, kind = "ok") => {
     setToast({ message, kind });
@@ -62,18 +65,23 @@ export default function App() {
     <AppContext.Provider value={ctx}>
       <header className="top">
         <div className="top-inner">
-          <span className="brand">OpportunityHub</span>
+          <span className="brand"><span className="e">🎯</span><span>OpportunityHub<small>Jobs, exams & your applications</small></span></span>
+          <div className="who">
+            <span className="email">{session.user.email}</span>
+            {inst.can && <button className="icon-btn" onClick={() => (inst.ios ? setIosHelp(true) : inst.install())}><E>📲</E><span className="lbl">Install app</span></button>}
+            <button className="icon-btn round" onClick={theme.toggle} aria-label="Switch light or dark mode" title="Light / dark">🌗</button>
+            <button className="icon-btn" onClick={() => data.signOut()}><E>👋</E><span className="lbl">Log out</span></button>
+          </div>
           {!needsProfile && (
             <nav className="tabs" aria-label="Main">
-              <NavLink to="/openings">Openings</NavLink>
-              <NavLink to="/applications">My applications</NavLink>
-              <NavLink to="/upcoming">Upcoming</NavLink>
-              <NavLink to="/mocks">Mock scores</NavLink>
-              <NavLink to="/profile">Profile</NavLink>
-              {admin && <NavLink to="/admin" className="admin">Admin</NavLink>}
+              <NavLink to="/openings"><E>{T.openings}</E>Openings</NavLink>
+              <NavLink to="/applications"><E>{T.applications}</E>Applications</NavLink>
+              <NavLink to="/upcoming"><E>{T.upcoming}</E>Upcoming</NavLink>
+              <NavLink to="/mocks"><E>{T.mocks}</E>Mocks</NavLink>
+              <NavLink to="/profile"><E>{T.profile}</E>Profile</NavLink>
+              {admin && <NavLink to="/admin"><E>{T.admin}</E>Admin</NavLink>}
             </nav>
           )}
-          <div className="who"><span className="email">{session.user.email}</span><button onClick={() => data.signOut()}>Log out</button></div>
         </div>
       </header>
       <main className="main">
@@ -89,6 +97,11 @@ export default function App() {
           </Routes>
         )}
       </main>
+      {iosHelp && (
+        <Modal title="📲 Install on iPhone" onClose={() => setIosHelp(false)}>
+          <p>In Safari, tap the <strong>Share</strong> button (square with an arrow), then <strong>Add to Home Screen</strong>. OpportunityHub then opens like an app.</p>
+        </Modal>
+      )}
       {toast && <div className={`toast ${toast.kind === "error" ? "error" : ""}`} role="status">{toast.message}</div>}
     </AppContext.Provider>
   );

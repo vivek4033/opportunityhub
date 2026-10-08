@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { addApplication, deleteApplication, listApplications, STATUSES, STATUS_LABEL, updateApplication } from "../lib/data";
 import { TRACKS } from "../lib/tracks";
 import { daysFrom, fmtDate, leftText } from "../lib/util";
-import { Field, Loading, Modal, Stamp, useApp, useConfirm } from "../ui";
+import { E, Field, Loading, Modal, Stamp, STATUS_EMOJI, TRACK_EMOJI, useApp, useConfirm } from "../ui";
 
 const BLANK = { organization: "", title: "", track: "banking", status: "to_apply", deadline: "", exam_date: "", interview_date: "", notes: "" };
 
@@ -23,14 +23,14 @@ function AppForm({ initial, onClose, onSaved }) {
     } catch (e) { setError(e.message); }
   };
   return (
-    <Modal title={initial?.id ? "Edit application" : "Add an application"} onClose={onClose}
+    <Modal title={initial?.id ? "✏️ Edit application" : "➕ Add an application"} onClose={onClose}
       footer={<><button className="btn" onClick={onClose}>Cancel</button><button className="btn primary" onClick={save}>Save</button></>}>
       {error && <div className="error mb">{error}</div>}
       <div className="form-grid">
         <Field label="Organization"><input id="a-org" value={f.organization} onChange={set("organization")} placeholder="e.g. SBI" /></Field>
         <Field label="Job / exam"><input id="a-title" value={f.title} onChange={set("title")} placeholder="e.g. PO 2026" /></Field>
-        <Field label="Category"><select id="a-track" value={f.track || "banking"} onChange={set("track")}>{TRACKS.map((t) => <option key={t.key} value={t.key}>{t.label}</option>)}</select></Field>
-        <Field label="Status"><select id="a-status" value={f.status} onChange={set("status")}>{STATUSES.map((s) => <option key={s.key} value={s.key}>{s.label}</option>)}</select></Field>
+        <Field label="Category"><select id="a-track" value={f.track || "banking"} onChange={set("track")}>{TRACKS.map((t) => <option key={t.key} value={t.key}>{TRACK_EMOJI[t.key]} {t.label}</option>)}</select></Field>
+        <Field label="Status"><select id="a-status" value={f.status} onChange={set("status")}>{STATUSES.map((s) => <option key={s.key} value={s.key}>{STATUS_EMOJI[s.key]} {s.label}</option>)}</select></Field>
         <Field label="Apply by"><input id="a-deadline" type="date" value={f.deadline} onChange={set("deadline")} /></Field>
         <Field label="Exam date"><input id="a-exam" type="date" value={f.exam_date} onChange={set("exam_date")} /></Field>
         <Field label="Interview date"><input id="a-int" type="date" value={f.interview_date} onChange={set("interview_date")} /></Field>
@@ -65,12 +65,12 @@ export default function Applications() {
   return (
     <>
       <div className="head">
-        <div><h1>My applications</h1><p>Update the status as you go: To apply → Applied → Exam → Interview → Selected.</p></div>
-        <button className="btn primary" onClick={() => setEditing({})}>Add your own</button>
+        <div><h1><E>📝</E>My applications</h1><p>Move each one along as you go: 📝 To apply → 📨 Applied → ✍️ Exam → 🎤 Interview → 🎉 Selected.</p></div>
+        <button className="btn primary" onClick={() => setEditing({})}>➕ Add your own</button>
       </div>
-      <div className="strip">{STATUSES.map((s) => <div key={s.key}><div className="n">{counts[s.key]}</div><div className="l">{s.label}</div></div>)}</div>
+      <div className="strip">{STATUSES.map((s) => <div key={s.key}><span className="ic">{STATUS_EMOJI[s.key]}</span><div className="n">{counts[s.key]}</div><div className="l">{s.label}</div></div>)}</div>
       <div className="chips mb">
-        {[["active", "In progress"], ["done", "Finished"], ["all", "All"]].map(([k, l]) => <button key={k} className={`chip ${show === k ? "on" : ""}`} onClick={() => setShow(k)}>{l}</button>)}
+        {[["active", "⏳ In progress"], ["done", "🏁 Finished"], ["all", "📋 All"]].map(([k, l]) => <button key={k} className={`chip ${show === k ? "on" : ""}`} onClick={() => setShow(k)}>{l}</button>)}
       </div>
       <section className="panel">
         {visible.length ? (
@@ -84,25 +84,25 @@ export default function Applications() {
                   <span className="t">{a.title}</span>
                   <div className="meta">
                     <span>{a.organization}</span>
-                    {a.status === "to_apply" && a.deadline && <span>· apply by {fmtDate(a.deadline, false)} ({leftText(d)})</span>}
-                    {next.map(([l, x]) => <span key={l}>· {l} {fmtDate(x, false)}</span>)}
+                    {a.status === "to_apply" && a.deadline && <span>· ⏰ apply by {fmtDate(a.deadline, false)} ({leftText(d)})</span>}
+                    {next.map(([l, x]) => <span key={l}>· {l === "Exam" ? "✍️" : "🎤"} {l} {fmtDate(x, false)}</span>)}
                   </div>
-                  {a.notes && <div className="tiny muted" style={{ marginTop: 3 }}>{a.notes}</div>}
+                  {a.notes && <div className="tiny muted" style={{ marginTop: 3 }}>🗒️ {a.notes}</div>}
                 </div>
                 <select value={a.status} onChange={(e) => setStatus(a, e.target.value)} style={{ width: 150 }} aria-label={`Status of ${a.title}`}>
-                  {STATUSES.map((s) => <option key={s.key} value={s.key}>{s.label}</option>)}
+                  {STATUSES.map((s) => <option key={s.key} value={s.key}>{STATUS_EMOJI[s.key]} {s.label}</option>)}
                 </select>
                 <div className="row" style={{ gap: 2 }}>
-                  <button className="btn sm ghost" onClick={() => setEditing(a)}>Edit</button>
-                  <button className="btn sm ghost danger" onClick={() => remove(a)}>{armed === a.id ? "Confirm" : "Remove"}</button>
+                  <button className="btn sm ghost" onClick={() => setEditing(a)}>✏️ Edit</button>
+                  <button className="btn sm ghost danger" onClick={() => remove(a)}>{armed === a.id ? "⚠️ Confirm" : "🗑️ Remove"}</button>
                 </div>
               </div>
             );
           })}</div>
         ) : (
-          <div className="state"><h3>{apps.length ? "Nothing here" : "No applications yet"}</h3>
+          <div className="state"><span className="empty-e">📭</span><h3>{apps.length ? "Nothing here" : "No applications yet"}</h3>
             <p>Tap "Track this" on an opening, or add one you found yourself.</p>
-            <Link className="btn primary" to="/openings">See openings</Link></div>
+            <Link className="btn primary" to="/openings">🔎 See openings</Link></div>
         )}
       </section>
       {editing && <AppForm initial={editing.id ? editing : null} onClose={() => setEditing(null)} onSaved={replace} />}

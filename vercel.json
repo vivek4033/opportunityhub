@@ -1,4 +1,28 @@
 {
-  "rewrites": [{ "source": "/((?!openings\\.json|assets/).*)", "destination": "/index.html" }],
-  "headers": [{ "source": "/openings.json", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] }]
+  "rewrites": [
+    {
+      "source": "/((?!openings\\.json|assets/|sw\\.js|manifest\\.webmanifest|icon-|apple-touch-icon).*)",
+      "destination": "/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/openings.json",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache"
+        }
+      ]
+    },
+    {
+      "source": "/sw.js",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache"
+        }
+      ]
+    }
+  ]
 }
