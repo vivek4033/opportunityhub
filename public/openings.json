@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-08T03:12:35Z",
+ "updated_at": "2026-10-10T17:05:25Z",
  "note": "Written by the daily OpportunityHub scan. Facts come from official notifications.",
  "openings": [
   {
@@ -45,6 +45,57 @@
    },
    "ai_summary": "Canara Bank is engaging about 3,500 graduate apprentices for a 12-month training under the Apprentices Act with a Rs. 16,650 monthly stipend, selected on 12th-standard marks without a written test. Graduates in any discipline who finished their degree between Jan 2023 and Sep 2026, aged 20–28 and registered on the NATS portal, can apply by 17 Oct 2026.",
    "first_seen_at": "2026-10-08T03:12:35Z"
+  },
+  {
+   "organization": "TNPSC",
+   "title": "Combined Civil Services Examination - IV (Group IV Services) 2026",
+   "track": "government",
+   "subcategory": "psc",
+   "post_type": "clerical",
+   "employment_type": "exam",
+   "location": "Tamil Nadu",
+   "posted_date": "2026-10-06",
+   "application_start": "2026-10-06",
+   "application_end": "2026-11-05",
+   "exam_date": "2027-01-10",
+   "notification_url": "https://d1cmkr5tdoeyjk.cloudfront.net/tnpsc/PIY0000001/notification/CCSE+_Group_IV_English_2026.pdf",
+   "apply_url": "https://apply.tnpscexams.in/apply-now?app_id=UElZMDAwMDAwMQ%3D%3D",
+   "org_website": "https://www.tnpsc.gov.in",
+   "requirements": {
+    "_extraction": "ai",
+    "other_requirements": [
+     "Notification No. 11/2026 — read the PDF for posts, vacancies, age limit, Tamil-language and typing rules",
+     "Application fee must also be paid by 05 Nov 2026"
+    ]
+   },
+   "ai_summary": "TNPSC's Group IV exam (Notification 11/2026) is the main Tamil Nadu government route into clerical posts such as Junior Assistant and Typist; applications are open on the TNPSC portal until 5 Nov 2026 and the written exam is on 10 Jan 2027. Eligibility, vacancies and pay are in the official notification PDF.",
+   "id": "tnpsc--combined-civil-services-examination-iv-group-iv-services-2026",
+   "first_seen_at": "2026-10-10T17:05:25Z",
+   "last_seen_at": "2026-10-10T17:05:25Z"
+  },
+  {
+   "organization": "Supreme Court of India",
+   "title": "Junior Court Assistant Examination-2026",
+   "track": "government",
+   "subcategory": "court",
+   "post_type": "clerical",
+   "employment_type": "exam",
+   "location": "New Delhi",
+   "posted_date": "2026-09-30",
+   "notification_url": "https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/uploads/2026/09/2026093036.pdf",
+   "apply_url": "https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/uploads/2026/10/20261006100.pdf",
+   "org_website": "https://www.sci.gov.in/recruitments/",
+   "requirements": {
+    "_extraction": "ai",
+    "other_requirements": [
+     "Closing date, eligibility, typing test and fee are in the detailed advertisement (30 Sep 2026) — check before applying",
+     "The 'apply' link is the Supreme Court's notice giving the online application link"
+    ]
+   },
+   "ai_summary": "The Supreme Court of India published its detailed advertisement for Junior Court Assistant recruitment on 30 September 2026 and has posted the link for online applications. Open the official advertisement for the closing date, eligibility and exam pattern.",
+   "id": "supreme-court-of-india--junior-court-assistant-examination-2026",
+   "first_seen_at": "2026-10-10T17:05:25Z",
+   "last_seen_at": "2026-10-10T17:05:25Z"
   }
  ]
 }

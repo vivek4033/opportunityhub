@@ -76,6 +76,7 @@ export function useInstall() {
 export const ROLE_TYPES = [
   { key: "banking", e: "🏦", label: "Banking", hint: "PO, clerk, bank officer" },
   { key: "government", e: "🏛️", label: "Government jobs & exams", hint: "SSC, railways, TNPSC" },
+  { key: "clerical", e: "🗂️", label: "Clerk & office assistant", hint: "Court clerk, LDC/JSA, typist, steno, junior assistant" },
   { key: "schools", e: "👩‍🏫", label: "Teaching", hint: "School teacher, PGT/TGT, CTET/TET" },
   { key: "physics_research", e: "🔬", label: "Research", hint: "NET, CSIR, GATE, project roles" },
   { key: "colleges", e: "🎓", label: "College & university staff", hint: "IIT/NIT project, lab, office roles" },
@@ -87,9 +88,15 @@ export const ROLE = Object.fromEntries(ROLE_TYPES.map((r) => [r.key, r]));
 /** Role type of an opening: its category, except teaching-eligibility exams (CTET, TNTET) count as Teaching. */
 export const roleOf = (o) => (o.track === "physics_research" && o.subcategory === "teaching_exam" ? "schools" : o.track);
 /** All role types an opening counts for: e.g. a Canara Bank apprenticeship is both Apprenticeship and Banking. */
+// Clerical posts: the scan sets post_type "clerical"; titles are a fallback for older entries.
+const CLERICAL = /\b(clerks?|clerical|typists?|steno(grapher)?s?|steno-typist|copyist|lower division|upper division|ldc|udc|junior (court |secretariat |judicial )?assistants?|court assistants?|office assistants?|social security assistant|data entry|deo|record clerk|bench clerk|junior associates?|chsl|group[ -]?(iv|4)|second division assistant|sda)\b/i;
+const NOT_CLERICAL = /assistant (professor|engineer|manager|director|registrar|editor|librarian|commandant)|research assistant|lab(oratory)? assistant|teaching assistant/i;
+export const isClerical = (o) => o.post_type === "clerical" || (Array.isArray(o.post_types) && o.post_types.includes("clerical"))
+  || (CLERICAL.test(o.title || "") && !NOT_CLERICAL.test(o.title || ""));
 export const rolesOf = (o) => {
   const out = [roleOf(o)];
   const sub = o.subcategory || "";
+  if (isClerical(o)) out.push("clerical");
   if (/bank/.test(sub)) out.push("banking");
   if (sub === "public_insurer") out.push("insurance");
   return [...new Set(out)].filter((r) => ROLE[r]);

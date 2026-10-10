@@ -1,16 +1,19 @@
 {
- "note": "Official sources the daily scan reads. Set scan:false to skip a source; add new ones in the same shape.",
+ "note": "Official sources the daily scan reads. Set scan:false to skip a source; add new ones in the same shape. post_types lists the kinds of posts a source often has (\"clerical\" = clerk, assistant, typist, steno).",
  "sources": [
   {
    "slug": "sbi",
    "name": "State Bank of India",
    "track": "banking",
    "subcategory": "psu_bank",
-   "url": "https://sbi.co.in",
-   "recruitment_url": "https://sbi.co.in/web/careers",
+   "url": "https://sbi.bank.in",
+   "recruitment_url": "https://sbi.bank.in/web/careers/current-openings",
    "location": "All India",
    "scan": true,
-   "notes": null
+   "notes": "Careers moved from sbi.co.in to sbi.bank.in (2026). Junior Associates = clerk.",
+   "post_types": [
+    "clerical"
+   ]
   },
   {
    "slug": "ibps",
@@ -18,10 +21,13 @@
    "track": "banking",
    "subcategory": "psu_bank",
    "url": "https://www.ibps.in",
-   "recruitment_url": "https://www.ibps.in",
+   "recruitment_url": "https://www.ibps.in/index.php/clerical-cadre-xvi/",
    "location": "All India",
    "scan": true,
-   "notes": "Common exams for PSU bank PO/Clerk/SO and RRB officers/assistants"
+   "notes": "CRP Clerks (CSA) every year ~Aug. Site blocks automated reading: use WebSearch on ibps.in.",
+   "post_types": [
+    "clerical"
+   ]
   },
   {
    "slug": "rbi",
@@ -274,7 +280,10 @@
    "recruitment_url": "https://ssc.gov.in",
    "location": "All India",
    "scan": true,
-   "notes": "New SSC portal is JS-heavy; if the scan finds nothing, switch to manual"
+   "notes": "CHSL (LDC/JSA/DEO), CGL, Stenographer C&D, MTS. Notice PDFs: https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/",
+   "post_types": [
+    "clerical"
+   ]
   },
   {
    "slug": "rrb-chennai",
@@ -285,7 +294,10 @@
    "recruitment_url": "https://www.rrbchennai.gov.in",
    "location": "Tamil Nadu",
    "scan": true,
-   "notes": null
+   "notes": "RRBs are moving to https://rrb.indianrailways.gov.in/ (apply: rrbapply.gov.in). NTPC = Junior/Senior Clerk cum Typist, Accounts Clerk, Trains Clerk.",
+   "post_types": [
+    "clerical"
+   ]
   },
   {
    "slug": "rrb-tvm",
@@ -296,7 +308,10 @@
    "recruitment_url": "https://rrbthiruvananthapuram.gov.in",
    "location": "Kerala",
    "scan": true,
-   "notes": null
+   "notes": null,
+   "post_types": [
+    "clerical"
+   ]
   },
   {
    "slug": "tnpsc",
@@ -304,10 +319,13 @@
    "track": "government",
    "subcategory": "psc",
    "url": "https://www.tnpsc.gov.in",
-   "recruitment_url": "https://www.tnpsc.gov.in",
+   "recruitment_url": "https://apply.tnpscexams.in/apply-now?app_id=UElZMDAwMDAwMQ%3D%3D",
    "location": "Tamil Nadu",
    "scan": true,
-   "notes": null
+   "notes": "Group IV = Junior Assistant, Typist, Steno-typist, VAO; Group II/IIA. tnpsc.gov.in notification pages block bots; the apply portal lists notification no., dates and PDFs.",
+   "post_types": [
+    "clerical"
+   ]
   },
   {
    "slug": "kerala-psc",
@@ -315,10 +333,13 @@
    "track": "government",
    "subcategory": "psc",
    "url": "https://www.keralapsc.gov.in",
-   "recruitment_url": "https://www.keralapsc.gov.in",
+   "recruitment_url": "https://www.keralapsc.gov.in/notifications",
    "location": "Kerala",
    "scan": true,
-   "notes": null
+   "notes": "Monthly Extra Ordinary Gazette: LDC, LD Typist, Junior Clerk, Secretariat Assistant.",
+   "post_types": [
+    "clerical"
+   ]
   },
   {
    "slug": "employment-news",
@@ -329,7 +350,10 @@
    "recruitment_url": "https://www.employmentnews.gov.in",
    "location": "All India",
    "scan": true,
-   "notes": "Official weekly; a broad discovery source for central govt vacancies"
+   "notes": "Official weekly; a broad discovery source for central govt vacancies",
+   "post_types": [
+    "clerical"
+   ]
   },
   {
    "slug": "nats",
@@ -527,7 +551,10 @@
    "recruitment_url": "https://kvsangathan.nic.in",
    "location": "All India",
    "scan": true,
-   "notes": null
+   "notes": "Non-teaching (Junior Secretariat Assistant) exams are run by CBSE: https://www.cbse.gov.in/cbsenew/recruitment.html",
+   "post_types": [
+    "clerical"
+   ]
   },
   {
    "slug": "nvs",
@@ -538,7 +565,10 @@
    "recruitment_url": "https://navodaya.gov.in",
    "location": "All India",
    "scan": true,
-   "notes": null
+   "notes": null,
+   "post_types": [
+    "clerical"
+   ]
   },
   {
    "slug": "dps",
@@ -1001,6 +1031,202 @@
    "location": null,
    "scan": false,
    "notes": null
+  },
+  {
+   "slug": "sci",
+   "name": "Supreme Court of India",
+   "track": "government",
+   "subcategory": "court",
+   "url": "https://www.sci.gov.in",
+   "recruitment_url": "https://www.sci.gov.in/recruitments/",
+   "location": "New Delhi (exam centres across India)",
+   "scan": true,
+   "post_types": [
+    "clerical"
+   ],
+   "notes": "Junior Court Assistant (about yearly), Court Assistant, PA/Senior PA, Court Master. Notice PDFs on cdnbbsr.s3waas.gov.in."
+  },
+  {
+   "slug": "madras-hc",
+   "name": "Madras High Court",
+   "track": "government",
+   "subcategory": "court",
+   "url": "https://www.mhc.tn.gov.in",
+   "recruitment_url": "https://www.mhc.tn.gov.in/recruitment/notification_dist",
+   "location": "Tamil Nadu (High Court + all district courts incl. Nilgiris, Coimbatore)",
+   "scan": true,
+   "post_types": [
+    "clerical"
+   ],
+   "notes": "Recruits for TN District Judiciary: Junior Assistant, Typist, Copyist, Examiner, Reader, Office Assistant, Process Server. Recent district drives opened in April. Portal blocks automated reading: use WebSearch on mhc.tn.gov.in. Also HC posts: https://mhc.tn.gov.in/recruitment/more"
+  },
+  {
+   "slug": "kerala-hc",
+   "name": "High Court of Kerala",
+   "track": "government",
+   "subcategory": "court",
+   "url": "https://highcourt.kerala.gov.in",
+   "recruitment_url": "https://hckrecruitment.keralacourts.in/hckrecruitment/",
+   "location": "Kerala (Ernakulam)",
+   "scan": true,
+   "post_types": [
+    "clerical"
+   ],
+   "notes": "Assistant, Clerical Assistant, Typist. Portal blocks automated reading: use WebSearch on keralacourts.in / highcourt.kerala.gov.in."
+  },
+  {
+   "slug": "karnataka-hc",
+   "name": "High Court of Karnataka",
+   "track": "government",
+   "subcategory": "court",
+   "url": "https://judiciary.karnataka.gov.in",
+   "recruitment_url": "https://judiciary.karnataka.gov.in/main_notify.php?p=106&stateNM=",
+   "location": "Karnataka",
+   "scan": true,
+   "post_types": [
+    "clerical"
+   ],
+   "notes": "Second Division Assistant, Typist, Assistant Court Secretary, Data Entry Assistant. Usually needs Kannada."
+  },
+  {
+   "slug": "delhi-hc",
+   "name": "Delhi High Court",
+   "track": "government",
+   "subcategory": "court",
+   "url": "https://delhihighcourt.nic.in/web/",
+   "recruitment_url": "https://delhihighcourt.nic.in/web/job-openings",
+   "location": "New Delhi",
+   "scan": true,
+   "post_types": [
+    "clerical"
+   ],
+   "notes": "Junior Judicial Assistant, PA / Senior PA. Also https://delhihighcourt.nic.in/web/delhi-direct-recruitment"
+  },
+  {
+   "slug": "ecourts-districts",
+   "name": "District Courts (eCourts)",
+   "track": "government",
+   "subcategory": "court",
+   "url": "https://nilgiris.dcourts.gov.in/",
+   "recruitment_url": null,
+   "location": "District courts — e.g. https://nilgiris.dcourts.gov.in/, https://coimbatore.dcourts.gov.in/",
+   "scan": false,
+   "post_types": [
+    "clerical"
+   ],
+   "notes": "Pattern https://<district>.dcourts.gov.in/notice-category/recruitments/ in many states. In Tamil Nadu, district court staff are recruited through Madras High Court notifications, so scan madras-hc instead."
+  },
+  {
+   "slug": "drb-nilgiris",
+   "name": "District Recruitment Bureau, The Nilgiris",
+   "track": "government",
+   "subcategory": "state_govt",
+   "url": "https://www.drbngl.in/",
+   "recruitment_url": "https://www.drbngl.in/",
+   "location": "The Nilgiris",
+   "scan": true,
+   "post_types": [
+    "clerical"
+   ],
+   "notes": "Assistant / Junior Assistant in cooperative societies and the district central cooperative bank. Statutory body under the TN Cooperative Societies Act; domain is not gov.in — cross-check with rcs.tn.gov.in."
+  },
+  {
+   "slug": "lok-sabha",
+   "name": "Lok Sabha Secretariat",
+   "track": "government",
+   "subcategory": "legislature",
+   "url": "https://sansad.in/ls",
+   "recruitment_url": "https://sansad.in/ls/recruitment",
+   "location": "New Delhi",
+   "scan": true,
+   "post_types": [
+    "clerical"
+   ],
+   "notes": null
+  },
+  {
+   "slug": "rajya-sabha",
+   "name": "Rajya Sabha Secretariat",
+   "track": "government",
+   "subcategory": "legislature",
+   "url": "https://sansad.in/rs",
+   "recruitment_url": "https://sansad.in/rs/secretariat/advertisements",
+   "location": "New Delhi",
+   "scan": true,
+   "post_types": [
+    "clerical"
+   ],
+   "notes": null
+  },
+  {
+   "slug": "epfo",
+   "name": "EPFO",
+   "track": "government",
+   "subcategory": "central_govt",
+   "url": "https://www.epfindia.gov.in",
+   "recruitment_url": null,
+   "location": "All India",
+   "scan": true,
+   "post_types": [
+    "clerical"
+   ],
+   "notes": "Social Security Assistant, Stenographer (last big drive Mar 2023). Site often blocks automated reading; recruitment page URL not confirmed — use WebSearch on epfindia.gov.in."
+  },
+  {
+   "slug": "esic",
+   "name": "ESIC",
+   "track": "government",
+   "subcategory": "central_govt",
+   "url": "https://esic.gov.in",
+   "recruitment_url": "https://esic.gov.in/recruitments",
+   "location": "All India (regional offices incl. Tamil Nadu, Kerala)",
+   "scan": true,
+   "post_types": [
+    "clerical"
+   ],
+   "notes": "UDC, Stenographer, MTS."
+  },
+  {
+   "slug": "cbse-recruitment",
+   "name": "CBSE (KVS / NVS recruitment)",
+   "track": "government",
+   "subcategory": "central_govt",
+   "url": "https://www.cbse.gov.in",
+   "recruitment_url": "https://www.cbse.gov.in/cbsenew/recruitment.html",
+   "location": "All India",
+   "scan": true,
+   "post_types": [
+    "clerical"
+   ],
+   "notes": "Runs KVS/NVS combined teaching and non-teaching recruitment (Junior Secretariat Assistant)."
+  },
+  {
+   "slug": "india-post-gds",
+   "name": "India Post (Gramin Dak Sevak)",
+   "track": "government",
+   "subcategory": "postal",
+   "url": "https://indiapostgdsonline.gov.in",
+   "recruitment_url": "https://www.indiapost.gov.in/gdsonlineengagement",
+   "location": "All India (local language needed)",
+   "scan": true,
+   "post_types": [
+    "clerical"
+   ],
+   "notes": "BPM/ABPM/Dak Sevak; 10th pass, merit-based, two schedules a year."
+  },
+  {
+   "slug": "rrb-combined",
+   "name": "Railway Recruitment Boards (combined site)",
+   "track": "government",
+   "subcategory": "railways",
+   "url": "https://rrb.indianrailways.gov.in",
+   "recruitment_url": "https://rrb.indianrailways.gov.in",
+   "location": "All India",
+   "scan": true,
+   "post_types": [
+    "clerical"
+   ],
+   "notes": "New combined RRB site; applications on rrbapply.gov.in. NTPC graduate (Senior Clerk cum Typist) and undergraduate (Junior Clerk cum Typist, Accounts Clerk, Trains Clerk)."
   }
  ]
 }
