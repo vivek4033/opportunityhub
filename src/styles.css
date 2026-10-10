@@ -241,6 +241,34 @@ tr.click { cursor: pointer; } tr.click:hover td { background: var(--hover); } tr
 code.sql { display: block; margin-top: 6px; padding: 8px 10px; background: var(--surface); border: 1px solid var(--rule); border-radius: 8px;
   font-size: 12px; overflow-wrap: anywhere; white-space: pre-wrap; }
 
+/* ------------------------------------------------ opening summary panel */
+.card.click { cursor: pointer; transition: border-color .15s, box-shadow .15s; }
+.card.click:hover { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+.facts dd.clamp { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.btn.primary-soft { background: var(--accent-soft); border-color: transparent; color: var(--accent); }
+.drawer.opening { width: min(640px, 100%); }
+.op-title { font-size: 19px; line-height: 1.3; margin: 2px 0 2px; }
+.sec-h { font-size: 15px; margin: 0 0 10px; }
+.psec + .psec { margin-top: 12px; }
+.fact-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.fact { background: var(--surface-2); border-radius: var(--radius-s); padding: 9px 11px; min-width: 0; }
+.fact.wide { grid-column: 1 / -1; }
+.fact-l { font-size: 12px; color: var(--muted); font-weight: 600; }
+.fact-l .e { margin-right: 4px; }
+.fact-v { font-size: 14px; font-weight: 600; margin-top: 2px; overflow-wrap: anywhere; }
+.fact-v .na { font-weight: 500; }
+.timeline { list-style: none; margin: 0; padding: 0 0 0 4px; }
+.timeline li { display: grid; grid-template-columns: 26px 1fr auto; gap: 8px; align-items: center; padding: 6px 0; border-left: 2px solid var(--rule); padding-left: 10px; font-size: 14px; }
+.timeline li.key { font-weight: 700; color: var(--red); border-left-color: var(--red); }
+.timeline .t-d { font-weight: 700; white-space: nowrap; }
+.checks, .plain { list-style: none; margin: 0; padding: 0; font-size: 13.5px; }
+.checks li { display: flex; gap: 8px; padding: 5px 0; border-bottom: 1px dashed var(--rule); }
+.checks li:last-child { border-bottom: 0; }
+.checks li.fail { color: var(--red); } .checks li.pass { color: var(--green-strong); }
+.plain li { padding: 3px 0 3px 14px; position: relative; } .plain li::before { content: "•"; position: absolute; left: 2px; color: var(--muted); }
+.op-actions { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; align-items: center; }
+.op-actions .btn { flex: 1 1 auto; justify-content: center; text-align: center; }
+
 @media (max-width: 760px) {
   /* backdrop-filter would make the header the containing block for the fixed bottom tab bar */
   .top { backdrop-filter: none; -webkit-backdrop-filter: none; background: var(--surface); }
@@ -268,4 +296,6 @@ code.sql { display: block; margin-top: 6px; padding: 8px 10px; background: var(-
   .drawer-head { padding-left: 16px; padding-right: 16px; }
   .drawer-body { padding: 14px 16px 0; }
   .roles { grid-template-columns: minmax(0, 1fr); }
+  .fact-grid { grid-template-columns: minmax(0, 1fr); }
+  .op-title { font-size: 17px; }
 }

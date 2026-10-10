@@ -1,16 +1,16 @@
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { addApplication, listApplications, STATUS_LABEL } from "../lib/data";
 import { fmtDate, leftText, rate } from "../lib/util";
+import OpeningPanel from "./OpeningPanel";
 import { E, ELIG_EMOJI, ELIG_TONE, Loading, NA, ROLE, ROLE_TYPES, rolesOf, Stamp, STATUS_EMOJI, useApp } from "../ui";
 
-const RESULT_CLASS = { pass: "pass", fail: "fail", pending_bed: "pend", pending_tet: "pend" };
-
-function OpeningCard({ o, app, onTrack }) {
-  const [open, setOpen] = useState(false);
+function OpeningCard({ o, app, onTrack, onOpen }) {
   const notEligible = o.elig.status === "NOT_ELIGIBLE";
+  // Tap anywhere on the card (except links/buttons) to open the summary.
+  const open = (e) => { if (!e.target.closest("a,button")) onOpen(o); };
   return (
-    <article className={`card ${notEligible ? "dim" : ""}`}>
+    <article className={`card click ${notEligible ? "dim" : ""}`} onClick={open} onKeyDown={(e) => e.key === "Enter" && e.target === e.currentTarget && onOpen(o)} tabIndex={0} aria-label={`${o.title}, ${o.organization}. Open summary`}>
       {o.roles?.length > 0 && (
         <div className={`role-tag r-${o.roles[0]}`}>
           {o.roles.map((r) => <span key={r}><E>{ROLE[r].e}</E>{ROLE[r].label}</span>)}
@@ -30,24 +30,13 @@ function OpeningCard({ o, app, onTrack }) {
       </div>
       <dl className="facts">
         <dt><E>⏰</E>Apply by</dt><dd>{o.application_end ? `${fmtDate(o.application_end)} · ${leftText(o.daysLeft)}` : <NA />}</dd>
-        <dt><E>✍️</E>Exam</dt><dd>{o.exam_date ? fmtDate(o.exam_date) : o.exam_date_text || <NA />}</dd>
-        <dt><E>📍</E>Location</dt><dd>{o.location || <NA />}</dd>
-        <dt><E>💰</E>Pay</dt><dd>{o.salary_text || <NA />}</dd>
+        <dt><E>👥</E>Vacancies</dt><dd className="clamp">{o.vacancies || <NA />}</dd>
+        <dt><E>📍</E>Location</dt><dd className="clamp">{o.location || <NA />}</dd>
+        <dt><E>💰</E>Pay</dt><dd className="clamp">{o.salary_text || <NA />}</dd>
       </dl>
-      {open && (
-        <div className="why">
-          {o.ai_summary && <p className="mb" style={{ marginBottom: 8 }}>{o.ai_summary}</p>}
-          <strong><E>🧾</E> Your eligibility</strong>
-          <ul>{o.elig.checks.map((c, i) => <li key={i} className={RESULT_CLASS[c.result] || ""}>{c.label}: {c.detail}</li>)}</ul>
-          {o.qualification_text && <p className="mt" style={{ marginTop: 8 }}><strong>Qualification (as stated):</strong> {o.qualification_text}</p>}
-          {o.age_limit_text && <p><strong>Age (as stated):</strong> {o.age_limit_text}</p>}
-          <p className="tiny muted" style={{ marginTop: 8 }}>Always check the official notification before applying.</p>
-        </div>
-      )}
       <div className="actions">
-        <button className="btn sm" onClick={() => setOpen(!open)}>{open ? "🔼 Hide details" : "🔽 Details"}</button>
+        <button className="btn sm primary-soft" onClick={() => onOpen(o)}>📋 Summary</button>
         {o.notification_url && <a className="btn sm" href={o.notification_url} target="_blank" rel="noreferrer">📄 Notification</a>}
-        {o.apply_url && <a className="btn sm" href={o.apply_url} target="_blank" rel="noreferrer">🌐 Apply site</a>}
         {app ? <Link className="btn sm ghost" to="/applications">{STATUS_EMOJI[app.status]} Tracking: {STATUS_LABEL[app.status]}</Link>
           : <button className="btn sm primary" onClick={() => onTrack(o)}>➕ Track this</button>}
       </div>
@@ -62,6 +51,8 @@ export default function Openings() {
   const [filter, setFilter] = useState(myRoles.length ? "mine" : "fit");
   const [track, setTrack] = useState("");
   const [q, setQ] = useState("");
+  const [openId, setOpenId] = useState(null);
+  const closeSummary = useCallback(() => setOpenId(null), []);
 
   useEffect(() => { listApplications(uid).then(setApps).catch((e) => notify(e.message, "error")); }, [uid, notify]);
 
@@ -78,6 +69,7 @@ export default function Openings() {
     .filter((o) => !q || `${o.title} ${o.organization} ${o.location || ""}`.toLowerCase().includes(q.toLowerCase()))
     .sort((a, b) => Number(b.mine) - Number(a.mine) || b.match - a.match || (a.application_end || "9").localeCompare(b.application_end || "9"));
 
+  const selected = openId ? rated.find((o) => o.id === openId) : null;
   const track_ = async (o) => {
     try {
       const a = await addApplication({ user_id: uid, opening_id: o.id, organization: o.organization, title: o.title, track: o.track,
@@ -111,11 +103,12 @@ export default function Openings() {
           <button className="linkish" onClick={openProfile}>change</button>
         </div>
       </div>
-      {shown.length ? <div className="cards">{shown.map((o) => <OpeningCard key={o.id} o={o} app={byOpening.get(o.id)} onTrack={track_} />)}</div>
+      {shown.length ? <div className="cards">{shown.map((o) => <OpeningCard key={o.id} o={o} app={byOpening.get(o.id)} onTrack={track_} onOpen={(x) => setOpenId(x.id)} />)}</div>
         : <div className="panel state"><span className="empty-e">🌱</span>
             <h3>{filter === "mine" ? "No open openings for your roles right now" : "No open openings match"}</h3>
             <p>New openings are added every morning.{filter === "mine" ? " Meanwhile, see what's open in other roles." : " Try \"Show all\" or another role type."}</p>
             {filter === "mine" && <button className="btn primary" onClick={() => setFilter("fit")}>✅ All I'm eligible for</button>}</div>}
+      {selected && <OpeningPanel o={selected} app={byOpening.get(selected.id)} onTrack={track_} onClose={closeSummary} />}
     </>
   );
 }
