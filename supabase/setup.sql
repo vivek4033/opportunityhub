@@ -43,12 +43,14 @@ create table if not exists public.profiles (
   preferred_locations text[] not null default '{}',
   education           jsonb not null default '[]',
   target_roles        text[] not null default '{}',   -- role types they want: banking, schools, government, ...
+  hidden_openings     text[] not null default '{}',   -- opening ids they marked "Not for me"
   created_at          timestamptz not null default now(),
   updated_at          timestamptz not null default now(),
   last_seen_at        timestamptz not null default now()
 );
 -- Safe to re-run on a database created before roles existed.
 alter table public.profiles add column if not exists target_roles text[] not null default '{}';
+alter table public.profiles add column if not exists hidden_openings text[] not null default '{}';
 
 -- ------------------------------------------------------------------ applications
 create table if not exists public.applications (

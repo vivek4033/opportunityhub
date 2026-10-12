@@ -73,9 +73,11 @@ export default function App() {
   const openPanel = useCallback(() => setPanel(true), []);
   const inst = useInstall();
 
-  const notify = useCallback((message, kind = "ok") => {
-    setToast({ message, kind });
-    setTimeout(() => setToast(null), 3200);
+  const toastTimer = useRef(null);
+  const notify = useCallback((message, kind = "ok", action = null) => {
+    setToast({ message, kind, action });
+    clearTimeout(toastTimer.current);
+    toastTimer.current = setTimeout(() => setToast(null), action ? 6000 : 3200);
   }, []);
 
   useEffect(() => {
@@ -148,7 +150,12 @@ export default function App() {
           <p>In Safari, tap the <strong>Share</strong> button (square with an arrow), then <strong>Add to Home Screen</strong>. OpportunityHub then opens like an app.</p>
         </Modal>
       )}
-      {toast && <div className={`toast ${toast.kind === "error" ? "error" : ""}`} role="status">{toast.message}</div>}
+      {toast && (
+        <div className={`toast ${toast.kind === "error" ? "error" : ""}`} role="status">
+          {toast.message}
+          {toast.action && <button className="toast-act" onClick={() => { toast.action.fn(); setToast(null); }}>{toast.action.label}</button>}
+        </div>
+      )}
     </AppContext.Provider>
   );
 }

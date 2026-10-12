@@ -9,9 +9,12 @@ const RoleList = ({ roles, short }) => (roles?.length
   ? <span className="row" style={{ gap: 4 }}>{roles.filter((r) => ROLE[r]).map((r) => <span key={r} className="badge accent" title={ROLE[r].label}>{ROLE[r].e}{short ? "" : ` ${ROLE[r].label}`}</span>)}</span>
   : <span className="muted">Not set</span>);
 
-const ROLES_SQL = "alter table public.profiles add column if not exists target_roles text[] not null default '{}';";
+const COLUMNS = {
+  target_roles: "alter table public.profiles add column if not exists target_roles text[] not null default '{}';",
+  hidden_openings: "alter table public.profiles add column if not exists hidden_openings text[] not null default '{}';",
+};
 
-function FriendDetail({ p, apps, mocks, onClose }) {
+function FriendDetail({ p, apps, mocks, onClose, openings }) {
   const s = mockSummary(mocks);
   return (
     <section className="panel mt" aria-label={`Details for ${p.full_name}`}>
@@ -29,6 +32,7 @@ function FriendDetail({ p, apps, mocks, onClose }) {
             <dt>TET / exams</dt><dd>{[...(p.tets_cleared || []), ...(p.exams_cleared || [])].join(", ") || "None yet"}</dd>
             <dt>Joined</dt><dd>{fmtDate(p.created_at?.slice(0, 10))}</dd>
             <dt>Last active</dt><dd>{fmtWhen(p.last_seen_at)}</dd>
+            <dt>Not for me</dt><dd>{p.hidden_openings?.length ? p.hidden_openings.map((id) => openings.find((o) => o.id === id)?.title || "an opening no longer listed").join(" · ") : "—"}</dd>
           </dl>
           <div>
             <h3 style={{ marginBottom: 6 }}><E>📊</E>Mock tests</h3>
@@ -91,7 +95,7 @@ export default function Admin() {
   const shown = rows.filter((r) => !q || `${r.p.full_name} ${r.p.email} ${r.p.phone || ""}`.toLowerCase().includes(q.toLowerCase()));
   const selected = rows.find((r) => r.p.id === sel);
   const total = (k) => rows.reduce((a, r) => a + r.c[k], 0);
-  const needsRolesColumn = d.profiles.length > 0 && !d.profiles.some((p) => "target_roles" in p);
+  const missingSql = d.profiles.length ? Object.entries(COLUMNS).filter(([c]) => !d.profiles.some((p) => c in p)).map(([, sql]) => sql).join("\n") : "";
   const byRole = Object.values(ROLE).map((r) => ({ ...r, n: rows.filter((x) => x.p.target_roles?.includes(r.key)).length })).filter((r) => r.n);
 
   return (
@@ -100,15 +104,15 @@ export default function Admin() {
         <div><h1><E>🛡️</E>Admin</h1><p>Everyone who signed up, what they applied for, and how they're doing. 👀 Read-only.</p></div>
         <button className="btn" onClick={load}>🔄 Refresh</button>
       </div>
-      {needsRolesColumn && (
+      {missingSql && (
         <div className="install" role="alert">
           <span className="e">🛠️</span>
           <div style={{ flex: 1, minWidth: 0 }}>
-            <strong>One-time database update needed to save everyone's roles.</strong>
+            <strong>One-time database update needed (saves roles and "Not for me" choices).</strong>
             <div className="small">Supabase → SQL Editor → New query → paste this → Run:</div>
-            <code className="sql">{ROLES_SQL}</code>
+            <code className="sql">{missingSql}</code>
           </div>
-          <button className="btn sm" onClick={() => navigator.clipboard?.writeText(ROLES_SQL).then(() => notify("📋 SQL copied"))}>📋 Copy</button>
+          <button className="btn sm" onClick={() => navigator.clipboard?.writeText(missingSql).then(() => notify("📋 SQL copied"))}>📋 Copy</button>
         </div>
       )}
       <div className="strip">
@@ -144,7 +148,7 @@ export default function Admin() {
           </table></div>
         ) : <div className="state"><span className="empty-e">📣</span><h3>No one has signed up yet</h3><p>Share the website link with your friends. They'll appear here after they create an account and fill in their profile.</p></div>}
       </section>
-      {selected && <FriendDetail p={selected.p} apps={selected.apps} mocks={selected.mocks} onClose={() => setSel(null)} />}
+      {selected && <FriendDetail p={selected.p} apps={selected.apps} mocks={selected.mocks} openings={openings.items} onClose={() => setSel(null)} />}
     </>
   );
 }

@@ -49,6 +49,17 @@ export async function saveProfile(uid, email, p) {
   }
   throw new AppError(friendly(error));
 }
+/** Openings this person said "Not for me" to. Saved on their profile; falls back to this device
+ *  until supabase/migrations/003_hidden_openings.sql has been run. */
+const hiddenKey = (uid) => `oh_hidden_${uid}`;
+export const localHidden = (uid) => { try { return JSON.parse(localStorage.getItem(hiddenKey(uid)) || "[]"); } catch { return []; } };
+export async function saveHidden(uid, ids) {
+  try { localStorage.setItem(hiddenKey(uid), JSON.stringify(ids)); } catch { /* private mode */ }
+  const { error } = await sb.from("profiles").update({ hidden_openings: ids }).eq("id", uid);
+  if (!error) return { synced: true };
+  if (/hidden_openings/i.test(error.message || "")) return { synced: false };
+  throw new AppError(friendly(error));
+}
 export const touchLastSeen = (uid) => sb.from("profiles").update({ last_seen_at: new Date().toISOString() }).eq("id", uid).then(() => {}, () => {});
 
 // ---------------------------------------------------------------- applications

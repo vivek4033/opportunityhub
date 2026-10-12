@@ -21,7 +21,7 @@ function Fact({ e, label, value, wide }) {
 const host = (u) => { try { return new URL(u).hostname.replace(/^www\./, ""); } catch { return u; } };
 
 /** Summary of one opening: slides in from the right, like the profile panel. */
-export default function OpeningPanel({ o, app, onTrack, onClose }) {
+export default function OpeningPanel({ o, app, onTrack, onClose, hidden, onHide }) {
   const ref = useRef(null);
   useEffect(() => {
     const k = (e) => e.key === "Escape" && onClose();
@@ -113,6 +113,8 @@ export default function OpeningPanel({ o, app, onTrack, onClose }) {
           {o.apply_url && <a className="btn" href={o.apply_url} target="_blank" rel="noreferrer">🌐 Apply</a>}
           {app ? <Link className="btn ghost" to="/applications" onClick={onClose}>{STATUS_EMOJI[app.status]} Tracking: {STATUS_LABEL[app.status]}</Link>
             : <button className="btn primary" onClick={() => onTrack(o)}>➕ Track this</button>}
+          {onHide && (hidden ? <button className="btn" onClick={() => onHide(o, false)}>↩️ Bring back</button>
+            : <button className="btn not-for-me" onClick={() => onHide(o, true)}>🙅 Not for me</button>)}
         </div>
       </aside>
     </div>
