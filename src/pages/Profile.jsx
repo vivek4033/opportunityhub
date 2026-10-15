@@ -9,10 +9,14 @@ const STARTER = [
   { level: "12th", degree: "12th", subject: "", percentage: "", status: "completed", completion_year: "" },
   { level: "bachelor", degree: "", subject: "", percentage: "", status: "completed", completion_year: "" },
 ];
+const STATES = ["Tamil Nadu", "Kerala", "Karnataka", "Puducherry", "Andhra Pradesh", "Telangana", "Maharashtra", "Delhi", "Other"];
 const toList = (s) => String(s || "").split(",").map((x) => x.trim()).filter(Boolean);
 
-/** Profile form. `firstTime` = full-page onboarding; `inPanel` = inside the right-side profile panel. */
-export default function Profile({ firstTime = false, inPanel = false, onSaved }) {
+/** Profile form. `firstTime` = full-page onboarding (everything).
+ *  In the profile panel, `section` shows one part: "roles" or "details". Edits survive switching sections. */
+export default function Profile({ firstTime = false, inPanel = false, section = "all", onSaved }) {
+  const showRoles = section === "all" || section === "roles";
+  const showDetails = section === "all" || section === "details";
   const { uid, email, profile, setProfile, notify } = useApp();
   const nav = useNavigate();
   const p = profile || {};
@@ -75,21 +79,23 @@ export default function Profile({ firstTime = false, inPanel = false, onSaved })
         </div>
       )}
       {error && <div className={`error ${inPanel ? "" : "mb"}`}>{error}</div>}
-      <section className={inPanel ? "psec" : "panel mb"}>
+      {showRoles && <section className={inPanel ? "psec" : "panel mb"}>
         <h2 className="mb"><E>🎯</E>Roles I'm looking for</h2>
         <p className="small muted mb" style={{ marginTop: -8 }}>Pick one or more. Openings shows these first.</p>
         <RolePicker value={roles} onChange={setRoles} />
-      </section>
+      </section>}
+      {showDetails && <>
       <section className={inPanel ? "psec" : "panel mb"}>
         <h2 className="mb"><E>🙋</E>About you</h2>
+        <p className="small muted mb" style={{ marginTop: -8 }}>Date of birth, category and home state decide age limits and state-only or reserved posts.</p>
         <div className="form-grid">
           <Field label="Full name"><input id="p-name" value={f.full_name} onChange={set("full_name")} /></Field>
           <Field label="Phone (optional)" hint="So the admin can reach you"><input id="p-phone" type="tel" value={f.phone} onChange={set("phone")} /></Field>
           <Field label="Date of birth" hint="Needed for age limits"><input id="p-dob" type="date" value={f.date_of_birth} onChange={set("date_of_birth")} /></Field>
-          <Field label="Category (optional)" hint="Only used where a notice gives age relaxation">
+          <Field label="Category" hint="For age relaxation and reserved (special) recruitments">
             <select id="p-cat" value={f.reservation_category} onChange={set("reservation_category")}><option value="">Not set</option>{["GEN", "EWS", "OBC", "SC", "ST"].map((c) => <option key={c}>{c}</option>)}</select>
           </Field>
-          <Field label="Home state"><input id="p-state" value={f.home_state} onChange={set("home_state")} placeholder="e.g. Tamil Nadu" /></Field>
+          <Field label="Home state"><select id="p-state" value={f.home_state} onChange={set("home_state")}><option value="">Not set</option>{[...STATES, ...(f.home_state && !STATES.includes(f.home_state) ? [f.home_state] : [])].map((x) => <option key={x}>{x}</option>)}</select></Field>
           <Field label="Work experience (years)"><input id="p-exp" type="number" min="0" step="0.5" value={f.experience_years} onChange={set("experience_years")} /></Field>
           <Field label="Preferred locations" hint="Comma-separated" wide><input id="p-locs" value={f.preferred_locations} onChange={set("preferred_locations")} placeholder="e.g. Chennai, Coimbatore, Kerala" /></Field>
           <Field label="Languages you know"><input id="p-lang" value={f.languages} onChange={set("languages")} placeholder="e.g. Tamil, English" /></Field>
@@ -118,6 +124,7 @@ export default function Profile({ firstTime = false, inPanel = false, onSaved })
           <label className="check mt"><input id="p-bedfinal" type="checkbox" checked={f.bed_final_year} onChange={set("bed_final_year")} /> I'm in the final year of B.Ed (some exams like CTET accept this)</label>
         )}
       </section>
+      </>}
       {inPanel && <div className="panel-foot">{saveBtn}</div>}
     </form>
   );

@@ -1,152 +1,7 @@
 {
- "updated_at": "2026-10-10T18:25:14Z",
+ "updated_at": "2026-10-15T04:21:00Z",
  "note": "Written by the daily OpportunityHub scan. Facts come from official notifications.",
  "openings": [
-  {
-   "organization": "IIT Madras — IC&SR project staff",
-   "track": "colleges",
-   "subcategory": "iit",
-   "location": "Chennai (IIT Madras)",
-   "apply_url": "https://icandsr.iitm.ac.in/careers/current_openings.php",
-   "org_website": "https://icandsr.iitm.ac.in/careers/",
-   "how_to_apply_text": "Online only at icandsr.iitm.ac.in/careers/current_openings.php (select the advt. number); no hard copy",
-   "selection_text": "Shortlisting on online application → test and/or interview (only shortlisted contacted)",
-   "title": "ICSR/PR/Advt. 203/2026 — Project Technical Support-III, Dept. of Medical Sciences and Technology (ICMR TB project)",
-   "employment_type": "contract",
-   "posted_date": "2026-09-28",
-   "application_end": "2026-10-12",
-   "vacancies": "1 post",
-   "salary_text": "Rs 28,000 + HRA 30% = Rs 36,400 per month",
-   "qualification_text": "3-year graduate degree in biotechnology/microbiology/biochemistry or related field with 3 years' experience, OR a PG degree; Engg/IT/CS: first-class 4-year degree with 3 years' experience. Experience in biomolecules/biomedical technologies mentioned",
-   "experience_text": "3 years for the graduate route (only post-qualification experience counts)",
-   "age_limit_text": "Up to 35 years",
-   "notification_url": "https://icandsr.iitm.ac.in/careers/admin/download_announcement.php?file=announce_1790601896.pdf",
-   "requirements": {
-    "min_education": "bachelor",
-    "subjects": [
-     "biotechnology",
-     "microbiology",
-     "biochemistry",
-     "life sciences"
-    ],
-    "age_max": 35,
-    "_extraction": "ai"
-   },
-   "ai_summary": "Project Technical Support-III on the ICMR-NIRT TB diagnostics project at IIT Madras (Rs 36,400/month incl. HRA). Life-science PG holders, or life-science graduates with 3 years' experience, aged up to 35 can apply by 12 Oct 2026.",
-   "verified_from": [
-    "https://icandsr.iitm.ac.in/careers/current_openings.php?page=2",
-    "https://icandsr.iitm.ac.in/careers/admin/download_announcement.php?file=announce_1790601896.pdf"
-   ],
-   "id": "iit-madras-ic-sr-project-staff--icsr-pr-advt-203-2026-project-technical-support-iii-dept-of-medical-sciences-and-technology-icmr-tb-project",
-   "first_seen_at": "2026-10-10T18:25:14Z",
-   "last_seen_at": "2026-10-10T18:25:14Z"
-  },
-  {
-   "organization": "IIT Madras — IC&SR project staff",
-   "track": "colleges",
-   "subcategory": "iit",
-   "location": "Chennai (IIT Madras)",
-   "apply_url": "https://icandsr.iitm.ac.in/careers/current_openings.php",
-   "org_website": "https://icandsr.iitm.ac.in/careers/",
-   "how_to_apply_text": "Online only at icandsr.iitm.ac.in/careers/current_openings.php (select the advt. number); no hard copy",
-   "selection_text": "Shortlisting on online application → test and/or interview (only shortlisted contacted)",
-   "title": "ICSR/PR/Advt.202/2026 — Project Scientist-I (Non-Medical), Dept. of Medical Sciences and Technology (ICMR TB project)",
-   "employment_type": "contract",
-   "posted_date": "2026-09-28",
-   "application_end": "2026-10-12",
-   "vacancies": "2 posts",
-   "salary_text": "Rs 56,000 + HRA 30% = Rs 72,800 per month",
-   "qualification_text": "First-class PG degree (incl. integrated PG) or PhD; second-class PG accepted only with PhD. Desirable: handling bio-fluids, sample preparation, biorepository and sample validation",
-   "age_limit_text": "Up to 35 years",
-   "notification_url": "https://icandsr.iitm.ac.in/careers/admin/download_announcement.php?file=announce_1790601733.pdf",
-   "requirements": {
-    "min_education": "master",
-    "age_max": 35,
-    "other_requirements": [
-     "First class PG degree (or PhD)"
-    ],
-    "_extraction": "ai"
-   },
-   "ai_summary": "Two Project Scientist-I posts on the ICMR-NIRT TB diagnostics project at IIT Madras (Rs 72,800/month incl. HRA). First-class PG (e.g. M.Sc) holders aged up to 35 can apply by 12 Oct 2026; bio-sample handling experience preferred.",
-   "verified_from": [
-    "https://icandsr.iitm.ac.in/careers/current_openings.php?page=2",
-    "https://icandsr.iitm.ac.in/careers/admin/download_announcement.php?file=announce_1790601733.pdf"
-   ],
-   "id": "iit-madras-ic-sr-project-staff--icsr-pr-advt-202-2026-project-scientist-i-non-medical-dept-of-medical-sciences-and-technology-icmr-tb-project",
-   "first_seen_at": "2026-10-10T18:25:14Z",
-   "last_seen_at": "2026-10-10T18:25:14Z"
-  },
-  {
-   "organization": "IIT Madras — IC&SR project staff",
-   "track": "colleges",
-   "subcategory": "iit",
-   "location": "Chennai (IIT Madras)",
-   "apply_url": "https://icandsr.iitm.ac.in/careers/current_openings.php",
-   "org_website": "https://icandsr.iitm.ac.in/careers/",
-   "how_to_apply_text": "Online only at icandsr.iitm.ac.in/careers/current_openings.php (select the advt. number); no hard copy",
-   "selection_text": "Shortlisting on online application → test and/or interview (only shortlisted contacted)",
-   "title": "ICSR/PR/Advt.201/2026 — Project Research Scientist II (Non-Medical), Dept. of Medical Sciences and Technology (ICMR TB project)",
-   "employment_type": "contract",
-   "posted_date": "2026-09-28",
-   "application_end": "2026-10-12",
-   "vacancies": "1 post",
-   "salary_text": "Rs 67,000 + HRA 30% = Rs 87,100 per month",
-   "qualification_text": "First-class PG degree (incl. integrated PG) with 3 years' experience, or PhD; second-class PG with PhD and 3 years' experience. NAAT design experience preferred",
-   "experience_text": "3 years post-qualification experience (for PG route)",
-   "age_limit_text": "Up to 40 years",
-   "notification_url": "https://icandsr.iitm.ac.in/careers/admin/download_announcement.php?file=announce_1790601540.pdf",
-   "requirements": {
-    "min_education": "master",
-    "experience_years_min": 3,
-    "age_max": 40,
-    "_extraction": "ai"
-   },
-   "ai_summary": "Project Research Scientist II on the ICMR-NIRT TB diagnostics project at IIT Madras (Rs 87,100/month incl. HRA). First-class PG holders with 3 years' experience, or PhD holders, aged up to 40 can apply by 12 Oct 2026.",
-   "verified_from": [
-    "https://icandsr.iitm.ac.in/careers/current_openings.php?page=2",
-    "https://icandsr.iitm.ac.in/careers/admin/download_announcement.php?file=announce_1790601540.pdf"
-   ],
-   "id": "iit-madras-ic-sr-project-staff--icsr-pr-advt-201-2026-project-research-scientist-ii-non-medical-dept-of-medical-sciences-and-technology-icmr-tb-project",
-   "first_seen_at": "2026-10-10T18:25:14Z",
-   "last_seen_at": "2026-10-10T18:25:14Z"
-  },
-  {
-   "organization": "IISc Bengaluru",
-   "title": "Advt. No. CiE/KBR/2026-27/DST-NQM-01 — Project Trainee, Research Associate I and SRF, Dept. of Civil Engineering (DST National Quantum Mission project)",
-   "track": "colleges",
-   "subcategory": "central_institute",
-   "employment_type": "temporary",
-   "location": "Bengaluru (IISc)",
-   "posted_date": "2026-09-30",
-   "application_end": "2026-10-13",
-   "vacancies": "Project Trainee (Lab Assistant/Technician/Project Assistant/Field Assistant) 1; Research Associate I 2; Senior Research Fellow 1",
-   "salary_text": "Project Trainee Rs 21,000 + HRA; RA-I Rs 58,000 + HRA; SRF Rs 42,000 + HRA",
-   "qualification_text": "Project Trainee: B.Sc or 3-year Diploma in Engg & Tech (civil engineering lab work desired). RA-I: PhD in engineering/science. SRF: PG in basic science or professional degree in Civil/Mechanical/Aerospace or allied, with NET/GATE etc.",
-   "selection_text": "Interview (tentatively 4th week of October 2026, online or in person)",
-   "how_to_apply_text": "Email PDF application (cover letter citing Advt. No. and post, CV, certificates) to materials.civil@iisc.ac.in by 13 Oct 2026, 5 PM",
-   "notification_url": "https://www.iisc.ac.in/wp-content/uploads/2026/09/20260924-Staff-Hiring-Advertisement-NQM-Civil-IISc.pdf",
-   "org_website": "https://iisc.ac.in",
-   "requirements": {
-    "min_education": "bachelor",
-    "degree_names": [
-     "B.Sc",
-     "Diploma"
-    ],
-    "other_requirements": [
-     "Indian nationals only",
-     "Initial appointment 2 months, extendable up to a year"
-    ],
-    "_extraction": "ai"
-   },
-   "ai_summary": "IISc's Civil Engineering department is hiring for a DST National Quantum Mission project, including a Project Trainee post open to B.Sc graduates (Rs 21,000 + HRA). B.Sc or diploma holders (and PhD/PG holders for the RA/SRF posts) can apply by email by 13 Oct 2026.",
-   "verified_from": [
-    "https://www.iisc.ac.in/careers/contract-project-staff/",
-    "https://www.iisc.ac.in/wp-content/uploads/2026/09/20260924-Staff-Hiring-Advertisement-NQM-Civil-IISc.pdf"
-   ],
-   "id": "iisc-bengaluru--advt-no-cie-kbr-2026-27-dst-nqm-01-project-trainee-research-associate-i-and-srf-dept-of-civil-engineering-dst-national-q",
-   "first_seen_at": "2026-10-10T18:25:14Z",
-   "last_seen_at": "2026-10-10T18:25:14Z"
-  },
   {
    "organization": "IIT Madras — IC&SR project staff",
    "track": "colleges",
@@ -174,18 +29,19 @@
     "age_max": 28,
     "other_requirements": [
      "MS Office skills",
+     "Age limit 30 for SC/ST",
      "Contract initially 1 year, extendable"
     ],
     "_extraction": "ai"
    },
-   "ai_summary": "IIT Madras IC&SR office is hiring one Junior Executive – HR on contract at Rs 18,000/month. Any undergraduate degree holder aged up to 28 (30 for SC/ST) with good communication and MS Office skills can apply by 15 Oct 2026.",
+   "ai_summary": "IIT Madras IC&SR office is hiring one Junior Executive – HR on contract at Rs 18,000/month. Any undergraduate degree holder aged up to 28 (30 for SC/ST) with good communication and MS Office skills can apply; the last date is today, 15 Oct 2026.",
    "verified_from": [
     "https://icandsr.iitm.ac.in/careers/current_openings.php",
     "https://icandsr.iitm.ac.in/careers/admin/download_announcement.php?file=announce_1791264943.pdf"
    ],
    "id": "iit-madras-ic-sr-project-staff--icsr-pr-advt-206-2026-junior-executive-hr-contract-ic-sr-office",
    "first_seen_at": "2026-10-10T18:25:14Z",
-   "last_seen_at": "2026-10-10T18:25:14Z"
+   "last_seen_at": "2026-10-15T04:21:00Z"
   },
   {
    "organization": "IIT Hyderabad",
@@ -218,20 +74,21 @@
     ],
     "exams_required_any": [
      "GATE",
-     "CSIR-UGC NET"
+     "CSIR-UGC NET",
+     "UGC NET"
     ],
     "age_max": 28,
     "age_cutoff_date": "2026-10-30",
     "_extraction": "ai"
    },
-   "ai_summary": "IIT Hyderabad's Physics department is recruiting two Junior Research Fellows in optics (Rs 37,000 + HRA) plus one Lab Support Engineer. M.Sc Physics/Optics/Photonics holders with GATE or NET, aged up to 28, can apply by 15 Oct 2026.",
+   "ai_summary": "IIT Hyderabad's Physics department is recruiting two Junior Research Fellows in optics (Rs 37,000 + HRA) plus one Lab Support Engineer. M.Sc Physics/Optics/Photonics holders with GATE or NET, aged up to 28, can apply by today, 15 Oct 2026; interview 30 Oct.",
    "verified_from": [
-    "https://iith.ac.in/careers/",
+    "https://www.iith.ac.in/careers/",
     "https://iith.ac.in/assets/files/careers/staff/Advertisment-2JRF-2026.pdf"
    ],
    "id": "iit-hyderabad--two-jrf-positions-optics-and-one-lab-support-engineer-dept-of-physics-dr-vandana-sharma",
    "first_seen_at": "2026-10-10T18:25:14Z",
-   "last_seen_at": "2026-10-10T18:25:14Z"
+   "last_seen_at": "2026-10-15T04:21:00Z"
   },
   {
    "organization": "IISER Thiruvananthapuram",
@@ -269,14 +126,14 @@
     "age_max": 25,
     "_extraction": "ai"
    },
-   "ai_summary": "IISER Thiruvananthapuram needs one JRF for a lithium-ion micro-battery project at Rs 37,000 + HRA. M.Sc Physics/Materials Science holders with 60% and NET/GATE/JEST, aged up to 25, can apply by 15 Oct 2026.",
+   "ai_summary": "IISER Thiruvananthapuram needs one JRF for a lithium-ion micro-battery project at Rs 37,000 + HRA. M.Sc Physics/Materials Science holders with 60% and NET/GATE/JEST, aged up to 25, can apply by today, 15 Oct 2026.",
    "verified_from": [
     "https://www.iisertvm.ac.in/openings",
     "https://www.iisertvm.ac.in/openings/read/openings-recruitment-for-the-post-of-jrf-on-an-externally-funded-project-development-of-miniature-lithium-ion-batteries-for-on-chip-energy-storage"
    ],
    "id": "iiser-thiruvananthapuram--recruitment-for-the-post-of-jrf-on-an-externally-funded-project-development-of-miniature-lithium-ion-batteries-for-on-ch",
    "first_seen_at": "2026-10-10T18:25:14Z",
-   "last_seen_at": "2026-10-10T18:25:14Z"
+   "last_seen_at": "2026-10-15T04:21:00Z"
   },
   {
    "id": "canara-bank--engagement-of-graduate-apprentices-under-apprentices-act-1961-for-fy-2026-27",
@@ -302,7 +159,6 @@
     "subjects": [
      "any"
     ],
-    "min_percentage": 60,
     "age_min": 20,
     "age_max": 28,
     "age_cutoff_date": "2026-09-01",
@@ -313,12 +169,13 @@
      "PwBD": 10
     },
     "other_requirements": [
-     "Graduation completed between 01.01.2023 and 01.09.2026",
+     "Graduation (any discipline) completed between 01.01.2023 and 01.09.2026",
+     "Minimum 60% in 12th/Diploma (55% SC/ST/PwBD); state-wise merit list on these marks",
      "100% complete profile on NATS portal with enrolment number",
-     "Minimum 60% in 12th/Diploma (55% SC/ST/PwBD); merit list is state-wise on these marks",
-     "No prior apprenticeship and less than 1 year post-qualification training/job experience",
-     "Local language test at document verification unless language studied in 10th/12th",
-     "Apply for one state only"
+     "Not eligible if already done/doing apprenticeship, or with 1 year or more of post-qualification job/training experience; ex-servicemen not eligible",
+     "Local language test of opted state at document verification unless that language studied in 10th/12th",
+     "Apply for one state only",
+     "Widows/divorced/legally separated women (not remarried): upper age 35 Gen/EWS, 38 OBC, 40 SC/ST"
     ]
    },
    "ai_summary": "Canara Bank is engaging about 3,500 graduate apprentices (Tamil Nadu 391, Kerala 240) for 12 months on a Rs 16,650 monthly stipend, selected on 12th-standard marks without a written test. Graduates in any discipline who finished their degree between Jan 2023 and Sep 2026, aged 20–28, registered on NATS and without prior apprenticeship or a year of work experience can apply by 17 Oct 2026.",
@@ -329,10 +186,10 @@
    "how_to_apply_text": "Complete 100% profile on NATS portal (nats.education.gov.in) to get enrolment number, then apply online via Canara Bank Careers > Recruitment (IBPS portal), choosing one state, and pay fee online by 17.10.2026",
    "verified_from": [
     "https://www.canarabank.bank.in/documents/d/guest/apprenticeship-advertisement-2026-27",
-    "https://ibpsreg.ibps.in/cabgasep26/",
+    "https://www.canarabank.bank.in/engagement-of-graduate-apprentices-in-canara-bank-under-apprentices-act-1961-for-fy-2026-27",
     "https://www.canarabank.bank.in/pages/recruitment"
    ],
-   "last_seen_at": "2026-10-10T18:25:14Z"
+   "last_seen_at": "2026-10-15T04:21:00Z"
   },
   {
    "organization": "IIT Hyderabad",
@@ -341,7 +198,7 @@
    "subcategory": "iit",
    "employment_type": "temporary",
    "location": "Hyderabad (IIT Hyderabad, Kandi, Sangareddy)",
-   "posted_date": "2026-09-30",
+   "posted_date": "2026-10-01",
    "application_end": "2026-10-17",
    "vacancies": "PTS-III 1; PTS-I 1",
    "salary_text": "PTS-III: Rs 28,000 + 30% HRA per month; PTS-I: Rs 18,000 + 30% HRA per month",
@@ -363,16 +220,18 @@
      "M.Sc"
     ],
     "age_max": 30,
+    "age_cutoff_date": "2026-10-17",
+    "experience_years_min": 0,
     "_extraction": "ai"
    },
-   "ai_summary": "Two technical support posts on an ICMR-funded vein-imaging device project linked to IIT Hyderabad's Physics department. B.Sc (preferably Physics) graduates can apply for PTS-I and M.Sc Physics holders for PTS-III, if aged up to 30, by 17 Oct 2026.",
+   "ai_summary": "Two technical support posts on an ICMR-funded vein-imaging device project in IIT Hyderabad's Physics department. B.Sc (preferably Physics) graduates can apply for PTS-I and M.Sc Physics holders for PTS-III, if aged up to 30, by 17 Oct 2026.",
    "verified_from": [
-    "https://iith.ac.in/careers/",
+    "https://www.iith.ac.in/careers/",
     "https://iith.ac.in/assets/files/careers/staff/Advertisement%20for%20Project%20Technical%20Scientist-III%20and%20I_Non-Medical_ICMR.pdf"
    ],
    "id": "iit-hyderabad--project-technical-support-iii-and-project-technical-support-i-non-medical-icmr-project-ai-assisted-3d-vein-viewer-physic",
    "first_seen_at": "2026-10-10T18:25:14Z",
-   "last_seen_at": "2026-10-10T18:25:14Z"
+   "last_seen_at": "2026-10-15T04:21:00Z"
   },
   {
    "organization": "IISc Bengaluru",
@@ -412,7 +271,61 @@
    ],
    "id": "iisc-bengaluru--project-associate-stereo-eeg-project-amrit-brain-computation-and-data-science-initiative",
    "first_seen_at": "2026-10-10T18:25:14Z",
-   "last_seen_at": "2026-10-10T18:25:14Z"
+   "last_seen_at": "2026-10-15T04:21:00Z"
+  },
+  {
+   "organization": "Central Bank of India",
+   "title": "Application for the post of Faculty/Office Assistant/Attender of RSETI Yavatmal on contractual basis, Amravati Region",
+   "track": "banking",
+   "subcategory": "psu_bank",
+   "post_type": "clerical",
+   "employment_type": "contract",
+   "location": "Yavatmal, Maharashtra (RSETI, Amravati Region)",
+   "application_end": "2026-10-21",
+   "vacancies": "Faculty, Office Assistant, Attender (counts in notice)",
+   "notification_url": "https://centralbank.bank.in/sites/default/files/yeotmal%20rseti%20.zip",
+   "org_website": "https://centralbank.bank.in/en/recruitments",
+   "how_to_apply_text": "As per the notice (ZIP file) on Central Bank of India's Recruitments page; last date 21 Oct 2026",
+   "requirements": {
+    "_extraction": "ai",
+    "other_requirements": [
+     "Contractual posts at the bank-sponsored RSETI in Yavatmal, Maharashtra",
+     "Notice is a ZIP file that could not be read online; check qualification, age and local-language rules in it"
+    ]
+   },
+   "ai_summary": "Central Bank of India's RSETI at Yavatmal (Maharashtra) is filling Faculty, Office Assistant and Attender posts on contract, with applications due by 21 Oct 2026. Eligibility is in the notice file on the bank's Recruitments page; check it before applying.",
+   "verified_from": [
+    "https://centralbank.bank.in/en/recruitments"
+   ],
+   "id": "central-bank-of-india--application-for-the-post-of-faculty-office-assistant-attender-of-rseti-yavatmal-on-contractual-basis-amravati-region",
+   "first_seen_at": "2026-10-15T04:21:00Z",
+   "last_seen_at": "2026-10-15T04:21:00Z"
+  },
+  {
+   "organization": "IIT Kharagpur",
+   "title": "Laboratory Assistant (SRIC project post) — Department of Physics (PI: Samit Kumar Ray)",
+   "track": "colleges",
+   "subcategory": "iit",
+   "employment_type": "temporary",
+   "location": "Kharagpur (IIT Kharagpur)",
+   "application_end": "2026-10-21",
+   "vacancies": "1 post",
+   "how_to_apply_text": "Online via IIT Kharagpur SRIC staff recruitment portal (erp.iitkgp.ac.in/SRICStaffRecruitment/Advertise.jsp); open the advertisement there for eligibility",
+   "apply_url": "https://erp.iitkgp.ac.in/SRICStaffRecruitment/Advertise.jsp",
+   "org_website": "https://www.iitkgp.ac.in",
+   "requirements": {
+    "other_requirements": [
+     "Qualification, pay and age limit are in the advertisement on the SRIC portal; not readable from the listing"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "IIT Kharagpur's Physics department (Prof. Samit Kumar Ray's project) is recruiting one Laboratory Assistant through the SRIC portal, last date 21 Oct 2026. Lab assistant project posts usually suit science graduates, but check the advertisement on the portal for the exact qualification and pay.",
+   "verified_from": [
+    "https://erp.iitkgp.ac.in/SRICStaffRecruitment/Advertise.jsp"
+   ],
+   "id": "iit-kharagpur--laboratory-assistant-sric-project-post-department-of-physics-pi-samit-kumar-ray",
+   "first_seen_at": "2026-10-15T04:21:00Z",
+   "last_seen_at": "2026-10-15T04:21:00Z"
   },
   {
    "organization": "IIT Madras — IC&SR project staff",
@@ -436,19 +349,88 @@
     "min_education": "master",
     "experience_years_min": 3,
     "other_requirements": [
-     "First class PG degree",
+     "First class PG degree (or PhD)",
      "Indian citizenship"
     ],
     "_extraction": "ai"
    },
-   "ai_summary": "Project Research Scientist-II on a pulp-regeneration scaffold project under Prof. Ethayaraja Mani, Chemical Engineering, IIT Madras (Rs 87,100/month incl. HRA). First-class PG (e.g. M.Sc) holders with 3 years' experience, or PhD holders, can apply by 23 Oct 2026.",
+   "ai_summary": "Project Research Scientist-II on a pulp-regeneration scaffold project in IIT Madras Chemical Engineering (Rs 87,100/month incl. HRA). First-class PG (e.g. M.Sc) holders with 3 years' experience, or PhD holders, can apply by 23 Oct 2026.",
    "verified_from": [
     "https://icandsr.iitm.ac.in/careers/current_openings.php",
     "https://icandsr.iitm.ac.in/careers/admin/download_announcement.php?file=announce_1791527960.pdf"
    ],
    "id": "iit-madras-ic-sr-project-staff--icsr-pr-advt-208-2026-project-research-scientist-ii-non-medical-dept-of-chemical-engineering",
    "first_seen_at": "2026-10-10T18:25:14Z",
-   "last_seen_at": "2026-10-10T18:25:14Z"
+   "last_seen_at": "2026-10-15T04:21:00Z"
+  },
+  {
+   "organization": "University of Calicut",
+   "title": "Applications for ranklist — Assistant Professor on contract in Social Science, Calicut University Teacher Education Centres (B.Ed course) — No. 213323/DUSC-G-ASST-4/2026/Admn",
+   "track": "colleges",
+   "subcategory": "state_university",
+   "employment_type": "contract",
+   "location": "Malappuram, Kerala (CUTEC Malappuram and other Calicut University Teacher Education Centres)",
+   "posted_date": "2026-10-08",
+   "application_end": "2026-10-23",
+   "vacancies": "1 existing vacancy at CUTEC Malappuram + arising vacancies (ranklist)",
+   "salary_text": "Consolidated pay per University norms (approx. Rs 26,000 basic + additional pay; higher for NET/PhD holders) — check notification",
+   "qualification_text": "Postgraduate degree in Social Science with minimum 55% AND M.Ed with minimum 55%; must have cleared NET (PhD in Education under UGC 2009 regulations exempt from NET)",
+   "age_limit_text": "Not exceeding 64 years on the date of notification",
+   "selection_text": "Shortlisting → interview with original certificates (ranklist)",
+   "how_to_apply_text": "Online application through www.uoc.ac.in by 23 Oct 2026; other-university degrees need an Equivalency Certificate",
+   "notification_url": "https://docs.uoc.ac.in/website/vacancies/2026-10-12%2015:36:27_vac2126.pdf",
+   "org_website": "https://www.uoc.ac.in",
+   "requirements": {
+    "min_education": "master",
+    "subjects": [
+     "social science"
+    ],
+    "min_percentage": 55,
+    "exams_required_any": [
+     "UGC NET"
+    ],
+    "age_max": 64,
+    "other_requirements": [
+     "M.Ed with 55% required",
+     "NET exempt for PhD in Education under UGC 2009 regulations"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "University of Calicut is preparing a ranklist of contract Assistant Professors in Social Science for its B.Ed teacher education centres (vacancy at CUTEC Malappuram). Social Science postgraduates with 55%, an M.Ed (55%) and NET can apply online by 23 Oct 2026.",
+   "verified_from": [
+    "https://uoc.ac.in/index.php/vacancies-careers",
+    "https://docs.uoc.ac.in/website/vacancies/2026-10-12%2015:36:27_vac2126.pdf"
+   ],
+   "id": "university-of-calicut--applications-for-ranklist-assistant-professor-on-contract-in-social-science-calicut-university-teacher-education-centres",
+   "first_seen_at": "2026-10-15T04:21:00Z",
+   "last_seen_at": "2026-10-15T04:21:00Z"
+  },
+  {
+   "organization": "IIT Kharagpur",
+   "title": "Office of Alumni Affairs & International Relations — contractual posts (Junior Accountant, Marketing/Event/Stewardship/Networking Executives, Content Writers, Creative Designer and others)",
+   "track": "colleges",
+   "subcategory": "iit",
+   "employment_type": "contract",
+   "location": "Kharagpur (IIT Kharagpur)",
+   "application_end": "2026-10-27",
+   "vacancies": "Junior Accountant 1; Senior Accountant 1; Marketing Executive 3; Marketing Lead 1; Event Management Executive 2; Stewardship Executive 1; Stewardship Lead 1; Networking Executive 2; Jr. Content Writer 1; Sr. Content Writer 1; Creative Designer 1",
+   "how_to_apply_text": "Online via IIT Kharagpur SRIC staff recruitment portal (erp.iitkgp.ac.in/SRICStaffRecruitment/Advertise.jsp); last date 21 Oct 2026 for most posts, 27 Oct 2026 for Marketing Executive",
+   "apply_url": "https://erp.iitkgp.ac.in/SRICStaffRecruitment/Advertise.jsp",
+   "org_website": "https://www.iitkgp.ac.in",
+   "requirements": {
+    "other_requirements": [
+     "Most posts close 21 Oct 2026; Marketing Executive closes 27 Oct 2026",
+     "Qualification, pay and age limits are in each advertisement on the SRIC portal"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "IIT Kharagpur's Alumni Affairs & International Relations office is filling about 15 contractual posts such as Junior Accountant, Marketing Executive and Event Management Executive. Executive-level roles may suit graduates, but check each advertisement on the SRIC portal for eligibility; most close 21 Oct 2026 (Marketing Executive 27 Oct).",
+   "verified_from": [
+    "https://erp.iitkgp.ac.in/SRICStaffRecruitment/Advertise.jsp"
+   ],
+   "id": "iit-kharagpur--office-of-alumni-affairs-international-relations-contractual-posts-junior-accountant-marketing-event-stewardship-network",
+   "first_seen_at": "2026-10-15T04:21:00Z",
+   "last_seen_at": "2026-10-15T04:21:00Z"
   },
   {
    "organization": "Supreme Court of India",
@@ -463,19 +445,19 @@
    "apply_url": "https://cdn3.digialm.com//EForms/configuredHtml/32912/100521/Index.html",
    "org_website": "https://www.sci.gov.in/recruitments/",
    "requirements": {
-    "_extraction": "ai",
     "other_requirements": [
-     "Posts, pay, fee, age limit, eligibility and typing test are in the detailed advertisement dated 30.09.2026 (scanned PDF) — read it before applying",
-     "Supreme Court also issued a notice 'In re: Junior Court Assistant Examination-2026' on 01.10.2026 — check it"
-    ]
+     "Posts, pay, fee, age limit, qualification and typing test are in the detailed advertisement dated 30.09.2026 (scanned PDF, not machine-readable) — read it before applying",
+     "Also check the Supreme Court notice 'In re: Junior Court Assistant Examination-2026' (No. F.6/2026-SC (RC), dated 01.10.2026)"
+    ],
+    "_extraction": "ai"
    },
-   "ai_summary": "The Supreme Court of India is recruiting Junior Court Assistants through its Junior Court Assistant Examination-2026; the online application form is open from 7 October to 28 October 2026. Eligibility, posts, pay and the typing test are set out in the detailed advertisement of 30 September 2026.",
+   "ai_summary": "The Supreme Court of India is recruiting Junior Court Assistants through its Junior Court Assistant Examination-2026, with the online form open from 7 to 28 October 2026. Posts, pay, age limit, qualification and the typing test are set out in the detailed advertisement of 30 September 2026, which is a scanned PDF, so check it before applying.",
    "id": "supreme-court-of-india--junior-court-assistant-examination-2026",
    "first_seen_at": "2026-10-10T17:05:25Z",
-   "last_seen_at": "2026-10-10T18:25:14Z",
+   "last_seen_at": "2026-10-15T04:21:00Z",
    "application_start": "2026-10-07",
    "application_end": "2026-10-28",
-   "how_to_apply_text": "Online only, via the application link published in the Supreme Court notice of 06.10.2026 (form live 07.10.2026 10:00 AM to 28.10.2026 23:55).",
+   "how_to_apply_text": "Online only, via the application link in the Supreme Court notice of 06.10.2026 (form open 07.10.2026 10:00 AM to 28.10.2026 23:55)",
    "verified_from": [
     "https://www.sci.gov.in/recruitments/",
     "https://www.sci.gov.in/all-updates/",
@@ -493,22 +475,22 @@
    "application_start": "2026-10-08",
    "application_end": "2026-10-28",
    "vacancies": "321 posts (Generalists & Specialists)",
-   "how_to_apply_text": "Online at the IBPS-hosted portal ibpsreg.ibps.in/niiclsep26 by 28 Oct 2026; print the application by 12 Nov 2026",
+   "how_to_apply_text": "Online at the IBPS-hosted portal ibpsreg.ibps.in/niiclsep26 (registration and fee payment 08-28 Oct 2026); print the application by 12 Nov 2026",
    "apply_url": "https://ibpsreg.ibps.in/niiclsep26/",
    "org_website": "https://nationalinsurance.nic.co.in",
    "requirements": {
     "_extraction": "ai",
     "other_requirements": [
-     "Eligibility, fee, age limits and exam dates are in the detailed advertisement on nationalinsurance.nic.co.in (Recruitment page); check before applying"
+     "Eligibility, fee, age limits and exam dates are in the detailed advertisement (not linked on the application portal; nationalinsurance.nic.co.in recruitment page could not be read) - check before applying"
     ]
    },
-   "ai_summary": "A public-sector general insurer is recruiting 321 Administrative Officers (Scale I) for Generalist and Specialist streams; the online application portal is open from 8 to 28 October 2026. The portal is labelled for NICL (code 'niicl'), but confirm against the detailed advertisement on the NICL website for degree, age and fee rules before applying.",
+   "ai_summary": "A public-sector general insurer is recruiting 321 Administrative Officers (Scale I) in Generalist and Specialist streams; online registration and fee payment are open from 8 to 28 October 2026. The portal is coded 'niicl' and sits under National Insurance Company here, but confirm the degree, age and fee rules in the detailed advertisement on the insurer's website before applying.",
    "verified_from": [
     "https://ibpsreg.ibps.in/niiclsep26/"
    ],
    "id": "national-insurance-company--recruitment-of-321-administrative-officers-generalists-specialists-scale-i",
    "first_seen_at": "2026-10-10T18:25:14Z",
-   "last_seen_at": "2026-10-10T18:25:14Z"
+   "last_seen_at": "2026-10-15T04:21:00Z"
   },
   {
    "organization": "NTA — UGC NET",
@@ -532,20 +514,121 @@
    "requirements": {
     "other_requirements": [
      "Only one application per candidate",
-     "Eligibility as per Information Bulletin"
+     "Eligibility (master's %, JRF age limit, relaxations) as per Information Bulletin of UGC-NET December 2026 dated 08.10.2026: https://cdnbbsr.s3waas.gov.in/s301eee509ee2f68dc6014898c309e86bf/uploads/2026/10/202610081852912625.pdf"
     ],
     "_extraction": "ai"
    },
    "ai_summary": "NTA's UGC-NET December 2026 is the national eligibility test for JRF, Assistant Professor appointment and PhD admission in 87 subjects, held as a CBT on 14–19 Dec 2026. Post-graduate candidates should check subject-wise eligibility (qualification, percentage, JRF age limit) in the Information Bulletin before applying by 28 Oct 2026.",
    "verified_from": [
     "https://www.nta.ac.in/",
-    "https://www.nta.ac.in/Download/Notice/Notice_20261008212430.pdf",
-    "https://ugcnet.nta.nic.in/",
+    "https://nta.ac.in/Download/Notice/Notice_20261008212430.pdf",
+    "https://ugcnet.nta.nic.in/documents/",
+    "https://ugcnet.nta.nic.in/information-bulletin/",
     "https://ugcnet.nta.nic.in/ugc-net-dec-2026-application-form-live/"
    ],
    "id": "nta-ugc-net--ugc-net-december-2026-opening-of-online-registration-portal",
    "first_seen_at": "2026-10-10T18:25:14Z",
-   "last_seen_at": "2026-10-10T18:25:14Z"
+   "last_seen_at": "2026-10-15T04:21:00Z"
+  },
+  {
+   "organization": "UCO Bank",
+   "title": "Engagement of Apprentices under the Apprentices Act, 1961 (Advt. No. HO/HRM/RECR/2026-27/COM-02)",
+   "track": "apprenticeship",
+   "subcategory": "psu_bank",
+   "employment_type": "apprenticeship",
+   "location": "All India (state-wise seats; Tamil Nadu 21, Kerala 10)",
+   "posted_date": "2026-10-13",
+   "application_start": "2026-10-14",
+   "application_end": "2026-10-29",
+   "exam_date": "2026-11-07",
+   "exam_date_text": "Online test by BFSI SSC on 07 Nov 2026, 11:00 AM",
+   "vacancies": "530 apprentice seats (provisional); Tamil Nadu 21, Kerala 10",
+   "salary_text": "Stipend Rs 16,650 per month (UCO Bank Rs 10,500 + Govt share Rs 6,150 via DBT); no other allowances; 1-year training",
+   "fee_text": "Gen/EWS/OBC male Rs 800 + GST; Gen/EWS/OBC female/transgender Rs 600 + GST; SC/ST/PwBD Rs 200 + GST (non-refundable)",
+   "qualification_text": "Graduate degree (any discipline) from a recognised university/institute; mark sheet and provisional/final degree certificate dated on or after 01.04.2022. No minimum percentage stated (CGPA to be converted to %).",
+   "age_limit_text": "20-28 years as on 01.10.2026 (UR/EWS). Relaxation: SC/ST 5 yrs, OBC-NCL 3 yrs, PwBD 10 yrs (UR/EWS), 13 (OBC), 15 (SC/ST); widowed/divorced/legally separated women not remarried up to 35 (UR/EWS), 38 (OBC), 40 (SC/ST)",
+   "experience_text": "Not eligible if you have completed or are pursuing an apprenticeship (UCO or elsewhere), or have 1 year or more of training/job experience after qualifying",
+   "selection_text": "Online test (100 marks, 60 min: Financial Awareness, English, Reasoning & Computer Aptitude, Quant; qualifying 40 Gen/EWS, 35 SC/ST/OBC/PwBD) → state-wise merit list → document verification with local language test (waived if studied in 10th/12th) → medical fitness",
+   "how_to_apply_text": "Register on NATS (nats.education.gov.in) and apply to UCO Bank's programme; then complete details and pay fee on BFSI SSC portal (beep.bfsissc.com) by 29 Oct 2026; one state/UT only",
+   "notification_url": "https://uco.bank.in/documents/20120/0/Final+Advertisement+Apprenticeship+Engagement+2026-27.pdf/b7a52d0a-0aa2-2f0e-e266-e0038dd28a71?t=1791908189791",
+   "apply_url": "https://nats.education.gov.in",
+   "org_website": "https://www.uco.bank.in",
+   "requirements": {
+    "min_education": "bachelor",
+    "subjects": [
+     "any"
+    ],
+    "age_min": 20,
+    "age_max": 28,
+    "age_cutoff_date": "2026-10-01",
+    "age_relaxation": {
+     "OBC": 3,
+     "SC": 5,
+     "ST": 5,
+     "PwBD": 10
+    },
+    "other_requirements": [
+     "Degree mark sheet/certificate dated on or after 01.04.2022",
+     "NATS registration and application to UCO Bank programme; fee on BFSI SSC portal",
+     "Not eligible if already done/doing any apprenticeship or with 1 year or more of post-qualification experience",
+     "Local language test of opted state unless studied in 10th/12th",
+     "Apply for one state/UT only",
+     "PwBD relaxation 13 yrs (OBC) / 15 yrs (SC/ST); widows/divorced women up to 35/38/40"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "UCO Bank is engaging 530 graduate apprentices for one year (Tamil Nadu 21, Kerala 10 seats) on a Rs 16,650 monthly stipend, selected through an online test on 7 Nov 2026 and a local language test. Graduates in any discipline whose degree is dated on or after 1 Apr 2022, aged 20-28 on 1 Oct 2026, with no prior apprenticeship or a year of work experience, can apply via NATS by 29 Oct 2026.",
+   "verified_from": [
+    "https://uco.bank.in/documents/20120/0/Final+Advertisement+Apprenticeship+Engagement+2026-27.pdf/b7a52d0a-0aa2-2f0e-e266-e0038dd28a71?t=1791908189791"
+   ],
+   "id": "uco-bank--engagement-of-apprentices-under-the-apprentices-act-1961-advt-no-ho-hrm-recr-2026-27-com-02",
+   "first_seen_at": "2026-10-15T04:21:00Z",
+   "last_seen_at": "2026-10-15T04:21:00Z"
+  },
+  {
+   "organization": "IIT Hyderabad",
+   "title": "Advt. No. IITH/CS/60 — Senior Architect, AI Engineer, MERN Full Stack Developer, Business Analyst (contractual)",
+   "track": "colleges",
+   "subcategory": "iit",
+   "employment_type": "contract",
+   "location": "Hyderabad (IIT Hyderabad, Kandi, Sangareddy)",
+   "posted_date": "2026-10-06",
+   "application_start": "2026-10-06",
+   "application_end": "2026-10-30",
+   "vacancies": "Senior Architect 1; AI Engineer 1; MERN Full Stack Developer 3; Business Analyst 2 (total 7)",
+   "salary_text": "Senior Architect Rs 1,50,000–2,00,000; AI Engineer Rs 1,00,000–1,50,000; MERN Full Stack Developer Rs 50,000–60,000; Business Analyst Rs 40,000–50,000 per month (consolidated)",
+   "qualification_text": "Bachelor's degree with at least 60% or equivalent CGPA for all posts (Senior Architect: Bachelor's/Master's in a relevant field). Business Analyst: SDLC/Agile knowledge, JIRA, Confluence, Excel. MERN: JavaScript (ES6+), MERN stack. AI Engineer: Python/JS/TS, GenAI/LLM experience",
+   "experience_text": "Post-qualification experience: Business Analyst 2 years; AI Engineer 3 years; MERN Developer 3 years; Senior Architect 8 years",
+   "age_limit_text": "Upper age limit: Senior Architect 50; AI Engineer 45; MERN Developer 40; Business Analyst 40 (relaxation as per GoI rules); cut-off date 30-10-2026",
+   "selection_text": "Written test / skill test / interview at IIT Hyderabad",
+   "how_to_apply_text": "Online only via careers.iith.ac.in/jobs/52–55 (one link per post) by 30 Oct 2026; offline applications rejected",
+   "notification_url": "https://iith.ac.in/assets/files/careers/staff/Adv_CS_60_ERP_Dt_06-10-2026.pdf",
+   "apply_url": "https://careers.iith.ac.in/jobs/55",
+   "org_website": "https://iith.ac.in",
+   "requirements": {
+    "min_education": "bachelor",
+    "subjects": [
+     "any"
+    ],
+    "min_percentage": 60,
+    "experience_years_min": 2,
+    "age_max": 40,
+    "age_cutoff_date": "2026-10-30",
+    "other_requirements": [
+     "Business Analyst (lowest bar): 2 years' post-qualification experience, SDLC/Agile, JIRA/Confluence/Excel",
+     "Other posts need 3–8 years' experience and specific tech skills",
+     "Senior Architect/AI Engineer age limits 50/45"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "IIT Hyderabad is hiring seven contractual ERP/IT staff, including two Business Analysts at Rs 40,000–50,000/month. Graduates with 60% and at least 2 years' relevant experience (more for developer/AI/architect posts), within the age limit, can apply online by 30 Oct 2026.",
+   "verified_from": [
+    "https://www.iith.ac.in/careers/",
+    "https://iith.ac.in/assets/files/careers/staff/Adv_CS_60_ERP_Dt_06-10-2026.pdf"
+   ],
+   "id": "iit-hyderabad--advt-no-iith-cs-60-senior-architect-ai-engineer-mern-full-stack-developer-business-analyst-contractual",
+   "first_seen_at": "2026-10-15T04:21:00Z",
+   "last_seen_at": "2026-10-15T04:21:00Z"
   },
   {
    "organization": "Kerala PSC",
@@ -556,24 +639,34 @@
    "location": "Kerala (Kerala Higher Secondary Education)",
    "posted_date": "2026-09-30",
    "application_end": "2026-11-04",
-   "how_to_apply_text": "Online through Kerala PSC One Time Registration profile (see keralapsc.gov.in)",
+   "how_to_apply_text": "Online through your Kerala PSC One Time Registration (Thulasi) profile at keralapsc.gov.in by 04 Nov 2026",
    "notification_url": "http://www.keralapsc.gov.in/sites/default/files/2026-09/noti-155-26.pdf",
    "org_website": "https://www.keralapsc.gov.in",
    "requirements": {
     "_extraction": "ai",
+    "min_education": "master",
+    "subjects": [
+     "statistics"
+    ],
+    "category_only": [
+     "ST"
+    ],
+    "domicile_required": "Kerala",
     "other_requirements": [
-     "Special recruitment: only Scheduled Tribe (ST) candidates can apply",
-     "Qualification, age and pay are in the notification PDF"
+     "Special recruitment open only to Scheduled Tribe candidates of Kerala State (Kerala PSC wording); non-ST applications are rejected; ST community certificate needed at verification",
+     "Qualification/age details taken from Kerala PSC's standard HSST special-recruitment rules; confirm in the Cat. 155/2026 notification PDF",
+     "Earlier Kerala PSC ST special recruitments (e.g. HSST Maths, Cat. 219/2025) also required B.Ed, 45% marks and Kerala SET — confirm in Cat. 155/2026"
     ]
    },
-   "ai_summary": "Kerala PSC has notified a special recruitment for Higher Secondary School Teacher (Statistics) in the Kerala Higher Secondary Education department, open only to Scheduled Tribe candidates. It suits Statistics postgraduates who are teaching candidates; apply by 4 November 2026.",
+   "ai_summary": "Kerala PSC has notified a special recruitment for Higher Secondary School Teacher (Statistics) in Kerala Higher Secondary Education (Cat. No. 155/2026, gazette 30 Sept 2026), open only to Scheduled Tribe candidates of Kerala. It suits ST Statistics postgraduates with B.Ed and SET; apply by 4 November 2026.",
    "verified_from": [
-    "https://www.keralapsc.gov.in/notifications",
-    "https://www.keralapsc.gov.in/extra-ordinary-gazette-date-30092026"
+    "https://www.keralapsc.gov.in/extra-ordinary-gazette-date-30092026",
+    "https://www.keralapsc.gov.in/sites/default/files/2025-08/noti-219-25.pdf"
    ],
    "id": "kerala-psc--higher-secondary-school-teacher-statistics-special-recruitment-for-st-only-category-no-155-2026",
    "first_seen_at": "2026-10-10T18:25:14Z",
-   "last_seen_at": "2026-10-10T18:25:14Z"
+   "last_seen_at": "2026-10-15T04:21:00Z",
+   "qualification_text": "Master's degree in Statistics with at least 45% marks, B.Ed in the subject, and a pass in the Kerala State Eligibility Test (SET) for HSST - this is the standard HSST qualification in Kerala PSC's identical ST special recruitment notices (e.g. Cat. 219/2025); confirm in the Cat. 155/2026 notice."
   },
   {
    "organization": "TNPSC",
@@ -593,6 +686,10 @@
    "requirements": {
     "_extraction": "ai",
     "min_education": "10th",
+    "subjects": [
+     "any"
+    ],
+    "age_min": 18,
     "age_cutoff_date": "2026-07-01",
     "languages_required": [
      "Tamil"
@@ -600,24 +697,26 @@
     "other_requirements": [
      "Tamil as a subject or medium in SSLC/HSC, or pass the TNPSC Tamil Language Eligibility Test",
      "Typewriting/shorthand qualifications needed for Typist and Steno-typist posts",
+     "Minimum age 21 for some posts; upper age limit varies by post and community (30-53, none for some)",
      "One-Time Registration (Rs 150) + exam fee (Rs 100) by 05 Nov 2026"
     ]
    },
-   "ai_summary": "TNPSC's Group IV exam 2026 (Notification 11/2026) fills 6,574 Tamil Nadu government Group IV posts, the main clerical entry route (e.g. Junior Assistant, Typist), through one written exam on 10 January 2027. Candidates with at least SSLC (10th) and Tamil proficiency can apply by 5 November 2026; typist/steno posts also need typewriting/shorthand qualifications.",
+   "ai_summary": "TNPSC's Group IV exam 2026 (Notification 11/2026) fills 6,574 Tamil Nadu government Group IV posts, the main clerical entry route (e.g. Junior Assistant, Typist, VAO), through one written exam on 10 January 2027. Anyone with at least SSLC (10th) who meets the Tamil-language rule and age limits (as on 01.07.2026) can apply by 5 November 2026; typist/steno posts also need typewriting/shorthand certificates.",
    "id": "tnpsc--combined-civil-services-examination-iv-group-iv-services-2026",
    "first_seen_at": "2026-10-10T17:05:25Z",
-   "last_seen_at": "2026-10-10T18:25:14Z",
+   "last_seen_at": "2026-10-15T04:21:00Z",
    "exam_date_text": "Written exam 10 Jan 2027, 9:30 AM - 12:30 PM; application correction window 09-11 Nov 2026",
    "vacancies": "6,574 posts in total across Group IV services (Notification No. 11/2026, Advt. No. 747); post-wise counts in the notification",
    "fee_text": "One-Time Registration Rs 150 (valid 5 years) + examination fee Rs 100, paid online by 05 Nov 2026; specified categories are exempt from the exam fee (see notification)",
-   "qualification_text": "SSLC (10th) or equivalent for most posts; some posts need HSC, a degree/diploma, or typewriting/shorthand certificates. Tamil proficiency is required: Tamil as a subject or medium in SSLC/HSC, or passing TNPSC's Tamil Language Eligibility Test.",
-   "age_limit_text": "Age reckoned as on 01.07.2026; minimum 18 (21 for some posts); upper limits vary by post and community; see notification",
-   "selection_text": "OMR written exam → on-screen certificate verification; typing/shorthand-based ranking for typist and steno posts",
+   "qualification_text": "SSLC (10th) or equivalent for most posts; some posts need higher qualifications (e.g. a degree in co-operation for one post) or typewriting/shorthand certificates for Typist/Steno-typist. Tamil proficiency is required: Tamil as a subject or medium in SSLC/HSC, or pass TNPSC's Tamil Language Eligibility Test.",
+   "age_limit_text": "Age as on 01.07.2026; minimum 18 (21 for some posts); maximum ages range from 30 to 53 depending on post and community, with no upper limit for some categories (see notification table)",
+   "selection_text": "OMR written exam -> on-screen certificate verification; typing/shorthand-based ranking for typist and steno posts",
    "how_to_apply_text": "Online at apply.tnpscexams.in after One-Time Registration; pay the fee by 05 Nov 2026",
    "verified_from": [
-    "https://apply.tnpscexams.in/apply-now?app_id=UElZMDAwMDAwMQ%3D%3D",
-    "https://d1cmkr5tdoeyjk.cloudfront.net/tnpsc/PIY0000001/notification/CCSE_Group_IV_Tamil_2026.pdf"
-   ]
+    "https://d1cmkr5tdoeyjk.cloudfront.net/tnpsc/PIY0000001/notification/CCSE_Group_IV_Tamil_2026.pdf",
+    "https://apply.tnpscexams.in/apply-now?app_id=UElZMDAwMDAwMQ%3D%3D"
+   ],
+   "salary_text": "Varies by post; scales in the notification include Rs 16,600-52,400, Rs 17,000-54,060 and Rs 19,500-62,000 (see post-wise table)"
   },
   {
    "organization": "NTA — CSIR UGC NET",
@@ -674,58 +773,12 @@
    "verified_from": [
     "https://www.nta.ac.in/",
     "https://csirnet.nta.nic.in/online-application-for-joint-csir-ugc-net-december-2026-is-live/",
-    "https://csirnet.nta.nic.in/information-bulletin/",
+    "https://csirnet.nta.nic.in/document-category/public-notices/",
     "https://cdnbbsr.s3waas.gov.in/s3efdf562ce2fb0ad460fd8e9d33e57f57/uploads/2026/10/202610071407707951.pdf"
    ],
    "id": "nta-csir-ugc-net--joint-csir-ugc-net-december-2026-online-application",
    "first_seen_at": "2026-10-10T18:25:14Z",
-   "last_seen_at": "2026-10-10T18:25:14Z"
-  },
-  {
-   "organization": "IIT Roorkee",
-   "title": "Laboratory Assistant (project post) — Physics Department, walk-in interview",
-   "track": "colleges",
-   "subcategory": "iit",
-   "employment_type": "temporary",
-   "location": "Roorkee (IIT Roorkee)",
-   "posted_date": "2026-10-02",
-   "interview_date": "2026-10-12",
-   "how_to_apply_text": "Walk-in interview on 12 Oct 2026, 4:00 PM; bring plain-paper application, CV and original certificates (check advertisement)",
-   "notification_url": "https://iitr.ac.in/Careers/static/Project_Jobs/PH/2026/adv071020261.pdf",
-   "org_website": "https://iitr.ac.in",
-   "requirements": {
-    "_extraction": "ai"
-   },
-   "ai_summary": "IIT Roorkee's Physics Department has a walk-in interview for a project Laboratory Assistant on 12 Oct 2026 at 4:00 PM. The scanned advertisement is not legible online, so check the PDF for eligibility (likely science graduates) before attending.",
-   "verified_from": [
-    "https://iitr.ac.in/Careers/Project%20Jobs.html"
-   ],
-   "id": "iit-roorkee--laboratory-assistant-project-post-physics-department-walk-in-interview",
-   "first_seen_at": "2026-10-10T18:25:14Z",
-   "last_seen_at": "2026-10-10T18:25:14Z"
-  },
-  {
-   "organization": "IIT Roorkee",
-   "title": "Scientific Administrative Assistant (project post) — Physics Department, walk-in interview",
-   "track": "colleges",
-   "subcategory": "iit",
-   "employment_type": "temporary",
-   "location": "Roorkee (IIT Roorkee)",
-   "posted_date": "2026-10-02",
-   "interview_date": "2026-10-12",
-   "how_to_apply_text": "Walk-in interview on 12 Oct 2026, 5:00 PM; bring plain-paper application, CV and original certificates (check advertisement)",
-   "notification_url": "https://iitr.ac.in/Careers/static/Project_Jobs/PH/2026/adv07102026.pdf",
-   "org_website": "https://iitr.ac.in",
-   "requirements": {
-    "_extraction": "ai"
-   },
-   "ai_summary": "IIT Roorkee's Physics Department has a walk-in interview for a project Scientific Administrative Assistant on 12 Oct 2026 at 5:00 PM. The scanned advertisement is not legible online, so check the PDF for qualification and pay before attending.",
-   "verified_from": [
-    "https://iitr.ac.in/Careers/Project%20Jobs.html"
-   ],
-   "id": "iit-roorkee--scientific-administrative-assistant-project-post-physics-department-walk-in-interview",
-   "first_seen_at": "2026-10-10T18:25:14Z",
-   "last_seen_at": "2026-10-10T18:25:14Z"
+   "last_seen_at": "2026-10-15T04:21:00Z"
   },
   {
    "organization": "Staff Selection Commission",
@@ -734,24 +787,24 @@
    "subcategory": "ssc",
    "employment_type": "exam",
    "location": "All India",
-   "exam_date_text": "Tentative per SSC calendar (08.01.2026): advertisement Sep 2026, applications close Oct 2026, CBE Jan–Mar 2027",
-   "how_to_apply_text": "Online at ssc.gov.in once the notice is published (new One-Time Registration needed on the new portal)",
+   "exam_date_text": "Tentative per SSC calendar 2026-27: advertisement September 2026, closing October 2026, CBE January–March 2027 (notice not yet published as of 15 Oct 2026)",
+   "how_to_apply_text": "Online at ssc.gov.in once the notice is published",
    "notification_url": "https://ssc.gov.in/api/attachment/uploads/masterData/ExamCalendar/Tentative_Calendar2026_27_08012026.pdf",
    "org_website": "https://ssc.gov.in",
    "requirements": {
-    "_extraction": "ai",
     "other_requirements": [
-     "Notice not yet published on ssc.gov.in as of 10 Oct 2026 — dates are from SSC's tentative calendar and may shift",
-     "Eligibility, vacancies and physical standards will be in the notice"
-    ]
+     "Notice not yet published on ssc.gov.in as of 15 Oct 2026; dates are from SSC's tentative calendar and may shift",
+     "Eligibility, vacancies, age limits and physical standards will be in the notice"
+    ],
+    "_extraction": "ai"
    },
-   "ai_summary": "SSC's tentative calendar lists the Constable (GD) Examination 2027 for CAPFs, NIA, SSF and Assam Rifles, with the advertisement due around September–October 2026 and the computer-based exam in January–March 2027. The notice has not been published yet; eligibility will be confirmed when it is.",
+   "ai_summary": "SSC's tentative 2026-27 calendar lists the Constable (GD) Examination 2027 for CAPFs, NIA, SSF and Assam Rifles, with the advertisement due around September–October 2026 and the computer-based exam in January–March 2027. The notice has not been published yet, so eligibility will be confirmed when it is.",
    "verified_from": [
     "https://ssc.gov.in/api/attachment/uploads/masterData/ExamCalendar/Tentative_Calendar2026_27_08012026.pdf"
    ],
    "id": "staff-selection-commission--constables-gd-in-capfs-nia-ssf-and-rifleman-gd-in-assam-rifles-examination-2027-upcoming",
    "first_seen_at": "2026-10-10T18:25:14Z",
-   "last_seen_at": "2026-10-10T18:25:14Z"
+   "last_seen_at": "2026-10-15T04:21:00Z"
   },
   {
    "organization": "Staff Selection Commission",
@@ -760,24 +813,75 @@
    "subcategory": "ssc",
    "employment_type": "exam",
    "location": "All India",
-   "exam_date_text": "SSC tentative calendar (08.01.2026) listed advertisement June 2026, closing July 2026, CBE Sep–Nov 2026 — notice not yet out, so this schedule has slipped",
+   "exam_date_text": "SSC tentative calendar 2026-27 listed advertisement June 2026, closing July 2026, CBE September–November 2026; notice not yet published as of 15 Oct 2026, so this schedule has slipped",
    "how_to_apply_text": "Online at ssc.gov.in once the notice is published",
    "notification_url": "https://ssc.gov.in/api/attachment/uploads/masterData/ExamCalendar/Tentative_Calendar2026_27_08012026.pdf",
    "org_website": "https://ssc.gov.in",
    "requirements": {
-    "_extraction": "ai",
     "other_requirements": [
-     "Notice not yet published on ssc.gov.in as of 10 Oct 2026 — watch ssc.gov.in",
+     "Notice not yet published on ssc.gov.in as of 15 Oct 2026; still listed on SSC's 2026-27 calendar",
      "Eligibility, vacancies and age limits will be in the notice"
-    ]
+    ],
+    "_extraction": "ai"
    },
-   "ai_summary": "SSC's MTS and Havaldar Examination 2026 is on the Commission's 2026-27 calendar but its notice has not been published yet, so the calendar dates have slipped. Eligibility and dates will be confirmed when SSC releases the notice.",
+   "ai_summary": "SSC's MTS and Havaldar Examination 2026 is still on the Commission's 2026-27 calendar, but its notice has not been published, so the calendar dates have slipped. Eligibility and dates will be confirmed when SSC releases the notice.",
    "verified_from": [
     "https://ssc.gov.in/api/attachment/uploads/masterData/ExamCalendar/Tentative_Calendar2026_27_08012026.pdf"
    ],
    "id": "staff-selection-commission--multi-tasking-non-technical-staff-havaldar-cbic-cbn-examination-2026-upcoming",
    "first_seen_at": "2026-10-10T18:25:14Z",
-   "last_seen_at": "2026-10-10T18:25:14Z"
+   "last_seen_at": "2026-10-15T04:21:00Z"
+  },
+  {
+   "organization": "Supreme Court of India",
+   "title": "Detailed advertisement for recruitment to the post of Senior Personal Assistant in the Supreme Court of India – 12.10.2026",
+   "track": "government",
+   "subcategory": "court",
+   "post_type": "clerical",
+   "employment_type": "full_time",
+   "location": "New Delhi",
+   "posted_date": "2026-10-12",
+   "notification_url": "https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/uploads/2026/10/2026101325.pdf",
+   "org_website": "https://www.sci.gov.in/recruitments/",
+   "requirements": {
+    "other_requirements": [
+     "Stenography post: qualification, shorthand/typing speeds, age limit, pay, fee and closing date are in the detailed advertisement dated 12.10.2026 (scanned PDF, not machine-readable) — read it before applying"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "The Supreme Court of India published a detailed advertisement on 12 October 2026 for direct recruitment of Senior Personal Assistants, a stenography post. Candidates with shorthand and typing skills should check the scanned advertisement for the qualification, speeds, age limit and closing date.",
+   "verified_from": [
+    "https://www.sci.gov.in/recruitments/",
+    "https://www.sci.gov.in/all-updates/"
+   ],
+   "id": "supreme-court-of-india--detailed-advertisement-for-recruitment-to-the-post-of-senior-personal-assistant-in-the-supreme-court-of-india-12-10-2026",
+   "first_seen_at": "2026-10-15T04:21:12Z",
+   "last_seen_at": "2026-10-15T04:21:12Z"
+  },
+  {
+   "organization": "Supreme Court of India",
+   "title": "Court Assistant (Technical Assistant-cum-Programmer) — detailed advertisement, 12.10.2026",
+   "track": "government",
+   "subcategory": "court",
+   "employment_type": "full_time",
+   "location": "New Delhi",
+   "posted_date": "2026-10-12",
+   "notification_url": "https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/uploads/2026/10/2026101374-1.pdf",
+   "org_website": "https://www.sci.gov.in/recruitments/",
+   "requirements": {
+    "other_requirements": [
+     "Technical (computer programming) post: required degree, age limit, pay, fee and closing date are in the detailed advertisement dated 12.10.2026 (scanned PDF, not machine-readable) — read it before applying"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "The Supreme Court of India published a detailed advertisement on 12 October 2026 to recruit Court Assistants (Technical Assistant-cum-Programmer), an IT/programming post. Candidates with a computer-science or IT background should check the scanned advertisement for the exact degree, age limit and closing date.",
+   "verified_from": [
+    "https://www.sci.gov.in/recruitments/",
+    "https://www.sci.gov.in/all-updates/"
+   ],
+   "id": "supreme-court-of-india--court-assistant-technical-assistant-cum-programmer-detailed-advertisement-12-10-2026",
+   "first_seen_at": "2026-10-15T04:21:12Z",
+   "last_seen_at": "2026-10-15T04:21:12Z"
   }
  ]
 }

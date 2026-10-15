@@ -32,7 +32,7 @@ function FriendDetail({ p, apps, mocks, onClose, openings }) {
             <dt>TET / exams</dt><dd>{[...(p.tets_cleared || []), ...(p.exams_cleared || [])].join(", ") || "None yet"}</dd>
             <dt>Joined</dt><dd>{fmtDate(p.created_at?.slice(0, 10))}</dd>
             <dt>Last active</dt><dd>{fmtWhen(p.last_seen_at)}</dd>
-            <dt>Not for me</dt><dd>{p.hidden_openings?.length ? p.hidden_openings.map((id) => openings.find((o) => o.id === id)?.title || "an opening no longer listed").join(" · ") : "—"}</dd>
+            <dt>Not interested</dt><dd>{p.hidden_openings?.length ? p.hidden_openings.map((id) => openings.find((o) => o.id === id)?.title || "an opening no longer listed").join(" · ") : "—"}</dd>
           </dl>
           <div>
             <h3 style={{ marginBottom: 6 }}><E>📊</E>Mock tests</h3>
@@ -108,7 +108,7 @@ export default function Admin() {
         <div className="install" role="alert">
           <span className="e">🛠️</span>
           <div style={{ flex: 1, minWidth: 0 }}>
-            <strong>One-time database update needed (saves roles and "Not for me" choices).</strong>
+            <strong>One-time database update needed (saves roles and "Not interested" choices).</strong>
             <div className="small">Supabase → SQL Editor → New query → paste this → Run:</div>
             <code className="sql">{missingSql}</code>
           </div>

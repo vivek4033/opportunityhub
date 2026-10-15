@@ -48,7 +48,7 @@ export default function OpeningPanel({ o, app, onTrack, onClose, hidden, onHide 
         <div className="drawer-head">
           <div style={{ flex: 1, minWidth: 0 }}>
             {o.roles?.length > 0 && (
-              <div className={`role-tag r-${o.roles[0]}`}>{o.roles.map((r) => <span key={r}><E>{ROLE[r].e}</E>{ROLE[r].label}</span>)}{o.mine && <span className="yours">🎯 your role</span>}</div>
+              <div className="tags">{o.roles.map((r) => <span key={r} className={`role-tag r-${r}`}><E>{ROLE[r].e}</E>{ROLE[r].label}</span>)}{o.mine && <span className="tag-yours">🎯 Your role</span>}</div>
             )}
             <h2 className="op-title">{o.title}</h2>
             <p className="small muted">🏢 {o.organization}{o.employment_type ? ` · ${EMPLOYMENT_TYPES[o.employment_type] || o.employment_type}` : ""}</p>
@@ -114,7 +114,7 @@ export default function OpeningPanel({ o, app, onTrack, onClose, hidden, onHide 
           {app ? <Link className="btn ghost" to="/applications" onClick={onClose}>{STATUS_EMOJI[app.status]} Tracking: {STATUS_LABEL[app.status]}</Link>
             : <button className="btn primary" onClick={() => onTrack(o)}>➕ Track this</button>}
           {onHide && (hidden ? <button className="btn" onClick={() => onHide(o, false)}>↩️ Bring back</button>
-            : <button className="btn not-for-me" onClick={() => onHide(o, true)}>🙅 Not for me</button>)}
+            : <button className="btn not-int" onClick={() => onHide(o, true)}>🙈 Not interested</button>)}
         </div>
       </aside>
     </div>

@@ -3,12 +3,14 @@
 export const CURRENTLY = "CURRENTLY_ELIGIBLE", AFTER_BED = "ELIGIBLE_AFTER_BED", AFTER_TET = "ELIGIBLE_AFTER_TET",
   POTENTIAL = "POTENTIALLY_ELIGIBLE", NOT = "NOT_ELIGIBLE";
 export const STATUS_LABELS = { [CURRENTLY]: "Currently eligible", [AFTER_BED]: "Eligible after B.Ed", [AFTER_TET]: "Eligible after TET",
-  [POTENTIAL]: "Potentially eligible", [NOT]: "Not eligible" };
+  [POTENTIAL]: "Likely eligible", [NOT]: "Not eligible" };
 
 const RANK = { "10th": 1, "12th": 2, diploma: 2.5, bachelor: 3, master: 4, phd: 5 };
 const SCIENCE = ["physics", "chemistry", "biology", "botany", "zoology", "mathematics", "maths", "electronics", "applied physics", "biochemistry", "microbiology"];
 const TET_ALIASES = { tntet: "TNTET", "tn tet": "TNTET", ktet: "KTET", "kerala tet": "KTET", "k-tet": "KTET", ctet: "CTET" };
 const norm = (s) => String(s || "").trim().toLowerCase();
+const STATE_SHORT = { tn: "tamil nadu", "tamilnadu": "tamil nadu", kl: "kerala", ka: "karnataka", ap: "andhra pradesh", py: "puducherry", pondicherry: "puducherry" };
+const STATE_ALIASES = (s) => STATE_SHORT[s.replace(/\./g, "")] || s;
 const canonTet = (s) => TET_ALIASES[norm(s)] || String(s).trim().toUpperCase();
 const fmt = (d) => new Date(d + "T00:00:00").toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" });
 
@@ -56,7 +58,8 @@ export function evaluate(reqIn, p, today) {
   if (req.min_education) {
     const need = RANK[req.min_education] || 0;
     const qualifying = edu.filter((e) => RANK[e.level] && RANK[e.level] >= need && (e.status === "completed" || req.allow_pursuing));
-    if (!qualifying.length) add("education", "Education", "fail", `Requires ${req.min_education}-level qualification; not held.`);
+    if (!edu.length) add("education", "Education", "unknown", `Requires ${req.min_education}-level qualification; add your education in Profile.`);
+    else if (!qualifying.length) add("education", "Education", "fail", `Requires ${req.min_education}-level qualification; not held.`);
     else {
       let atLevel = qualifying.filter((e) => e.level === req.min_education);
       if (!atLevel.length) atLevel = [...qualifying].sort((a, b) => RANK[a.level] - RANK[b.level]);
@@ -126,12 +129,27 @@ export function evaluate(reqIn, p, today) {
     else add(`lang_${norm(lang)}`, `Language: ${lang}`, known.has(norm(lang)) ? "pass" : "fail", known.has(norm(lang)) ? `Knows ${lang}.` : `Requires proficiency in ${lang}.`);
   }
   if (req.domicile_required) {
-    if (!p.home_state) add("domicile", "Domicile", "unknown", `Requires ${req.domicile_required} domicile; add your home state.`);
+    const states = (Array.isArray(req.domicile_required) ? req.domicile_required : [req.domicile_required]).filter(Boolean);
+    const list = states.join(" or ");
+    if (!p.home_state) add("domicile", "State", "unknown", `Only for ${list} candidates; add your home state in Profile.`);
     else {
-      const ok = norm(req.domicile_required) === norm(p.home_state);
-      add("domicile", "Domicile", ok ? "pass" : "fail", ok ? `${p.home_state} domicile.` : `Requires ${req.domicile_required} domicile.`);
+      const ok = states.some((st) => STATE_ALIASES(norm(st)) === STATE_ALIASES(norm(p.home_state)));
+      add("domicile", "State", ok ? "pass" : "fail", ok ? `Open to ${p.home_state} candidates.` : `Only for ${list} candidates (you're from ${p.home_state}).`);
     }
   }
+  if (req.category_only?.length) {
+    const cats = req.category_only.map((c) => String(c).toUpperCase());
+    const list = cats.join(" / ");
+    if (!p.reservation_category) add("category", "Reserved for", "unknown", `Only for ${list} candidates; add your category in Profile.`);
+    else {
+      const ok = cats.includes(p.reservation_category.toUpperCase());
+      add("category", "Reserved for", ok ? "pass" : "fail", ok ? `Open to ${p.reservation_category} candidates.` : `Only for ${list} candidates (special recruitment).`);
+    }
+  }
+  const HARD = ["min_education", "phd_required", "bed_required", "tet_required", "exams_required_any", "experience_years_min", "age_min", "age_max",
+    "languages_required", "domicile_required", "category_only"];
+  if (!HARD.some((k) => req[k] != null && !(Array.isArray(req[k]) && !req[k].length)))
+    add("requirements", "Eligibility rules", "unknown", "The main rules (education, age) aren't in our data yet — read the official notification.");
   if (req.coding_heavy) add("coding", "Coding skills", "warn", "Role expects substantial programming skills.");
   for (const o of req.other_requirements || []) add("other", "Other requirement", "warn", `Verify manually: ${o}`);
   if ((reqIn || {})._extraction === "regex")
@@ -145,6 +163,6 @@ function resolve(checks) {
   if (r.has("fail")) status = NOT;
   else if (r.has("pending_tet")) status = AFTER_TET;
   else if (r.has("pending_bed")) status = AFTER_BED;
-  else if (r.has("unknown") || checks.some((c) => c.key === "other")) status = POTENTIAL;
+  else if (r.has("unknown")) status = POTENTIAL;
   return { status, label: STATUS_LABELS[status], checks };
 }

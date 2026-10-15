@@ -33,6 +33,7 @@ export const onAuth = (fn) => sb.auth.onAuthStateChange((_e, session) => fn(sess
 export const signIn = (email, password) => run(sb.auth.signInWithPassword({ email: email.trim(), password }));
 export const signUp = (email, password) => run(sb.auth.signUp({ email: email.trim(), password }));
 export const signOut = () => sb.auth.signOut();
+export const changePassword = (password) => run(sb.auth.updateUser({ password }));
 export const isAdmin = async () => Boolean(await run(sb.rpc("is_admin")));
 
 // ---------------------------------------------------------------- profile
@@ -49,7 +50,7 @@ export async function saveProfile(uid, email, p) {
   }
   throw new AppError(friendly(error));
 }
-/** Openings this person said "Not for me" to. Saved on their profile; falls back to this device
+/** Openings this person marked "Not interested". Saved on their profile; falls back to this device
  *  until supabase/migrations/003_hidden_openings.sql has been run. */
 const hiddenKey = (uid) => `oh_hidden_${uid}`;
 export const localHidden = (uid) => { try { return JSON.parse(localStorage.getItem(hiddenKey(uid)) || "[]"); } catch { return []; } };
