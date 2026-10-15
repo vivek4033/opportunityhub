@@ -233,7 +233,7 @@ export default function Profile({ firstTime = false, inPanel = false, section = 
 
       <section className={sec}>
         <h2 className="mb"><E>📄</E>Resume</h2>
-        <p className="small muted mb" style={{ marginTop: -8 }}>Only you and the admin can open it. The admin uses it to recommend openings that suit you.</p>
+        <p className="small muted mb" style={{ marginTop: -8 }}>Upload your resume to get recommendations for openings that suit you.</p>
         <ResumeBox />
       </section>
       </>}

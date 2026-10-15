@@ -65,7 +65,7 @@ export const touchLastSeen = (uid) => sb.from("profiles").update({ last_seen_at:
 
 // ---------------------------------------------------------------- resume (private storage bucket "resumes", folder = user id)
 const NOT_SET_UP = /bucket not found|resume_|relation .*recommendations|recommendations.* does not exist|schema cache/i;
-const setupMsg = "This needs the admin's one-time database update (Admin page shows what to run).";
+const setupMsg = "Resume upload isn't available yet. Please try again later.";
 export const RESUME_TYPES = ["application/pdf", "application/msword", "application/vnd.openxmlformats-officedocument.wordprocessingml.document"];
 export async function uploadResume(uid, file) {
   if (!RESUME_TYPES.includes(file.type) && !/\.(pdf|docx?)$/i.test(file.name)) throw new AppError("Upload a PDF or Word file.");

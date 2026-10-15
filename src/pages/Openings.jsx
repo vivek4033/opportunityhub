@@ -154,14 +154,14 @@ export default function Openings() {
       {needs.length > 0 && !showHidden && (
         <div className="nudge">
           <span className="e">✍️</span>
-          <div style={{ flex: 1 }}><strong>Finish your profile</strong> — add your {needs.join(", ").replace(/, ([^,]*)$/, " and $1")}. It makes the eligibility check accurate and lets the admin recommend openings for you.</div>
+          <div style={{ flex: 1 }}><strong>Finish your profile</strong> — add your {needs.join(", ").replace(/, ([^,]*)$/, " and $1")}. It makes the eligibility check accurate and helps us recommend the right openings for you.</div>
           <button className="btn sm primary" onClick={() => openProfile("details")}>Complete profile</button>
         </div>
       )}
       {recommended.length > 0 && !showHidden && (
         <section className="group group-rec" aria-label="Recommended for you">
           <div className="group-head"><h2><E>💡</E>Recommended for you <span className="count">{recommended.length}</span></h2></div>
-          <p className="group-note">Picked for you by the admin after looking at your profile and resume.</p>
+          <p className="group-note">Picked for you based on your profile and resume.</p>
           <div className="cards">{recommended.map(({ r, o }) => (
             <div key={r.id} className="rec-wrap">
               {r.note && <div className="rec-note">💬 “{r.note}”</div>}
