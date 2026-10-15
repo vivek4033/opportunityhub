@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
-import { addApplication, listApplications, localHidden, saveHidden, STATUS_LABEL } from "../lib/data";
+import { addApplication, listApplications, listRecommendations, localHidden, saveHidden, STATUS_LABEL } from "../lib/data";
 import { fmtDate, leftText, rate } from "../lib/util";
 import { defaultView } from "./Account";
 import OpeningPanel from "./OpeningPanel";
@@ -81,7 +81,9 @@ export default function Openings() {
   const hiddenSet = useMemo(() => new Set(hidden), [hidden]);
   const closeSummary = useCallback(() => setOpenId(null), []);
 
+  const [recs, setRecs] = useState([]);
   useEffect(() => { listApplications(uid).then(setApps).catch((e) => notify(e.message, "error")); }, [uid, notify]);
+  useEffect(() => { listRecommendations(uid).then(setRecs).catch(() => {}); }, [uid]);
 
   const rated = useMemo(() => rate(openings.items, profile).map((o) => {
     const roles = rolesOf(o);
@@ -101,6 +103,8 @@ export default function Openings() {
     .sort((a, b) => Number(b.mine) - Number(a.mine) || (a.application_end || "9").localeCompare(b.application_end || "9") || b.match - a.match);
   const groups = GROUPS.map((g) => ({ ...g, items: pool.filter((o) => groupOf(o) === g.key) })).filter((g) => g.items.length);
 
+  const recommended = recs.map((r) => ({ r, o: live.find((o) => o.id === r.opening_id) })).filter((x) => x.o && !hiddenSet.has(x.o.id));
+  const needs = [!profile?.phone && "mobile number", !profile?.resume_path && "resume", !profile?.home_state && "home state", !profile?.date_of_birth && "date of birth"].filter(Boolean);
   const soon = visible.filter((o) => fits(o) && o.daysLeft != null && o.daysLeft <= 7).sort((a, b) => a.daysLeft - b.daysLeft);
   const firstName = (profile?.full_name || "").split(" ")[0];
 
@@ -147,6 +151,25 @@ export default function Openings() {
         <p className="tiny muted">Checked on official sites{openings.updatedAt ? `, last updated ${fmtDate(openings.updatedAt.slice(0, 10))}` : ""}.</p>
       </section>
       {openings.error && <div className="error mb">{openings.error}</div>}
+      {needs.length > 0 && !showHidden && (
+        <div className="nudge">
+          <span className="e">✍️</span>
+          <div style={{ flex: 1 }}><strong>Finish your profile</strong> — add your {needs.join(", ").replace(/, ([^,]*)$/, " and $1")}. It makes the eligibility check accurate and lets the admin recommend openings for you.</div>
+          <button className="btn sm primary" onClick={() => openProfile("details")}>Complete profile</button>
+        </div>
+      )}
+      {recommended.length > 0 && !showHidden && (
+        <section className="group group-rec" aria-label="Recommended for you">
+          <div className="group-head"><h2><E>💡</E>Recommended for you <span className="count">{recommended.length}</span></h2></div>
+          <p className="group-note">Picked for you by the admin after looking at your profile and resume.</p>
+          <div className="cards">{recommended.map(({ r, o }) => (
+            <div key={r.id} className="rec-wrap">
+              {r.note && <div className="rec-note">💬 “{r.note}”</div>}
+              {card(o)}
+            </div>
+          ))}</div>
+        </section>
+      )}
 
       <div className="toolbar">
         <div className="seg" role="tablist" aria-label="Which openings">

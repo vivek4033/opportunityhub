@@ -326,6 +326,35 @@ code.sql { display: block; margin-top: 6px; padding: 8px 10px; background: var(-
 .ptabs button.on { color: var(--accent); border-bottom-color: var(--accent); }
 .drawer-head { border-bottom: 0; }
 
+/* ------------------------------------------------ profile pickers, resume, recommendations */
+.chipmulti { display: flex; flex-wrap: wrap; gap: 6px; }
+.pick { font: inherit; font-size: 13px; font-weight: 600; color: var(--ink-2); background: var(--surface); border: 1.5px solid var(--rule); border-radius: 999px; padding: 6px 12px; cursor: pointer; }
+.pick:hover { border-color: var(--rule-strong); }
+.pick.on { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); }
+.pick-add input { width: 150px; padding: 6px 12px; border-radius: 999px; font-size: 13px; }
+.pick-block { margin-top: 16px; }
+.pick-label { font-size: 13px; font-weight: 700; color: var(--ink-2); margin-bottom: 8px; }
+.sel-other { display: flex; flex-direction: column; gap: 6px; }
+.edu-list { display: flex; flex-direction: column; gap: 10px; }
+.edu { position: relative; background: var(--surface-2); border-radius: var(--radius-s); padding: 12px 40px 12px 12px; }
+.edu-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+.edu-grid .field { font-size: 12px; }
+.edu-x { position: absolute; top: 8px; right: 8px; width: 28px; height: 28px; border-radius: 50%; border: 0; background: transparent; color: var(--muted); cursor: pointer; font-size: 14px; }
+.edu-x:hover { background: var(--rule); color: var(--red); }
+.resume-drop { display: flex; align-items: center; gap: 12px; width: 100%; text-align: left; font: inherit; color: var(--ink); background: var(--surface-2);
+  border: 2px dashed var(--rule-strong); border-radius: var(--radius-s); padding: 16px; cursor: pointer; }
+.resume-drop:hover { border-color: var(--accent); background: var(--accent-soft); }
+.resume-ic { font-size: 26px; }
+.resume-file { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; background: var(--surface-2); border-radius: var(--radius-s); padding: 12px; }
+.nudge { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; background: #eef6ff; border: 1px solid #cfe2ff; border-radius: var(--radius-m); padding: 12px 14px; margin-bottom: 18px; font-size: 14px; }
+.nudge .e { font-size: 22px; }
+.group-rec .group-head h2 { color: var(--accent); }
+.rec-wrap { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.rec-note { font-size: 13px; font-weight: 600; color: var(--accent); background: var(--accent-soft); border-radius: 10px; padding: 6px 10px; }
+.recommend { margin-top: 16px; padding-top: 14px; border-top: 1px dashed var(--rule); }
+.rec-form { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr) auto; gap: 8px; }
+code.sql { max-height: 160px; overflow: auto; }
+
 @media (max-width: 760px) {
   /* backdrop-filter would make the header the containing block for the fixed bottom tab bar */
   .top { backdrop-filter: none; -webkit-backdrop-filter: none; background: var(--surface); }
@@ -364,4 +393,8 @@ code.sql { display: block; margin-top: 6px; padding: 8px 10px; background: var(-
   .ptabs { padding: 6px 12px 0; }
   .ptabs button { flex: 1; justify-content: center; font-size: 13px; padding: 8px 4px 10px; }
   .menu { position: fixed; left: 12px; right: 12px; width: auto; top: calc(56px + env(safe-area-inset-top, 0px)); }
+  .edu-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .rec-form { grid-template-columns: minmax(0, 1fr); }
+  .pick-add input { width: 100%; }
+  .pick-add { flex: 1 1 100%; }
 }

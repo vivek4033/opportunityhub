@@ -1,9 +1,10 @@
 import { useEffect, useMemo, useState } from "react";
-import { adminAll, EXAM_GROUPS, STATUSES, STATUS_LABEL } from "../lib/data";
+import { addRecommendation, adminAll, EXAM_GROUPS, listRecommendations, openResume, removeRecommendation, STATUSES, STATUS_LABEL } from "../lib/data";
 import { candidateSummary } from "../lib/eligibility";
-import { daysFrom, fmtDate, fmtWhen, mockSummary } from "../lib/util";
+import { daysFrom, fmtDate, fmtWhen, mockSummary, todayISO } from "../lib/util";
 import { E, Loading, ROLE, STATUS_EMOJI, STATUS_TONE, useApp } from "../ui";
 import { Spark } from "./Mocks";
+import SQL004 from "../../supabase/migrations/004_resume_and_recommendations.sql?raw";
 
 const RoleList = ({ roles, short }) => (roles?.length
   ? <span className="row" style={{ gap: 4 }}>{roles.filter((r) => ROLE[r]).map((r) => <span key={r} className="badge accent" title={ROLE[r].label}>{ROLE[r].e}{short ? "" : ` ${ROLE[r].label}`}</span>)}</span>
@@ -12,9 +13,59 @@ const RoleList = ({ roles, short }) => (roles?.length
 const COLUMNS = {
   target_roles: "alter table public.profiles add column if not exists target_roles text[] not null default '{}';",
   hidden_openings: "alter table public.profiles add column if not exists hidden_openings text[] not null default '{}';",
+  resume_path: SQL004,
 };
 
-function FriendDetail({ p, apps, mocks, onClose, openings }) {
+/** Admin picks an opening for this friend; it shows at the top of their Openings page. */
+function Recommend({ p, openings, recs, setRecs, notify }) {
+  const mine = recs.filter((r) => r.user_id === p.id);
+  const open = openings.filter((o) => !o.application_end || o.application_end >= todayISO()).filter((o) => !mine.some((r) => r.opening_id === o.id));
+  const [pick, setPick] = useState("");
+  const [note, setNote] = useState("");
+  const [busy, setBusy] = useState(false);
+  const add = async () => {
+    if (!pick) return;
+    setBusy(true);
+    try { const r = await addRecommendation({ user_id: p.id, opening_id: pick, note: note.trim() || null }); setRecs([...recs, r]); setPick(""); setNote(""); notify(`💡 Recommended to ${p.full_name?.split(" ")[0] || "them"}`); }
+    catch (e) { notify(e.message, "error"); }
+    setBusy(false);
+  };
+  const remove = async (r) => {
+    try { await removeRecommendation(r.id); setRecs(recs.filter((x) => x.id !== r.id)); } catch (e) { notify(e.message, "error"); }
+  };
+  return (
+    <div className="recommend">
+      <h3 style={{ marginBottom: 6 }}><E>💡</E>Recommend an opening</h3>
+      <div className="rec-form">
+        <select aria-label="Opening to recommend" value={pick} onChange={(e) => setPick(e.target.value)}>
+          <option value="">Choose an open opening…</option>
+          {open.map((o) => <option key={o.id} value={o.id}>{o.organization}: {o.title.slice(0, 70)}</option>)}
+        </select>
+        <input aria-label="Note for them" placeholder="Note (optional), e.g. Fits your M.Sc Physics — apply this week" value={note} onChange={(e) => setNote(e.target.value)} maxLength={500} />
+        <button className="btn primary" onClick={add} disabled={!pick || busy}>💡 Recommend</button>
+      </div>
+      {mine.length > 0 && (
+        <div className="list" style={{ marginTop: 8 }}>{mine.map((r) => {
+          const o = openings.find((x) => x.id === r.opening_id);
+          return (
+            <div className="item" key={r.id} style={{ padding: "6px 0" }}>
+              <span className="body small"><strong>{o ? `${o.organization}: ${o.title}` : "An opening that's no longer listed"}</strong>{r.note ? <span className="muted"> — “{r.note}”</span> : null}<span className="tiny muted"> ({fmtDate(r.created_at.slice(0, 10), false)})</span></span>
+              <button className="btn sm ghost" onClick={() => remove(r)}>Remove</button>
+            </div>
+          );
+        })}</div>
+      )}
+    </div>
+  );
+}
+
+function ResumeLink({ path, notify }) {
+  if (!path) return <span className="muted">Not uploaded yet</span>;
+  const open = async () => { try { await openResume(path); } catch (e) { notify(e.message, "error"); } };
+  return <button className="btn sm" onClick={open}>📄 Open resume</button>;
+}
+
+function FriendDetail({ p, apps, mocks, onClose, openings, recs, setRecs, notify }) {
   const s = mockSummary(mocks);
   return (
     <section className="panel mt" aria-label={`Details for ${p.full_name}`}>
@@ -25,6 +76,7 @@ function FriendDetail({ p, apps, mocks, onClose, openings }) {
       <div className="grid-2">
         <div className="stack">
           <dl className="facts">
+            <dt>Resume</dt><dd><ResumeLink path={p.resume_path} notify={notify} /></dd>
             <dt>Looking for</dt><dd><RoleList roles={p.target_roles} /></dd>
             <dt>Qualification</dt><dd>{candidateSummary(p) || "—"}</dd>
             <dt>Date of birth</dt><dd>{p.date_of_birth ? fmtDate(p.date_of_birth) : "—"}</dd>
@@ -66,6 +118,7 @@ function FriendDetail({ p, apps, mocks, onClose, openings }) {
           ) : <p className="small muted">Hasn't tracked any applications yet.</p>}
         </div>
       </div>
+      <Recommend p={p} openings={openings} recs={recs} setRecs={setRecs} notify={notify} />
     </section>
   );
 }
@@ -75,6 +128,8 @@ export default function Admin() {
   const [d, setD] = useState(null);
   const [sel, setSel] = useState(null);
   const [q, setQ] = useState("");
+  const [recs, setRecs] = useState([]);
+  useEffect(() => { listRecommendations().then(setRecs).catch(() => {}); }, []);
 
   const load = () => adminAll().then(setD).catch((e) => { notify(e.message, "error"); setD({ profiles: [], applications: [], mocks: [] }); });
   useEffect(() => { load(); }, []); // eslint-disable-line react-hooks/exhaustive-deps
@@ -137,7 +192,7 @@ export default function Admin() {
             <tbody>{shown.map((r) => (
               <tr key={r.p.id} className={`click ${sel === r.p.id ? "sel" : ""}`} onClick={() => setSel(sel === r.p.id ? null : r.p.id)} tabIndex={0}
                 onKeyDown={(e) => e.key === "Enter" && setSel(sel === r.p.id ? null : r.p.id)}>
-                <td><div className="strong">{r.p.full_name || "(no name yet)"}</div><div className="tiny muted">{r.p.email}{r.p.phone ? ` · ${r.p.phone}` : ""}</div></td>
+                <td><div className="strong">{r.p.full_name || "(no name yet)"}{r.p.resume_path ? <span title="Resume uploaded"> 📄</span> : null}</div><div className="tiny muted">{r.p.email}{r.p.phone ? ` · ${r.p.phone}` : ""}</div></td>
                 <td className="small"><RoleList roles={r.p.target_roles} short /></td>
                 <td className="small">{candidateSummary(r.p) || "—"}</td>
                 <td>{r.c.to_apply}</td><td>{r.c.applied}</td><td>{r.c.exam + r.c.interview}</td>
@@ -148,7 +203,7 @@ export default function Admin() {
           </table></div>
         ) : <div className="state"><span className="empty-e">📣</span><h3>No one has signed up yet</h3><p>Share the website link with your friends. They'll appear here after they create an account and fill in their profile.</p></div>}
       </section>
-      {selected && <FriendDetail p={selected.p} apps={selected.apps} mocks={selected.mocks} openings={openings.items} onClose={() => setSel(null)} />}
+      {selected && <FriendDetail p={selected.p} apps={selected.apps} mocks={selected.mocks} openings={openings.items} recs={recs} setRecs={setRecs} notify={notify} onClose={() => setSel(null)} />}
     </>
   );
 }

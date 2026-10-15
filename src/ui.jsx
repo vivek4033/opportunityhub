@@ -123,3 +123,45 @@ export const initials = (name, email) => {
   if (s) return s.split(/\s+/).slice(0, 2).map((w) => w[0]).join("").toUpperCase();
   return String(email || "?")[0].toUpperCase();
 };
+
+// ---------------------------------------------------------------- pickers used in the profile form
+/** Tap-to-pick chips (multi-select) with an optional "add your own". Value is an array of strings. */
+export function ChipMulti({ id, options, value, onChange, otherLabel = "Add another", label }) {
+  const [adding, setAdding] = useState("");
+  const all = [...options, ...value.filter((v) => !options.includes(v))];
+  const toggle = (o) => onChange(value.includes(o) ? value.filter((x) => x !== o) : [...value, o]);
+  const add = () => { const v = adding.trim(); if (v && !value.includes(v)) onChange([...value, v]); setAdding(""); };
+  return (
+    <div className="chipmulti" role="group" aria-label={label} id={id}>
+      {all.map((o) => (
+        <button type="button" key={o} className={`pick ${value.includes(o) ? "on" : ""}`} aria-pressed={value.includes(o)} onClick={() => toggle(o)}>
+          {value.includes(o) ? "✓ " : ""}{o}
+        </button>
+      ))}
+      {otherLabel && (
+        <span className="pick-add">
+          <input value={adding} onChange={(e) => setAdding(e.target.value)} placeholder={`➕ ${otherLabel}`} aria-label={otherLabel}
+            onKeyDown={(e) => { if (e.key === "Enter") { e.preventDefault(); add(); } }} onBlur={add} />
+        </span>
+      )}
+    </div>
+  );
+}
+
+/** A dropdown that also lets you type a value that isn't in the list ("Other…"). */
+export function SelectOrOther({ value, onChange, options, placeholder = "Choose", ariaLabel, otherPlaceholder = "Type it" }) {
+  const known = !value || options.includes(value);
+  const [typing, setTyping] = useState(!known);
+  return (
+    <div className="sel-other">
+      <select aria-label={ariaLabel} value={typing ? "__other" : value || ""} onChange={(e) => {
+        if (e.target.value === "__other") { setTyping(true); onChange(""); } else { setTyping(false); onChange(e.target.value); }
+      }}>
+        <option value="">{placeholder}</option>
+        {options.map((o) => <option key={o} value={o}>{o}</option>)}
+        <option value="__other">Other…</option>
+      </select>
+      {typing && <input value={value || ""} onChange={(e) => onChange(e.target.value)} placeholder={otherPlaceholder} aria-label={`${ariaLabel} (other)`} autoFocus />}
+    </div>
+  );
+}

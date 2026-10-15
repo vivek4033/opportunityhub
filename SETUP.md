@@ -42,4 +42,5 @@ You need three free accounts: **GitHub** (holds the code), **Supabase** (logins 
 When a new version adds a database column, run the matching file from `supabase/migrations/` once in Supabase → **SQL Editor**. Each file is safe to run again.
 
 - `002_target_roles.sql` — saves each person's "Roles I'm looking for" (Banking, Teaching, Government…). Until it's run, the Admin page shows a reminder with the line to paste.
-- `003_hidden_openings.sql` — remembers the openings each person marked **Not for me** on all their devices. Until it's run, the choice is kept only on the device where it was made.
+- `003_hidden_openings.sql` — remembers the openings each person marked **Not interested** on all their devices. Until it's run, the choice is kept only on the device where it was made.
+- `004_resume_and_recommendations.sql` — lets friends upload a resume (private; only they and admins can open it) and lets admins recommend openings to a friend.

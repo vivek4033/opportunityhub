@@ -63,6 +63,56 @@ export async function saveHidden(uid, ids) {
 }
 export const touchLastSeen = (uid) => sb.from("profiles").update({ last_seen_at: new Date().toISOString() }).eq("id", uid).then(() => {}, () => {});
 
+// ---------------------------------------------------------------- resume (private storage bucket "resumes", folder = user id)
+const NOT_SET_UP = /bucket not found|resume_|relation .*recommendations|recommendations.* does not exist|schema cache/i;
+const setupMsg = "This needs the admin's one-time database update (Admin page shows what to run).";
+export const RESUME_TYPES = ["application/pdf", "application/msword", "application/vnd.openxmlformats-officedocument.wordprocessingml.document"];
+export async function uploadResume(uid, file) {
+  if (!RESUME_TYPES.includes(file.type) && !/\.(pdf|docx?)$/i.test(file.name)) throw new AppError("Upload a PDF or Word file.");
+  if (file.size > 5 * 1024 * 1024) throw new AppError("The file is over 5 MB. Save it as a smaller PDF and try again.");
+  const ext = (file.name.match(/\.(pdf|docx?)$/i)?.[1] || "pdf").toLowerCase();
+  const path = `${uid}/resume.${ext}`;
+  const up = await sb.storage.from("resumes").upload(path, file, { upsert: true, contentType: file.type || undefined });
+  if (up.error) throw new AppError(NOT_SET_UP.test(up.error.message) ? setupMsg : friendly(up.error));
+  const patch = { resume_path: path, resume_name: file.name, resume_uploaded_at: new Date().toISOString() };
+  const { data, error } = await sb.from("profiles").update(patch).eq("id", uid).select().single();
+  if (error) throw new AppError(NOT_SET_UP.test(error.message) ? setupMsg : friendly(error));
+  return data;
+}
+export async function removeResume(uid, path) {
+  if (path) await sb.storage.from("resumes").remove([path]);
+  return run(sb.from("profiles").update({ resume_path: null, resume_name: null, resume_uploaded_at: null }).eq("id", uid).select().single());
+}
+/** Opens a new tab right away (phones block tabs opened after a wait), then loads the resume into it. */
+export async function openResume(path) {
+  const w = window.open("about:blank", "_blank");
+  try {
+    const url = await resumeLink(path);
+    if (w) { w.opener = null; w.location.href = url; } else window.location.href = url;
+  } catch (e) { w?.close(); throw e; }
+}
+/** A link that works for 10 minutes; only the owner and admins are allowed to create it. */
+export async function resumeLink(path) {
+  const { data, error } = await sb.storage.from("resumes").createSignedUrl(path, 600);
+  if (error) throw new AppError(NOT_SET_UP.test(error.message) ? setupMsg : friendly(error));
+  return data.signedUrl;
+}
+
+// ---------------------------------------------------------------- recommendations (admin → friend)
+export async function listRecommendations(uid) {
+  let query = sb.from("recommendations").select("*");
+  if (uid) query = query.eq("user_id", uid);
+  const { data, error } = await query;
+  if (error) { if (NOT_SET_UP.test(error.message)) return []; throw new AppError(friendly(error)); }
+  return data || [];
+}
+export async function addRecommendation(row) {
+  const { data, error } = await sb.from("recommendations").insert(row).select().single();
+  if (error) throw new AppError(NOT_SET_UP.test(error.message) ? setupMsg : /duplicate/i.test(error.message) ? "Already recommended to them." : friendly(error));
+  return data;
+}
+export const removeRecommendation = (id) => run(sb.from("recommendations").delete().eq("id", id));
+
 // ---------------------------------------------------------------- applications
 export const STATUSES = [
   { key: "to_apply", label: "To apply" }, { key: "applied", label: "Applied" }, { key: "exam", label: "Exam" },
