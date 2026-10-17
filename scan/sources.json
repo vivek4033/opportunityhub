@@ -1172,16 +1172,19 @@
   {
    "slug": "drb-nilgiris",
    "name": "District Recruitment Bureau, The Nilgiris",
-   "track": "government",
-   "subcategory": "state_govt",
+   "track": "banking",
+   "subcategory": "cooperative",
    "url": "https://www.drbngl.in/",
    "recruitment_url": "https://www.drbngl.in/",
-   "location": "The Nilgiris",
+   "location": "Udhagamandalam",
    "scan": true,
    "post_types": [
     "clerical"
    ],
-   "notes": "Assistant / Junior Assistant in cooperative societies and the district central cooperative bank. Statutory body under the TN Cooperative Societies Act; domain is not gov.in — cross-check with rcs.tn.gov.in."
+   "notes": "Cooperative Dept DRB site; last cycle Notification 01-2025 & 02-2025 (Assistant/Junior Assistant, DCCB & cooperative societies): apply 06-08-2025 to 29-08-2025, exam 11-10-2025; only provisional selection list now; existing slug reused (was track government/state_govt)",
+   "verified_from": [
+    "https://www.drbngl.in/"
+   ]
   },
   {
    "slug": "lok-sabha",
@@ -1697,7 +1700,7 @@
    "recruitment_url": "https://karnatakagb.bank.in/recruitment",
    "location": "Ballari",
    "scan": true,
-   "notes": "Sponsor: Canara Bank. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (bank site shows CRP-RRB/IBPS recruitment notices). Site: site states 'All the recruitments in the Bank are done through IBPS only'.",
+   "notes": "Karnataka Vikas Grameena Bank merged into Karnataka Grameena Bank (2025 'one state one RRB'). Sponsor: Canara Bank. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (bank site shows CRP-RRB/IBPS recruitment notices). Site: site states 'All the recruitments in the Bank are done through IBPS only'.",
    "verified_from": [
     "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
     "https://karnatakagb.bank.in/",
@@ -1713,7 +1716,7 @@
    "recruitment_url": null,
    "location": "Malappuram",
    "scan": true,
-   "notes": "Sponsor: Canara Bank. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (common process for all RRBs; not stated on this bank's site). Site: no careers link on homepage.",
+   "notes": "Single RRB for Kerala; name unchanged (Kerala Grameena Bank). Sponsor: Canara Bank. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (common process for all RRBs; not stated on this bank's site). Site: no careers link on homepage.",
    "verified_from": [
     "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
     "https://kgb.bank.in/"
@@ -1728,7 +1731,7 @@
    "recruitment_url": "https://tngb.bank.in/careers",
    "location": "Salem",
    "scan": true,
-   "notes": "Sponsor: Indian Bank. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (bank site shows CRP-RRB/IBPS recruitment notices). Site: careers page lists CRP-RRB XI Office Assistant certificate verification only.",
+   "notes": "Single RRB for TN; name unchanged after 2025 RRB amalgamation. Sponsor: Indian Bank. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (bank site shows CRP-RRB/IBPS recruitment notices). Site: careers page lists CRP-RRB XI Office Assistant certificate verification only.",
    "verified_from": [
     "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
     "https://tngb.bank.in/",
@@ -1868,9 +1871,9 @@
    "recruitment_url": "https://www.tnusrb.tn.gov.in",
    "location": "Chennai",
    "scan": true,
-   "notes": "Homepage lists recruitment notifications (SI of Police, Constables, Fire & Rescue); captured page showed 'Last Updated April 04, 2025' - may be stale",
+   "notes": "Homepage (last updated 04-04-2025) lists only SI 2023 & SI (Taluk & AR) 2025; no 2026 notification yet as of 17-10-2026",
    "verified_from": [
-    "https://www.tnusrb.tn.gov.in"
+    "https://www.tnusrb.tn.gov.in/"
    ]
   },
   {
@@ -4787,7 +4790,7 @@
    "recruitment_url": "https://kpsconline.karnataka.gov.in/Notification/LandingPageNotificationslistApplicants",
    "location": "Bengaluru",
    "scan": true,
-   "notes": "Notifications/apply via kpsconline.karnataka.gov.in (blocks automated reading); old kpsc.kar.nic.in/notification.html shows only 2025 items",
+   "notes": "Site blocks automated fetching; online applications via kpsconline.karnataka.gov.in (also blocked). KAS 2026 (319 posts) window was 1-31 Aug 2026 per third-party reports",
    "verified_from": [
     "https://kpsc.kar.nic.in/notification.html",
     "https://kpsconline.karnataka.gov.in/"
@@ -4920,6 +4923,291 @@
    "notes": "Project manpower portal (PAT adverts); currently 'no active vacancies in projects'",
    "verified_from": [
     "https://patcell.cftri.res.in/"
+   ]
+  },
+  {
+   "slug": "tn-drb",
+   "name": "District Recruitment Bureaus, Cooperative Department, Tamil Nadu",
+   "track": "banking",
+   "subcategory": "cooperative",
+   "url": "https://www.rcs.tn.gov.in",
+   "recruitment_url": null,
+   "location": "Chennai",
+   "scan": true,
+   "notes": "One DRB per district recruits Assistants/Junior Assistants for DCCBs & cooperative societies (common exam). No master list of district DRB sites found (rcs.tn.gov.in blocks fetching). Confirmed district sites: drbchn.in, drbcbe.in, drbngl.in, drbmadurai.net, drbtry.in, drbslm.in, drberd.in; notification PDFs on cooperativercs.s3.ap-south-1.amazonaws.com/Asst_2025/<code>_Notification_1.pdf",
+   "verified_from": [
+    "https://rcs.tn.gov.in/admindepartment.php",
+    "https://www.drbchn.in/",
+    "https://cooperativercs.s3.ap-south-1.amazonaws.com/Asst_2025/32_Notification_1.pdf"
+   ]
+  },
+  {
+   "slug": "drb-chennai",
+   "name": "District Recruitment Bureau, Chennai",
+   "track": "banking",
+   "subcategory": "cooperative",
+   "url": "https://www.drbchn.in/",
+   "recruitment_url": "https://www.drbchn.in/",
+   "location": "Chennai",
+   "scan": true,
+   "notes": "Cooperative Dept DRB site; last cycle Notification 01-2025 & 02-2025 (Assistant/Junior Assistant, DCCB & cooperative societies): apply 06-08-2025 to 29-08-2025, exam 11-10-2025; only provisional selection list now; 2025 Chennai notice: 157 DCCB Assistants + 37 society posts, any degree + computer knowledge",
+   "verified_from": [
+    "https://www.drbchn.in/"
+   ]
+  },
+  {
+   "slug": "drb-coimbatore",
+   "name": "District Recruitment Bureau, Coimbatore",
+   "track": "banking",
+   "subcategory": "cooperative",
+   "url": "https://www.drbcbe.in/",
+   "recruitment_url": "https://www.drbcbe.in/",
+   "location": "Coimbatore",
+   "scan": true,
+   "notes": "Cooperative Dept DRB site; last cycle Notification 01-2025 & 02-2025 (Assistant/Junior Assistant, DCCB & cooperative societies): apply 06-08-2025 to 29-08-2025, exam 11-10-2025; only provisional selection list now",
+   "verified_from": [
+    "https://www.drbcbe.in/"
+   ]
+  },
+  {
+   "slug": "drb-madurai",
+   "name": "District Recruitment Bureau, Madurai",
+   "track": "banking",
+   "subcategory": "cooperative",
+   "url": "https://www.drbmadurai.net/",
+   "recruitment_url": "https://www.drbmadurai.net/",
+   "location": "Madurai",
+   "scan": true,
+   "notes": "Cooperative Dept DRB site; last cycle Notification 01-2025 & 02-2025 (Assistant/Junior Assistant, DCCB & cooperative societies): apply 06-08-2025 to 29-08-2025, exam 11-10-2025; only provisional selection list now",
+   "verified_from": [
+    "https://www.drbmadurai.net/"
+   ]
+  },
+  {
+   "slug": "drb-tiruchirappalli",
+   "name": "District Recruitment Bureau, Tiruchirappalli",
+   "track": "banking",
+   "subcategory": "cooperative",
+   "url": "https://www.drbtry.in/",
+   "recruitment_url": "https://www.drbtry.in/",
+   "location": "Tiruchirappalli",
+   "scan": false,
+   "notes": "Official Tiruchirappalli DRB site shows a suspicious external link (possibly compromised); check manually.",
+   "verified_from": [
+    "https://www.drbtry.in/"
+   ]
+  },
+  {
+   "slug": "drb-salem",
+   "name": "District Recruitment Bureau, Salem",
+   "track": "banking",
+   "subcategory": "cooperative",
+   "url": "https://www.drbslm.in/",
+   "recruitment_url": "https://www.drbslm.in/",
+   "location": "Salem",
+   "scan": true,
+   "notes": "Cooperative Dept DRB site; last cycle Notification 01-2025 & 02-2025 (Assistant/Junior Assistant, DCCB & cooperative societies): apply 06-08-2025 to 29-08-2025, exam 11-10-2025; only provisional selection list now",
+   "verified_from": [
+    "https://www.drbslm.in/"
+   ]
+  },
+  {
+   "slug": "drb-erode",
+   "name": "District Recruitment Bureau, Erode",
+   "track": "banking",
+   "subcategory": "cooperative",
+   "url": "https://www.drberd.in/",
+   "recruitment_url": "https://www.drberd.in/",
+   "location": "Erode",
+   "scan": true,
+   "notes": "Cooperative Dept DRB site; last cycle Notification 01-2025 & 02-2025 (Assistant/Junior Assistant, DCCB & cooperative societies): apply 06-08-2025 to 29-08-2025, exam 11-10-2025; only provisional selection list now",
+   "verified_from": [
+    "https://www.drberd.in/"
+   ]
+  },
+  {
+   "slug": "tn-coop-srb",
+   "name": "State Recruitment Bureau (Cooperative), Tamil Nadu",
+   "track": "banking",
+   "subcategory": "cooperative",
+   "url": "https://www.tncoopsrb.in/",
+   "recruitment_url": "https://www.tncoopsrb.in/",
+   "location": "Chennai",
+   "scan": true,
+   "notes": "Recruits Assistants/Junior Assistants for apex cooperative institutions incl. TNSC Bank; last cycle apply 16-12-2025 to 31-12-2025, exam 24-01-2026, final results 21-05-2026",
+   "verified_from": [
+    "https://www.tncoopsrb.in/"
+   ]
+  },
+  {
+   "slug": "tnsc-bank",
+   "name": "Tamil Nadu State Apex Cooperative Bank (TNSC Bank)",
+   "track": "banking",
+   "subcategory": "cooperative",
+   "url": "https://www.tnsc.bank.in/",
+   "recruitment_url": "https://www.tncoopsrb.in/",
+   "location": "Chennai",
+   "scan": true,
+   "notes": "Bank site has no careers link; TNSC Bank Assistant recruitment is notified by the State Recruitment Bureau (tncoopsrb.in, 'Notification for Recruitment of Assistant TNSCB', Dec 2025)",
+   "verified_from": [
+    "https://www.tnsc.bank.in/",
+    "https://www.tncoopsrb.in/"
+   ]
+  },
+  {
+   "slug": "kerala-bank",
+   "name": "Kerala Bank (Kerala State Co-operative Bank)",
+   "track": "banking",
+   "subcategory": "cooperative",
+   "url": "https://kerala.bank.in/",
+   "recruitment_url": "https://kerala.bank.in/careers.php",
+   "location": "Thiruvananthapuram",
+   "scan": true,
+   "notes": "Careers page says appointments are made through Kerala PSC - watch Kerala PSC notifications; page only has 'Various categories' and Recruitment Rules PDFs",
+   "verified_from": [
+    "https://kerala.bank.in/careers.php"
+   ]
+  },
+  {
+   "slug": "kerala-cseb",
+   "name": "Kerala State Co-operative Service Examination Board (CSEB)",
+   "track": "banking",
+   "subcategory": "cooperative",
+   "url": "https://cseb.kerala.gov.in/",
+   "recruitment_url": "https://cseb.kerala.gov.in/index.php/NotificationsFP/index",
+   "location": "Thiruvananthapuram",
+   "scan": true,
+   "notes": "Recruits Junior Clerk/Cashier, DEO, Typist, System Administrator, Secretary etc. for Kerala cooperative banks/societies; ~3 rounds a year (latest 15-21/2026 dated 30-05-2026, closed 30-07-2026). Apply via One Time Registration. NOTE csebkerala.org is NOT official",
+   "verified_from": [
+    "https://cseb.kerala.gov.in/",
+    "https://cseb.kerala.gov.in/index.php/NotificationsFP/index"
+   ]
+  },
+  {
+   "slug": "karnataka-apex-bank",
+   "name": "Karnataka State Co-operative Apex Bank",
+   "track": "banking",
+   "subcategory": "cooperative",
+   "url": "https://karnatakaapex.bank.in/new/",
+   "recruitment_url": "https://karnatakaapex.bank.in/new/",
+   "location": "Bengaluru",
+   "scan": true,
+   "notes": "No careers page; recruitment notices appear in homepage 'Announcements' (latest: Bank Assistants-2024 final result, Dec 2024)",
+   "verified_from": [
+    "https://karnatakaapex.bank.in/new/",
+    "https://karnatakaapex.bank.in/new/?p=644"
+   ]
+  },
+  {
+   "slug": "kea",
+   "name": "Karnataka Examinations Authority (KEA)",
+   "track": "government",
+   "subcategory": "recruitment_body",
+   "url": "https://cetonline.karnataka.gov.in/kea/",
+   "recruitment_url": null,
+   "location": "Bengaluru",
+   "scan": true,
+   "notes": "Conducts recruitment for Karnataka depts/boards (VAO, Land Surveyor, AO/AAO etc.) besides CET; recruitment section blocked to fetching. VAO 2026 (12th pass) closed 30-07-2026; Surveyor closed 20-08-2026 (third-party)",
+   "verified_from": [
+    "https://cetonline.karnataka.gov.in/kea/"
+   ]
+  },
+  {
+   "slug": "kdrb",
+   "name": "Kerala Devaswom Recruitment Board",
+   "track": "government",
+   "subcategory": "recruitment_body",
+   "url": "https://kdrb.kerala.gov.in",
+   "recruitment_url": null,
+   "location": "Thiruvananthapuram",
+   "scan": true,
+   "notes": "Recruits for Travancore/Cochin/Guruvayur/Koodalmanikyam Devaswom Boards (LD Clerk, Typist etc.); site blocks fetching - domain only cited by third parties; last batch Cat 076-097/2025 closed 29-01-2026"
+  },
+  {
+   "slug": "tneb-tnpdcl",
+   "name": "TNEB Ltd / TNPDCL (formerly TANGEDCO)",
+   "track": "government",
+   "subcategory": "state_govt",
+   "url": "https://www.tnebltd.org",
+   "recruitment_url": null,
+   "location": "Chennai",
+   "scan": true,
+   "notes": "tnebltd.gov.in redirect notice says site moved to tnebltd.org (blocked to fetching); tnpdcl.org not fetched. AE posts now filled via TNPSC (per Careers360 report); occasional offline contract posts (Data Analyst, CS)",
+   "verified_from": [
+    "https://www.tnebltd.gov.in/"
+   ]
+  },
+  {
+   "slug": "kseb",
+   "name": "Kerala State Electricity Board Ltd (KSEBL)",
+   "track": "government",
+   "subcategory": "state_govt",
+   "url": "https://kseb.in/",
+   "recruitment_url": null,
+   "location": "Thiruvananthapuram",
+   "scan": true,
+   "notes": "No careers page on site; regular posts (e.g. Electricity Worker) recruited through Kerala PSC",
+   "verified_from": [
+    "https://kseb.in/"
+   ]
+  },
+  {
+   "slug": "kptcl",
+   "name": "Karnataka Power Transmission Corporation Ltd (KPTCL)",
+   "track": "government",
+   "subcategory": "state_govt",
+   "url": "https://kptcl.karnataka.gov.in/",
+   "recruitment_url": null,
+   "location": "Bengaluru",
+   "scan": true,
+   "notes": "Homepage (Kannada) carries recruitment notices (AE/JE/Junior Assistant document verification, last dated 06-12-2023); no separate careers URL found",
+   "verified_from": [
+    "https://kptcl.karnataka.gov.in/"
+   ]
+  },
+  {
+   "slug": "nitk",
+   "name": "NIT Karnataka, Surathkal",
+   "track": "colleges",
+   "subcategory": "nit",
+   "url": "https://www.nitk.ac.in",
+   "recruitment_url": "https://www.nitk.ac.in/announcements",
+   "location": "Surathkal, Mangaluru",
+   "scan": true,
+   "notes": "Announcements page lists JRF/SRF/Project Assistant/contract posts (frequent); regular staff: nitk.ac.in/recruitment-notification-for-non-teaching-positions, portal recruitment.nitk.ac.in",
+   "verified_from": [
+    "https://nitk.ac.in/announcements",
+    "https://www.nitk.ac.in/recruitment-notification-for-non-teaching-positions"
+   ]
+  },
+  {
+   "slug": "iit-dharwad",
+   "name": "IIT Dharwad",
+   "track": "colleges",
+   "subcategory": "iit",
+   "url": "https://www.iitdh.ac.in",
+   "recruitment_url": "https://iitdh.ac.in/announcement",
+   "location": "Dharwad",
+   "scan": true,
+   "notes": "Announcement page lists staff/contract ads (latest Library Trainee 07-05-2026); project staff: iitdh.ac.in/other-recruitments (rolling ad, no last date); faculty: iitdh.ac.in/faculty-recruitment",
+   "verified_from": [
+    "https://iitdh.ac.in/announcement",
+    "https://iitdh.ac.in/other-recruitments"
+   ]
+  },
+  {
+   "slug": "iiit-bangalore",
+   "name": "IIIT Bangalore",
+   "track": "colleges",
+   "subcategory": "central_institute",
+   "url": "https://www.iiitb.ac.in",
+   "recruitment_url": "https://www.iiitb.ac.in/staff-openings",
+   "location": "Bengaluru",
+   "scan": true,
+   "notes": "Deemed university (not centrally funded). Careers hub iiitb.ac.in/careers -> faculty-openings, staff-openings (staff & project staff, PDFs), other-openings",
+   "verified_from": [
+    "https://www.iiitb.ac.in/careers",
+    "https://www.iiitb.ac.in/staff-openings"
    ]
   }
  ]

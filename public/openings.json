@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-17T19:26:35Z",
+ "updated_at": "2026-10-17T19:52:07Z",
  "note": "Written by the daily OpportunityHub scan. Facts come from official notifications.",
  "openings": [
   {
@@ -56,7 +56,7 @@
    ],
    "id": "canara-bank--engagement-of-graduate-apprentices-under-apprentices-act-1961-for-fy-2026-27",
    "first_seen_at": "2026-10-17T19:26:35Z",
-   "last_seen_at": "2026-10-17T19:26:35Z"
+   "last_seen_at": "2026-10-17T19:52:07Z"
   },
   {
    "organization": "Hindustan Aeronautics Limited",
@@ -114,7 +114,7 @@
    ],
    "id": "hindustan-aeronautics-limited--engagement-of-junior-executives-on-short-term-basis-150-posts-advt-hal-chrc-tar-rect-03-2026",
    "first_seen_at": "2026-10-17T19:26:35Z",
-   "last_seen_at": "2026-10-17T19:26:35Z"
+   "last_seen_at": "2026-10-17T19:52:07Z"
   },
   {
    "organization": "IISc Bengaluru",
@@ -155,6 +155,55 @@
    "id": "iisc-bengaluru--project-associate-stereo-eeg-project-amrit-brain-computation-and-data-science-initiative",
    "first_seen_at": "2026-10-10T18:25:14Z",
    "last_seen_at": "2026-10-15T04:21:00Z"
+  },
+  {
+   "organization": "NIT Karnataka, Surathkal",
+   "title": "Senior Research Fellow (SRF) - National Jute Board project on jute geocells, Dept. of Civil Engineering (Advt. NITK/CE/JUTE BOARD/2026/03)",
+   "track": "colleges",
+   "subcategory": "nit",
+   "employment_type": "temporary",
+   "location": "Surathkal, Mangaluru, Karnataka",
+   "posted_date": "2026-10-12",
+   "application_end": "2026-10-20",
+   "exam_date_text": "Written test/interview tentatively within two weeks of the deadline; shortlisted candidates informed by email/phone",
+   "vacancies": 2,
+   "salary_text": "Rs. 42,000 per month consolidated",
+   "qualification_text": "M.E./M.Tech in Geotechnical Engineering or Construction Technology (min 6.5 CGPA/60%) plus full-time B.E./B.Tech in Civil Engineering; soil reinforcement/geotechnical software/GIS desirable",
+   "age_limit_text": "35 years",
+   "selection_text": "Written test and/or interview",
+   "how_to_apply_text": "Apply through the Google Form linked in the advertisement PDF: single PDF (<10 MB) with cover letter, application form, certificates, GATE (if any), research proofs; queries sreevalsa@nitk.edu.in",
+   "notification_url": "https://www.nitk.ac.in/document/attachments/10253/SRF-Civil-Dept-Website_Form-SRF_Ad.pdf",
+   "org_website": "https://www.nitk.ac.in",
+   "job_id": "NITK/CE/JUTE BOARD/2026/03",
+   "requirements": {
+    "min_education": "master",
+    "subjects": [
+     "geotechnical engineering",
+     "construction technology",
+     "civil engineering"
+    ],
+    "degree_names": [
+     "M.E.",
+     "M.Tech",
+     "B.E.",
+     "B.Tech"
+    ],
+    "min_percentage": 60,
+    "age_max": 35,
+    "other_requirements": [
+     "Tenure max 3 months, co-terminous with project",
+     "Advert text calls it both SRF and JRF"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "NITK's Civil Engineering department needs two research fellows for a short (up to 3 months) National Jute Board project at Rs. 42,000 a month. It needs an M.E./M.Tech in geotechnical engineering or construction technology, and applications close on 20 Oct 2026.",
+   "verified_from": [
+    "https://www.nitk.ac.in/advertisement-for-the-position-of-srf-in-civil-engineering-department",
+    "https://www.nitk.ac.in/document/attachments/10253/SRF-Civil-Dept-Website_Form-SRF_Ad.pdf"
+   ],
+   "id": "nit-karnataka-surathkal--senior-research-fellow-srf-national-jute-board-project-on-jute-geocells-dept-of-civil-engineering-advt-nitk-ce-jute-boar",
+   "first_seen_at": "2026-10-17T19:52:07Z",
+   "last_seen_at": "2026-10-17T19:52:07Z"
   },
   {
    "organization": "EXIM Bank",
@@ -209,7 +258,7 @@
    ],
    "id": "exim-bank--special-recruitment-drive-backlog-sc-st-obc-deputy-manager-banking-operations-and-manager-internal-audit-advt-hrm-dm-m-s",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T19:26:35Z"
+   "last_seen_at": "2026-10-17T19:52:07Z"
   },
   {
    "organization": "ICMR",
@@ -233,7 +282,7 @@
    "track": "government",
    "id": "icmr--young-professional-i-basic-sciences-and-young-professional-ii-it-icmr-headquarters",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T19:26:35Z"
+   "last_seen_at": "2026-10-17T19:52:07Z"
   },
   {
    "organization": "IIT Madras — IC&SR project staff",
@@ -372,7 +421,7 @@
    "track": "government",
    "id": "drdo--dmrl-hyderabad-junior-research-fellow-18-posts-advt-dmrl-hrd-jrf-2026-01",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T19:26:35Z"
+   "last_seen_at": "2026-10-17T19:52:07Z"
   },
   {
    "organization": "Supreme Court of India",
@@ -395,7 +444,7 @@
    "ai_summary": "Re-confirmation: the Supreme Court's Junior Court Assistant Examination-2026 advertisement and online-application link are still listed on the recruitments page. The form is open until 28 Oct 2026 as per the earlier notice.",
    "id": "supreme-court-of-india--junior-court-assistant-examination-2026",
    "first_seen_at": "2026-10-10T17:05:25Z",
-   "last_seen_at": "2026-10-17T19:26:35Z",
+   "last_seen_at": "2026-10-17T19:52:07Z",
    "application_start": "2026-10-07",
    "application_end": "2026-10-28",
    "how_to_apply_text": "Online only, via the application link in the Supreme Court notice of 06.10.2026 (form open 07.10.2026 10:00 AM to 28.10.2026 23:55)",
@@ -471,6 +520,57 @@
    "syllabus_url": "https://www.ugcnetonline.in/syllabus-new.php"
   },
   {
+   "organization": "NIT Karnataka, Surathkal",
+   "title": "Civil Engineer (Diploma/Graduate) on contract - walk-in (Ref. NITK/Admin. Estt./1070/2026/B3)",
+   "track": "colleges",
+   "subcategory": "nit",
+   "employment_type": "contract",
+   "location": "Surathkal, Mangaluru, Karnataka",
+   "posted_date": "2026-10-12",
+   "application_end": "2026-10-28",
+   "exam_date": "2026-10-29",
+   "exam_date_text": "Walk-in interview 29-10-2026; registration 9:00-10:00 AM, interview from 11:00 AM, Main Seminar Hall, Main Building, NITK",
+   "vacancies": 2,
+   "salary_text": "Rs. 40,000 per month consolidated",
+   "qualification_text": "Diploma or B.E./B.Tech in Civil Engineering (or equivalent) with min 60% or 6.5 CGPA; CAD (AutoCAD) and word-processing skills",
+   "age_limit_text": "Not more than 50 years as on interview date",
+   "experience_text": "Min 3 years after Diploma or 1 year after Degree; Govt agency work/SR & State PWD SR knowledge desirable",
+   "selection_text": "Shortlisting on eligibility, then in-person test/interview",
+   "how_to_apply_text": "Email willingness + biodata to adean.staff@nitk.edu.in by 28-10-2026 (subject 'Engineer (on contract)'); attend walk-in with signed application form, self-attested copies and originals",
+   "notification_url": "https://www.nitk.ac.in/document/attachments/10249/Walk-In_for_Contract_Positions.pdf",
+   "apply_url": "https://www.nitk.ac.in/document/attachments/10251/Application_Form_%281%29.pdf",
+   "org_website": "https://www.nitk.ac.in",
+   "job_id": "NITK/Admin. Estt./1070/2026/B3",
+   "requirements": {
+    "min_education": "bachelor",
+    "subjects": [
+     "civil engineering"
+    ],
+    "degree_names": [
+     "Diploma",
+     "B.E.",
+     "B.Tech"
+    ],
+    "min_percentage": 60,
+    "experience_years_min": 1,
+    "age_max": 50,
+    "other_requirements": [
+     "Diploma holders need 3 years experience",
+     "Contract 1 year, extendable up to 3 years"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "NITK Surathkal is hiring two Civil Engineers on a one-year contract (extendable to three years) at Rs. 40,000 a month. Diploma/B.E. civil graduates with 60% and 1 year post-degree experience can email by 28 Oct and attend the walk-in on 29 Oct 2026.",
+   "verified_from": [
+    "https://www.nitk.ac.in/recruitment-of-civil-engineer--diplomagraduate-on-contract-",
+    "https://www.nitk.ac.in/document/attachments/10249/Walk-In_for_Contract_Positions.pdf",
+    "https://www.nitk.ac.in/document/attachments/10250/Instructions_and_Other_detailes_for_the_appoinment_on_Engineer_%28on_contrcat%29.pdf"
+   ],
+   "id": "nit-karnataka-surathkal--civil-engineer-diploma-graduate-on-contract-walk-in-ref-nitk-admin-estt-1070-2026-b3",
+   "first_seen_at": "2026-10-17T19:52:07Z",
+   "last_seen_at": "2026-10-17T19:52:07Z"
+  },
+  {
    "organization": "UCO Bank",
    "title": "Engagement of Apprentices under the Apprentices Act, 1961 (Advt. No. HO/HRM/RECR/2026-27/COM-02)",
    "track": "apprenticeship",
@@ -523,7 +623,7 @@
    ],
    "id": "uco-bank--engagement-of-apprentices-under-the-apprentices-act-1961-advt-no-ho-hrm-recr-2026-27-com-02",
    "first_seen_at": "2026-10-15T04:21:00Z",
-   "last_seen_at": "2026-10-17T19:26:35Z"
+   "last_seen_at": "2026-10-17T19:52:07Z"
   },
   {
    "organization": "Cochin Shipyard Limited",
@@ -565,7 +665,7 @@
    ],
    "id": "cochin-shipyard-limited--engagement-of-interns-under-the-prime-minister-internship-scheme-pmis-227-seats",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T19:26:35Z"
+   "last_seen_at": "2026-10-17T19:52:07Z"
   },
   {
    "organization": "IIT Hyderabad",
@@ -664,7 +764,7 @@
    "track": "government",
    "id": "drdo--cair-bengaluru-junior-research-fellow-mathematics-advt-cair-hrt-jrf-2026-03",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T19:26:35Z"
+   "last_seen_at": "2026-10-17T19:52:07Z"
   },
   {
    "organization": "DRDO",
@@ -732,7 +832,7 @@
    "track": "government",
    "id": "drdo--rci-hyderabad-graduate-technician-diploma-and-trade-iti-apprentices-advt-rci-hrd-apprenticeship-advt-2027",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T19:26:35Z"
+   "last_seen_at": "2026-10-17T19:52:07Z"
   },
   {
    "organization": "DRDO",
@@ -800,7 +900,7 @@
    "track": "government",
    "id": "drdo--itr-chandipur-graduate-and-technician-diploma-apprentices-advt-itr-hrd-at-11-2026",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T19:26:35Z"
+   "last_seen_at": "2026-10-17T19:52:07Z"
   },
   {
    "organization": "Kerala PSC",
@@ -864,7 +964,7 @@
    "ai_summary": "Re-confirmation: TNPSC Group IV 2026 (Notification 11/2026) is still listed as open on the TNPSC apply portal until 5 Nov 2026. The exam is on 10 Jan 2027.",
    "id": "tnpsc--combined-civil-services-examination-iv-group-iv-services-2026",
    "first_seen_at": "2026-10-10T17:05:25Z",
-   "last_seen_at": "2026-10-17T19:26:35Z",
+   "last_seen_at": "2026-10-17T19:52:07Z",
    "exam_date_text": "Written exam 10 Jan 2027, 9:30 AM - 12:30 PM; application correction window 09-11 Nov 2026",
    "vacancies": "6,574 posts in total across Group IV services (Notification No. 11/2026, Advt. No. 747); post-wise counts in the notification",
    "fee_text": "One-Time Registration Rs 150 (valid 5 years) + examination fee Rs 100, paid online by 05 Nov 2026; specified categories are exempt from the exam fee (see notification)",
@@ -964,7 +1064,7 @@
    "track": "government",
    "id": "icmr--icmr-nie-chennai-scientific-positions-8-posts-school-of-public-health",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T19:26:35Z"
+   "last_seen_at": "2026-10-17T19:52:07Z"
   },
   {
    "organization": "GAIL (India) Limited",
@@ -1021,7 +1121,7 @@
    ],
    "id": "gail-india-limited--executive-trainee-chemical-instrumentation-electrical-mechanical-through-gate-2027-advt-gail-open-et-1-2026",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T19:26:35Z"
+   "last_seen_at": "2026-10-17T19:52:07Z"
   },
   {
    "organization": "Staff Selection Commission",
@@ -1153,7 +1253,7 @@
    "track": "government",
    "id": "ifsca--young-professional-consultant-grade-i-consultant-grade-ii-and-senior-consultant-in-ifsca-advertisement-dated-09-10-2026",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T19:26:35Z"
+   "last_seen_at": "2026-10-17T19:52:07Z"
   },
   {
    "organization": "Supreme Court of India",
@@ -1177,7 +1277,7 @@
    "track": "government",
    "id": "supreme-court-of-india--junior-court-attendant-detailed-advertisement-15-10-2026",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T19:26:35Z"
+   "last_seen_at": "2026-10-17T19:52:07Z"
   },
   {
    "organization": "HCLTech",
@@ -1207,7 +1307,7 @@
    ],
    "id": "hcltech--campus-beginner-java-developer-fresh-graduates",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T19:26:35Z"
+   "last_seen_at": "2026-10-17T19:52:07Z"
   },
   {
    "organization": "HCLTech",
@@ -1236,7 +1336,7 @@
    ],
    "id": "hcltech--trainee-voice-operations-dpo",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T19:26:35Z"
+   "last_seen_at": "2026-10-17T19:52:07Z"
   },
   {
    "organization": "HCLTech",
@@ -1272,7 +1372,7 @@
    ],
    "id": "hcltech--analyst-support-operations-generative-ai",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T19:26:35Z"
+   "last_seen_at": "2026-10-17T19:52:07Z"
   },
   {
    "organization": "Tiger Analytics",
@@ -1303,7 +1403,7 @@
    ],
    "id": "tiger-analytics--x-ops-trainee-campus-2027-hiring",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T19:26:35Z"
+   "last_seen_at": "2026-10-17T19:52:07Z"
   },
   {
    "track": "it",
@@ -1341,7 +1441,7 @@
    ],
    "id": "amazon--software-dev-engineer-i-amazon-university-talent-acquisition-2026-graduates",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T19:26:35Z"
+   "last_seen_at": "2026-10-17T19:52:07Z"
   },
   {
    "track": "it",
@@ -1380,7 +1480,7 @@
    ],
    "id": "amazon--software-dev-engineer-i-amazon-university-talent-acquisition-2025-2026-graduates",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T19:26:35Z"
+   "last_seen_at": "2026-10-17T19:52:07Z"
   },
   {
    "track": "it",
@@ -1419,7 +1519,7 @@
    ],
    "id": "amazon--sde-i-intern-amazon-university-talent-acquisition-6-month-jan-jun-2027-start",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T19:26:35Z"
+   "last_seen_at": "2026-10-17T19:52:07Z"
   },
   {
    "track": "it",
@@ -1454,7 +1554,7 @@
    ],
    "id": "amazon--systems-development-engineer-intern-2027",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T19:26:35Z"
+   "last_seen_at": "2026-10-17T19:52:07Z"
   },
   {
    "track": "it",
@@ -1490,7 +1590,7 @@
    ],
    "id": "amazon--mba-intern-2027-amazon-university-talent-acquisition",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T19:26:35Z"
+   "last_seen_at": "2026-10-17T19:52:07Z"
   },
   {
    "track": "it",
@@ -1525,7 +1625,7 @@
    ],
    "id": "google--silicon-engineer-platform-and-devices-university-graduate-2026",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T19:26:35Z"
+   "last_seen_at": "2026-10-17T19:52:07Z"
   },
   {
    "track": "it",
@@ -1567,7 +1667,7 @@
    ],
    "id": "salesforce--summer-2027-intern-software-engineer-class-of-2028-amts-track",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T19:26:35Z"
+   "last_seen_at": "2026-10-17T19:52:07Z"
   },
   {
    "organization": "Power Grid Corporation of India Limited",
@@ -1625,7 +1725,7 @@
    ],
    "id": "power-grid-corporation-of-india-limited--engineer-trainee-2027-through-gate-2027-electrical-civil-computer-science-electronics-advt-cc-03-2026",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T19:26:35Z"
+   "last_seen_at": "2026-10-17T19:52:07Z"
   },
   {
    "organization": "NTPC Limited",
@@ -1657,7 +1757,7 @@
    ],
    "id": "ntpc-limited--recruitment-of-engineering-executive-trainees-2027-through-gate-2027-advt-11-26",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T19:26:35Z"
+   "last_seen_at": "2026-10-17T19:52:07Z"
   },
   {
    "organization": "ESAF Small Finance Bank",
@@ -1682,7 +1782,7 @@
    ],
    "id": "esaf-small-finance-bank--sales-officer-sales-officer-trainee",
    "first_seen_at": "2026-10-17T19:26:35Z",
-   "last_seen_at": "2026-10-17T19:26:35Z"
+   "last_seen_at": "2026-10-17T19:52:07Z"
   },
   {
    "organization": "HCLTech",
@@ -1722,7 +1822,7 @@
    ],
    "id": "hcltech--process-associate-sap-order-management-fresher",
    "first_seen_at": "2026-10-17T19:26:35Z",
-   "last_seen_at": "2026-10-17T19:26:35Z"
+   "last_seen_at": "2026-10-17T19:52:07Z"
   },
   {
    "organization": "HCLTech",
@@ -1751,7 +1851,7 @@
    ],
    "id": "hcltech--process-associate-voice",
    "first_seen_at": "2026-10-17T19:26:35Z",
-   "last_seen_at": "2026-10-17T19:26:35Z"
+   "last_seen_at": "2026-10-17T19:52:07Z"
   },
   {
    "organization": "Wipro",
@@ -1782,7 +1882,7 @@
    ],
    "id": "wipro--elite-vlsi-wipro-elite-graduate-role",
    "first_seen_at": "2026-10-17T19:26:35Z",
-   "last_seen_at": "2026-10-17T19:26:35Z"
+   "last_seen_at": "2026-10-17T19:52:07Z"
   },
   {
    "organization": "Zoho",
@@ -1813,7 +1913,7 @@
    ],
    "id": "zoho--japanese-bilingual-hiring-drive-freshers",
    "first_seen_at": "2026-10-17T19:26:35Z",
-   "last_seen_at": "2026-10-17T19:26:35Z"
+   "last_seen_at": "2026-10-17T19:52:07Z"
   },
   {
    "organization": "Movate",
@@ -1849,7 +1949,7 @@
    ],
    "id": "movate--trainee-networking-telecom-site-installation",
    "first_seen_at": "2026-10-17T19:26:35Z",
-   "last_seen_at": "2026-10-17T19:26:35Z"
+   "last_seen_at": "2026-10-17T19:52:07Z"
   },
   {
    "organization": "HCLTech",
@@ -1879,7 +1979,7 @@
    ],
    "id": "hcltech--campus-beginner-gcp-cloud-fresher",
    "first_seen_at": "2026-10-17T19:26:35Z",
-   "last_seen_at": "2026-10-17T19:26:35Z"
+   "last_seen_at": "2026-10-17T19:52:07Z"
   },
   {
    "organization": "Movate",
@@ -1913,7 +2013,7 @@
    ],
    "id": "movate--campus-to-careers-freshers-hiring-registration",
    "first_seen_at": "2026-10-17T19:26:35Z",
-   "last_seen_at": "2026-10-17T19:26:35Z"
+   "last_seen_at": "2026-10-17T19:52:07Z"
   },
   {
    "organization": "eClerx",
@@ -1954,7 +2054,7 @@
    ],
    "id": "eclerx--product-data-management-analyst-analyst-fresher",
    "first_seen_at": "2026-10-17T19:26:35Z",
-   "last_seen_at": "2026-10-17T19:26:35Z"
+   "last_seen_at": "2026-10-17T19:52:07Z"
   },
   {
    "organization": "HCLTech",
@@ -1987,7 +2087,7 @@
    ],
    "id": "hcltech--process-associate-customer-service-chat-agent",
    "first_seen_at": "2026-10-17T19:26:35Z",
-   "last_seen_at": "2026-10-17T19:26:35Z"
+   "last_seen_at": "2026-10-17T19:52:07Z"
   },
   {
    "organization": "Siemens",
@@ -2013,7 +2113,7 @@
    ],
    "id": "siemens--graduate-trainee-engineer",
    "first_seen_at": "2026-10-17T19:26:35Z",
-   "last_seen_at": "2026-10-17T19:26:35Z"
+   "last_seen_at": "2026-10-17T19:52:07Z"
   },
   {
    "organization": "Target in India",
@@ -2053,7 +2153,7 @@
    ],
    "id": "target-in-india--apprentice-technology",
    "first_seen_at": "2026-10-17T19:26:35Z",
-   "last_seen_at": "2026-10-17T19:26:35Z"
+   "last_seen_at": "2026-10-17T19:52:07Z"
   },
   {
    "organization": "PhonePe",
@@ -2078,7 +2178,7 @@
    ],
    "id": "phonepe--operations-associate-merchant-kyc-offline-merchant-business",
    "first_seen_at": "2026-10-17T19:26:35Z",
-   "last_seen_at": "2026-10-17T19:26:35Z"
+   "last_seen_at": "2026-10-17T19:52:07Z"
   },
   {
    "organization": "Amazon",
@@ -2113,7 +2213,7 @@
    ],
    "id": "amazon--data-engineer-intern-2027",
    "first_seen_at": "2026-10-17T19:26:35Z",
-   "last_seen_at": "2026-10-17T19:26:35Z"
+   "last_seen_at": "2026-10-17T19:52:07Z"
   },
   {
    "organization": "Amazon",
@@ -2147,7 +2247,7 @@
    ],
    "id": "amazon--support-engineer-intern-2027",
    "first_seen_at": "2026-10-17T19:26:35Z",
-   "last_seen_at": "2026-10-17T19:26:35Z"
+   "last_seen_at": "2026-10-17T19:52:07Z"
   },
   {
    "organization": "Amazon",
@@ -2185,7 +2285,7 @@
    ],
    "id": "amazon--software-development-engineer-intern-jan-2027-6-month-amazon-university-talent-acquisition",
    "first_seen_at": "2026-10-17T19:26:35Z",
-   "last_seen_at": "2026-10-17T19:26:35Z"
+   "last_seen_at": "2026-10-17T19:52:07Z"
   },
   {
    "organization": "Amazon",
@@ -2225,7 +2325,7 @@
    ],
    "id": "amazon--applied-scientist-i-intern-jan-2027-6-months",
    "first_seen_at": "2026-10-17T19:26:35Z",
-   "last_seen_at": "2026-10-17T19:26:35Z"
+   "last_seen_at": "2026-10-17T19:52:07Z"
   }
  ]
 }
