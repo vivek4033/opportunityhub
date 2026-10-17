@@ -15,7 +15,7 @@ const GROUPS = [
 ];
 const groupOf = (o) => ({ CURRENTLY_ELIGIBLE: "ok", POTENTIALLY_ELIGIBLE: "check", ELIGIBLE_AFTER_BED: "later", ELIGIBLE_AFTER_TET: "later" }[o.elig.status] || "no");
 // Most decisive reason first: state- or community-only posts rule people out regardless of anything else.
-const REASON_ORDER = ["domicile", "category", "education", "phd", "bed", "exam", "age", "experience", "percentage"];
+const REASON_ORDER = ["domicile", "category", "batch", "education", "phd", "bed", "exam", "age", "experience", "percentage"];
 const whyNot = (o) => {
   const fails = o.elig.checks.filter((c) => c.result === "fail")
     .sort((a, b) => (REASON_ORDER.indexOf(a.key) + 99) % 99 - (REASON_ORDER.indexOf(b.key) + 99) % 99);
@@ -50,7 +50,8 @@ function OpeningCard({ o, app, onTrack, onOpen, onHide, hidden }) {
       </dl>
       <div className="actions">
         <button className="btn sm primary-soft" onClick={() => onOpen(o)}>📋 Summary</button>
-        {o.notification_url && <a className="btn sm" href={o.notification_url} target="_blank" rel="noreferrer">📄 Notification</a>}
+        {o.notification_url ? <a className="btn sm" href={o.notification_url} target="_blank" rel="noreferrer">📄 Notification</a>
+          : o.apply_url && <a className="btn sm" href={o.apply_url} target="_blank" rel="noreferrer">🌐 Apply</a>}
         {app ? <Link className="btn sm ghost" to="/applications">{STATUS_EMOJI[app.status]} Tracking: {STATUS_LABEL[app.status]}</Link>
           : <button className="btn sm primary" onClick={() => onTrack(o)}>➕ Track this</button>}
         {hidden ? <button className="btn sm" onClick={() => onHide(o, false)}>↩️ Bring back</button>
@@ -67,9 +68,10 @@ export default function Openings() {
   const myRoles = profile?.target_roles || [];
   const [params, setParams] = useSearchParams();
   const [apps, setApps] = useState(null);
-  const [filter, setFilter] = useState(() => { const v = defaultView(); return v === "mine" && !myRoles.length ? "fit" : v || (myRoles.length ? "mine" : "fit"); });
+  // Coming from an employer's "open now" link (?q=…): show everything for that employer.
+  const [filter, setFilter] = useState(() => { if (new URLSearchParams(window.location.search).get("q")) return "all"; const v = defaultView(); return v === "mine" && !myRoles.length ? "fit" : v || (myRoles.length ? "mine" : "fit"); });
   const [track, setTrack] = useState("");
-  const [q, setQ] = useState("");
+  const [q, setQ] = useState(() => new URLSearchParams(window.location.search).get("q") || "");
   const [openId, setOpenId] = useState(null);
   const [showNo, setShowNo] = useState(true);
   // Saved on the profile; anything saved on this device before the database update is merged in.

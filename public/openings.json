@@ -1,140 +1,7 @@
 {
- "updated_at": "2026-10-15T04:21:00Z",
+ "updated_at": "2026-10-17T16:25:39Z",
  "note": "Written by the daily OpportunityHub scan. Facts come from official notifications.",
  "openings": [
-  {
-   "organization": "IIT Madras — IC&SR project staff",
-   "track": "colleges",
-   "subcategory": "iit",
-   "location": "Chennai (IIT Madras)",
-   "apply_url": "https://icandsr.iitm.ac.in/careers/current_openings.php",
-   "org_website": "https://icandsr.iitm.ac.in/careers/",
-   "how_to_apply_text": "Online only at icandsr.iitm.ac.in/careers/current_openings.php (select the advt. number); no hard copy",
-   "selection_text": "Shortlisting on online application → test and/or interview (only shortlisted contacted)",
-   "title": "ICSR/PR/Advt. 206/2026 — Junior Executive – HR (contract), IC&SR Office",
-   "post_type": "clerical",
-   "employment_type": "contract",
-   "posted_date": "2026-10-06",
-   "application_end": "2026-10-15",
-   "vacancies": "1 post",
-   "salary_text": "Rs 18,000 per month",
-   "qualification_text": "BBA / BMS / MBA / MA / MHRM or any undergraduate degree; HR certification desirable; good written/verbal communication, email drafting, MS Office (Excel, Word, PPT)",
-   "age_limit_text": "Maximum 28 years; 30 years for SC/ST",
-   "notification_url": "https://icandsr.iitm.ac.in/careers/admin/download_announcement.php?file=announce_1791264943.pdf",
-   "requirements": {
-    "min_education": "bachelor",
-    "subjects": [
-     "any"
-    ],
-    "age_max": 28,
-    "other_requirements": [
-     "MS Office skills",
-     "Age limit 30 for SC/ST",
-     "Contract initially 1 year, extendable"
-    ],
-    "_extraction": "ai"
-   },
-   "ai_summary": "IIT Madras IC&SR office is hiring one Junior Executive – HR on contract at Rs 18,000/month. Any undergraduate degree holder aged up to 28 (30 for SC/ST) with good communication and MS Office skills can apply; the last date is today, 15 Oct 2026.",
-   "verified_from": [
-    "https://icandsr.iitm.ac.in/careers/current_openings.php",
-    "https://icandsr.iitm.ac.in/careers/admin/download_announcement.php?file=announce_1791264943.pdf"
-   ],
-   "id": "iit-madras-ic-sr-project-staff--icsr-pr-advt-206-2026-junior-executive-hr-contract-ic-sr-office",
-   "first_seen_at": "2026-10-10T18:25:14Z",
-   "last_seen_at": "2026-10-15T04:21:00Z"
-  },
-  {
-   "organization": "IIT Hyderabad",
-   "title": "Two JRF positions (Optics) and one Lab Support Engineer — Dept. of Physics (Dr. Vandana Sharma)",
-   "track": "colleges",
-   "subcategory": "iit",
-   "employment_type": "temporary",
-   "location": "Hyderabad (IIT Hyderabad, Kandi, Sangareddy)",
-   "posted_date": "2026-09-30",
-   "application_end": "2026-10-15",
-   "interview_date": "2026-10-30",
-   "vacancies": "JRF (Optics) 2; Lab Support Engineer 1 (total 3)",
-   "salary_text": "JRF: Rs 37,000 per month + HRA; Lab Support Engineer: Rs 25,000 per month (consolidated)",
-   "qualification_text": "JRF: M.Sc in Physics/Optics/Photonics or related specialisation with valid GATE or UGC/CSIR NET-JRF. Lab Support Engineer: B.Tech in CSE or Mechanical",
-   "age_limit_text": "JRF: max 28 years on 30 Oct 2026; Lab Support Engineer: max 25 years on 30 Oct 2026",
-   "selection_text": "Interview on 30 Oct 2026, 10:00 AM",
-   "how_to_apply_text": "Online Google Form linked in the advertisement (forms.gle/xXfyhLvcpRWoFZy79)",
-   "notification_url": "https://iith.ac.in/assets/files/careers/staff/Advertisment-2JRF-2026.pdf",
-   "apply_url": "https://forms.gle/xXfyhLvcpRWoFZy79",
-   "org_website": "https://iith.ac.in",
-   "requirements": {
-    "min_education": "master",
-    "subjects": [
-     "physics",
-     "optics",
-     "photonics"
-    ],
-    "degree_names": [
-     "M.Sc"
-    ],
-    "exams_required_any": [
-     "GATE",
-     "CSIR-UGC NET",
-     "UGC NET"
-    ],
-    "age_max": 28,
-    "age_cutoff_date": "2026-10-30",
-    "_extraction": "ai"
-   },
-   "ai_summary": "IIT Hyderabad's Physics department is recruiting two Junior Research Fellows in optics (Rs 37,000 + HRA) plus one Lab Support Engineer. M.Sc Physics/Optics/Photonics holders with GATE or NET, aged up to 28, can apply by today, 15 Oct 2026; interview 30 Oct.",
-   "verified_from": [
-    "https://www.iith.ac.in/careers/",
-    "https://iith.ac.in/assets/files/careers/staff/Advertisment-2JRF-2026.pdf"
-   ],
-   "id": "iit-hyderabad--two-jrf-positions-optics-and-one-lab-support-engineer-dept-of-physics-dr-vandana-sharma",
-   "first_seen_at": "2026-10-10T18:25:14Z",
-   "last_seen_at": "2026-10-15T04:21:00Z"
-  },
-  {
-   "organization": "IISER Thiruvananthapuram",
-   "title": "Recruitment for the post of JRF on an externally funded project 'Development of miniature lithium ion batteries for on-chip energy storage'",
-   "track": "colleges",
-   "subcategory": "central_institute",
-   "employment_type": "temporary",
-   "location": "Thiruvananthapuram, Kerala (IISER TVM)",
-   "posted_date": "2026-09-30",
-   "application_end": "2026-10-15",
-   "vacancies": "1 post",
-   "salary_text": "Rs 37,000 + HRA per month (MoE-STARS funded; initially 6 months, extendable)",
-   "qualification_text": "M.Sc in Physics or Materials Science with at least 60% marks and a national-level exam (CSIR-UGC NET, GATE, JEST or equivalent); experience in energy materials desirable",
-   "age_limit_text": "25 years",
-   "selection_text": "Interview (details emailed to shortlisted candidates)",
-   "how_to_apply_text": "Fill the Google Form linked on the IISER TVM openings page; bring signed application and certificates if selected",
-   "notification_url": "https://www.iisertvm.ac.in/files/read/opening-jrf-prof-shaiju-20261004",
-   "apply_url": "https://docs.google.com/forms/d/e/1FAIpQLSc3vo1iVooXdpNPXRrolAhau74yDuhUscWTiSXwb_sK75duUQ/viewform",
-   "org_website": "https://www.iisertvm.ac.in",
-   "requirements": {
-    "min_education": "master",
-    "subjects": [
-     "physics",
-     "materials science"
-    ],
-    "degree_names": [
-     "M.Sc"
-    ],
-    "min_percentage": 60,
-    "exams_required_any": [
-     "CSIR-UGC NET",
-     "GATE",
-     "JEST"
-    ],
-    "age_max": 25,
-    "_extraction": "ai"
-   },
-   "ai_summary": "IISER Thiruvananthapuram needs one JRF for a lithium-ion micro-battery project at Rs 37,000 + HRA. M.Sc Physics/Materials Science holders with 60% and NET/GATE/JEST, aged up to 25, can apply by today, 15 Oct 2026.",
-   "verified_from": [
-    "https://www.iisertvm.ac.in/openings",
-    "https://www.iisertvm.ac.in/openings/read/openings-recruitment-for-the-post-of-jrf-on-an-externally-funded-project-development-of-miniature-lithium-ion-batteries-for-on-chip-energy-storage"
-   ],
-   "id": "iiser-thiruvananthapuram--recruitment-for-the-post-of-jrf-on-an-externally-funded-project-development-of-miniature-lithium-ion-batteries-for-on-ch",
-   "first_seen_at": "2026-10-10T18:25:14Z",
-   "last_seen_at": "2026-10-15T04:21:00Z"
-  },
   {
    "id": "canara-bank--engagement-of-graduate-apprentices-under-apprentices-act-1961-for-fy-2026-27",
    "organization": "Canara Bank",
@@ -152,7 +19,7 @@
    "vacancies": "3,500 training seats (provisional); Tamil Nadu 391, Kerala 240",
    "notification_url": "https://www.canarabank.bank.in/documents/d/guest/apprenticeship-advertisement-2026-27",
    "apply_url": "https://ibpsreg.ibps.in/cabgasep26/",
-   "org_website": "https://canarabank.com",
+   "org_website": "https://www.canarabank.bank.in",
    "requirements": {
     "_extraction": "ai",
     "min_education": "bachelor",
@@ -189,7 +56,7 @@
     "https://www.canarabank.bank.in/engagement-of-graduate-apprentices-in-canara-bank-under-apprentices-act-1961-for-fy-2026-27",
     "https://www.canarabank.bank.in/pages/recruitment"
    ],
-   "last_seen_at": "2026-10-15T04:21:00Z"
+   "last_seen_at": "2026-10-17T16:25:39Z"
   },
   {
    "organization": "IIT Hyderabad",
@@ -234,6 +101,64 @@
    "last_seen_at": "2026-10-15T04:21:00Z"
   },
   {
+   "organization": "Hindustan Aeronautics Limited",
+   "title": "Engagement of Junior Executives on Short Term Basis — 150 posts (Advt HAL/CHRC-TAR/RECT-03/2026)",
+   "track": "psu",
+   "subcategory": "maharatna",
+   "employment_type": "contract",
+   "location": "HAL divisions in Bengaluru, Tumakuru, Hyderabad, Nasik, Koraput, Barrackpore, Lucknow, Kanpur, Korwa",
+   "application_start": "2026-10-07",
+   "application_end": "2026-10-17",
+   "vacancies": "150 (Mechanical 78, Electrical 25, Electronics 21, Civil 7, Computer Science 6, Production 6, Metallurgy 3, Aeronautical 2, Chemical 2)",
+   "salary_text": "E0 scale Rs 30,000–1,20,000 (basic Rs 30,000 + DA, HRA, 35% cafeteria allowance); tenure max 3 years",
+   "fee_text": "Rs 500 (incl. GST) via SBI Collect; SC/ST/PwBD exempt",
+   "qualification_text": "Regular full-time engineering degree in the discipline; min 60% aggregate (50% SC/ST/PwBD). Part-time/distance degrees not eligible.",
+   "age_limit_text": "Max 28 years as on 17.10.2026 (UR/EWS); relaxation SC/ST 5, OBC-NCL 3, PwBD 10 years",
+   "experience_text": "Not required",
+   "selection_text": "Shortlist 1:10 by merit → interview (tentatively Nov 2026, min 50%) → medical → document verification",
+   "how_to_apply_text": "Online only via Careers section of hal-india.co.in; window closes 17.10.2026 at 14:00 hrs",
+   "notification_url": "https://hal-india.co.in/backend//wp-content/uploads/career/Detailed%20Advt%20JESTB%2007-10-2026_1791362564.pdf",
+   "apply_url": "https://hal-india.co.in/career",
+   "org_website": "https://hal-india.co.in",
+   "job_id": "HAL/CHRC-TAR/RECT-03/2026",
+   "requirements": {
+    "min_education": "bachelor",
+    "subjects": [
+     "aeronautical",
+     "chemical",
+     "civil",
+     "computer science",
+     "electrical",
+     "electronics",
+     "mechanical",
+     "metallurgy",
+     "production"
+    ],
+    "degree_names": [
+     "B.E.",
+     "B.Tech"
+    ],
+    "min_percentage": 60,
+    "experience_years_min": 0,
+    "age_max": 28,
+    "age_cutoff_date": "2026-10-17",
+    "age_relaxation": "SC/ST 5 yrs, OBC-NCL 3 yrs, PwBD 10 yrs",
+    "other_requirements": [
+     "Engineering graduates only",
+     "Apply for one discipline only",
+     "Closes 2 PM on 17 Oct 2026"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "HAL is hiring 150 engineering graduates as Junior Executives on a 3-year short-term contract at Rs 30,000 basic (E0 scale). Only B.E./B.Tech holders with 60% aged up to 28 can apply, and the window closes at 2 PM today (17 Oct 2026).",
+   "verified_from": [
+    "https://hal-india.co.in/backend//wp-content/uploads/career/Detailed%20Advt%20JESTB%2007-10-2026_1791362564.pdf"
+   ],
+   "id": "hindustan-aeronautics-limited--engagement-of-junior-executives-on-short-term-basis-150-posts-advt-hal-chrc-tar-rect-03-2026",
+   "first_seen_at": "2026-10-17T16:25:39Z",
+   "last_seen_at": "2026-10-17T16:25:39Z"
+  },
+  {
    "organization": "IISc Bengaluru",
    "title": "Project Associate (stereo EEG) — Project AMRIT, Brain Computation and Data Science initiative",
    "track": "colleges",
@@ -274,6 +199,61 @@
    "last_seen_at": "2026-10-15T04:21:00Z"
   },
   {
+   "organization": "Indian Oil Corporation Limited",
+   "title": "Engagement of Apprentices 2026-27 (II) — Bongaigaon Refinery (Advt BGR/Appr/2026/04)",
+   "track": "psu",
+   "subcategory": "maharatna",
+   "employment_type": "apprenticeship",
+   "location": "Bongaigaon Refinery, Assam",
+   "posted_date": "2026-09-28",
+   "application_start": "2026-09-28",
+   "application_end": "2026-10-18",
+   "vacancies": "58 (36 Attendant Operator–Chemical Plant & 14 Boiler for B.Sc graduates; 8 Instrumentation diploma)",
+   "salary_text": "Stipend as per Apprentices Act/Rules (amount not stated); 12–24 months; no HRA/accommodation",
+   "fee_text": "Not stated",
+   "qualification_text": "B.Sc in Maths/Physics/Chemistry/Industrial Chemistry (codes 101, 103) or Diploma in Instrumentation (code 107); min 50% (45% SC/ST/PwBD reserved); regular full-time; passed by 30.09.2026",
+   "age_limit_text": "18–24 years as on 30.09.2026 (Gen/EWS); relaxation SC/ST 5, OBC-NCL 3, PwBD 10",
+   "experience_text": "Freshers; 1+ year job experience after qualifying makes you ineligible",
+   "selection_text": "No written test; merit on qualifying-exam percentage → document verification (tentatively 4–6 Nov 2026) → medical",
+   "how_to_apply_text": "Step I: apply on NAPS (apprenticeshipindia.gov.in, Establishment ID E07191800001) for B.Sc codes or NATS (EASCHC000001) for diploma; Step II: submit the Microsoft Form linked on iocl.com/apprenticeships",
+   "notification_url": "https://iocl.com/admin/img/Apprenticeships/Files/FinalDetailedAdvtBGRdtd28092026.pdf",
+   "apply_url": "https://iocl.com/apprenticeships",
+   "org_website": "https://iocl.com",
+   "job_id": "BGR/Appr/2026/04",
+   "requirements": {
+    "min_education": "bachelor",
+    "subjects": [
+     "mathematics",
+     "physics",
+     "chemistry",
+     "industrial chemistry"
+    ],
+    "degree_names": [
+     "B.Sc"
+    ],
+    "min_percentage": 50,
+    "experience_years_min": 0,
+    "age_min": 18,
+    "age_max": 24,
+    "age_cutoff_date": "2026-09-30",
+    "age_relaxation": "SC/ST 5 yrs, OBC-NCL 3 yrs, PwBD 10 yrs",
+    "other_requirements": [
+     "Higher degrees (B.E./B.Tech, MBA etc.) make you ineligible",
+     "Qualified less than 5 years before 30.09.2026",
+     "Diploma (Instrumentation) holders can apply for code 107 via NATS"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "IndianOil's Bongaigaon Refinery is engaging 50 B.Sc (Maths/Physics/Chemistry) graduates and 8 Instrumentation diploma holders as apprentices, selected on marks with no exam. Applicants aged 18–24 with 50% must apply on NAPS/NATS plus IOCL's MS Form by 18 Oct 2026.",
+   "verified_from": [
+    "https://iocl.com/apprenticeships",
+    "https://iocl.com/admin/img/Apprenticeships/Files/FinalDetailedAdvtBGRdtd28092026.pdf"
+   ],
+   "id": "indian-oil-corporation-limited--engagement-of-apprentices-2026-27-ii-bongaigaon-refinery-advt-bgr-appr-2026-04",
+   "first_seen_at": "2026-10-17T16:25:39Z",
+   "last_seen_at": "2026-10-17T16:25:39Z"
+  },
+  {
    "organization": "Central Bank of India",
    "title": "Application for the post of Faculty/Office Assistant/Attender of RSETI Yavatmal on contractual basis, Amravati Region",
    "track": "banking",
@@ -284,7 +264,7 @@
    "application_end": "2026-10-21",
    "vacancies": "Faculty, Office Assistant, Attender (counts in notice)",
    "notification_url": "https://centralbank.bank.in/sites/default/files/yeotmal%20rseti%20.zip",
-   "org_website": "https://centralbank.bank.in/en/recruitments",
+   "org_website": "https://centralbank.bank.in",
    "how_to_apply_text": "As per the notice (ZIP file) on Central Bank of India's Recruitments page; last date 21 Oct 2026",
    "requirements": {
     "_extraction": "ai",
@@ -299,7 +279,7 @@
    ],
    "id": "central-bank-of-india--application-for-the-post-of-faculty-office-assistant-attender-of-rseti-yavatmal-on-contractual-basis-amravati-region",
    "first_seen_at": "2026-10-15T04:21:00Z",
-   "last_seen_at": "2026-10-15T04:21:00Z"
+   "last_seen_at": "2026-10-17T16:25:39Z"
   },
   {
    "organization": "IIT Kharagpur",
@@ -326,6 +306,85 @@
    "id": "iit-kharagpur--laboratory-assistant-sric-project-post-department-of-physics-pi-samit-kumar-ray",
    "first_seen_at": "2026-10-15T04:21:00Z",
    "last_seen_at": "2026-10-15T04:21:00Z"
+  },
+  {
+   "organization": "EXIM Bank",
+   "title": "Special Recruitment Drive (backlog SC/ST/OBC) - Deputy Manager (Banking Operations) and Manager (Internal Audit) (Advt. HRM/DM & M/SRD/2026-27/04)",
+   "track": "banking",
+   "subcategory": "regulator",
+   "employment_type": "full_time",
+   "location": "All India (exam centres incl. Chennai)",
+   "application_start": "2026-09-15",
+   "application_end": "2026-10-21",
+   "exam_date_text": "Written test tentatively November 2026 (date via call letter)",
+   "job_id": "HRM/DM & M/SRD/2026-27/04",
+   "vacancies": "8: Deputy Manager (JM I) 6 (SC 2, ST 1, OBC 3); Manager (MM II) 2 (ST 2)",
+   "salary_text": "Deputy Manager Rs 48,480-85,920 (CTC about Rs 18 lakh); Manager Rs 64,820-93,960 (CTC about Rs 20 lakh)",
+   "fee_text": "OBC Rs 600; SC/ST/PwBD and women Rs 100",
+   "qualification_text": "Graduation (min 50%) plus full-time 2-year MBA/PGDBA/PGDBM/MMS in Finance/International Business/Foreign Trade (min 50%), or CA",
+   "experience_text": "Deputy Manager: 1 year post-qualification in bank/FI credit/project finance; Manager: 3 years in internal/credit audit",
+   "age_limit_text": "As on 31.08.2026 incl. relaxation: Deputy Manager SC/ST 33, OBC 31; Manager ST 35",
+   "selection_text": "Subjective professional-knowledge written test (100 marks) and interview (100 marks); final weight 70:30",
+   "how_to_apply_text": "Apply online via the 'Online Application' link on www.eximbankindia.in; last date extended to 21 Oct 2026 by addendum dated 10 Oct 2026",
+   "notification_url": "https://www.eximbankindia.in/sites/default/files/2026-09/Detailed%20SRD%20Advertisement%20for%20Website%2011-09-2026.pdf",
+   "org_website": "https://www.eximbankindia.in",
+   "requirements": {
+    "_extraction": "ai",
+    "min_education": "master",
+    "degree_names": [
+     "MBA",
+     "PGDBA",
+     "PGDBM",
+     "MMS",
+     "CA"
+    ],
+    "min_percentage": 50,
+    "experience_years_min": 1,
+    "age_cutoff_date": "2026-08-31",
+    "category_only": [
+     "SC",
+     "ST",
+     "OBC"
+    ],
+    "other_requirements": [
+     "Backlog vacancies for SC/ST/OBC only",
+     "Full-time courses only",
+     "CA needs ICAI membership"
+    ]
+   },
+   "ai_summary": "EXIM Bank's special drive fills 8 backlog officer posts reserved for SC, ST and OBC candidates (6 Deputy Managers, 2 Managers). Applicants need an MBA in finance/international business or CA plus 1-3 years of banking experience, and must apply online by 21 Oct 2026.",
+   "verified_from": [
+    "https://www.eximbankindia.in/careers",
+    "https://www.eximbankindia.in/sites/default/files/2026-09/Detailed%20SRD%20Advertisement%20for%20Website%2011-09-2026.pdf",
+    "https://www.eximbankindia.in/sites/default/files/2026-10/ADDENDUM%20ADV%20NO.HRM%20DM%20%26%20M%20SRD%202026-27%2004.pdf"
+   ],
+   "id": "exim-bank--special-recruitment-drive-backlog-sc-st-obc-deputy-manager-banking-operations-and-manager-internal-audit-advt-hrm-dm-m-s",
+   "first_seen_at": "2026-10-17T16:25:39Z",
+   "last_seen_at": "2026-10-17T16:25:39Z"
+  },
+  {
+   "organization": "ICMR",
+   "title": "Young Professional-I (Basic Sciences) and Young Professional-II (IT) - ICMR Headquarters",
+   "subcategory": "research_org",
+   "employment_type": "contract",
+   "location": "New Delhi (ICMR Hqrs)",
+   "application_end": "2026-10-21",
+   "notification_url": "https://www.icmr.gov.in/icmrobject/uploads/Recruitment/1790577324_icmr-yp-2.pdf",
+   "org_website": "https://www.icmr.gov.in/employment-opportunities",
+   "requirements": {
+    "other_requirements": [
+     "Qualification, age limit, pay and how to apply are in the advertisement PDF, which could not be opened - read it before applying"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "ICMR Headquarters in New Delhi is hiring Young Professionals in Basic Sciences (YP-I) and IT (YP-II) on contract, with applications due by 21 Oct 2026. Eligibility and pay are in the advertisement on ICMR's Employment Opportunities page; check it before applying.",
+   "verified_from": [
+    "https://www.icmr.gov.in/employment-opportunities"
+   ],
+   "track": "government",
+   "id": "icmr--young-professional-i-basic-sciences-and-young-professional-ii-it-icmr-headquarters",
+   "first_seen_at": "2026-10-17T16:25:39Z",
+   "last_seen_at": "2026-10-17T16:25:39Z"
   },
   {
    "organization": "IIT Madras — IC&SR project staff",
@@ -433,6 +492,67 @@
    "last_seen_at": "2026-10-15T04:21:00Z"
   },
   {
+   "organization": "DRDO",
+   "title": "DMRL Hyderabad - Junior Research Fellow (18 posts), Advt. DMRL/HRD/JRF/2026/01",
+   "subcategory": "research_org",
+   "employment_type": "temporary",
+   "location": "Hyderabad (DMRL, DRDO)",
+   "posted_date": "2026-10-06",
+   "application_start": "2026-10-06",
+   "application_end": "2026-10-27",
+   "vacancies": "18 JRF: Metallurgical Engg/Materials Science 7; Mechanical Engg 7; Chemical Engg 2; Physics 2",
+   "salary_text": "Rs 37,000 per month + HRA (2 years, extendable to max 4 years)",
+   "qualification_text": "JRF01-03: first-class B.E./B.Tech in the discipline with valid GATE, or first-class M.E./M.Tech (with first-class B.E./B.Tech in same discipline). JRF04 (Physics): M.Sc Physics, first division, with valid NET",
+   "age_limit_text": "Maximum 28 years as on interview closing date; SC/ST 5 yrs, OBC 3 yrs relaxation",
+   "selection_text": "Shortlisting on GATE/NET score (or M.E./M.Tech %) -> interview at Hyderabad",
+   "how_to_apply_text": "Download the Excel application form from drdo.gov.in, scan documents into one PDF, and email both to dmrlhrd@gmail.com (file names start with post serial number + name). Last date per DRDO listing: 27 Oct 2026 (advert says 21 days from web publication)",
+   "notification_url": "https://drdo.gov.in/drdo/sites/default/files/vacancy/advtDMRL06102026.pdf",
+   "org_website": "https://drdo.gov.in/drdo/offerings/vacancies",
+   "requirements": {
+    "min_education": "bachelor",
+    "subjects": [
+     "metallurgical engineering",
+     "materials science",
+     "mechanical engineering",
+     "chemical engineering",
+     "physics"
+    ],
+    "degree_names": [
+     "B.E.",
+     "B.Tech",
+     "M.E.",
+     "M.Tech",
+     "M.Sc"
+    ],
+    "exams_required_any": [
+     "GATE",
+     "NET"
+    ],
+    "age_max": 28,
+    "age_relaxation": {
+     "SC": 5,
+     "ST": 5,
+     "OBC": 3
+    },
+    "other_requirements": [
+     "First class / first division degree",
+     "GATE paper must match discipline (B.E./B.Tech route); NET for M.Sc Physics",
+     "Former DRDO lab JRFs not eligible",
+     "NOC for serving government employees"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "DRDO's DMRL lab in Hyderabad is recruiting 18 Junior Research Fellows in metallurgy, mechanical, chemical engineering and physics at Rs 37,000 + HRA. First-class B.E./B.Tech holders with GATE (or M.E./M.Tech) and M.Sc Physics holders with NET, aged up to 28, can apply by email by 27 Oct 2026.",
+   "verified_from": [
+    "https://drdo.gov.in/drdo/offerings/vacancies",
+    "https://drdo.gov.in/drdo/sites/default/files/vacancy/advtDMRL06102026.pdf"
+   ],
+   "track": "government",
+   "id": "drdo--dmrl-hyderabad-junior-research-fellow-18-posts-advt-dmrl-hrd-jrf-2026-01",
+   "first_seen_at": "2026-10-17T16:25:39Z",
+   "last_seen_at": "2026-10-17T16:25:39Z"
+  },
+  {
    "organization": "Supreme Court of India",
    "title": "Junior Court Assistant Examination-2026",
    "track": "government",
@@ -446,24 +566,21 @@
    "org_website": "https://www.sci.gov.in/recruitments/",
    "requirements": {
     "other_requirements": [
-     "Posts, pay, fee, age limit, qualification and typing test are in the detailed advertisement dated 30.09.2026 (scanned PDF, not machine-readable) — read it before applying",
-     "Also check the Supreme Court notice 'In re: Junior Court Assistant Examination-2026' (No. F.6/2026-SC (RC), dated 01.10.2026)"
+     "Re-confirmed 17 Oct 2026: still listed on sci.gov.in/recruitments with application link notice; dates from the earlier scan"
     ],
     "_extraction": "ai"
    },
-   "ai_summary": "The Supreme Court of India is recruiting Junior Court Assistants through its Junior Court Assistant Examination-2026, with the online form open from 7 to 28 October 2026. Posts, pay, age limit, qualification and the typing test are set out in the detailed advertisement of 30 September 2026, which is a scanned PDF, so check it before applying.",
+   "ai_summary": "Re-confirmation: the Supreme Court's Junior Court Assistant Examination-2026 advertisement and online-application link are still listed on the recruitments page. The form is open until 28 Oct 2026 as per the earlier notice.",
    "id": "supreme-court-of-india--junior-court-assistant-examination-2026",
    "first_seen_at": "2026-10-10T17:05:25Z",
-   "last_seen_at": "2026-10-15T04:21:00Z",
+   "last_seen_at": "2026-10-17T16:25:39Z",
    "application_start": "2026-10-07",
    "application_end": "2026-10-28",
    "how_to_apply_text": "Online only, via the application link in the Supreme Court notice of 06.10.2026 (form open 07.10.2026 10:00 AM to 28.10.2026 23:55)",
    "verified_from": [
-    "https://www.sci.gov.in/recruitments/",
-    "https://www.sci.gov.in/all-updates/",
-    "https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/uploads/2026/10/20261006100.pdf",
-    "https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/uploads/2026/10/2026100117.pdf"
-   ]
+    "https://www.sci.gov.in/recruitments/"
+   ],
+   "syllabus_url": "https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/uploads/2026/09/2026093036.pdf"
   },
   {
    "organization": "National Insurance Company",
@@ -528,7 +645,8 @@
    ],
    "id": "nta-ugc-net--ugc-net-december-2026-opening-of-online-registration-portal",
    "first_seen_at": "2026-10-10T18:25:14Z",
-   "last_seen_at": "2026-10-15T04:21:00Z"
+   "last_seen_at": "2026-10-15T04:21:00Z",
+   "syllabus_url": "https://www.ugcnetonline.in/syllabus-new.php"
   },
   {
    "organization": "UCO Bank",
@@ -583,7 +701,49 @@
    ],
    "id": "uco-bank--engagement-of-apprentices-under-the-apprentices-act-1961-advt-no-ho-hrm-recr-2026-27-com-02",
    "first_seen_at": "2026-10-15T04:21:00Z",
-   "last_seen_at": "2026-10-15T04:21:00Z"
+   "last_seen_at": "2026-10-17T16:25:39Z"
+  },
+  {
+   "organization": "Cochin Shipyard Limited",
+   "title": "Engagement of Interns under the Prime Minister Internship Scheme (PMIS) — 227 seats",
+   "track": "psu",
+   "subcategory": "miniratna",
+   "employment_type": "internship",
+   "location": "Cochin Shipyard Limited, Kochi (Kerala)",
+   "posted_date": "2026-08-26",
+   "application_end": "2026-10-29",
+   "vacancies": "227 (Graduation–Clerical 11, Diploma 16, PG Hindi 1, ITI trades 92, SSLC 80, HSE/ITI Warehouse Assistant 27)",
+   "salary_text": "Rs 13,000/month for Graduate/Diploma/PG; Rs 11,000/month for ITI/SSLC/HSE (incl. Govt DBT); 9 months",
+   "fee_text": "Nil",
+   "qualification_text": "Graduation seats: BA/B.Sc/B.Com/BBA/BCA (not B.Tech or performing arts); Diploma in engineering; MA Hindi; ITI NTC; Class X; Class XII",
+   "age_limit_text": "18–25 years",
+   "selection_text": "Offers issued through the PMIS portal",
+   "how_to_apply_text": "Register and apply on the PMIS portal (pminternship.mca.gov.in); last date shown on CSL careers page 29.10.2026",
+   "notification_url": "https://cochinshipyard.in/uploads/career/072fc88c8393c880260f39bd5b0bbf1e.pdf",
+   "apply_url": "https://pminternship.mca.gov.in/login/",
+   "org_website": "https://cochinshipyard.in",
+   "requirements": {
+    "min_education": "10th",
+    "subjects": [
+     "any"
+    ],
+    "age_min": 18,
+    "age_max": 25,
+    "other_requirements": [
+     "Graduate seats exclude B.Tech and performing-arts degrees",
+     "Apply only via PMIS portal"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "Cochin Shipyard is taking 227 nine-month interns under the PM Internship Scheme, including 11 clerical seats for BA/B.Sc/B.Com/BBA/BCA graduates at Rs 13,000 a month. Candidates aged 18–25 apply on the PMIS portal by 29 Oct 2026.",
+   "verified_from": [
+    "https://cochinshipyard.in/career",
+    "https://cochinshipyard.in/careerdetail/career_locations/806",
+    "https://cochinshipyard.in/uploads/career/072fc88c8393c880260f39bd5b0bbf1e.pdf"
+   ],
+   "id": "cochin-shipyard-limited--engagement-of-interns-under-the-prime-minister-internship-scheme-pmis-227-seats",
+   "first_seen_at": "2026-10-17T16:25:39Z",
+   "last_seen_at": "2026-10-17T16:25:39Z"
   },
   {
    "organization": "IIT Hyderabad",
@@ -629,6 +789,244 @@
    "id": "iit-hyderabad--advt-no-iith-cs-60-senior-architect-ai-engineer-mern-full-stack-developer-business-analyst-contractual",
    "first_seen_at": "2026-10-15T04:21:00Z",
    "last_seen_at": "2026-10-15T04:21:00Z"
+  },
+  {
+   "organization": "DRDO",
+   "title": "CAIR Bengaluru - Junior Research Fellow (Mathematics), Advt. CAIR/HRT/JRF/2026/03",
+   "subcategory": "research_org",
+   "employment_type": "temporary",
+   "location": "Bengaluru (CAIR, DRDO Complex, C.V. Raman Nagar)",
+   "posted_date": "2026-10-06",
+   "application_end": "2026-10-30",
+   "exam_date": "2026-11-24",
+   "exam_date_text": "Written test + interview on 24 Nov 2026 (report 08:00-09:30) at CAIR main gate reception",
+   "vacancies": "1 post (JRF01, Mathematics)",
+   "salary_text": "Rs 37,000 + HRA per month; 2 years, may be extended/upgraded to SRF",
+   "qualification_text": "M.Sc Mathematics with first division plus NET or GATE; desirable: lattice-based cryptography, C and Python",
+   "age_limit_text": "Maximum 28 years as on closing date; SC/ST/PH 5 yrs, OBC 3 yrs relaxation",
+   "selection_text": "Written test then interview on the same day; merit list on interview performance",
+   "how_to_apply_text": "Email filled bio-data to jrfcair2026@gmail.com by 17:00 on 30 Oct 2026 with subject 'Application for post of JRF Advt. No CAIR/HRT/JRF/2026/03'; bring originals to the interview",
+   "notification_url": "https://drdo.gov.in/drdo/sites/default/files/vacancy/advtCAIR06102026.pdf",
+   "org_website": "https://drdo.gov.in/drdo/offerings/vacancies",
+   "requirements": {
+    "min_education": "master",
+    "subjects": [
+     "mathematics"
+    ],
+    "degree_names": [
+     "M.Sc"
+    ],
+    "exams_required_any": [
+     "NET",
+     "GATE"
+    ],
+    "age_max": 28,
+    "age_cutoff_date": "2026-10-30",
+    "age_relaxation": {
+     "SC": 5,
+     "ST": 5,
+     "PwBD": 5,
+     "OBC": 3
+    },
+    "other_requirements": [
+     "First division M.Sc",
+     "NOC for employed government/PSU candidates"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "DRDO's AI and robotics lab CAIR in Bengaluru wants one Junior Research Fellow in mathematics (cryptography work) at Rs 37,000 + HRA. M.Sc Mathematics (first division) holders with NET or GATE, aged up to 28, should email their application by 30 Oct 2026 and attend the test/interview on 24 Nov 2026.",
+   "verified_from": [
+    "https://drdo.gov.in/drdo/offerings/vacancies",
+    "https://drdo.gov.in/drdo/sites/default/files/vacancy/advtCAIR06102026.pdf"
+   ],
+   "track": "government",
+   "id": "drdo--cair-bengaluru-junior-research-fellow-mathematics-advt-cair-hrt-jrf-2026-03",
+   "first_seen_at": "2026-10-17T16:25:39Z",
+   "last_seen_at": "2026-10-17T16:25:39Z"
+  },
+  {
+   "organization": "Cochin Shipyard Limited",
+   "title": "Engagement of Graduate/Technician (Diploma) Apprentices — CANSRU, Sri Vijaya Puram (Andaman & Nicobar)",
+   "track": "psu",
+   "subcategory": "miniratna",
+   "employment_type": "apprenticeship",
+   "location": "CSL AN Ship Repair Unit, Sri Vijaya Puram, Andaman & Nicobar Islands",
+   "posted_date": "2026-10-14",
+   "application_start": "2026-10-14",
+   "application_end": "2026-10-30",
+   "vacancies": "6 (Graduate ECE 1; Diploma Mechanical 3, Electrical 1, ECE 1)",
+   "salary_text": "Stipend Rs 15,000/month (graduate), Rs 13,000/month (diploma); 1 year",
+   "fee_text": "Nil",
+   "qualification_text": "Engineering degree (ECE) or engineering diploma in the discipline",
+   "age_limit_text": "Above 18 years as on 30.10.2026",
+   "selection_text": "Shortlist on % marks → certificate verification → medical",
+   "how_to_apply_text": "Apply on NATS portal (nats.education.gov.in) against 'COCHIN SHIPYARD LIMITED'",
+   "notification_url": "https://cochinshipyard.in/uploads/career/d5331d82a81babf5aa162a4aa4277c64.pdf",
+   "apply_url": "https://nats.education.gov.in/student_login.php",
+   "org_website": "https://cochinshipyard.in",
+   "job_id": "CSL/P&A/RECTT/CANSRU TRAINEES/APPR/NATS/2026/2",
+   "requirements": {
+    "degree_names": [
+     "B.E.",
+     "B.Tech",
+     "Diploma"
+    ],
+    "subjects": [
+     "electronics and communication",
+     "mechanical",
+     "electrical"
+    ],
+    "age_min": 18,
+    "domicile_required": "Andaman & Nicobar Islands",
+    "other_requirements": [
+     "Must not have done an apprenticeship already"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "Cochin Shipyard's Andaman unit is engaging 1 graduate (ECE) and 5 diploma engineering apprentices for one year. It is open only to Andaman & Nicobar domicile candidates applying on NATS by 30 Oct 2026.",
+   "verified_from": [
+    "https://cochinshipyard.in/careerdetail/career_locations/826",
+    "https://cochinshipyard.in/uploads/career/d5331d82a81babf5aa162a4aa4277c64.pdf"
+   ],
+   "id": "cochin-shipyard-limited--engagement-of-graduate-technician-diploma-apprentices-cansru-sri-vijaya-puram-andaman-nicobar",
+   "first_seen_at": "2026-10-17T16:25:39Z",
+   "last_seen_at": "2026-10-17T16:25:39Z"
+  },
+  {
+   "organization": "DRDO",
+   "title": "RCI Hyderabad - Graduate, Technician (Diploma) and Trade (ITI) Apprentices, Advt. RCI/HRD/Apprenticeship/Advt/2027",
+   "subcategory": "research_org",
+   "employment_type": "apprenticeship",
+   "location": "Hyderabad (Research Centre Imarat, DRDO)",
+   "posted_date": "2026-10-01",
+   "application_start": "2026-10-01",
+   "application_end": "2026-11-01",
+   "vacancies": "Graduate Apprentice 50; Technician (Diploma) Apprentice 30; Trade (ITI) Apprentice 115",
+   "salary_text": "Stipend as per government norms (amount not stated)",
+   "qualification_text": "Graduate: B.E./B.Tech in ECE, Instrumentation, EEE, CSE, Mechanical, Chemical, Metallurgical, Safety, Aeronautical, Aerospace or Civil. Diploma in ECE/Instrumentation/EEE/CSE/Mechanical/Chemical/Metallurgical/Safety. ITI (NCVT/SCVT) in Fitter, Welder, Turner, Machinist, Mechanic Diesel, Electronic Mechanic, Electrician, COPA, Draughtsman (Mech), Grinder. Passed 2022-2026 with 70% or CGPA 7.5+",
+   "age_limit_text": "Minimum 18 years as on 01.09.2026; no maximum stated",
+   "experience_text": "Not eligible with more than 1 year of work experience or prior/ongoing apprenticeship",
+   "selection_text": "Academic merit and interview where required -> document verification, police verification and medical certificate",
+   "how_to_apply_text": "Graduate/Diploma: apply on NATS 2.0 (nats.education.gov.in), select Research Centre Imarat (Enrolment ID STLRAC000010). ITI: apply on apprenticeshipindia.gov.in, Establishment ID E05203600040. DRDO listing end date 01 Nov 2026 (advert says 30 days from newspaper publication)",
+   "notification_url": "https://drdo.gov.in/drdo/sites/default/files/vacancy/advtRCI01102026.pdf",
+   "apply_url": "https://nats.education.gov.in",
+   "org_website": "https://drdo.gov.in/drdo/offerings/vacancies",
+   "requirements": {
+    "min_education": "bachelor",
+    "subjects": [
+     "electronics",
+     "instrumentation",
+     "electrical engineering",
+     "computer science",
+     "mechanical engineering",
+     "chemical engineering",
+     "metallurgical engineering",
+     "safety engineering",
+     "aerospace engineering",
+     "civil engineering"
+    ],
+    "degree_names": [
+     "B.E.",
+     "B.Tech",
+     "Diploma",
+     "ITI"
+    ],
+    "min_percentage": 70,
+    "passing_years": [
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ],
+    "experience_years_min": 0,
+    "age_min": 18,
+    "age_cutoff_date": "2026-09-01",
+    "other_requirements": [
+     "Diploma and ITI holders eligible for Technician/Trade seats",
+     "70% or CGPA 7.5 minimum",
+     "Higher qualification than listed not eligible",
+     "No prior/ongoing apprenticeship"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "DRDO's missile lab RCI in Hyderabad is engaging 50 graduate, 30 diploma and 115 ITI apprentices. Engineering graduates, diploma and ITI holders who passed in 2022-2026 with at least 70% can apply via NATS (graduate/diploma) or the apprenticeship portal (ITI) by about 1 Nov 2026.",
+   "verified_from": [
+    "https://drdo.gov.in/drdo/en/offerings/vacancies/rci-hyderabad-invites-eligible-candidates-engagement-apprentices-under",
+    "https://drdo.gov.in/drdo/sites/default/files/vacancy/advtRCI01102026.pdf"
+   ],
+   "track": "government",
+   "id": "drdo--rci-hyderabad-graduate-technician-diploma-and-trade-iti-apprentices-advt-rci-hrd-apprenticeship-advt-2027",
+   "first_seen_at": "2026-10-17T16:25:39Z",
+   "last_seen_at": "2026-10-17T16:25:39Z"
+  },
+  {
+   "organization": "DRDO",
+   "title": "ITR Chandipur - Graduate and Technician (Diploma) Apprentices, Advt. ITR/HRD/AT/11/2026",
+   "subcategory": "research_org",
+   "employment_type": "apprenticeship",
+   "location": "Chandipur, Balasore, Odisha (ITR, DRDO)",
+   "posted_date": "2026-10-09",
+   "application_start": "2026-10-09",
+   "application_end": "2026-11-02",
+   "vacancies": "Graduate: CSE 8, Electronics 8, Electrical 2, Mechanical 1, Aerospace 1, Safety 2, B.Lib.Sc 2, BBA 4, B.Com 4; Diploma: CSE 8, Electronics 8, Electrical 2, Cinematography 2, Medical Lab Tech 2 (indicative)",
+   "salary_text": "Stipend: Graduate Rs 12,300/month; Diploma Rs 10,900/month; 12 months",
+   "qualification_text": "B.E./B.Tech (CSE, Electronics, Electrical, Mechanical, Aerospace, Safety), B.Lib.Sc, BBA (Admin/HR), B.Com (Financial/Cost Accounting), or Diploma in listed branches, passed in 2022-2026 as a regular candidate; higher qualification not eligible",
+   "age_limit_text": "Minimum 18; maximum as per Apprentices Act/Rules",
+   "experience_text": "Not eligible with 1 year or more of post-qualification training/job experience",
+   "selection_text": "Shortlisting -> written test and/or interview -> certificate verification and medical fitness",
+   "how_to_apply_text": "Register on NATS (nats.education.gov.in); type the Annexure-A form (from drdo.gov.in), attach self-attested certificates and send by Speed/Registered Post to Director, ITR, Chandipur, Balasore, Odisha-756025 to reach by 02 Nov 2026",
+   "notification_url": "https://drdo.gov.in/drdo/sites/default/files/vacancy/advtITR09102026.pdf",
+   "apply_url": "https://drdo.gov.in/drdo/sites/default/files/vacancy/ITR_AF09102026.docx",
+   "org_website": "https://drdo.gov.in/drdo/offerings/vacancies",
+   "requirements": {
+    "min_education": "bachelor",
+    "subjects": [
+     "computer science",
+     "electronics",
+     "electrical engineering",
+     "mechanical engineering",
+     "aerospace engineering",
+     "safety engineering",
+     "library science",
+     "business administration",
+     "commerce"
+    ],
+    "degree_names": [
+     "B.E.",
+     "B.Tech",
+     "B.Lib.Sc",
+     "BBA",
+     "B.Com",
+     "Diploma"
+    ],
+    "passing_years": [
+     2022,
+     2023,
+     2024,
+     2025,
+     2026
+    ],
+    "experience_years_min": 0,
+    "age_min": 18,
+    "other_requirements": [
+     "Diploma holders eligible for Technician Apprentice seats",
+     "NATS registration required",
+     "Regular-mode qualification only; higher qualification not eligible",
+     "Not eligible with 1+ year post-qualification experience",
+     "Postal application only"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "DRDO's ITR Chandipur (Odisha) is engaging about 40 graduate and 22 diploma apprentices for one year on stipends of Rs 12,300 (graduate) and Rs 10,900 (diploma). B.E./B.Tech, BBA, B.Com, B.Lib.Sc or diploma holders who passed in 2022-2026, registered on NATS, can apply by post to reach by 2 Nov 2026.",
+   "verified_from": [
+    "http://drdo.gov.in/drdo/en/offerings/vacancies/itr-chandipur-invites-applications-engagement-graduate-technician-diploma",
+    "https://drdo.gov.in/drdo/sites/default/files/vacancy/advtITR09102026.pdf"
+   ],
+   "track": "government",
+   "id": "drdo--itr-chandipur-graduate-and-technician-diploma-apprentices-advt-itr-hrd-at-11-2026",
+   "first_seen_at": "2026-10-17T16:25:39Z",
+   "last_seen_at": "2026-10-17T16:25:39Z"
   },
   {
    "organization": "Kerala PSC",
@@ -684,27 +1082,15 @@
    "apply_url": "https://apply.tnpscexams.in/apply-now?app_id=UElZMDAwMDAwMQ%3D%3D",
    "org_website": "https://www.tnpsc.gov.in",
    "requirements": {
-    "_extraction": "ai",
-    "min_education": "10th",
-    "subjects": [
-     "any"
-    ],
-    "age_min": 18,
-    "age_cutoff_date": "2026-07-01",
-    "languages_required": [
-     "Tamil"
-    ],
     "other_requirements": [
-     "Tamil as a subject or medium in SSLC/HSC, or pass the TNPSC Tamil Language Eligibility Test",
-     "Typewriting/shorthand qualifications needed for Typist and Steno-typist posts",
-     "Minimum age 21 for some posts; upper age limit varies by post and community (30-53, none for some)",
-     "One-Time Registration (Rs 150) + exam fee (Rs 100) by 05 Nov 2026"
-    ]
+     "Re-confirmed 17 Oct 2026 on apply.tnpscexams.in: Notification 11/2026, apply 06/10/2026-05/11/2026, exam 10/01/2027"
+    ],
+    "_extraction": "ai"
    },
-   "ai_summary": "TNPSC's Group IV exam 2026 (Notification 11/2026) fills 6,574 Tamil Nadu government Group IV posts, the main clerical entry route (e.g. Junior Assistant, Typist, VAO), through one written exam on 10 January 2027. Anyone with at least SSLC (10th) who meets the Tamil-language rule and age limits (as on 01.07.2026) can apply by 5 November 2026; typist/steno posts also need typewriting/shorthand certificates.",
+   "ai_summary": "Re-confirmation: TNPSC Group IV 2026 (Notification 11/2026) is still listed as open on the TNPSC apply portal until 5 Nov 2026. The exam is on 10 Jan 2027.",
    "id": "tnpsc--combined-civil-services-examination-iv-group-iv-services-2026",
    "first_seen_at": "2026-10-10T17:05:25Z",
-   "last_seen_at": "2026-10-15T04:21:00Z",
+   "last_seen_at": "2026-10-17T16:25:39Z",
    "exam_date_text": "Written exam 10 Jan 2027, 9:30 AM - 12:30 PM; application correction window 09-11 Nov 2026",
    "vacancies": "6,574 posts in total across Group IV services (Notification No. 11/2026, Advt. No. 747); post-wise counts in the notification",
    "fee_text": "One-Time Registration Rs 150 (valid 5 years) + examination fee Rs 100, paid online by 05 Nov 2026; specified categories are exempt from the exam fee (see notification)",
@@ -713,10 +1099,10 @@
    "selection_text": "OMR written exam -> on-screen certificate verification; typing/shorthand-based ranking for typist and steno posts",
    "how_to_apply_text": "Online at apply.tnpscexams.in after One-Time Registration; pay the fee by 05 Nov 2026",
    "verified_from": [
-    "https://d1cmkr5tdoeyjk.cloudfront.net/tnpsc/PIY0000001/notification/CCSE_Group_IV_Tamil_2026.pdf",
     "https://apply.tnpscexams.in/apply-now?app_id=UElZMDAwMDAwMQ%3D%3D"
    ],
-   "salary_text": "Varies by post; scales in the notification include Rs 16,600-52,400, Rs 17,000-54,060 and Rs 19,500-62,000 (see post-wise table)"
+   "salary_text": "Varies by post; scales in the notification include Rs 16,600-52,400, Rs 17,000-54,060 and Rs 19,500-62,000 (see post-wise table)",
+   "syllabus_url": "https://tnpsc.gov.in/static_pdf/syllabus/final_g4_syll_english.pdf"
   },
   {
    "organization": "NTA — CSIR UGC NET",
@@ -778,7 +1164,116 @@
    ],
    "id": "nta-csir-ugc-net--joint-csir-ugc-net-december-2026-online-application",
    "first_seen_at": "2026-10-10T18:25:14Z",
-   "last_seen_at": "2026-10-15T04:21:00Z"
+   "last_seen_at": "2026-10-15T04:21:00Z",
+   "syllabus_url": "https://www.ugcnetonline.in/syllabus-new.php"
+  },
+  {
+   "organization": "Oil India Limited",
+   "title": "Recruitment in Grade A, B & C in Executive Cadre",
+   "track": "psu",
+   "subcategory": "maharatna",
+   "employment_type": "full_time",
+   "application_end": "2026-11-14",
+   "how_to_apply_text": "Online via the advertisement page linked from oil-india.com/advertisement-list (last date 14.11.2026, 11:00 AM)",
+   "notification_url": "https://www.oil-india.com/download-advertisement-document?detail=NlVXMW9ENlc=",
+   "apply_url": "https://cdn.digialm.com/EForms/configuredHtml/1258/101869/cLS13NVBAyZXSMfBYd/Index.html",
+   "syllabus_url": "https://www.oil-india.com/download-advertisement-document?detail=NlVXMW9EK2Y=",
+   "org_website": "https://www.oil-india.com",
+   "requirements": {
+    "other_requirements": [
+     "Posts, eligibility and pay not extracted — advertisement PDF could not be read; check before applying"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "Oil India has an open advertisement for Executive cadre posts in Grades A, B and C, with applications closing on 14 Nov 2026. The posts and eligibility could not be read automatically, so open the official advertisement to check which disciplines qualify.",
+   "verified_from": [
+    "https://www.oil-india.com/advertisement-list"
+   ],
+   "id": "oil-india-limited--recruitment-in-grade-a-b-c-in-executive-cadre",
+   "first_seen_at": "2026-10-17T16:25:39Z",
+   "last_seen_at": "2026-10-17T16:25:39Z"
+  },
+  {
+   "organization": "ICMR",
+   "title": "ICMR-NIE Chennai - Scientific positions (8 posts), School of Public Health",
+   "subcategory": "research_org",
+   "employment_type": "full_time",
+   "location": "Chennai (ICMR-National Institute of Epidemiology)",
+   "application_end": "2026-11-26",
+   "vacancies": "8 posts",
+   "notification_url": "https://www.icmr.gov.in/icmrobject/uploads/Recruitment/1791381044_icmr-ninadvertisementscientist-bcd.pdf",
+   "org_website": "https://www.icmr.gov.in/employment-opportunities",
+   "requirements": {
+    "other_requirements": [
+     "Posts, qualification, experience, age limit and pay are in the advertisement PDF (file name refers to Scientist B/C/D), which could not be opened - read it before applying"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "ICMR's National Institute of Epidemiology in Chennai has advertised 8 scientific positions for its School of Public Health, with a last date of 26 Nov 2026. The post levels and eligibility are in the advertisement on ICMR's Employment Opportunities page.",
+   "verified_from": [
+    "https://www.icmr.gov.in/employment-opportunities"
+   ],
+   "track": "government",
+   "id": "icmr--icmr-nie-chennai-scientific-positions-8-posts-school-of-public-health",
+   "first_seen_at": "2026-10-17T16:25:39Z",
+   "last_seen_at": "2026-10-17T16:25:39Z"
+  },
+  {
+   "organization": "GAIL (India) Limited",
+   "title": "Executive Trainee (Chemical, Instrumentation, Electrical, Mechanical) through GATE-2027 (Advt GAIL/OPEN/ET/1/2026)",
+   "track": "psu",
+   "subcategory": "maharatna",
+   "employment_type": "full_time",
+   "posted_date": "2026-09-01",
+   "application_start": "2027-02-17",
+   "application_end": "2027-03-18",
+   "exam_date_text": "Shortlisting on GATE-2027 marks",
+   "qualification_text": "B.E./B.Tech/B.Sc (Engg.) in Chemical/Petrochemical, Instrumentation (or related Electronics/EEE), Electrical, or Mechanical/Production branches with min 65% (60% SC/ST/PwBD); 2026 graduates or final-year 2026-27 students (degree by 31.08.2027); 2025 or earlier graduates not eligible",
+   "age_limit_text": "Max 26 years as on 18.03.2027; relaxation SC/ST 5, OBC-NCL 3, PwBD 10",
+   "salary_text": "Not stated in the advertisement",
+   "selection_text": "Shortlisting on GATE-2027 marks → further selection, medical fitness",
+   "how_to_apply_text": "Register for GATE-2027 in the relevant paper (CH/IN/EE/ME); then apply online in the Careers section of gailonline.com with the GATE-2027 registration number between 17 Feb and 18 Mar 2027",
+   "notification_url": "https://www.gailonline.com/careers/currentOpnning/GATE-2027-1st-Advertisement-01092026.pdf",
+   "org_website": "https://www.gailonline.com",
+   "job_id": "GAIL/OPEN/ET/1/2026",
+   "requirements": {
+    "min_education": "bachelor",
+    "subjects": [
+     "chemical",
+     "instrumentation",
+     "electrical",
+     "mechanical"
+    ],
+    "degree_names": [
+     "B.E.",
+     "B.Tech",
+     "B.Sc (Engg.)"
+    ],
+    "min_percentage": 65,
+    "passing_years": [
+     2026,
+     2027
+    ],
+    "experience_years_min": 0,
+    "age_max": 26,
+    "age_cutoff_date": "2027-03-18",
+    "age_relaxation": "SC/ST 5 yrs, OBC-NCL 3 yrs, PwBD 10 yrs",
+    "exams_required_any": [
+     "GATE"
+    ],
+    "other_requirements": [
+     "Only GATE-2027 scores valid",
+     "Engineering graduates only"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "GAIL will hire Executive Trainees in Chemical, Instrumentation, Electrical and Mechanical engineering based only on GATE-2027 marks. 2026/2027-batch B.E./B.Tech graduates with 65% aged up to 26 can apply from 17 Feb to 18 Mar 2027.",
+   "verified_from": [
+    "https://www.gailonline.com/careers/currentOpnning/GATE-2027-1st-Advertisement-01092026.pdf"
+   ],
+   "id": "gail-india-limited--executive-trainee-chemical-instrumentation-electrical-mechanical-through-gate-2027-advt-gail-open-et-1-2026",
+   "first_seen_at": "2026-10-17T16:25:39Z",
+   "last_seen_at": "2026-10-17T16:25:39Z"
   },
   {
    "organization": "Staff Selection Commission",
@@ -804,7 +1299,8 @@
    ],
    "id": "staff-selection-commission--constables-gd-in-capfs-nia-ssf-and-rifleman-gd-in-assam-rifles-examination-2027-upcoming",
    "first_seen_at": "2026-10-10T18:25:14Z",
-   "last_seen_at": "2026-10-15T04:21:00Z"
+   "last_seen_at": "2026-10-15T04:21:00Z",
+   "syllabus_url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_CTGD_2026.pdf"
   },
   {
    "organization": "Staff Selection Commission",
@@ -830,7 +1326,8 @@
    ],
    "id": "staff-selection-commission--multi-tasking-non-technical-staff-havaldar-cbic-cbn-examination-2026-upcoming",
    "first_seen_at": "2026-10-10T18:25:14Z",
-   "last_seen_at": "2026-10-15T04:21:00Z"
+   "last_seen_at": "2026-10-15T04:21:00Z",
+   "syllabus_url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_mts_2025.pdf"
   },
   {
    "organization": "Supreme Court of India",
@@ -882,6 +1379,537 @@
    "id": "supreme-court-of-india--court-assistant-technical-assistant-cum-programmer-detailed-advertisement-12-10-2026",
    "first_seen_at": "2026-10-15T04:21:12Z",
    "last_seen_at": "2026-10-15T04:21:12Z"
+  },
+  {
+   "organization": "IFSCA",
+   "title": "Young Professional, Consultant Grade I, Consultant Grade II and Senior Consultant in IFSCA (advertisement dated 09.10.2026)",
+   "subcategory": "regulator",
+   "employment_type": "contract",
+   "location": "Gandhinagar, Gujarat (GIFT City)",
+   "posted_date": "2026-10-09",
+   "notification_url": "https://ifsca.gov.in/CommonDirect/DownloadFile?id=850da50e42b9c192894a42a7d23f86ee&fileName=Advetisement_for_the_position_of_Young_Professional__Consultant_Grade_I_Consultant_Grade_II_and_Senior_Consultant_in_IFSCA_20261009_0635.pdf",
+   "org_website": "https://ifsca.gov.in/Career",
+   "requirements": {
+    "other_requirements": [
+     "Number of posts, qualification, experience, pay and last date are in the advertisement PDF, which could not be read online - check it before applying",
+     "A separate IFSCA notice dated 08.10.2026 extends the last date for Young Professional and Consultant Grade I under the advertisement dated 16.09.2026"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "IFSCA, the regulator for GIFT City's international financial services centre, posted a new advertisement on 9 Oct 2026 for Young Professionals and Consultants on contract. Young Professional roles usually suit recent graduates/postgraduates in finance, law or economics, but confirm eligibility and the closing date in the advertisement PDF.",
+   "verified_from": [
+    "https://ifsca.gov.in",
+    "https://ifsca.gov.in/Career/Index?MId=d3uv10UgqMw=",
+    "https://ifsca.gov.in/Career/Index?MId=0EqZaxg1yfA="
+   ],
+   "track": "government",
+   "id": "ifsca--young-professional-consultant-grade-i-consultant-grade-ii-and-senior-consultant-in-ifsca-advertisement-dated-09-10-2026",
+   "first_seen_at": "2026-10-17T16:25:39Z",
+   "last_seen_at": "2026-10-17T16:25:39Z"
+  },
+  {
+   "organization": "Supreme Court of India",
+   "title": "Junior Court Attendant - detailed advertisement, 15.10.2026",
+   "subcategory": "court",
+   "employment_type": "full_time",
+   "location": "New Delhi",
+   "posted_date": "2026-10-15",
+   "notification_url": "https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/uploads/2026/10/2026101560.pdf",
+   "org_website": "https://www.sci.gov.in/recruitments/",
+   "requirements": {
+    "other_requirements": [
+     "Only the appendices of the advertisement were machine-readable; posts, pay, qualification, age limit, fee and dates are in the full advertisement - read it before applying"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "The Supreme Court of India published a detailed advertisement on 15 Oct 2026 for Junior Court Attendant posts. The qualification, age limit, pay and application dates could not be read online, so check the advertisement on sci.gov.in before applying.",
+   "verified_from": [
+    "https://www.sci.gov.in/recruitments/"
+   ],
+   "track": "government",
+   "id": "supreme-court-of-india--junior-court-attendant-detailed-advertisement-15-10-2026",
+   "first_seen_at": "2026-10-17T16:25:39Z",
+   "last_seen_at": "2026-10-17T16:25:39Z"
+  },
+  {
+   "organization": "HCLTech",
+   "title": "Campus-Beginner (Java Developer – fresh graduates)",
+   "track": "it",
+   "subcategory": "it_services",
+   "employment_type": "full_time",
+   "location": "Chennai",
+   "job_id": "168116",
+   "qualification_text": "Fresh graduates; no batch or degree specified on the posting.",
+   "experience_text": "Fresh graduates only",
+   "selection_text": "Selected candidates first complete an extensive training program (Java fundamentals, process and rules development) before project work.",
+   "how_to_apply_text": "Apply online via the 'Apply now' button on the HCLTech careers job page.",
+   "notification_url": "https://careers.hcltech.com/job/Campus-Beginner/168116-en_US/",
+   "apply_url": "https://careers.hcltech.com/talentcommunity/apply/168116/",
+   "org_website": "https://www.hcltech.com",
+   "requirements": {
+    "experience_years_min": 0,
+    "other_requirements": [
+     "Java development aptitude"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "HCLTech is hiring fresh graduates as Campus-Beginner Java developers in Chennai. Selected candidates go through Java training before moving to project work.",
+   "verified_from": [
+    "https://careers.hcltech.com/job/Campus-Beginner/168116-en_US/"
+   ],
+   "id": "hcltech--campus-beginner-java-developer-fresh-graduates",
+   "first_seen_at": "2026-10-17T16:25:39Z",
+   "last_seen_at": "2026-10-17T16:25:39Z"
+  },
+  {
+   "organization": "HCLTech",
+   "title": "Trainee - Voice Operations (DPO)",
+   "track": "it",
+   "subcategory": "it_services",
+   "employment_type": "full_time",
+   "location": "Bengaluru",
+   "job_id": "151456",
+   "experience_text": "Entry-level position",
+   "qualification_text": "Not specified; customer service/voice training certifications valued.",
+   "how_to_apply_text": "Apply online via the 'Apply now' button on the HCLTech careers job page.",
+   "notification_url": "https://careers.hcltech.com/job/Trainee-Voice-Operations-%28DPO%29/151456-en_US/",
+   "apply_url": "https://careers.hcltech.com/job/Trainee-Voice-Operations-%28DPO%29/151456-en_US/",
+   "org_website": "https://www.hcltech.com",
+   "requirements": {
+    "experience_years_min": 0,
+    "other_requirements": [
+     "Voice/customer support role (inbound and outbound calls)"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "HCLTech has an entry-level Trainee role in Voice Operations at Bangalore handling inbound and outbound customer calls. Posting is live with an Apply now button; no qualification or batch is specified.",
+   "verified_from": [
+    "https://careers.hcltech.com/job/Trainee-Voice-Operations-%28DPO%29/151456-en_US/"
+   ],
+   "id": "hcltech--trainee-voice-operations-dpo",
+   "first_seen_at": "2026-10-17T16:25:39Z",
+   "last_seen_at": "2026-10-17T16:25:39Z"
+  },
+  {
+   "organization": "HCLTech",
+   "title": "Analyst (Support & Operations) – Generative AI",
+   "track": "it",
+   "subcategory": "it_services",
+   "employment_type": "full_time",
+   "location": "Chennai",
+   "job_id": "166721",
+   "experience_text": "0-3 years; fresh graduates included. Locations listed: Noida, Hyderabad, Chennai, Bangalore, Pune (Band E1).",
+   "qualification_text": "Engineering degree with AI/ML project experience including Python.",
+   "how_to_apply_text": "Apply online via the 'Apply now' button on the HCLTech careers job page.",
+   "notification_url": "https://careers.hcltech.com/job/Analyst-%28Support-&-Operations%29/166721-en_US/",
+   "apply_url": "https://careers.hcltech.com/job/Analyst-%28Support-&-Operations%29/166721-en_US/",
+   "org_website": "https://www.hcltech.com",
+   "requirements": {
+    "min_education": "bachelor",
+    "degree_names": [
+     "B.E.",
+     "B.Tech"
+    ],
+    "experience_years_min": 0,
+    "other_requirements": [
+     "Strong Python for Generative AI",
+     "Hands-on AI/ML or LLM project experience",
+     "LangChain/LangGraph exposure"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "HCLTech is hiring Generative AI Analysts (0-3 yrs, freshers included) across Chennai, Bangalore and other cities to build AI agents with Python and LangChain. An engineering background with hands-on AI/ML project work is required.",
+   "verified_from": [
+    "https://careers.hcltech.com/job/Analyst-%28Support-&-Operations%29/166721-en_US/"
+   ],
+   "id": "hcltech--analyst-support-operations-generative-ai",
+   "first_seen_at": "2026-10-17T16:25:39Z",
+   "last_seen_at": "2026-10-17T16:25:39Z"
+  },
+  {
+   "organization": "Tiger Analytics",
+   "title": "X-Ops Trainee - Campus - 2027 Hiring",
+   "track": "it",
+   "subcategory": "analytics",
+   "employment_type": "full_time",
+   "location": "Chennai",
+   "job_id": "2026093012572964",
+   "experience_text": "0-3 yrs (as listed); campus hiring for 2027 batch per title.",
+   "how_to_apply_text": "Apply via the Tiger Analytics careers portal link from the Current Openings page.",
+   "notification_url": "https://www.tigeranalytics.com/about-us/current-openings/",
+   "apply_url": "https://careers.tigeranalytics.com/#!/job-view/x-ops-trainee-campus-2027-hiring-chennai-tamil-nadu-india-2026093012572964",
+   "org_website": "https://www.tigeranalytics.com",
+   "requirements": {
+    "passing_years": [
+     2027
+    ],
+    "experience_years_min": 0,
+    "other_requirements": [
+     "Campus hiring (2027 batch per job title)"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "Tiger Analytics lists an X-Ops Trainee campus role in Chennai aimed at the 2027 graduating batch. Detailed eligibility could not be read because the job page is JS-only.",
+   "verified_from": [
+    "https://www.tigeranalytics.com/about-us/current-openings/"
+   ],
+   "id": "tiger-analytics--x-ops-trainee-campus-2027-hiring",
+   "first_seen_at": "2026-10-17T16:25:39Z",
+   "last_seen_at": "2026-10-17T16:25:39Z"
+  },
+  {
+   "track": "it",
+   "subcategory": "gcc",
+   "organization": "Amazon",
+   "title": "Software Dev Engineer I, Amazon University Talent Acquisition (2026 graduates)",
+   "employment_type": "full_time",
+   "location": "Bengaluru / Chennai (also Hyderabad)",
+   "job_id": "10454438",
+   "qualification_text": "Bachelor's degree or above in computer science, computer engineering, or a related field; for students who graduated in 2026",
+   "experience_text": "New graduate role (2026 graduates); internships preferred, not required",
+   "how_to_apply_text": "Apply online on amazon.jobs; applications reviewed on a rolling basis",
+   "apply_url": "https://www.amazon.jobs/en/jobs/10454438/software-dev-engineer-i-amazon-university-talent-acquisition",
+   "notification_url": "https://www.amazon.jobs/en/jobs/10454438/software-dev-engineer-i-amazon-university-talent-acquisition",
+   "org_website": "https://www.amazon.com",
+   "requirements": {
+    "min_education": "bachelor",
+    "subjects": [
+     "computer science",
+     "computer engineering"
+    ],
+    "passing_years": [
+     2026
+    ],
+    "experience_years_min": 0,
+    "other_requirements": [
+     "Related field accepted",
+     "Prior technical internship preferred"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "Amazon is hiring 2026-graduate Software Development Engineers (SDE I) through its University Talent Acquisition team for Bengaluru, Chennai and Hyderabad. A bachelor's or higher in CS/computer engineering or a related field is required and applications are reviewed on a rolling basis.",
+   "verified_from": [
+    "https://www.amazon.jobs/en/jobs/10454438/software-dev-engineer-i-amazon-university-talent-acquisition"
+   ],
+   "id": "amazon--software-dev-engineer-i-amazon-university-talent-acquisition-2026-graduates",
+   "first_seen_at": "2026-10-17T16:25:39Z",
+   "last_seen_at": "2026-10-17T16:25:39Z"
+  },
+  {
+   "track": "it",
+   "subcategory": "gcc",
+   "organization": "Amazon",
+   "title": "Software Dev Engineer I, Amazon University Talent Acquisition (2025 & 2026 graduates)",
+   "employment_type": "full_time",
+   "location": "Bengaluru",
+   "job_id": "10454435",
+   "qualification_text": "Bachelor's degree or above in computer science, computer engineering, or a related field; knowledge of CS fundamentals (OOD, algorithms, data structures, complexity) and a language such as C/C++, Python, Java or Perl",
+   "experience_text": "Intended for 2026 and 2025 graduates only",
+   "how_to_apply_text": "Apply online on amazon.jobs; applications reviewed on a rolling basis",
+   "apply_url": "https://www.amazon.jobs/en/jobs/10454435/software-dev-engineer-i-amazon-university-talent-acquisition",
+   "notification_url": "https://www.amazon.jobs/en/jobs/10454435/software-dev-engineer-i-amazon-university-talent-acquisition",
+   "org_website": "https://www.amazon.com",
+   "requirements": {
+    "min_education": "bachelor",
+    "subjects": [
+     "computer science",
+     "computer engineering"
+    ],
+    "passing_years": [
+     2025,
+     2026
+    ],
+    "experience_years_min": 0,
+    "other_requirements": [
+     "Related field accepted",
+     "CS fundamentals and one programming language"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "Amazon Development Centre India (Karnataka) is hiring SDE I new graduates from the 2025 and 2026 batches. A bachelor's or higher in CS/computer engineering or related field with strong CS fundamentals is required; apply on amazon.jobs.",
+   "verified_from": [
+    "https://www.amazon.jobs/en/jobs/10454435/software-dev-engineer-i-amazon-university-talent-acquisition"
+   ],
+   "id": "amazon--software-dev-engineer-i-amazon-university-talent-acquisition-2025-2026-graduates",
+   "first_seen_at": "2026-10-17T16:25:39Z",
+   "last_seen_at": "2026-10-17T16:25:39Z"
+  },
+  {
+   "track": "it",
+   "subcategory": "gcc",
+   "organization": "Amazon",
+   "title": "SDE I Intern, Amazon University Talent Acquisition (6-month, Jan–Jun 2027 start)",
+   "employment_type": "internship",
+   "location": "Bengaluru / Chennai (also Hyderabad, Pune, Delhi)",
+   "job_id": "10541345",
+   "qualification_text": "Currently enrolled in a Bachelor's or Master's in Computer Science, Computer Engineering or related field; expected graduation 2027",
+   "experience_text": "Students (2027 graduating batch); full-time 6-month internship (24–26 weeks), in person",
+   "how_to_apply_text": "Apply on amazon.jobs; a university-signed declaration confirming availability for the full internship is required",
+   "apply_url": "https://www.amazon.jobs/en/jobs/10541345/sde-i-intern-amazon-university-talent-acquisition",
+   "notification_url": "https://www.amazon.jobs/en/jobs/10541345/sde-i-intern-amazon-university-talent-acquisition",
+   "org_website": "https://www.amazon.com",
+   "requirements": {
+    "min_education": "bachelor",
+    "subjects": [
+     "computer science",
+     "computer engineering"
+    ],
+    "passing_years": [
+     2027
+    ],
+    "experience_years_min": 0,
+    "other_requirements": [
+     "Must be currently enrolled",
+     "University-signed availability declaration",
+     "Start between January and June 2027"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "Amazon is hiring 6-month SDE interns from the 2027 graduating batch for its Indian offices including Bengaluru and Chennai, starting January–June 2027. Applicants must be enrolled in a CS/CE or related bachelor's or master's and submit a university availability declaration.",
+   "verified_from": [
+    "https://www.amazon.jobs/en/jobs/10541345/sde-i-intern-amazon-university-talent-acquisition"
+   ],
+   "id": "amazon--sde-i-intern-amazon-university-talent-acquisition-6-month-jan-jun-2027-start",
+   "first_seen_at": "2026-10-17T16:25:39Z",
+   "last_seen_at": "2026-10-17T16:25:39Z"
+  },
+  {
+   "track": "it",
+   "subcategory": "gcc",
+   "organization": "Amazon",
+   "title": "Systems Development Engineer Intern – 2027",
+   "employment_type": "internship",
+   "location": "Bengaluru / Chennai (also Hyderabad)",
+   "job_id": "10498161",
+   "qualification_text": "Enrolled in (or holding) a Bachelor's degree in Computer Science, Engineering or related field; knowledge of Java, C/C++ or Python and CS fundamentals",
+   "experience_text": "Student internship; full-time commitment for the entire internship",
+   "how_to_apply_text": "Apply on amazon.jobs; university-signed availability declaration required",
+   "apply_url": "https://www.amazon.jobs/en/jobs/10498161/systems-development-engineer-intern-2027",
+   "notification_url": "https://www.amazon.jobs/en/jobs/10498161/systems-development-engineer-intern-2027",
+   "org_website": "https://www.amazon.com",
+   "requirements": {
+    "min_education": "bachelor",
+    "subjects": [
+     "computer science",
+     "engineering"
+    ],
+    "experience_years_min": 0,
+    "other_requirements": [
+     "Must be enrolled in a bachelor's programme",
+     "Full-time availability for whole internship"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "Amazon is hiring Systems Development Engineer interns (2027) for Bengaluru, Hyderabad and Chennai. Bachelor's students in CS/engineering with programming knowledge can apply on amazon.jobs.",
+   "verified_from": [
+    "https://www.amazon.jobs/en/jobs/10498161/systems-development-engineer-intern-2027"
+   ],
+   "id": "amazon--systems-development-engineer-intern-2027",
+   "first_seen_at": "2026-10-17T16:25:39Z",
+   "last_seen_at": "2026-10-17T16:25:39Z"
+  },
+  {
+   "track": "it",
+   "subcategory": "gcc",
+   "organization": "Amazon",
+   "title": "MBA Intern - 2027, Amazon University Talent Acquisition",
+   "employment_type": "internship",
+   "location": "Bengaluru",
+   "job_id": "10506479",
+   "qualification_text": "Full-time MBA students, class of 2028",
+   "experience_text": "Summer internship for first-year full-time MBA students",
+   "how_to_apply_text": "Apply on amazon.jobs",
+   "apply_url": "https://www.amazon.jobs/en/jobs/10506479/mba-intern-2027-amazon-university-talent-acquisition",
+   "notification_url": "https://www.amazon.jobs/en/jobs/10506479/mba-intern-2027-amazon-university-talent-acquisition",
+   "org_website": "https://www.amazon.com",
+   "requirements": {
+    "min_education": "master",
+    "degree_names": [
+     "MBA"
+    ],
+    "passing_years": [
+     2028
+    ],
+    "experience_years_min": 0,
+    "other_requirements": [
+     "Must be in a full-time MBA programme"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "Amazon is recruiting 2027 MBA interns in Bengaluru from full-time MBA programmes graduating in 2028. Apply through amazon.jobs; no deadline is shown.",
+   "verified_from": [
+    "https://www.amazon.jobs/en/jobs/10506479/mba-intern-2027-amazon-university-talent-acquisition"
+   ],
+   "id": "amazon--mba-intern-2027-amazon-university-talent-acquisition",
+   "first_seen_at": "2026-10-17T16:25:39Z",
+   "last_seen_at": "2026-10-17T16:25:39Z"
+  },
+  {
+   "track": "it",
+   "subcategory": "gcc",
+   "organization": "Google",
+   "title": "Silicon Engineer, Platform and Devices, University Graduate, 2026",
+   "employment_type": "full_time",
+   "location": "Bengaluru",
+   "job_id": "73379279982731974",
+   "qualification_text": "Bachelor's degree in Electrical, Electronics and Communication Engineering, a relevant technical field, or equivalent practical experience; experience with design concepts and computer hardware architecture",
+   "experience_text": "University graduate role; internship/project experience in hardware, SoC/ASIC design, verification, physical design, DFT or Verilog/SystemVerilog preferred",
+   "how_to_apply_text": "Apply on Google Careers",
+   "apply_url": "https://www.google.com/about/careers/applications/jobs/results/73379279982731974-silicon-engineer-platform-and-devices-university-graduate-2026",
+   "notification_url": "https://www.google.com/about/careers/applications/jobs/results/73379279982731974-silicon-engineer-platform-and-devices-university-graduate-2026",
+   "org_website": "https://www.google.com/about/careers/applications/",
+   "requirements": {
+    "min_education": "bachelor",
+    "subjects": [
+     "electrical engineering",
+     "electronics and communication engineering"
+    ],
+    "experience_years_min": 0,
+    "other_requirements": [
+     "Hardware/computer architecture design concepts",
+     "Verilog/SystemVerilog preferred"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "Google is hiring a 2026 university-graduate Silicon Engineer for its Platforms and Devices team in Bengaluru. An EE/ECE (or related) bachelor's with hardware architecture knowledge is required; the posting is live with an Apply button.",
+   "verified_from": [
+    "https://www.google.com/about/careers/applications/jobs/results/73379279982731974-silicon-engineer-platform-and-devices-university-graduate-2026"
+   ],
+   "id": "google--silicon-engineer-platform-and-devices-university-graduate-2026",
+   "first_seen_at": "2026-10-17T16:25:39Z",
+   "last_seen_at": "2026-10-17T16:25:39Z"
+  },
+  {
+   "track": "it",
+   "subcategory": "gcc",
+   "organization": "Salesforce",
+   "title": "Summer 2027 Intern - Software Engineer (Class of 2028, AMTS track)",
+   "employment_type": "internship",
+   "location": "Bengaluru (also Hyderabad)",
+   "job_id": "JR337715",
+   "qualification_text": "Working toward a B.E./B.Tech in Computer Science, Information Technology or a circuit branch; graduating 2028; sophomore year or higher (or any year of graduate school)",
+   "experience_text": "Student internship (2028 graduating batch)",
+   "how_to_apply_text": "Apply on Salesforce Workday careers site",
+   "apply_url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Bangalore/Summer-2027-Intern---Software-Engineer_JR337715?q=AMTS",
+   "notification_url": "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Bangalore/Summer-2027-Intern---Software-Engineer_JR337715?q=AMTS",
+   "org_website": "https://www.salesforce.com",
+   "requirements": {
+    "min_education": "bachelor",
+    "subjects": [
+     "computer science",
+     "information technology",
+     "circuit branches"
+    ],
+    "degree_names": [
+     "B.E.",
+     "B.Tech"
+    ],
+    "passing_years": [
+     2028
+    ],
+    "experience_years_min": 0,
+    "other_requirements": [
+     "Must be currently enrolled (sophomore or above)"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "Salesforce India is hiring Summer 2027 Software Engineer interns (class of 2028) for Hyderabad/Bengaluru. B.E./B.Tech students in CS, IT or circuit branches graduating in 2028 can apply; the page shows no closing date.",
+   "verified_from": [
+    "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Bangalore/Summer-2027-Intern---Software-Engineer_JR337715?q=AMTS"
+   ],
+   "id": "salesforce--summer-2027-intern-software-engineer-class-of-2028-amts-track",
+   "first_seen_at": "2026-10-17T16:25:39Z",
+   "last_seen_at": "2026-10-17T16:25:39Z"
+  },
+  {
+   "organization": "Power Grid Corporation of India Limited",
+   "title": "Engineer Trainee-2027 through GATE 2027 — Electrical, Civil, Computer Science, Electronics (Advt CC/03/2026)",
+   "track": "psu",
+   "subcategory": "maharatna",
+   "employment_type": "full_time",
+   "posted_date": "2026-09-24",
+   "exam_date_text": "Selection based on GATE 2027; POWERGRID application window tentatively March/April 2027",
+   "salary_text": "Basic Rs 40,000 (scale 40,000–1,40,000) + IDA, HRA, perks during training (approx. CTC Rs 11 lakh); E2 scale Rs 50,000–1,60,000 after training",
+   "fee_text": "Rs 500; SC/ST/PwBD/Ex-SM exempt",
+   "qualification_text": "Full-time B.E./B.Tech/B.Sc (Engg.) in Electrical (incl. EEE/Power), Electronics/ECE/Telecom, Civil, or Computer Science/IT with min 60%; final-year students with results by 31.08.2027 may apply",
+   "age_limit_text": "Max 28 years as on 31.03.2027; relaxation for OBC-NCL, SC/ST, PwBD",
+   "selection_text": "Based on GATE 2027 score; details in a separate notification before registration opens",
+   "how_to_apply_text": "Appear in GATE 2027 in EE/CE/CS/EC; then apply in the CAREER section of powergrid.in when the window opens (tentatively Mar/Apr 2027)",
+   "notification_url": "https://www.powergrid.in/sites/default/files/job_opportunities_document/ET2027_Detailed_Advertisement_For%20Website.pdf",
+   "apply_url": "https://www.powergrid.in/en/job-opportunities",
+   "org_website": "https://www.powergrid.in",
+   "job_id": "CC/03/2026",
+   "requirements": {
+    "min_education": "bachelor",
+    "subjects": [
+     "electrical",
+     "electronics",
+     "civil",
+     "computer science",
+     "information technology"
+    ],
+    "degree_names": [
+     "B.E.",
+     "B.Tech",
+     "B.Sc (Engg.)"
+    ],
+    "min_percentage": 60,
+    "passing_years": [
+     2026,
+     2027
+    ],
+    "experience_years_min": 0,
+    "age_max": 28,
+    "age_cutoff_date": "2027-03-31",
+    "exams_required_any": [
+     "GATE"
+    ],
+    "other_requirements": [
+     "GATE 2027 paper must match discipline (EE/CE/CS/EC)",
+     "Engineering graduates only"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "POWERGRID will recruit Engineer Trainees in Electrical, Civil, Computer Science and Electronics through GATE 2027, paying about Rs 11 lakh CTC during training. B.E./B.Tech holders with 60% aged up to 28 must take GATE 2027 and then apply around March–April 2027.",
+   "verified_from": [
+    "https://www.powergrid.in/en/job-opportunities",
+    "https://www.powergrid.in/sites/default/files/job_opportunities_document/ET2027_Detailed_Advertisement_For%20Website.pdf"
+   ],
+   "id": "power-grid-corporation-of-india-limited--engineer-trainee-2027-through-gate-2027-electrical-civil-computer-science-electronics-advt-cc-03-2026",
+   "first_seen_at": "2026-10-17T16:25:39Z",
+   "last_seen_at": "2026-10-17T16:25:39Z"
+  },
+  {
+   "organization": "NTPC Limited",
+   "title": "Recruitment of Engineering Executive Trainees-2027 through GATE-2027 (Advt 11/26)",
+   "track": "psu",
+   "subcategory": "maharatna",
+   "employment_type": "full_time",
+   "how_to_apply_text": "Listed on ntpc.co.in/jobs-ntpc (page updated 16.10.2026); details and online application on careers.ntpc.co.in/recruitment/",
+   "apply_url": "https://careers.ntpc.co.in/recruitment/",
+   "org_website": "https://ntpc.co.in",
+   "job_id": "11/26",
+   "requirements": {
+    "min_education": "bachelor",
+    "degree_names": [
+     "B.E.",
+     "B.Tech"
+    ],
+    "exams_required_any": [
+     "GATE"
+    ],
+    "other_requirements": [
+     "Engineering degree implied by post title; disciplines, % and age not read — check the detailed advertisement"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "NTPC has announced Engineering Executive Trainee (EET-2027) hiring through GATE-2027 as advertisement 11/26. Dates and eligibility were not visible on the listing, so check careers.ntpc.co.in before GATE registration.",
+   "verified_from": [
+    "https://ntpc.co.in/jobs-ntpc"
+   ],
+   "id": "ntpc-limited--recruitment-of-engineering-executive-trainees-2027-through-gate-2027-advt-11-26",
+   "first_seen_at": "2026-10-17T16:25:39Z",
+   "last_seen_at": "2026-10-17T16:25:39Z"
   }
  ]
 }

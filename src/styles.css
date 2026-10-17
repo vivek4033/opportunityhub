@@ -355,6 +355,28 @@ code.sql { display: block; margin-top: 6px; padding: 8px 10px; background: var(-
 .rec-form { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr) auto; gap: 8px; }
 code.sql { max-height: 160px; overflow: auto; }
 
+/* ------------------------------------------------ employers directory */
+.emp-tabs { margin-bottom: 14px; }
+.emp-tabs .e { font-size: 15px; }
+.emp-tools { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 18px; }
+.emp-search { flex: 1 1 280px; max-width: 520px; }
+.emp-group { margin-bottom: 26px; }
+.emp-group h2 { font-size: 17px; margin-bottom: 10px; display: flex; align-items: center; gap: 8px; }
+.emp-group h2 .count { font-size: 12px; font-weight: 700; color: var(--muted); background: var(--surface-2); border-radius: 999px; padding: 1px 9px; }
+.org-list { list-style: none; margin: 0; padding: 0; background: var(--surface); border: 1px solid var(--rule); border-radius: var(--radius-m); box-shadow: var(--shadow); overflow: hidden; }
+.org { display: flex; align-items: center; gap: 14px; padding: 12px 16px; border-bottom: 1px solid var(--rule); }
+.org:last-child { border-bottom: 0; }
+.org:hover { background: var(--hover); }
+.org-main { flex: 1; min-width: 0; }
+.org-name { font-weight: 700; font-size: 15px; }
+.org-meta { display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: center; font-size: 12.5px; color: var(--muted); margin-top: 3px; }
+.org-cities { display: inline-flex; gap: 4px; flex-wrap: wrap; }
+.city { font-size: 11.5px; font-weight: 700; color: #0f6b5c; background: #e3f5f1; border-radius: 999px; padding: 1px 8px; }
+.fresher { font-weight: 700; color: var(--accent); }
+.org-note { font-size: 12.5px; color: var(--ink-2); margin-top: 3px; overflow-wrap: anywhere; }
+.org-actions { display: flex; gap: 8px; align-items: center; flex-shrink: 0; }
+.org-actions .badge { text-decoration: none; }
+
 @media (max-width: 760px) {
   /* backdrop-filter would make the header the containing block for the fixed bottom tab bar */
   .top { backdrop-filter: none; -webkit-backdrop-filter: none; background: var(--surface); }
@@ -397,4 +419,7 @@ code.sql { max-height: 160px; overflow: auto; }
   .rec-form { grid-template-columns: minmax(0, 1fr); }
   .pick-add input { width: 100%; }
   .pick-add { flex: 1 1 100%; }
+  .org { flex-direction: column; align-items: flex-start; gap: 8px; }
+  .emp-tabs button { flex: 1 1 30%; }
+  .emp-tabs button .n { display: none; }
 }

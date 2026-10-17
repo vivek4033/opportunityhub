@@ -80,6 +80,8 @@ export default function OpeningPanel({ o, app, onTrack, onClose, hidden, onHide 
               {o.experience_text && <Fact e="💼" label="Experience" value={o.experience_text} wide />}
               {o.selection_text && <Fact e="🧭" label="Selection process" value={o.selection_text} wide />}
               {o.how_to_apply_text && <Fact e="📨" label="How to apply" value={o.how_to_apply_text} wide />}
+              {o.job_id && <Fact e="🔖" label="Job ID" value={o.job_id} />}
+              {o.syllabus_url && <Fact e="📚" label="Syllabus" value={<a href={o.syllabus_url} target="_blank" rel="noreferrer">Official syllabus</a>} />}
             </div>
           </section>
 
@@ -109,7 +111,8 @@ export default function OpeningPanel({ o, app, onTrack, onClose, hidden, onHide 
         </div>
 
         <div className="drawer-out op-actions">
-          {o.notification_url ? <a className="btn" href={o.notification_url} target="_blank" rel="noreferrer">📄 Official notification</a> : <span className="small muted">No notification link yet</span>}
+          {o.notification_url ? <a className="btn" href={o.notification_url} target="_blank" rel="noreferrer">📄 Official notification</a> : !o.apply_url && <span className="small muted">No notification link yet</span>}
+          {o.syllabus_url && <a className="btn" href={o.syllabus_url} target="_blank" rel="noreferrer">📚 Syllabus</a>}
           {o.apply_url && <a className="btn" href={o.apply_url} target="_blank" rel="noreferrer">🌐 Apply</a>}
           {app ? <Link className="btn ghost" to="/applications" onClick={onClose}>{STATUS_EMOJI[app.status]} Tracking: {STATUS_LABEL[app.status]}</Link>
             : <button className="btn primary" onClick={() => onTrack(o)}>➕ Track this</button>}

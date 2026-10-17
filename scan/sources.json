@@ -8,25 +8,31 @@
    "subcategory": "psu_bank",
    "url": "https://sbi.bank.in",
    "recruitment_url": "https://sbi.bank.in/web/careers/current-openings",
-   "location": "All India",
+   "location": "Mumbai",
    "scan": true,
-   "notes": "Careers moved from sbi.co.in to sbi.bank.in (2026). Junior Associates = clerk.",
+   "notes": "Plain list of all CRPD adverts (PO, Junior Associates, SCO, Apprentices, CBO) with apply links on recruitment.sbi.bank.in",
    "post_types": [
     "clerical"
+   ],
+   "verified_from": [
+    "https://sbi.bank.in/web/careers/current-openings"
    ]
   },
   {
    "slug": "ibps",
    "name": "IBPS",
    "track": "banking",
-   "subcategory": "psu_bank",
+   "subcategory": "regulator",
    "url": "https://www.ibps.in",
-   "recruitment_url": "https://www.ibps.in/index.php/clerical-cadre-xvi/",
-   "location": "All India",
+   "recruitment_url": "https://www.ibps.in",
+   "location": "Mumbai",
    "scan": true,
-   "notes": "CRP Clerks (CSA) every year ~Aug. Site blocks automated reading: use WebSearch on ibps.in.",
+   "notes": "Runs CRP PO/MT, Clerks, SO and RRB (Officer/Office Assistant) exams for PSBs and RRBs; site blocks automated reading",
    "post_types": [
     "clerical"
+   ],
+   "verified_from": [
+    "https://www.ibps.in"
    ]
   },
   {
@@ -35,10 +41,13 @@
    "track": "banking",
    "subcategory": "regulator",
    "url": "https://www.rbi.org.in",
-   "recruitment_url": "https://opportunities.rbi.org.in",
-   "location": "All India",
+   "recruitment_url": "https://opportunities.rbi.org.in/Scripts/Vacancies.aspx",
+   "location": "Mumbai",
    "scan": true,
-   "notes": null
+   "notes": "Vacancies page behind human-verification captcha; Grade B, Assistant, Office Attendant notices posted here",
+   "verified_from": [
+    "https://opportunities.rbi.org.in/Scripts/Vacancies.aspx"
+   ]
   },
   {
    "slug": "nabard",
@@ -46,10 +55,13 @@
    "track": "banking",
    "subcategory": "regulator",
    "url": "https://www.nabard.org",
-   "recruitment_url": "https://www.nabard.org",
-   "location": "All India",
+   "recruitment_url": "https://www.nabard.org/careers-notices1.aspx?cid=693&id=26",
+   "location": "Mumbai",
    "scan": true,
-   "notes": "Set recruitment_url to the Careers/Recruitment page"
+   "notes": "Career notices page has no dates in text; adverts are PDFs under nabard.org/auth/writereaddata/CareerNotices",
+   "verified_from": [
+    "https://www.nabard.org/careers-notices1.aspx?cid=693&id=26"
+   ]
   },
   {
    "slug": "sidbi",
@@ -57,208 +69,279 @@
    "track": "banking",
    "subcategory": "regulator",
    "url": "https://www.sidbi.in",
-   "recruitment_url": "https://www.sidbi.in",
-   "location": "All India",
+   "recruitment_url": "https://www.sidbi.in/en/careers",
+   "location": "Lucknow",
    "scan": true,
-   "notes": null
+   "notes": "Careers table (Title/Start/End date) was empty on 17 Oct 2026; past adverts under View Archived",
+   "verified_from": [
+    "https://www.sidbi.in/en/careers"
+   ]
   },
   {
    "slug": "bank-of-baroda",
    "name": "Bank of Baroda",
    "track": "banking",
    "subcategory": "psu_bank",
-   "url": "https://www.bankofbaroda.in",
-   "recruitment_url": "https://www.bankofbaroda.in/career",
-   "location": "All India",
+   "url": "https://bankofbaroda.bank.in",
+   "recruitment_url": "https://bankofbaroda.bank.in/career/current-opportunities",
+   "location": "Vadodara",
    "scan": true,
-   "notes": null
+   "notes": "Current Opportunities list loads via JS ('Loading More'); individual advert pages (BOB/HRM/REC/ADVT/...) are readable",
+   "verified_from": [
+    "https://bankofbaroda.bank.in/career/current-opportunities",
+    "https://bankofbaroda.bank.in/career/current-opportunities/wealth-management-services-department-bob-hrm-rec-advt-2026-17"
+   ]
   },
   {
    "slug": "bank-of-india",
    "name": "Bank of India",
    "track": "banking",
    "subcategory": "psu_bank",
-   "url": "https://bankofindia.co.in",
-   "recruitment_url": "https://bankofindia.co.in",
-   "location": "All India",
+   "url": "https://bankofindia.bank.in",
+   "recruitment_url": "https://bankofindia.bank.in/career/recruitment-notice",
+   "location": "Mumbai",
    "scan": true,
-   "notes": null
+   "notes": "Recruitment Notice page could not be fetched (error); notices are PDFs under bankofindia.bank.in/documents",
+   "verified_from": [
+    "https://bankofindia.bank.in/documents/20121/28761619/FINAL_NOTICE-sep-2.pdf"
+   ]
   },
   {
    "slug": "canara-bank",
    "name": "Canara Bank",
    "track": "banking",
    "subcategory": "psu_bank",
-   "url": "https://canarabank.com",
-   "recruitment_url": "https://canarabank.com",
-   "location": "All India",
+   "url": "https://www.canarabank.bank.in",
+   "recruitment_url": "https://www.canarabank.bank.in/pages/recruitment",
+   "location": "Bengaluru",
    "scan": true,
-   "notes": null
+   "notes": "Recruitment page lists notices without closing dates; open each notice page for dates",
+   "verified_from": [
+    "https://www.canarabank.bank.in/pages/recruitment"
+   ]
   },
   {
    "slug": "central-bank",
    "name": "Central Bank of India",
    "track": "banking",
    "subcategory": "psu_bank",
-   "url": "https://www.centralbankofindia.co.in",
-   "recruitment_url": "https://www.centralbankofindia.co.in",
-   "location": "All India",
+   "url": "https://centralbank.bank.in",
+   "recruitment_url": "https://centralbank.bank.in/en/recruitments",
+   "location": "Mumbai",
    "scan": true,
-   "notes": null
+   "notes": "Recruitments page shows last dates; notices are mostly ZIP files",
+   "verified_from": [
+    "https://centralbank.bank.in/en/recruitments"
+   ]
   },
   {
    "slug": "indian-bank",
    "name": "Indian Bank",
    "track": "banking",
    "subcategory": "psu_bank",
-   "url": "https://indianbank.in",
-   "recruitment_url": "https://indianbank.in",
-   "location": "All India",
+   "url": "https://indianbank.bank.in",
+   "recruitment_url": "https://indianbank.bank.in/en/career",
+   "location": "Chennai",
    "scan": true,
-   "notes": null
+   "notes": "Career page lists SO, contract, INDSETI/RSETI and FLC notices; few show last dates in page text",
+   "verified_from": [
+    "https://indianbank.bank.in/en/career"
+   ]
   },
   {
    "slug": "iob",
    "name": "Indian Overseas Bank",
    "track": "banking",
    "subcategory": "psu_bank",
-   "url": "https://www.iob.in",
+   "url": "https://www.iob.bank.in",
    "recruitment_url": "https://www.iob.in",
-   "location": "All India",
+   "location": "Chennai",
    "scan": true,
-   "notes": null
+   "notes": "Careers section on www.iob.bank.in (exact page URL not confirmed); adverts are PDFs at iob.bank.in/documents/d/guest/...",
+   "verified_from": [
+    "https://www.iob.bank.in/documents/d/guest/web-ad-750-vac-2026-27",
+    "https://www.iob.bank.in/documents/d/guest/web-ad-dated-18-09-2026"
+   ]
   },
   {
    "slug": "pnb",
    "name": "Punjab National Bank",
    "track": "banking",
    "subcategory": "psu_bank",
-   "url": "https://www.pnbindia.in",
-   "recruitment_url": "https://www.pnbindia.in",
-   "location": "All India",
+   "url": "https://pnb.bank.in",
+   "recruitment_url": "https://pnb.bank.in/Recruitments.aspx",
+   "location": "New Delhi",
    "scan": true,
-   "notes": null
+   "notes": "Recruitments page lists notices with dates; PDFs open via JS links; archive at RecruitementsArchived.aspx",
+   "verified_from": [
+    "https://pnb.bank.in/Recruitments.aspx"
+   ]
   },
   {
    "slug": "psb",
    "name": "Punjab & Sind Bank",
    "track": "banking",
    "subcategory": "psu_bank",
-   "url": "https://punjabandsindbank.co.in",
-   "recruitment_url": "https://punjabandsindbank.co.in",
-   "location": "All India",
+   "url": "https://punjabandsind.bank.in",
+   "recruitment_url": "https://punjabandsind.bank.in/content/recruitment",
+   "location": "New Delhi",
    "scan": true,
-   "notes": null
+   "notes": "Domain moved to punjabandsind.bank.in; recruitment list of PDFs (dates only in file names)",
+   "verified_from": [
+    "https://punjabandsind.bank.in/",
+    "https://punjabandsind.bank.in/content/recruitment"
+   ]
   },
   {
    "slug": "union-bank",
    "name": "Union Bank of India",
    "track": "banking",
    "subcategory": "psu_bank",
-   "url": "https://www.unionbankofindia.co.in",
-   "recruitment_url": "https://www.unionbankofindia.co.in",
-   "location": "All India",
+   "url": "https://www.unionbankofindia.bank.in",
+   "recruitment_url": "https://www.unionbankofindia.bank.in/en/common/recruitment",
+   "location": "Mumbai",
    "scan": true,
-   "notes": null
+   "notes": "Careers & Recruitment page; most notices undated, applications via IBPS/BFSI SSC portals",
+   "verified_from": [
+    "https://www.unionbankofindia.bank.in/en/common/recruitment"
+   ]
   },
   {
    "slug": "uco-bank",
    "name": "UCO Bank",
    "track": "banking",
    "subcategory": "psu_bank",
-   "url": "https://www.ucobank.com",
+   "url": "https://www.uco.bank.in",
    "recruitment_url": "https://www.ucobank.com",
-   "location": "All India",
+   "location": "Kolkata",
    "scan": true,
-   "notes": null
+   "notes": "Homepage returned server error; apprentice 2026-27 advert PDF on uco.bank.in confirmed",
+   "verified_from": [
+    "https://uco.bank.in/documents/20120/0/Final+Advertisement+Apprenticeship+Engagement+2026-27.pdf/b7a52d0a-0aa2-2f0e-e266-e0038dd28a71?t=1791908189791"
+   ]
   },
   {
    "slug": "hdfc-bank",
    "name": "HDFC Bank",
    "track": "banking",
    "subcategory": "private_bank",
-   "url": "https://www.hdfcbank.com",
-   "recruitment_url": null,
-   "location": null,
+   "url": "https://www.hdfc.bank.in",
+   "recruitment_url": "https://www.hdfc.bank.in/careers",
+   "location": "Mumbai",
    "scan": false,
-   "notes": "JS careers portal — check manually / subscribe to job alerts"
+   "notes": "Careers page is JS-rendered; job list not readable without browser",
+   "verified_from": [
+    "https://en.wikipedia.org/wiki/List_of_banks_in_India",
+    "https://hdfc.bank.in/careers",
+    "https://www.hdfc.bank.in/about-us/careers-new"
+   ]
   },
   {
    "slug": "icici-bank",
    "name": "ICICI Bank",
    "track": "banking",
    "subcategory": "private_bank",
-   "url": "https://www.icicicareers.com",
-   "recruitment_url": null,
-   "location": null,
+   "url": "https://www.icici.bank.in",
+   "recruitment_url": "https://careers.icici.bank.in/CareerApplicant/Career/Home",
+   "location": "Mumbai",
    "scan": false,
-   "notes": "JS careers portal"
+   "notes": "icicicareers.com redirects here; JS-only app",
+   "verified_from": [
+    "https://en.wikipedia.org/wiki/List_of_banks_in_India",
+    "https://www.icicicareers.com"
+   ]
   },
   {
    "slug": "axis-bank",
    "name": "Axis Bank",
    "track": "banking",
    "subcategory": "private_bank",
-   "url": "https://www.axisbank.com",
-   "recruitment_url": null,
-   "location": null,
+   "url": "https://www.axis.bank.in",
+   "recruitment_url": "https://www.axis.bank.in/careers",
+   "location": "Mumbai",
    "scan": false,
-   "notes": null
+   "notes": "Openings on RippleHire (axisbank.ripplehire.com, JS); campus/ARISE MT and job-linked academy programmes on Campus Careers page",
+   "fresher_program": "Axis Bank Young Bankers Program (ABYB) / ARISE Management Trainee",
+   "verified_from": [
+    "https://www.axis.bank.in/careers",
+    "https://www.axis.bank.in/careers/campus-careers"
+   ]
   },
   {
    "slug": "kotak-bank",
    "name": "Kotak Mahindra Bank",
    "track": "banking",
    "subcategory": "private_bank",
-   "url": "https://www.kotak.com",
-   "recruitment_url": null,
-   "location": null,
+   "url": "https://www.kotak.bank.in",
+   "recruitment_url": "https://www.kotak.bank.in/en/about-us/careers.html",
+   "location": "Mumbai",
    "scan": false,
-   "notes": null
+   "notes": "All jobs on Oracle Cloud portal hcbt.fa.em2.oraclecloud.com (JS); fee-based NextGen programme via Manipal BFSI",
+   "fresher_program": "Kotak NextGen Bankers Program",
+   "verified_from": [
+    "https://www.kotak.bank.in/en/about-us/careers.html",
+    "https://www.kotak.bank.in/en/about-us/careers/kotak-career-programs.html",
+    "https://www.kotak.bank.in/en/about-us/careers/nextgen.html"
+   ]
   },
   {
    "slug": "indusind-bank",
    "name": "IndusInd Bank",
    "track": "banking",
    "subcategory": "private_bank",
-   "url": "https://www.indusind.com",
-   "recruitment_url": null,
-   "location": null,
+   "url": "https://www.indusind.bank.in",
+   "recruitment_url": "https://app1100.workline.hr/careers/",
+   "location": "Mumbai",
    "scan": false,
-   "notes": null
+   "notes": "Careers link on homepage points to Workline HR portal (not read)",
+   "verified_from": [
+    "https://www.indusind.bank.in/"
+   ]
   },
   {
    "slug": "federal-bank",
    "name": "Federal Bank",
    "track": "banking",
    "subcategory": "private_bank",
-   "url": "https://www.federalbank.co.in",
-   "recruitment_url": null,
-   "location": "Kerala",
+   "url": "https://www.federal.bank.in",
+   "recruitment_url": "https://www.federal.bank.in/careers",
+   "location": "Kochi",
    "scan": false,
-   "notes": null
+   "notes": "Apply via Zappyhire portal federalbankcareers.zappyhire.com (JS); bank says openings posted only on official site/LinkedIn",
+   "verified_from": [
+    "https://www.federal.bank.in/career",
+    "https://www.federal.bank.in/careers",
+    "https://federalbankcareers.zappyhire.com/"
+   ]
   },
   {
    "slug": "idfc-first",
    "name": "IDFC FIRST Bank",
    "track": "banking",
    "subcategory": "private_bank",
-   "url": "https://www.idfcfirstbank.com",
-   "recruitment_url": null,
-   "location": null,
+   "url": "https://www.idfcfirst.bank.in",
+   "recruitment_url": "https://careers.idfcfirst.bank.in/in/en/search-results",
+   "location": "Mumbai",
    "scan": false,
-   "notes": null
+   "notes": "Phenom careers site; listings load via JS (showed 0 jobs when read)",
+   "verified_from": [
+    "https://careers.idfcfirst.bank.in/in/en/faq",
+    "https://careers.idfcfirst.bank.in/in/en/search-results"
+   ]
   },
   {
    "slug": "yes-bank",
    "name": "Yes Bank",
    "track": "banking",
    "subcategory": "private_bank",
-   "url": "https://www.yesbank.in",
+   "url": "https://www.yes.bank.in",
    "recruitment_url": null,
-   "location": null,
+   "location": "Mumbai",
    "scan": false,
-   "notes": null
+   "notes": "Homepage JS-only; careers URL not confirmed",
+   "verified_from": [
+    "https://en.wikipedia.org/wiki/List_of_banks_in_India"
+   ]
   },
   {
    "slug": "bandhan-bank",
@@ -266,49 +349,61 @@
    "track": "banking",
    "subcategory": "private_bank",
    "url": "https://bandhan.bank.in",
-   "recruitment_url": null,
-   "location": null,
+   "recruitment_url": "https://bandhan.bank.in/careers",
+   "location": "Kolkata",
    "scan": false,
-   "notes": "Verify domain"
+   "notes": "No listed openings; generic application form at bandhan.bank.in/join-our-team",
+   "fresher_program": "Aspiring Bank Champions Programme",
+   "verified_from": [
+    "https://bandhan.bank.in/careers",
+    "https://bandhan.bank.in/join-our-team"
+   ]
   },
   {
    "slug": "ssc",
    "name": "Staff Selection Commission",
    "track": "government",
-   "subcategory": "ssc",
+   "subcategory": "recruitment_body",
    "url": "https://ssc.gov.in",
    "recruitment_url": "https://ssc.gov.in",
-   "location": "All India",
+   "location": "New Delhi",
    "scan": true,
-   "notes": "CHSL (LDC/JSA/DEO), CGL, Stenographer C&D, MTS. Notice PDFs: https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/",
+   "notes": "JS site; notices are PDFs under ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/; apply via One-Time Registration at ssc.gov.in/candidate-portal",
    "post_types": [
     "clerical"
+   ],
+   "verified_from": [
+    "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_01102026.pdf",
+    "https://ssc.gov.in/candidate-portal/one-time-registration/login"
    ]
   },
   {
    "slug": "rrb-chennai",
    "name": "RRB Chennai",
    "track": "government",
-   "subcategory": "railways",
+   "subcategory": "recruitment_body",
    "url": "https://www.rrbchennai.gov.in",
    "recruitment_url": "https://www.rrbchennai.gov.in",
-   "location": "Tamil Nadu",
+   "location": "Chennai",
    "scan": true,
-   "notes": "RRBs are moving to https://rrb.indianrailways.gov.in/ (apply: rrbapply.gov.in). NTPC = Junior/Senior Clerk cum Typist, Accounts Clerk, Trains Clerk.",
+   "notes": "Homepage lists CEN categories (ALP, Technicians, NTPC); dates are inside each CEN",
    "post_types": [
     "clerical"
+   ],
+   "verified_from": [
+    "https://www.rrbchennai.gov.in"
    ]
   },
   {
    "slug": "rrb-tvm",
    "name": "RRB Thiruvananthapuram",
    "track": "government",
-   "subcategory": "railways",
+   "subcategory": "recruitment_body",
    "url": "https://rrbthiruvananthapuram.gov.in",
    "recruitment_url": "https://rrbthiruvananthapuram.gov.in",
-   "location": "Kerala",
+   "location": "Thiruvananthapuram",
    "scan": true,
-   "notes": null,
+   "notes": "Carried over from existing sources; not re-verified this run",
    "post_types": [
     "clerical"
    ]
@@ -317,28 +412,35 @@
    "slug": "tnpsc",
    "name": "TNPSC",
    "track": "government",
-   "subcategory": "psc",
+   "subcategory": "recruitment_body",
    "url": "https://www.tnpsc.gov.in",
    "recruitment_url": "https://apply.tnpscexams.in/apply-now?app_id=UElZMDAwMDAwMQ%3D%3D",
-   "location": "Tamil Nadu",
+   "location": "Chennai",
    "scan": true,
-   "notes": "Group IV = Junior Assistant, Typist, Steno-typist, VAO; Group II/IIA. tnpsc.gov.in notification pages block bots; the apply portal lists notification no., dates and PDFs.",
+   "notes": "tnpsc.gov.in homepage is JS; the apply.tnpscexams.in 'Apply Now' page lists open notifications with dates",
    "post_types": [
     "clerical"
+   ],
+   "verified_from": [
+    "https://apply.tnpscexams.in/apply-now?app_id=UElZMDAwMDAwMQ%3D%3D"
    ]
   },
   {
    "slug": "kerala-psc",
    "name": "Kerala PSC",
    "track": "government",
-   "subcategory": "psc",
+   "subcategory": "recruitment_body",
    "url": "https://www.keralapsc.gov.in",
    "recruitment_url": "https://www.keralapsc.gov.in/notifications",
-   "location": "Kerala",
+   "location": "Thiruvananthapuram",
    "scan": true,
-   "notes": "Monthly Extra Ordinary Gazette: LDC, LD Typist, Junior Clerk, Secretariat Assistant.",
+   "notes": "Notifications page lists monthly extraordinary gazettes (category ranges + last date); post details inside each gazette page/PDF",
    "post_types": [
     "clerical"
+   ],
+   "verified_from": [
+    "https://www.keralapsc.gov.in/notifications",
+    "https://www.keralapsc.gov.in/extra-ordinary-gazette-date-30092026"
    ]
   },
   {
@@ -527,9 +629,9 @@
    "subcategory": "teaching_exam",
    "url": "https://trb.tn.gov.in",
    "recruitment_url": "https://trb.tn.gov.in",
-   "location": "Tamil Nadu",
+   "location": "Chennai",
    "scan": true,
-   "notes": "TNTET and PG Assistant recruitment"
+   "notes": "Carried over from existing sources (existing entry is track physics_research / teaching_exam); site blocks automated reading so not re-verified"
   },
   {
    "slug": "ktet",
@@ -892,79 +994,131 @@
   {
    "slug": "tcs",
    "name": "TCS",
-   "track": "corporate",
-   "subcategory": "operations",
-   "url": "https://www.tcs.com/careers",
-   "recruitment_url": null,
-   "location": null,
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.tcs.com",
+   "recruitment_url": "https://www.tcs.com/careers/india",
+   "location": "Mumbai",
    "scan": false,
-   "notes": "Freshers: TCS NextStep portal"
+   "notes": "Fresher drives on tcs.com/careers/india/entry-level; apply via nextstep.tcsapps.com (IT/BPS category). All 2026-batch drives checked are Closed as of 2026-10-17.",
+   "offices": [
+    "Bengaluru",
+    "Chennai"
+   ],
+   "verified_from": [
+    "https://www.tcs.com/careers/india",
+    "https://www.tcs.com/careers/india/entry-level",
+    "https://www.tcs.com/careers/india/tcs-all-india-nqt-hiring",
+    "https://www.tcs.com/careers/india/tcs-esu-hiring",
+    "https://www.tcs.com/careers/india/tcs-interactive-hiring"
+   ],
+   "fresher_program": "TCS NQT (All India NQT Hiring) via TCS NextStep"
   },
   {
    "slug": "infosys",
    "name": "Infosys",
-   "track": "corporate",
-   "subcategory": "operations",
-   "url": "https://www.infosys.com/careers",
-   "recruitment_url": null,
-   "location": null,
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.infosys.com",
+   "recruitment_url": "https://www.infosys.com/careers/graduates.html",
+   "location": "Bengaluru",
    "scan": false,
-   "notes": null
+   "notes": "India graduate jobs at career.infosys.com/joblist?countrycode=IN&companyhiringtype=IL (JS portal, not readable).",
+   "verified_from": [
+    "https://www.infosys.com/careers/",
+    "https://www.infosys.com/careers/graduates.html",
+    "https://www.infosys.com/careers/hackwithinfy.html"
+   ],
+   "fresher_program": "HackWithInfy / InfyTQ"
   },
   {
    "slug": "wipro",
    "name": "Wipro",
-   "track": "corporate",
-   "subcategory": "operations",
-   "url": "https://careers.wipro.com",
-   "recruitment_url": null,
-   "location": null,
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.wipro.com",
+   "recruitment_url": "https://careers.wipro.com/",
+   "location": "Bengaluru",
    "scan": false,
-   "notes": null
+   "notes": "Early careers at careers.wipro.com/content/Early-Careers; search results load dynamically; no open drive listed.",
+   "verified_from": [
+    "https://careers.wipro.com/elite",
+    "https://careers.wipro.com/content/Early-Careers/?locale=en_US"
+   ],
+   "fresher_program": "Wipro Elite / WILP"
   },
   {
    "slug": "accenture",
    "name": "Accenture",
-   "track": "corporate",
-   "subcategory": "operations",
-   "url": "https://www.accenture.com/in-en/careers",
-   "recruitment_url": null,
-   "location": null,
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.accenture.com",
+   "recruitment_url": "https://indiacampus.accenture.com/myzone/accenture/1/jobs/",
+   "location": "Dublin",
    "scan": false,
-   "notes": null
+   "notes": "India campus/fresher portal (indiacampus.accenture.com) is JS-only; experienced roles at accenture.com/in-en/careers jobdetails pages",
+   "offices": [
+    "Bengaluru"
+   ],
+   "fresher_program": "Associate Software Engineer (ASE) via Accenture India campus portal",
+   "verified_from": [
+    "https://indiacampus.accenture.com/myzone/accenture/1/jobs/",
+    "https://indiacampus.accenture.com/myzone/accenture/1/jobs/1273421/job-details/",
+    "https://www.accenture.com/in-en/careers/jobdetails?id=ATCI-5145801-S1897430_en"
+   ]
   },
   {
    "slug": "cognizant",
    "name": "Cognizant",
-   "track": "corporate",
-   "subcategory": "operations",
-   "url": "https://careers.cognizant.com",
-   "recruitment_url": null,
-   "location": null,
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.cognizant.com",
+   "recruitment_url": "https://careers.cognizant.com/india-en/jobs/",
+   "location": "Teaneck, New Jersey",
    "scan": false,
-   "notes": null
+   "notes": "Plain job list with keyword search; GenC drive status tracked on app.joinsuperset.com; no GenC drive open on official page at time of check",
+   "offices": [
+    "Bengaluru",
+    "Chennai"
+   ],
+   "fresher_program": "Cognizant GenC (Generation Cognizant)",
+   "verified_from": [
+    "https://careers.cognizant.com/india-en/jobs/?keyword=GenC",
+    "https://careers.cognizant.com/india-en/pathways-to-cognizant/genc-program/"
+   ]
   },
   {
    "slug": "capgemini",
    "name": "Capgemini",
-   "track": "corporate",
-   "subcategory": "operations",
-   "url": "https://www.capgemini.com/in-en/careers",
-   "recruitment_url": null,
-   "location": null,
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.capgemini.com/in-en/",
+   "recruitment_url": "https://www.capgemini.com/in-en/careers/career-paths/students-and-graduates/",
+   "location": "Paris",
    "scan": false,
-   "notes": null
+   "notes": "Students & graduates page routes freshers via college placement; job search is a separate JS page",
+   "fresher_program": "Capgemini Exceller Program (technical graduates)",
+   "verified_from": [
+    "https://www.capgemini.com/in-en/careers/career-paths/students-and-graduates/technical-graduates/"
+   ]
   },
   {
    "slug": "ltimindtree",
    "name": "LTIMindtree",
-   "track": "corporate",
-   "subcategory": "operations",
-   "url": "https://www.ltimindtree.com/careers",
-   "recruitment_url": null,
-   "location": null,
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.ltimindtree.com",
+   "recruitment_url": "https://careers.ltimindtree.com/",
+   "location": "Mumbai",
    "scan": false,
-   "notes": null
+   "notes": "SuccessFactors portal; robots block automated reading. Chennai job listings appear in search.",
+   "offices": [
+    "Chennai"
+   ],
+   "verified_from": [
+    "https://careers.ltimindtree.com/",
+    "https://careers.ltimindtree.com/job/Chennai-Specialist-Software-Engineering-TN/870365101/"
+   ]
   },
   {
    "slug": "genpact",
@@ -980,71 +1134,37 @@
   {
    "slug": "ibm",
    "name": "IBM",
-   "track": "corporate",
-   "subcategory": "operations",
-   "url": "https://www.ibm.com/careers",
-   "recruitment_url": null,
-   "location": null,
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.ibm.com/in-en",
+   "recruitment_url": "https://www.ibm.com/in-en/careers/career-opportunities",
+   "location": "Armonk, New York",
    "scan": false,
-   "notes": null
+   "notes": "Entry-level page links to JS job search filtered Entry Level + India; careers.ibm.com job pages render empty",
+   "fresher_program": "IBM entry-level / Associate Program",
+   "verified_from": [
+    "https://www.ibm.com/in-en/careers/career-opportunities",
+    "https://www.ibm.com/in-en/careers/locations"
+   ]
   },
   {
-   "slug": "deloitte",
-   "name": "Deloitte India",
-   "track": "corporate",
-   "subcategory": "consulting",
-   "url": "https://www2.deloitte.com/in/en/careers.html",
-   "recruitment_url": null,
-   "location": null,
-   "scan": false,
-   "notes": null
-  },
-  {
-   "slug": "ey",
-   "name": "EY India",
-   "track": "corporate",
-   "subcategory": "consulting",
-   "url": "https://www.ey.com/en_in/careers",
-   "recruitment_url": null,
-   "location": null,
-   "scan": false,
-   "notes": null
-  },
-  {
-   "slug": "kpmg",
-   "name": "KPMG India",
-   "track": "corporate",
-   "subcategory": "consulting",
-   "url": "https://kpmg.com/in/en/careers.html",
-   "recruitment_url": null,
-   "location": null,
-   "scan": false,
-   "notes": null
-  },
-  {
-   "slug": "pwc",
-   "name": "PwC India",
-   "track": "corporate",
-   "subcategory": "consulting",
-   "url": "https://www.pwc.in/careers.html",
-   "recruitment_url": null,
-   "location": null,
-   "scan": false,
-   "notes": null
-  },
-  {
-   "slug": "sci",
-   "name": "Supreme Court of India",
-   "track": "government",
-   "subcategory": "court",
-   "url": "https://www.sci.gov.in",
-   "recruitment_url": "https://www.sci.gov.in/recruitments/",
-   "location": "New Delhi (exam centres across India)",
+   "slug": "shipping-corporation",
+   "name": "Shipping Corporation of India Limited",
+   "track": "psu",
+   "subcategory": "navratna",
+   "url": "https://www.shipindia.com",
+   "recruitment_url": "https://www.shipindia.com/page/career",
+   "location": "Mumbai",
    "scan": true,
    "post_types": [
     "clerical"
    ],
-   "notes": "Junior Court Assistant (about yearly), Court Assistant, PA/Senior PA, Court Master. Notice PDFs on cdnbbsr.s3waas.gov.in."
+   "notes": "Career page splits Shore Personnel / Fleet Personnel; no shore notices seen",
+   "verified_from": [
+    "https://www.shipindia.com/",
+    "https://www.shipindia.com/page/career",
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
   },
   {
    "slug": "madras-hc",
@@ -1134,7 +1254,7 @@
    "slug": "lok-sabha",
    "name": "Lok Sabha Secretariat",
    "track": "government",
-   "subcategory": "legislature",
+   "subcategory": "central_govt",
    "url": "https://sansad.in/ls",
    "recruitment_url": "https://sansad.in/ls/recruitment",
    "location": "New Delhi",
@@ -1142,13 +1262,16 @@
    "post_types": [
     "clerical"
    ],
-   "notes": null
+   "notes": "Recruitment page (adverts, results); online portal sansad.in/ls-recruitment/login; only an Interpreter admit-card item now",
+   "verified_from": [
+    "https://sansad.in/ls/recruitment"
+   ]
   },
   {
    "slug": "rajya-sabha",
    "name": "Rajya Sabha Secretariat",
    "track": "government",
-   "subcategory": "legislature",
+   "subcategory": "central_govt",
    "url": "https://sansad.in/rs",
    "recruitment_url": "https://sansad.in/rs/secretariat/advertisements",
    "location": "New Delhi",
@@ -1156,7 +1279,10 @@
    "post_types": [
     "clerical"
    ],
-   "notes": null
+   "notes": "Advertisements table currently empty",
+   "verified_from": [
+    "https://sansad.in/rs/secretariat/advertisements"
+   ]
   },
   {
    "slug": "epfo",
@@ -1165,12 +1291,15 @@
    "subcategory": "central_govt",
    "url": "https://www.epfindia.gov.in",
    "recruitment_url": null,
-   "location": "All India",
+   "location": "New Delhi",
    "scan": true,
    "post_types": [
     "clerical"
    ],
-   "notes": "Social Security Assistant, Stenographer (last big drive Mar 2023). Site often blocks automated reading; recruitment page URL not confirmed — use WebSearch on epfindia.gov.in."
+   "notes": "Homepage mentions 'Advertisement for 170 posts of Assistant Provident Fund Commissioner' (UPSC) but no recruitment link readable",
+   "verified_from": [
+    "https://www.epfindia.gov.in"
+   ]
   },
   {
    "slug": "esic",
@@ -1179,12 +1308,15 @@
    "subcategory": "central_govt",
    "url": "https://esic.gov.in",
    "recruitment_url": "https://esic.gov.in/recruitments",
-   "location": "All India (regional offices incl. Tamil Nadu, Kerala)",
+   "location": "New Delhi",
    "scan": true,
    "post_types": [
     "clerical"
    ],
-   "notes": "UDC, Stenographer, MTS."
+   "notes": "Recruitments table (office, subject, dates); captured copy showed only Jan 2026 entries - check live",
+   "verified_from": [
+    "https://esic.gov.in/recruitments"
+   ]
   },
   {
    "slug": "cbse-recruitment",
@@ -1204,21 +1336,24 @@
    "slug": "india-post-gds",
    "name": "India Post (Gramin Dak Sevak)",
    "track": "government",
-   "subcategory": "postal",
+   "subcategory": "central_govt",
    "url": "https://indiapostgdsonline.gov.in",
    "recruitment_url": "https://www.indiapost.gov.in/gdsonlineengagement",
-   "location": "All India (local language needed)",
+   "location": "New Delhi",
    "scan": true,
    "post_types": [
     "clerical"
    ],
-   "notes": "BPM/ABPM/Dak Sevak; 10th pass, merit-based, two schedules a year."
+   "notes": "Carried over from existing sources; indiapost.gov.in homepage showed no recruitment link in readable content",
+   "verified_from": [
+    "https://www.indiapost.gov.in"
+   ]
   },
   {
    "slug": "rrb-combined",
    "name": "Railway Recruitment Boards (combined site)",
    "track": "government",
-   "subcategory": "railways",
+   "subcategory": "recruitment_body",
    "url": "https://rrb.indianrailways.gov.in",
    "recruitment_url": "https://rrb.indianrailways.gov.in",
    "location": "All India",
@@ -1226,7 +1361,3651 @@
    "post_types": [
     "clerical"
    ],
-   "notes": "New combined RRB site; applications on rrbapply.gov.in. NTPC graduate (Senior Clerk cum Typist) and undergraduate (Junior Clerk cum Typist, Accounts Clerk, Trains Clerk)."
+   "notes": "Carried over from existing sources; site blocks automated reading (robots) so not re-verified this run"
+  },
+  {
+   "slug": "csb-bank",
+   "name": "CSB Bank",
+   "track": "banking",
+   "subcategory": "private_bank",
+   "url": "https://www.csb.bank.in",
+   "recruitment_url": "https://www.csb.bank.in/careers",
+   "location": "Thrissur",
+   "scan": true,
+   "notes": "Plain page lists roles (many TN/Kerala/Bengaluru) with no dates; apply by email careers@csb.co.in",
+   "verified_from": [
+    "https://www.csb.bank.in/",
+    "https://www.csb.bank.in/careers"
+   ]
+  },
+  {
+   "slug": "city-union-bank",
+   "name": "City Union Bank",
+   "track": "banking",
+   "subcategory": "private_bank",
+   "url": "https://www.cityunionbank.bank.in",
+   "recruitment_url": "https://www.cityunionbank.bank.in/careers",
+   "location": "Kumbakonam",
+   "scan": true,
+   "notes": "Plain page; notices (General Banking incl. fresher RM I/II, North India) are undated, last updated 2023/2024",
+   "verified_from": [
+    "https://www.cityunionbank.bank.in/",
+    "https://www.cityunionbank.bank.in/careers",
+    "https://www.cityunionbank.bank.in/careers-bank",
+    "https://www.cityunionbank.bank.in/careers-bm-am"
+   ]
+  },
+  {
+   "slug": "dcb-bank",
+   "name": "DCB Bank",
+   "track": "banking",
+   "subcategory": "private_bank",
+   "url": "https://www.dcb.bank.in",
+   "recruitment_url": "https://zingnext.zinghr.com/portal/embed/career-website?CareerClientKey=ASDFQ-BAHDV-QWERM",
+   "location": "Mumbai",
+   "scan": false,
+   "notes": "Careers link on homepage points to ZingHR portal (not read)",
+   "verified_from": [
+    "https://www.dcb.bank.in/"
+   ]
+  },
+  {
+   "slug": "dhanlaxmi-bank",
+   "name": "Dhanlaxmi Bank",
+   "track": "banking",
+   "subcategory": "private_bank",
+   "url": "https://www.dhan.bank.in",
+   "recruitment_url": "https://www.dhan.bank.in/careers/",
+   "location": "Thrissur",
+   "scan": false,
+   "notes": "Job entries load via JS ('Loading...'); bank posts openings only on this page",
+   "verified_from": [
+    "https://www.dhan.bank.in/",
+    "https://www.dhan.bank.in/careers/"
+   ]
+  },
+  {
+   "slug": "idbi-bank",
+   "name": "IDBI Bank",
+   "track": "banking",
+   "subcategory": "private_bank",
+   "url": "https://www.idbi.bank.in",
+   "recruitment_url": null,
+   "location": "Mumbai",
+   "scan": false,
+   "notes": "Site blocks automated fetch (robots); careers URL not confirmed",
+   "verified_from": [
+    "https://en.wikipedia.org/wiki/List_of_banks_in_India"
+   ]
+  },
+  {
+   "slug": "jk-bank",
+   "name": "Jammu & Kashmir Bank",
+   "track": "banking",
+   "subcategory": "private_bank",
+   "url": "https://www.jkb.bank.in",
+   "recruitment_url": null,
+   "location": "Srinagar",
+   "scan": false,
+   "notes": "Site blocks automated fetch (robots); careers URL not confirmed",
+   "verified_from": [
+    "https://en.wikipedia.org/wiki/List_of_banks_in_India"
+   ]
+  },
+  {
+   "slug": "karnataka-bank",
+   "name": "Karnataka Bank",
+   "track": "banking",
+   "subcategory": "private_bank",
+   "url": "https://www.karnatakabank.bank.in",
+   "recruitment_url": null,
+   "location": "Mangaluru",
+   "scan": false,
+   "notes": "Homepage fetch failed; careers URL not confirmed",
+   "verified_from": [
+    "https://en.wikipedia.org/wiki/List_of_banks_in_India"
+   ]
+  },
+  {
+   "slug": "karur-vysya-bank",
+   "name": "Karur Vysya Bank",
+   "track": "banking",
+   "subcategory": "private_bank",
+   "url": "https://www.kvb.bank.in",
+   "recruitment_url": "https://careers.karurvysya.bank.in",
+   "location": "Karur",
+   "scan": false,
+   "notes": "Careers link from homepage; portal fetch failed",
+   "verified_from": [
+    "https://www.kvb.bank.in/"
+   ]
+  },
+  {
+   "slug": "nainital-bank",
+   "name": "Nainital Bank",
+   "track": "banking",
+   "subcategory": "private_bank",
+   "url": "https://www.nainitalbank.bank.in",
+   "recruitment_url": "https://www.nainitalbank.bank.in/en/Careers/careerslist",
+   "location": "Nainital",
+   "scan": true,
+   "notes": "Plain list; only active item is 2026 SO recruitment (IBPS-run, test held 04.10.2026)",
+   "verified_from": [
+    "https://www.nainitalbank.bank.in/",
+    "https://www.nainitalbank.bank.in/en/Careers/careerslist"
+   ]
+  },
+  {
+   "slug": "rbl-bank",
+   "name": "RBL Bank",
+   "track": "banking",
+   "subcategory": "private_bank",
+   "url": "https://www.rbl.bank.in",
+   "recruitment_url": "https://www.rbl.bank.in/careers",
+   "location": "Mumbai",
+   "fresher_program": "RBL Premier Banker Program (with NIIT)",
+   "scan": false,
+   "notes": "Jobs on PeopleStrong portal rblcareers.peoplestrong.com; NIIT Premier Banker & Manipal BM programmes",
+   "verified_from": [
+    "https://www.rbl.bank.in/",
+    "https://www.rbl.bank.in/careers"
+   ]
+  },
+  {
+   "slug": "south-indian-bank",
+   "name": "South Indian Bank",
+   "track": "banking",
+   "subcategory": "private_bank",
+   "url": "https://www.southindianbank.bank.in",
+   "recruitment_url": "https://www.southindianbank.bank.in/about-us/careers",
+   "location": "Thrissur",
+   "scan": true,
+   "notes": "Current openings on recruit.southindianbank.bank.in/RDC/ (plain; notices as images)",
+   "verified_from": [
+    "https://www.southindianbank.bank.in/",
+    "https://www.southindianbank.bank.in/about-us/careers",
+    "https://recruit.southindianbank.bank.in/RDC/"
+   ]
+  },
+  {
+   "slug": "tamilnad-mercantile-bank",
+   "name": "Tamilnad Mercantile Bank",
+   "track": "banking",
+   "subcategory": "private_bank",
+   "url": "https://www.tmb.bank.in",
+   "recruitment_url": "https://www.tmb.bank.in/careers",
+   "location": "Thoothukudi",
+   "scan": false,
+   "notes": "Open positions on apps.tmbdigital.bank.in/tmb_careers/ (blocks automated fetch)",
+   "verified_from": [
+    "https://www.tmb.bank.in/",
+    "https://www.tmb.bank.in/careers"
+   ]
+  },
+  {
+   "slug": "au-small-finance-bank",
+   "name": "AU Small Finance Bank",
+   "track": "banking",
+   "subcategory": "small_finance_bank",
+   "url": "https://www.au.bank.in",
+   "recruitment_url": "https://www.au.bank.in/careers",
+   "location": "Jaipur",
+   "fresher_program": "AUrify (campus hiring)",
+   "scan": false,
+   "notes": "Openings on Darwinbox autalenthub.darwinbox.in (JS); site still brands itself an SFB",
+   "verified_from": [
+    "https://www.au.bank.in/",
+    "https://www.au.bank.in/careers",
+    "https://www.au.bank.in/careers/early-career"
+   ]
+  },
+  {
+   "slug": "capital-small-finance-bank",
+   "name": "Capital Small Finance Bank",
+   "track": "banking",
+   "subcategory": "small_finance_bank",
+   "url": "https://www.capital.bank.in",
+   "recruitment_url": "https://www.capital.bank.in/careers",
+   "location": "Jalandhar",
+   "scan": true,
+   "notes": "Plain page lists roles (no locations/dates); apply via on-page form",
+   "verified_from": [
+    "https://www.capital.bank.in/",
+    "https://www.capital.bank.in/careers"
+   ]
+  },
+  {
+   "slug": "equitas-small-finance-bank",
+   "name": "Equitas Small Finance Bank",
+   "track": "banking",
+   "subcategory": "small_finance_bank",
+   "url": "https://www.equitas.bank.in",
+   "recruitment_url": null,
+   "location": "Chennai",
+   "scan": false,
+   "notes": "Site blocks automated fetch (robots); careers URL not confirmed",
+   "verified_from": [
+    "https://en.wikipedia.org/wiki/List_of_banks_in_India"
+   ]
+  },
+  {
+   "slug": "esaf-small-finance-bank",
+   "name": "ESAF Small Finance Bank",
+   "track": "banking",
+   "subcategory": "small_finance_bank",
+   "url": "https://www.esaf.bank.in",
+   "recruitment_url": "https://www.esaf.bank.in/career/latestjobs/",
+   "location": "Thrissur",
+   "scan": true,
+   "notes": "Latest Jobs page lists roles; apply on esafcareers.zappyhire.com",
+   "verified_from": [
+    "https://www.esaf.bank.in/",
+    "https://www.esaf.bank.in/career/careers",
+    "https://www.esaf.bank.in/career/current-openings/",
+    "https://www.esaf.bank.in/career/latestjobs/"
+   ]
+  },
+  {
+   "slug": "jana-small-finance-bank",
+   "name": "Jana Small Finance Bank",
+   "track": "banking",
+   "subcategory": "small_finance_bank",
+   "url": "https://www.jana.bank.in",
+   "recruitment_url": "https://www.jana.bank.in/about-us/careers-hm",
+   "location": "Bengaluru",
+   "scan": false,
+   "notes": "Careers page has no job listings or portal link",
+   "verified_from": [
+    "https://www.jana.bank.in/",
+    "https://www.jana.bank.in/about-us/careers-hm"
+   ]
+  },
+  {
+   "slug": "shivalik-small-finance-bank",
+   "name": "Shivalik Small Finance Bank",
+   "track": "banking",
+   "subcategory": "small_finance_bank",
+   "url": "https://www.shivalik.bank.in",
+   "recruitment_url": null,
+   "location": "New Delhi",
+   "scan": false,
+   "notes": "Site blocks automated fetch (robots); careers URL not confirmed",
+   "verified_from": [
+    "https://en.wikipedia.org/wiki/List_of_banks_in_India"
+   ]
+  },
+  {
+   "slug": "slice-small-finance-bank",
+   "name": "slice Small Finance Bank",
+   "track": "banking",
+   "subcategory": "small_finance_bank",
+   "url": "https://slice.bank.in",
+   "recruitment_url": "https://slice.bank.in/careers/open-positions",
+   "location": "Guwahati",
+   "scan": false,
+   "notes": "Formerly North East SFB (per RBI/Wikipedia list); listings load from careers.kula.ai/slice; corporate office Bengaluru",
+   "verified_from": [
+    "https://en.wikipedia.org/wiki/List_of_banks_in_India",
+    "https://www.slice.bank.in/",
+    "https://slice.bank.in/careers",
+    "https://slice.bank.in/careers/open-positions"
+   ]
+  },
+  {
+   "slug": "suryoday-small-finance-bank",
+   "name": "Suryoday Small Finance Bank",
+   "track": "banking",
+   "subcategory": "small_finance_bank",
+   "url": "https://www.suryoday.bank.in",
+   "recruitment_url": null,
+   "location": "Navi Mumbai",
+   "scan": false,
+   "notes": "Site blocks automated fetch (robots); careers URL not confirmed",
+   "verified_from": [
+    "https://en.wikipedia.org/wiki/List_of_banks_in_India"
+   ]
+  },
+  {
+   "slug": "ujjivan-small-finance-bank",
+   "name": "Ujjivan Small Finance Bank",
+   "track": "banking",
+   "subcategory": "small_finance_bank",
+   "url": "https://www.ujjivansfb.bank.in",
+   "recruitment_url": "https://www.ujjivansfb.bank.in/careers-home/explore-jobs",
+   "location": "Bengaluru",
+   "fresher_program": "USPARK (Ujjivan Bankers Programme)",
+   "scan": false,
+   "notes": "Explore Jobs loads via JS (0 shown); USPARK applications currently closed",
+   "verified_from": [
+    "https://www.ujjivansfb.bank.in/",
+    "https://www.ujjivansfb.bank.in/careers-home",
+    "https://www.ujjivansfb.bank.in/careers-home/uspark-ujjivan-bankers-programme",
+    "https://ujjivansfb.manipalbfsi.com/"
+   ]
+  },
+  {
+   "slug": "unity-small-finance-bank",
+   "name": "Unity Small Finance Bank",
+   "track": "banking",
+   "subcategory": "small_finance_bank",
+   "url": "https://www.unity.bank.in",
+   "recruitment_url": "https://www.unity.bank.in/careers",
+   "location": "New Delhi",
+   "scan": false,
+   "notes": "Careers link from homepage; page fetch failed",
+   "verified_from": [
+    "https://www.unity.bank.in/"
+   ]
+  },
+  {
+   "slug": "utkarsh-small-finance-bank",
+   "name": "Utkarsh Small Finance Bank",
+   "track": "banking",
+   "subcategory": "small_finance_bank",
+   "url": "https://www.utkarsh.bank.in",
+   "recruitment_url": null,
+   "location": "Varanasi",
+   "scan": false,
+   "notes": "Homepage JS-only; careers link not found",
+   "verified_from": [
+    "https://en.wikipedia.org/wiki/List_of_banks_in_India"
+   ]
+  },
+  {
+   "slug": "hsbc-india",
+   "name": "HSBC (India)",
+   "track": "banking",
+   "subcategory": "foreign_bank",
+   "url": "https://www.hsbc.bank.in",
+   "recruitment_url": "https://portal.careers.hsbc.com/careers",
+   "location": "London",
+   "scan": false,
+   "notes": "Global HSBC careers portal (JS); filter country = India",
+   "verified_from": [
+    "https://www.hsbc.co.in/",
+    "https://www.hsbc.bank.in/",
+    "https://www.hsbc.com/careers"
+   ]
+  },
+  {
+   "slug": "standard-chartered-india",
+   "name": "Standard Chartered (India)",
+   "track": "banking",
+   "subcategory": "foreign_bank",
+   "url": "https://www.sc.bank.in",
+   "recruitment_url": "https://jobs.standardchartered.com/",
+   "location": "London",
+   "scan": false,
+   "notes": "Global job search; early-careers filter available; filter location India",
+   "verified_from": [
+    "https://www.sc.com/in/",
+    "https://www.sc.bank.in/",
+    "https://www.sc.com/en/careers"
+   ]
+  },
+  {
+   "slug": "deutsche-bank-india",
+   "name": "Deutsche Bank (India)",
+   "track": "banking",
+   "subcategory": "foreign_bank",
+   "url": "https://www.db.com",
+   "recruitment_url": "https://careers.db.com/professionals/search-roles",
+   "location": "Frankfurt",
+   "scan": false,
+   "notes": "Global careers site; filter India",
+   "verified_from": [
+    "https://www.db.com/",
+    "https://careers.db.com/index?language_id=1"
+   ]
+  },
+  {
+   "slug": "dbs-bank-india",
+   "name": "DBS Bank India",
+   "track": "banking",
+   "subcategory": "foreign_bank",
+   "url": "https://www.dbs.bank.in",
+   "recruitment_url": "https://dbs.wd3.myworkdayjobs.com/DBS_Careers",
+   "location": "Singapore",
+   "scan": false,
+   "notes": "Workday portal; India listings page dbs.com/careers/jobs.page?market=India",
+   "verified_from": [
+    "https://www.dbs.com/in/",
+    "https://www.dbs.com/careers/default.page",
+    "https://www.dbs.com/gsmc-grp/careers/teams/india.page"
+   ]
+  },
+  {
+   "slug": "barclays-india",
+   "name": "Barclays (India)",
+   "track": "banking",
+   "subcategory": "foreign_bank",
+   "url": "https://home.barclays",
+   "recruitment_url": "https://search.jobs.barclays/search-jobs",
+   "location": "London",
+   "scan": true,
+   "notes": "Server-rendered search; India locations include Chennai, Pune, Noida, Bengaluru",
+   "verified_from": [
+    "https://home.barclays/careers/",
+    "https://search.jobs.barclays/",
+    "https://search.jobs.barclays/early-careers"
+   ]
+  },
+  {
+   "slug": "citi-india",
+   "name": "Citi (India)",
+   "track": "banking",
+   "subcategory": "foreign_bank",
+   "url": "https://www.citigroup.com",
+   "recruitment_url": "https://jobs.citi.com/search-jobs",
+   "location": "New York",
+   "scan": true,
+   "notes": "Server-rendered search; apply via Citi Workday; India apprenticeship seen (Mumbai)",
+   "verified_from": [
+    "https://jobs.citi.com/",
+    "https://jobs.citi.com/early-careers",
+    "https://jobs.citi.com/students-and-graduates"
+   ]
+  },
+  {
+   "slug": "jpmorgan-india",
+   "name": "JPMorgan Chase (India)",
+   "track": "banking",
+   "subcategory": "foreign_bank",
+   "url": "https://www.jpmorganchase.com",
+   "recruitment_url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions",
+   "location": "New York",
+   "scan": false,
+   "notes": "Oracle Cloud portal (JS); filter India",
+   "verified_from": [
+    "https://www.jpmorganchase.com/",
+    "https://www.jpmorganchase.com/careers"
+   ]
+  },
+  {
+   "slug": "bank-of-america-india",
+   "name": "Bank of America (India)",
+   "track": "banking",
+   "subcategory": "foreign_bank",
+   "url": "https://www.bankofamerica.com",
+   "recruitment_url": "https://careers.bankofamerica.com/en-us/job-search.html",
+   "location": "Charlotte",
+   "scan": false,
+   "notes": "JS job search; filter India; students search at /en-us/students/job-search.html",
+   "verified_from": [
+    "https://careers.bankofamerica.com/"
+   ]
+  },
+  {
+   "slug": "bank-of-maharashtra",
+   "name": "Bank of Maharashtra",
+   "track": "banking",
+   "subcategory": "psu_bank",
+   "url": "https://bankofmaharashtra.bank.in",
+   "recruitment_url": "https://bankofmaharashtra.bank.in/current-openings",
+   "location": "Pune",
+   "scan": true,
+   "notes": "Current Openings page lists projects but no dates; check each notification PDF",
+   "verified_from": [
+    "https://bankofmaharashtra.bank.in/current-openings"
+   ]
+  },
+  {
+   "slug": "andhra-pradesh-grameena-bank",
+   "name": "Andhra Pradesh Grameena Bank",
+   "track": "banking",
+   "subcategory": "rrb_bank",
+   "url": "https://apgb.bank.in",
+   "recruitment_url": null,
+   "location": "Guntur",
+   "scan": false,
+   "notes": "Sponsor: Union Bank of India. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (common process for all RRBs; not stated on this bank's site). Site: homepage 'Careers' item has no link.",
+   "verified_from": [
+    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
+    "https://apgb.bank.in/"
+   ]
+  },
+  {
+   "slug": "arunachal-pradesh-rural-bank",
+   "name": "Arunachal Pradesh Rural Bank",
+   "track": "banking",
+   "subcategory": "rrb_bank",
+   "url": "https://aprb.bank.in",
+   "recruitment_url": null,
+   "location": "Naharlagun",
+   "scan": false,
+   "notes": "Sponsor: State Bank of India. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (common process for all RRBs; not stated on this bank's site). Site: no careers link on homepage; old domain apruralbank.co.in.",
+   "verified_from": [
+    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
+    "https://aprb.bank.in/"
+   ]
+  },
+  {
+   "slug": "assam-gramin-bank",
+   "name": "Assam Gramin Bank",
+   "track": "banking",
+   "subcategory": "rrb_bank",
+   "url": "https://agvb.bank.in",
+   "recruitment_url": "https://agvb.bank.in/menu-content/get-content-single/careers",
+   "location": "Guwahati",
+   "scan": true,
+   "notes": "Sponsor: Punjab National Bank. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (common process for all RRBs; not stated on this bank's site). Site: formerly Assam Gramin Vikash Bank (renamed Oct 2025).",
+   "verified_from": [
+    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
+    "https://agvb.bank.in/",
+    "https://agvb.bank.in/menu-content/get-content-single/careers"
+   ]
+  },
+  {
+   "slug": "bihar-gramin-bank",
+   "name": "Bihar Gramin Bank",
+   "track": "banking",
+   "subcategory": "rrb_bank",
+   "url": "https://bgb.bank.in",
+   "recruitment_url": "https://bgb.bank.in/welcome/career",
+   "location": "Patna",
+   "scan": true,
+   "notes": "Sponsor: Punjab National Bank. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (bank site shows CRP-RRB/IBPS recruitment notices). Site: site lists CRP RRB-XIV Office Assistant joining notice.",
+   "verified_from": [
+    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
+    "https://bgb.bank.in/",
+    "https://bgb.bank.in/welcome/career"
+   ]
+  },
+  {
+   "slug": "chhattisgarh-gramin-bank",
+   "name": "Chhattisgarh Gramin Bank",
+   "track": "banking",
+   "subcategory": "rrb_bank",
+   "url": "https://cgb.bank.in",
+   "recruitment_url": "https://cgb.bank.in/Home/Page/Career",
+   "location": "Nava Raipur",
+   "scan": true,
+   "notes": "Sponsor: State Bank of India. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (common process for all RRBs; not stated on this bank's site). Site: crgb.bank.in (DFS link) redirects to cgb.bank.in.",
+   "verified_from": [
+    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
+    "https://cgb.bank.in/",
+    "https://cgb.bank.in/Home/Page/Career"
+   ]
+  },
+  {
+   "slug": "gujarat-gramin-bank",
+   "name": "Gujarat Gramin Bank",
+   "track": "banking",
+   "subcategory": "rrb_bank",
+   "url": "https://www.ggb.bank.in",
+   "recruitment_url": "https://www.ggb.bank.in/recru.php",
+   "location": "Vadodara",
+   "scan": true,
+   "notes": "Sponsor: Bank of Baroda. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (bank site shows CRP-RRB/IBPS recruitment notices). Site: site lists CRP-RRB-XII allotment notice.",
+   "verified_from": [
+    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
+    "https://www.ggb.bank.in/",
+    "https://www.ggb.bank.in/recru.php"
+   ]
+  },
+  {
+   "slug": "haryana-gramin-bank",
+   "name": "Haryana Gramin Bank",
+   "track": "banking",
+   "subcategory": "rrb_bank",
+   "url": "https://shgb.bank.in",
+   "recruitment_url": null,
+   "location": "Rohtak",
+   "scan": false,
+   "notes": "Sponsor: Punjab National Bank. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (common process for all RRBs; not stated on this bank's site). Site: no careers link on homepage.",
+   "verified_from": [
+    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
+    "https://shgb.bank.in/"
+   ]
+  },
+  {
+   "slug": "himachal-pradesh-gramin-bank",
+   "name": "Himachal Pradesh Gramin Bank",
+   "track": "banking",
+   "subcategory": "rrb_bank",
+   "url": "https://www.hpgb.bank.in",
+   "recruitment_url": "https://www.hpgb.bank.in/page/recruitment-promotion",
+   "location": "Mandi",
+   "scan": true,
+   "notes": "Sponsor: Punjab National Bank. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (bank site shows CRP-RRB/IBPS recruitment notices). Site: site lists IBPS CRP RRBs-XIV reserve list notices.",
+   "verified_from": [
+    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
+    "https://www.hpgb.bank.in/",
+    "https://www.hpgb.bank.in/page/recruitment-promotion"
+   ]
+  },
+  {
+   "slug": "jammu-kashmir-grameen-bank",
+   "name": "Jammu and Kashmir Grameen Bank",
+   "track": "banking",
+   "subcategory": "rrb_bank",
+   "url": "https://www.jkgrameen.bank.in",
+   "recruitment_url": "https://www.jkgrameen.bank.in/career.aspx",
+   "location": "Jammu",
+   "scan": true,
+   "notes": "Sponsor: J&K Bank. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (bank site shows CRP-RRB/IBPS recruitment notices). Site: site lists IBPS CRP RRB-XIV allotment notices (16 Oct 2026).",
+   "verified_from": [
+    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
+    "https://www.jkgrameen.bank.in/",
+    "https://www.jkgrameen.bank.in/career.aspx"
+   ]
+  },
+  {
+   "slug": "jharkhand-gramin-bank",
+   "name": "Jharkhand Gramin Bank",
+   "track": "banking",
+   "subcategory": "rrb_bank",
+   "url": "https://www.jrgbank.bank.in",
+   "recruitment_url": "https://www.jrgbank.bank.in/career",
+   "location": "Ranchi",
+   "scan": true,
+   "notes": "Sponsor: State Bank of India. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (common process for all RRBs; not stated on this bank's site). Site: news lists mainly empanelment/contract notices.",
+   "verified_from": [
+    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
+    "https://www.jrgbank.bank.in/",
+    "https://www.jrgbank.bank.in/career"
+   ]
+  },
+  {
+   "slug": "karnataka-grameena-bank",
+   "name": "Karnataka Grameena Bank",
+   "track": "banking",
+   "subcategory": "rrb_bank",
+   "url": "https://karnatakagb.bank.in",
+   "recruitment_url": "https://karnatakagb.bank.in/recruitment",
+   "location": "Ballari",
+   "scan": true,
+   "notes": "Sponsor: Canara Bank. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (bank site shows CRP-RRB/IBPS recruitment notices). Site: site states 'All the recruitments in the Bank are done through IBPS only'.",
+   "verified_from": [
+    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
+    "https://karnatakagb.bank.in/",
+    "https://karnatakagb.bank.in/recruitment"
+   ]
+  },
+  {
+   "slug": "kerala-grameena-bank",
+   "name": "Kerala Grameena Bank",
+   "track": "banking",
+   "subcategory": "rrb_bank",
+   "url": "https://kgb.bank.in",
+   "recruitment_url": null,
+   "location": "Malappuram",
+   "scan": false,
+   "notes": "Sponsor: Canara Bank. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (common process for all RRBs; not stated on this bank's site). Site: no careers link on homepage.",
+   "verified_from": [
+    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
+    "https://kgb.bank.in/"
+   ]
+  },
+  {
+   "slug": "madhya-pradesh-gramin-bank",
+   "name": "Madhya Pradesh Gramin Bank",
+   "track": "banking",
+   "subcategory": "rrb_bank",
+   "url": "https://mpgb.bank.in",
+   "recruitment_url": "https://mpgb.bank.in/career.php",
+   "location": "Indore",
+   "scan": true,
+   "notes": "Sponsor: Bank of India. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (common process for all RRBs; not stated on this bank's site). Site: career page currently lists auditor engagement only.",
+   "verified_from": [
+    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
+    "https://mpgb.bank.in/",
+    "https://mpgb.bank.in/career.php"
+   ]
+  },
+  {
+   "slug": "maharashtra-gramin-bank",
+   "name": "Maharashtra Gramin Bank",
+   "track": "banking",
+   "subcategory": "rrb_bank",
+   "url": "https://www.mahagramin.bank.in",
+   "recruitment_url": "https://www.mahagramin.bank.in/careers",
+   "location": "Chhatrapati Sambhajinagar",
+   "scan": false,
+   "notes": "Sponsor: Bank of Maharashtra. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (common process for all RRBs; not stated on this bank's site). Site: careers page linked from homepage (content not read).",
+   "verified_from": [
+    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
+    "https://www.mahagramin.bank.in/",
+    "https://www.mahagramin.bank.in/careers"
+   ]
+  },
+  {
+   "slug": "manipur-rural-bank",
+   "name": "Manipur Rural Bank",
+   "track": "banking",
+   "subcategory": "rrb_bank",
+   "url": "https://manipurrural.bank.in",
+   "recruitment_url": null,
+   "location": "Imphal",
+   "scan": false,
+   "notes": "Sponsor: Punjab National Bank. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (common process for all RRBs; not stated on this bank's site). Site: no careers link on homepage.",
+   "verified_from": [
+    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
+    "https://manipurrural.bank.in/"
+   ]
+  },
+  {
+   "slug": "meghalaya-rural-bank",
+   "name": "Meghalaya Rural Bank",
+   "track": "banking",
+   "subcategory": "rrb_bank",
+   "url": "https://megrb.bank.in",
+   "recruitment_url": "https://megrb.bank.in/careers",
+   "location": "Shillong",
+   "scan": false,
+   "notes": "Sponsor: State Bank of India. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (common process for all RRBs; not stated on this bank's site). Site: DFS link meghalayaruralbank.bank.in points to megrb.bank.in; careers page not read.",
+   "verified_from": [
+    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
+    "https://megrb.bank.in/",
+    "https://megrb.bank.in/careers"
+   ]
+  },
+  {
+   "slug": "mizoram-rural-bank",
+   "name": "Mizoram Rural Bank",
+   "track": "banking",
+   "subcategory": "rrb_bank",
+   "url": "https://mrb.bank.in",
+   "recruitment_url": null,
+   "location": "Aizawl",
+   "scan": false,
+   "notes": "Sponsor: State Bank of India. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (common process for all RRBs; not stated on this bank's site). Site: no careers link on homepage.",
+   "verified_from": [
+    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
+    "https://mrb.bank.in/"
+   ]
+  },
+  {
+   "slug": "nagaland-rural-bank",
+   "name": "Nagaland Rural Bank",
+   "track": "banking",
+   "subcategory": "rrb_bank",
+   "url": "https://www.nrb.bank.in",
+   "recruitment_url": null,
+   "location": "Kohima",
+   "scan": false,
+   "notes": "Sponsor: State Bank of India. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (common process for all RRBs; not stated on this bank's site). Site: no careers link on homepage.",
+   "verified_from": [
+    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
+    "https://www.nrb.bank.in/"
+   ]
+  },
+  {
+   "slug": "odisha-grameen-bank",
+   "name": "Odisha Grameen Bank",
+   "track": "banking",
+   "subcategory": "rrb_bank",
+   "url": "https://odishabank.bank.in",
+   "recruitment_url": null,
+   "location": "Bhubaneswar",
+   "scan": false,
+   "notes": "Sponsor: Indian Overseas Bank. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (common process for all RRBs; not stated on this bank's site). Site: formed 1 May 2025 (Odisha Gramya + Utkal Grameen); DFS link odishabank.in shows old Odisha Gramya content.",
+   "verified_from": [
+    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
+    "https://odishabank.bank.in/"
+   ]
+  },
+  {
+   "slug": "puducherry-grama-bank",
+   "name": "Puducherry Grama Bank",
+   "track": "banking",
+   "subcategory": "rrb_bank",
+   "url": "https://pygb.bank.in",
+   "recruitment_url": "https://pygb.bank.in/careers",
+   "location": "Puducherry",
+   "scan": true,
+   "notes": "Sponsor: Indian Bank. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (bank site shows CRP-RRB/IBPS recruitment notices). Site: careers page says PO and Office Assistant recruitment is conducted through IBPS RRB.",
+   "verified_from": [
+    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
+    "https://pygb.bank.in/",
+    "https://pygb.bank.in/careers"
+   ]
+  },
+  {
+   "slug": "punjab-gramin-bank",
+   "name": "Punjab Gramin Bank",
+   "track": "banking",
+   "subcategory": "rrb_bank",
+   "url": "https://pgb.bank.in",
+   "recruitment_url": null,
+   "location": "Kapurthala",
+   "scan": false,
+   "notes": "Sponsor: Punjab National Bank. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (common process for all RRBs; not stated on this bank's site). Site: homepage 'Careers' link is a placeholder.",
+   "verified_from": [
+    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
+    "https://pgb.bank.in/"
+   ]
+  },
+  {
+   "slug": "rajasthan-gramin-bank",
+   "name": "Rajasthan Gramin Bank",
+   "track": "banking",
+   "subcategory": "rrb_bank",
+   "url": "https://rgb.bank.in",
+   "recruitment_url": "https://rgb.bank.in/recruitment",
+   "location": "Jaipur",
+   "scan": true,
+   "notes": "Sponsor: State Bank of India. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (bank site shows CRP-RRB/IBPS recruitment notices). Site: site lists IBPS CRP RRBs-IX reallotment notice.",
+   "verified_from": [
+    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
+    "https://rgb.bank.in/",
+    "https://rgb.bank.in/recruitment"
+   ]
+  },
+  {
+   "slug": "tamil-nadu-grama-bank",
+   "name": "Tamil Nadu Grama Bank",
+   "track": "banking",
+   "subcategory": "rrb_bank",
+   "url": "https://tngb.bank.in",
+   "recruitment_url": "https://tngb.bank.in/careers",
+   "location": "Salem",
+   "scan": true,
+   "notes": "Sponsor: Indian Bank. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (bank site shows CRP-RRB/IBPS recruitment notices). Site: careers page lists CRP-RRB XI Office Assistant certificate verification only.",
+   "verified_from": [
+    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
+    "https://tngb.bank.in/",
+    "https://tngb.bank.in/careers"
+   ]
+  },
+  {
+   "slug": "telangana-grameena-bank",
+   "name": "Telangana Grameena Bank",
+   "track": "banking",
+   "subcategory": "rrb_bank",
+   "url": "https://tgb.bank.in",
+   "recruitment_url": "https://tgb.bank.in/careers",
+   "location": "Hyderabad",
+   "scan": true,
+   "notes": "Sponsor: State Bank of India. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (common process for all RRBs; not stated on this bank's site). Site: tgbhyd.in (DFS link) redirects to tgb.bank.in; Officer/OA reserve lists Aug 2026.",
+   "verified_from": [
+    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
+    "https://tgb.bank.in/",
+    "https://tgb.bank.in/careers"
+   ]
+  },
+  {
+   "slug": "tripura-gramin-bank",
+   "name": "Tripura Gramin Bank",
+   "track": "banking",
+   "subcategory": "rrb_bank",
+   "url": "https://tripuragramin.bank.in",
+   "recruitment_url": null,
+   "location": "Agartala",
+   "scan": false,
+   "notes": "Sponsor: Punjab National Bank. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (common process for all RRBs; not stated on this bank's site). Site: homepage content not readable.",
+   "verified_from": [
+    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
+    "https://tripuragramin.bank.in/"
+   ]
+  },
+  {
+   "slug": "uttar-pradesh-gramin-bank",
+   "name": "Uttar Pradesh Gramin Bank",
+   "track": "banking",
+   "subcategory": "rrb_bank",
+   "url": "https://upgb.bank.in",
+   "recruitment_url": null,
+   "location": "Lucknow",
+   "scan": false,
+   "notes": "Sponsor: Bank of Baroda. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (common process for all RRBs; not stated on this bank's site). Site: no careers link found; homepage text still mentions Gorakhpur HO (pre-2025 text), DFS gives Lucknow.",
+   "verified_from": [
+    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
+    "https://upgb.bank.in/"
+   ]
+  },
+  {
+   "slug": "uttarakhand-gramin-bank",
+   "name": "Uttarakhand Gramin Bank",
+   "track": "banking",
+   "subcategory": "rrb_bank",
+   "url": "https://www.ukgb.bank.in",
+   "recruitment_url": "https://ukgb.bank.in/career",
+   "location": "Dehradun",
+   "scan": true,
+   "notes": "Sponsor: State Bank of India. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (bank site shows CRP-RRB/IBPS recruitment notices). Site: site lists IBPS-CRP-RRB XIV reserve list selections.",
+   "verified_from": [
+    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
+    "https://www.ukgb.bank.in/",
+    "https://ukgb.bank.in/career"
+   ]
+  },
+  {
+   "slug": "west-bengal-gramin-bank",
+   "name": "West Bengal Gramin Bank",
+   "track": "banking",
+   "subcategory": "rrb_bank",
+   "url": "https://www.wbgb.bank.in",
+   "recruitment_url": "https://www.wbgb.bank.in/Recruitment.aspx",
+   "location": "Kolkata",
+   "scan": false,
+   "notes": "Sponsor: Punjab National Bank. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (common process for all RRBs; not stated on this bank's site). Site: Recruitment page linked from homepage (content not read).",
+   "verified_from": [
+    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
+    "https://www.wbgb.bank.in/",
+    "https://www.wbgb.bank.in/Recruitment.aspx"
+   ]
+  },
+  {
+   "slug": "airtel-payments-bank",
+   "name": "Airtel Payments Bank",
+   "track": "banking",
+   "subcategory": "payments_bank",
+   "url": "https://www.airtelpayments.bank.in",
+   "recruitment_url": null,
+   "location": "Gurugram",
+   "scan": false,
+   "notes": "airtel.in/bank redirects here; no careers link on homepage (contact address Gurugram)",
+   "verified_from": [
+    "https://www.airtelpayments.bank.in/"
+   ]
+  },
+  {
+   "slug": "ippb",
+   "name": "India Post Payments Bank",
+   "track": "banking",
+   "subcategory": "payments_bank",
+   "url": "https://www.ippbonline.com",
+   "recruitment_url": null,
+   "location": "New Delhi",
+   "scan": false,
+   "notes": "Careers page blocked to automated reading; recruits Executives/SOs via its own notices on ippbonline.com",
+   "verified_from": [
+    "https://www.ippbonline.com"
+   ]
+  },
+  {
+   "slug": "fino-payments-bank",
+   "name": "Fino Payments Bank",
+   "track": "banking",
+   "subcategory": "payments_bank",
+   "url": "https://www.finobank.com",
+   "recruitment_url": null,
+   "location": "Navi Mumbai",
+   "scan": false,
+   "notes": "Homepage identifies as Fino Payments Bank; no careers link found",
+   "verified_from": [
+    "https://www.finobank.com"
+   ]
+  },
+  {
+   "slug": "jio-payments-bank",
+   "name": "Jio Payments Bank",
+   "track": "banking",
+   "subcategory": "payments_bank",
+   "url": "https://www.jiopaymentsbank.com",
+   "recruitment_url": null,
+   "location": "Mumbai",
+   "scan": false,
+   "notes": "Site blocks automated reading (robots); URL not content-verified"
+  },
+  {
+   "slug": "nsdl-payments-bank",
+   "name": "NSDL Payments Bank",
+   "track": "banking",
+   "subcategory": "payments_bank",
+   "url": "https://nsdlpayments.bank.in",
+   "recruitment_url": "https://nsdlpayments.bank.in/career.php",
+   "location": "Mumbai",
+   "scan": false,
+   "notes": "nsdlbank.com redirects to nsdlpayments.bank.in; career page not read",
+   "verified_from": [
+    "https://nsdlpayments.bank.in/"
+   ]
+  },
+  {
+   "slug": "paytm-payments-bank",
+   "name": "Paytm Payments Bank",
+   "track": "banking",
+   "subcategory": "payments_bank",
+   "url": "https://www.paytmbank.com",
+   "recruitment_url": null,
+   "location": "Noida",
+   "scan": false,
+   "notes": "Under RBI restrictions: no new deposits/credits since 15 Mar 2024; no careers link found",
+   "verified_from": [
+    "https://www.paytmbank.com"
+   ]
+  },
+  {
+   "slug": "exim-bank",
+   "name": "EXIM Bank",
+   "track": "banking",
+   "subcategory": "regulator",
+   "url": "https://www.eximbankindia.in",
+   "recruitment_url": "https://www.eximbankindia.in/careers",
+   "location": "Mumbai",
+   "scan": true,
+   "notes": "Careers page lists advert PDFs (MT, DM, contract officers) without closing dates; read PDFs/addenda",
+   "verified_from": [
+    "https://www.eximbankindia.in/careers"
+   ]
+  },
+  {
+   "slug": "nhb",
+   "name": "National Housing Bank",
+   "track": "banking",
+   "subcategory": "regulator",
+   "url": "https://www.nhb.org.in",
+   "recruitment_url": "https://www.nhb.org.in/oppurtunitiesnhb/",
+   "location": "New Delhi",
+   "scan": false,
+   "notes": "Opportunities@NHB listing loads dynamically; advert PDFs blocked to automated reading",
+   "verified_from": [
+    "https://www.nhb.org.in/oppurtunitiesnhb/"
+   ]
+  },
+  {
+   "slug": "upsc",
+   "name": "Union Public Service Commission (UPSC)",
+   "track": "government",
+   "subcategory": "recruitment_body",
+   "url": "https://www.upsc.gov.in",
+   "recruitment_url": "https://upsc.gov.in/recruitment/recruitment-advertisement",
+   "location": "New Delhi",
+   "scan": true,
+   "notes": "Recruitment Advertisements page lists current ORA adverts (PDFs); exams are on the Examinations section; robots block What's New/Active Exams pages; 2027 calendar: CDS-I/NDA-I notify 2 Dec 2026, CSE 13 Jan 2027",
+   "verified_from": [
+    "https://upsc.gov.in/recruitment/recruitment-advertisement",
+    "https://www.upsc.gov.in/vacancy-circulars"
+   ]
+  },
+  {
+   "slug": "tnusrb",
+   "name": "Tamil Nadu Uniformed Services Recruitment Board (TNUSRB)",
+   "track": "government",
+   "subcategory": "recruitment_body",
+   "url": "https://www.tnusrb.tn.gov.in",
+   "recruitment_url": "https://www.tnusrb.tn.gov.in",
+   "location": "Chennai",
+   "scan": true,
+   "notes": "Homepage lists recruitment notifications (SI of Police, Constables, Fire & Rescue); captured page showed 'Last Updated April 04, 2025' - may be stale",
+   "verified_from": [
+    "https://www.tnusrb.tn.gov.in"
+   ]
+  },
+  {
+   "slug": "finmin-dea",
+   "name": "Ministry of Finance - Department of Economic Affairs",
+   "track": "government",
+   "subcategory": "ministry",
+   "url": "https://dea.gov.in",
+   "recruitment_url": null,
+   "location": "New Delhi",
+   "scan": false,
+   "notes": "Homepage readable but shows no vacancies link; vacancies path blocked by robots - recruitment URL not confirmed",
+   "verified_from": [
+    "https://dea.gov.in"
+   ]
+  },
+  {
+   "slug": "finmin-dor",
+   "name": "Ministry of Finance - Department of Revenue",
+   "track": "government",
+   "subcategory": "ministry",
+   "url": "https://dor.gov.in",
+   "recruitment_url": "https://dor.gov.in/vacancies",
+   "location": "New Delhi",
+   "scan": true,
+   "notes": "Vacancies page (Employees Corner) lists circulars with last dates; mostly deputation posts (ED, FIU-IND, PMLA Adjudicating Authority, TPRU)",
+   "verified_from": [
+    "https://dor.gov.in",
+    "https://dor.gov.in/vacancies"
+   ]
+  },
+  {
+   "slug": "finmin-doe",
+   "name": "Ministry of Finance - Department of Expenditure",
+   "track": "government",
+   "subcategory": "ministry",
+   "url": "https://doe.gov.in",
+   "recruitment_url": "https://doe.gov.in/vacancies",
+   "location": "New Delhi",
+   "scan": true,
+   "notes": "Vacancies page mixes general circulars with vacancy circulars (e.g. Director, AJNIFM on deputation/contract)",
+   "verified_from": [
+    "https://doe.gov.in/vacancies"
+   ]
+  },
+  {
+   "slug": "finmin-dfs",
+   "name": "Ministry of Finance - Department of Financial Services",
+   "track": "government",
+   "subcategory": "ministry",
+   "url": "https://financialservices.gov.in",
+   "recruitment_url": "https://financialservices.gov.in/vacancies",
+   "location": "New Delhi",
+   "scan": false,
+   "notes": "Vacancies link found on homepage (DRT/DRAT presiding officers, deputation posts, PSB CVOs); vacancies page itself not opened",
+   "verified_from": [
+    "https://financialservices.gov.in"
+   ]
+  },
+  {
+   "slug": "mea",
+   "name": "Ministry of External Affairs",
+   "track": "government",
+   "subcategory": "ministry",
+   "url": "https://www.mea.gov.in",
+   "recruitment_url": "https://www.mea.gov.in/vacancies.htm",
+   "location": "New Delhi",
+   "scan": true,
+   "notes": "Careers > Vacancies page grouped by year; mostly deputation (Section Officer, RPO) and consultant engagements",
+   "verified_from": [
+    "https://www.mea.gov.in/vacancies.htm"
+   ]
+  },
+  {
+   "slug": "mha",
+   "name": "Ministry of Home Affairs",
+   "track": "government",
+   "subcategory": "ministry",
+   "url": "https://www.mha.gov.in",
+   "recruitment_url": "https://www.mha.gov.in/en/notifications/vacancies",
+   "location": "New Delhi",
+   "scan": true,
+   "notes": "Vacancies page (3 pages) - currently deputation/contract posts only; also where IB direct-recruitment exams are notified",
+   "verified_from": [
+    "https://www.mha.gov.in",
+    "https://www.mha.gov.in/en/notifications/vacancies"
+   ]
+  },
+  {
+   "slug": "mod",
+   "name": "Ministry of Defence",
+   "track": "government",
+   "subcategory": "ministry",
+   "url": "https://www.mod.gov.in",
+   "recruitment_url": null,
+   "location": "New Delhi",
+   "scan": false,
+   "notes": "Site renders by JavaScript; no vacancies link readable - recruitment URL not confirmed",
+   "verified_from": [
+    "https://www.mod.gov.in"
+   ]
+  },
+  {
+   "slug": "ministry-of-railways",
+   "name": "Ministry of Railways (Railway Board)",
+   "track": "government",
+   "subcategory": "ministry",
+   "url": "https://indianrailways.gov.in",
+   "recruitment_url": null,
+   "location": "New Delhi",
+   "scan": false,
+   "notes": "Site blocks automated reading (robots); direct recruitment is through RRBs/RRCs"
+  },
+  {
+   "slug": "moe",
+   "name": "Ministry of Education",
+   "track": "government",
+   "subcategory": "ministry",
+   "url": "https://www.education.gov.in",
+   "recruitment_url": null,
+   "location": "New Delhi",
+   "scan": false,
+   "notes": "Site renders by JavaScript; vacancies page not readable - recruitment URL not confirmed",
+   "verified_from": [
+    "https://www.education.gov.in"
+   ]
+  },
+  {
+   "slug": "mohfw",
+   "name": "Ministry of Health & Family Welfare",
+   "track": "government",
+   "subcategory": "ministry",
+   "url": "https://mohfw.gov.in",
+   "recruitment_url": null,
+   "location": "New Delhi",
+   "scan": false,
+   "notes": "Site renders by JavaScript; vacancies page not readable - recruitment URL not confirmed",
+   "verified_from": [
+    "https://mohfw.gov.in"
+   ]
+  },
+  {
+   "slug": "meity",
+   "name": "Ministry of Electronics & IT (MeitY)",
+   "track": "government",
+   "subcategory": "ministry",
+   "url": "https://www.meity.gov.in",
+   "recruitment_url": null,
+   "location": "New Delhi",
+   "scan": false,
+   "notes": "Site renders by JavaScript; vacancies page not readable - recruitment URL not confirmed",
+   "verified_from": [
+    "https://www.meity.gov.in"
+   ]
+  },
+  {
+   "slug": "mospi",
+   "name": "Ministry of Statistics & Programme Implementation (MoSPI)",
+   "track": "government",
+   "subcategory": "ministry",
+   "url": "https://www.mospi.gov.in",
+   "recruitment_url": null,
+   "location": "New Delhi",
+   "scan": false,
+   "notes": "Site renders by JavaScript (title confirmed); vacancies page not readable - recruitment URL not confirmed",
+   "verified_from": [
+    "https://www.mospi.gov.in"
+   ]
+  },
+  {
+   "slug": "cbdt-income-tax",
+   "name": "Income Tax Department (CBDT)",
+   "track": "government",
+   "subcategory": "ministry",
+   "url": "https://incometaxindia.gov.in",
+   "recruitment_url": "https://www.incometaxindia.gov.in/recruitment-notices",
+   "location": "New Delhi",
+   "scan": false,
+   "notes": "Recruitment Notices link confirmed on homepage; notices load dynamically and could not be read",
+   "verified_from": [
+    "https://incometaxindia.gov.in",
+    "https://www.incometaxindia.gov.in/recruitment-notices"
+   ]
+  },
+  {
+   "slug": "cbic",
+   "name": "Central Board of Indirect Taxes & Customs (CBIC)",
+   "track": "government",
+   "subcategory": "ministry",
+   "url": "https://www.cbic.gov.in",
+   "recruitment_url": null,
+   "location": "New Delhi",
+   "scan": false,
+   "notes": "Site blocks automated reading (robots) - recruitment URL not confirmed"
+  },
+  {
+   "slug": "cag",
+   "name": "Comptroller and Auditor General of India (CAG)",
+   "track": "government",
+   "subcategory": "ministry",
+   "url": "https://cag.gov.in",
+   "recruitment_url": "https://cag.gov.in/en/recruitment-notices",
+   "location": "New Delhi",
+   "scan": true,
+   "notes": "'Working with Us' > Recruitment Notices (consultants, research associates; also Student Intern and Young Professionals programmes)",
+   "verified_from": [
+    "https://cag.gov.in"
+   ]
+  },
+  {
+   "slug": "dopt",
+   "name": "Department of Personnel & Training (DoPT)",
+   "track": "government",
+   "subcategory": "ministry",
+   "url": "https://dopt.gov.in",
+   "recruitment_url": null,
+   "location": "New Delhi",
+   "scan": false,
+   "notes": "Homepage readable but no vacancies link in content; vacancies path blocked by robots",
+   "verified_from": [
+    "https://dopt.gov.in"
+   ]
+  },
+  {
+   "slug": "isro",
+   "name": "ISRO",
+   "track": "government",
+   "subcategory": "research_org",
+   "url": "https://www.isro.gov.in",
+   "recruitment_url": "https://www.isro.gov.in/CurrentOpportunities.html",
+   "location": "Bengaluru",
+   "scan": true,
+   "notes": "Current Opportunities lists all centres (ICRB, URSC, LPSC, SAC, HSFC, IPRC, ISTRAC...) with open/close dates",
+   "verified_from": [
+    "https://www.isro.gov.in/CurrentOpportunities.html",
+    "https://www.isro.gov.in/Careers.html"
+   ]
+  },
+  {
+   "slug": "drdo",
+   "name": "DRDO",
+   "track": "government",
+   "subcategory": "research_org",
+   "url": "https://drdo.gov.in/drdo/en",
+   "recruitment_url": "https://drdo.gov.in/drdo/offerings/vacancies",
+   "location": "New Delhi",
+   "scan": true,
+   "notes": "Vacancies listing (paged) with start/end dates per lab; JRF, apprentices, consultants; RAC/CEPTAM for regular posts",
+   "verified_from": [
+    "https://drdo.gov.in/drdo/offerings/vacancies"
+   ]
+  },
+  {
+   "slug": "barc",
+   "name": "Bhabha Atomic Research Centre (BARC)",
+   "track": "government",
+   "subcategory": "research_org",
+   "url": "https://www.barc.gov.in",
+   "recruitment_url": "https://www.barc.gov.in/careers/recruitment.html",
+   "location": "Mumbai",
+   "scan": true,
+   "notes": "Recruitment page lists adverts with last dates; OCES/DGFS Scientific Officer scheme is a separate annual notice",
+   "verified_from": [
+    "https://www.barc.gov.in/careers/recruitment.html"
+   ]
+  },
+  {
+   "slug": "igcar",
+   "name": "IGCAR Kalpakkam",
+   "track": "government",
+   "subcategory": "research_org",
+   "url": "https://www.igcar.gov.in",
+   "recruitment_url": "https://www.igcar.gov.in/recruitment.html",
+   "location": "Kalpakkam, Tamil Nadu",
+   "scan": true,
+   "notes": "Recruitment page lists adverts (JRF, RA, trade apprentices) without last dates on the listing",
+   "verified_from": [
+    "https://www.igcar.gov.in/recruitment.html"
+   ]
+  },
+  {
+   "slug": "csir",
+   "name": "CSIR (Council of Scientific & Industrial Research)",
+   "track": "government",
+   "subcategory": "research_org",
+   "url": "https://www.csir.res.in",
+   "recruitment_url": "https://www.csir.res.in/career-opportunities",
+   "location": "New Delhi",
+   "scan": true,
+   "notes": "Career page links to recruitment & results, CASE, Technical Assistant, SO/ASO; individual CSIR labs post their own adverts",
+   "verified_from": [
+    "https://www.csir.res.in/career-opportunities",
+    "https://csirhrdg.res.in/Home/Index/1"
+   ]
+  },
+  {
+   "slug": "icar-asrb",
+   "name": "Agricultural Scientists Recruitment Board (ICAR)",
+   "track": "government",
+   "subcategory": "research_org",
+   "url": "https://asrb.gov.in",
+   "recruitment_url": null,
+   "location": "New Delhi",
+   "scan": false,
+   "notes": "Old site asrb.org.in says the URL changed to asrb.gov.in; new site blocks automated reading",
+   "verified_from": [
+    "https://www.asrb.org.in"
+   ]
+  },
+  {
+   "slug": "icmr",
+   "name": "ICMR",
+   "track": "government",
+   "subcategory": "research_org",
+   "url": "https://www.icmr.gov.in",
+   "recruitment_url": "https://www.icmr.gov.in/employment-opportunities",
+   "location": "New Delhi",
+   "scan": true,
+   "notes": "Employment Opportunities lists all ICMR institutes' adverts with last dates (scientists, YP, consultants, deputation)",
+   "verified_from": [
+    "https://www.icmr.gov.in/employment-opportunities"
+   ]
+  },
+  {
+   "slug": "nic",
+   "name": "National Informatics Centre (NIC)",
+   "track": "government",
+   "subcategory": "research_org",
+   "url": "https://recruitment.nic.in",
+   "recruitment_url": null,
+   "location": "New Delhi",
+   "scan": true,
+   "notes": "Official NIC recruitment site recruitment.nic.in (Scientist-B, STA-A); NIC main homepage not verified this run",
+   "verified_from": [
+    "https://recruitment.nic.in/index_new.php"
+   ]
+  },
+  {
+   "slug": "cdac",
+   "name": "C-DAC",
+   "track": "government",
+   "subcategory": "research_org",
+   "url": "https://www.cdac.in",
+   "recruitment_url": "https://www.cdac.in/index.aspx?id=current_jobs",
+   "location": "Pune",
+   "scan": true,
+   "notes": "Current Jobs page lists centre-wise adverts; contractual project posts apply via careers.cdac.in (portal not readable by bots)",
+   "verified_from": [
+    "https://www.cdac.in/index.aspx?id=current_jobs"
+   ]
+  },
+  {
+   "slug": "sebi",
+   "name": "SEBI",
+   "track": "government",
+   "subcategory": "regulator",
+   "url": "https://www.sebi.gov.in",
+   "recruitment_url": "https://www.sebi.gov.in/sebiweb/about/AboutAction.do?doVacancies=yes",
+   "location": "Mumbai",
+   "scan": true,
+   "notes": "Careers list; last Officer Grade A (AM) cycle was 2025 (advert 30 Oct 2025); no Grade A 2026 notice as of 17 Oct 2026",
+   "verified_from": [
+    "https://www.sebi.gov.in",
+    "https://www.sebi.gov.in/sebiweb/about/AboutAction.do?doVacancies=yes"
+   ]
+  },
+  {
+   "slug": "pfrda",
+   "name": "PFRDA",
+   "track": "government",
+   "subcategory": "regulator",
+   "url": "https://www.pfrda.org.in",
+   "recruitment_url": null,
+   "location": "New Delhi",
+   "scan": false,
+   "notes": "Site blocks automated reading (robots) - recruitment URL not confirmed"
+  },
+  {
+   "slug": "trai",
+   "name": "TRAI",
+   "track": "government",
+   "subcategory": "regulator",
+   "url": "https://www.trai.gov.in",
+   "recruitment_url": "https://www.trai.gov.in/vacancies",
+   "location": "New Delhi",
+   "scan": true,
+   "notes": "Vacancies page; currently deputation-only posts; applications via vacancies.trai.gov.in; internships at /careers/trai-internships",
+   "verified_from": [
+    "https://www.trai.gov.in",
+    "https://www.trai.gov.in/vacancies"
+   ]
+  },
+  {
+   "slug": "cci",
+   "name": "Competition Commission of India",
+   "track": "government",
+   "subcategory": "regulator",
+   "url": "https://www.cci.gov.in",
+   "recruitment_url": "https://www.cci.gov.in/career",
+   "location": "New Delhi",
+   "scan": false,
+   "notes": "Career link confirmed on homepage (current notice: 2 Member posts); career page itself not opened",
+   "verified_from": [
+    "https://www.cci.gov.in"
+   ]
+  },
+  {
+   "slug": "fssai",
+   "name": "FSSAI",
+   "track": "government",
+   "subcategory": "regulator",
+   "url": "https://fssai.gov.in",
+   "recruitment_url": null,
+   "location": "New Delhi",
+   "scan": false,
+   "notes": "Site renders by JavaScript (title only) - recruitment URL not confirmed",
+   "verified_from": [
+    "https://fssai.gov.in"
+   ]
+  },
+  {
+   "slug": "ifsca",
+   "name": "IFSCA",
+   "track": "government",
+   "subcategory": "regulator",
+   "url": "https://ifsca.gov.in",
+   "recruitment_url": "https://ifsca.gov.in/Career",
+   "location": "Gandhinagar (GIFT City)",
+   "scan": true,
+   "notes": "Career page lists adverts with dates; PDFs open via CommonDirect links",
+   "verified_from": [
+    "https://ifsca.gov.in",
+    "https://ifsca.gov.in/Career"
+   ]
+  },
+  {
+   "slug": "fci",
+   "name": "Food Corporation of India",
+   "track": "government",
+   "subcategory": "central_govt",
+   "url": "https://fci.gov.in",
+   "recruitment_url": null,
+   "location": "New Delhi",
+   "scan": false,
+   "notes": "Homepage readable (tenders, circulars) but no recruitment link in content - recruitment URL not confirmed",
+   "verified_from": [
+    "https://fci.gov.in"
+   ]
+  },
+  {
+   "slug": "intelligence-bureau",
+   "name": "Intelligence Bureau (MHA)",
+   "track": "government",
+   "subcategory": "central_govt",
+   "url": "https://www.mha.gov.in",
+   "recruitment_url": "https://www.mha.gov.in/en/notifications/vacancies",
+   "location": "New Delhi",
+   "scan": true,
+   "notes": "IB has no public website; its recruitment is notified on the MHA vacancies page - no IB direct recruitment listed on 15 Oct 2026",
+   "verified_from": [
+    "https://www.mha.gov.in/en/notifications/vacancies"
+   ]
+  },
+  {
+   "slug": "cbi",
+   "name": "Central Bureau of Investigation (CBI)",
+   "track": "government",
+   "subcategory": "central_govt",
+   "url": "https://cbi.gov.in",
+   "recruitment_url": null,
+   "location": "New Delhi",
+   "scan": false,
+   "notes": "Site blocks automated reading (robots) - recruitment URL not confirmed"
+  },
+  {
+   "slug": "nia",
+   "name": "National Investigation Agency (NIA)",
+   "track": "government",
+   "subcategory": "central_govt",
+   "url": "https://nia.gov.in",
+   "recruitment_url": null,
+   "location": "New Delhi",
+   "scan": false,
+   "notes": "Site blocks automated reading (robots) - recruitment URL not confirmed"
+  },
+  {
+   "slug": "eci",
+   "name": "Election Commission of India",
+   "track": "government",
+   "subcategory": "central_govt",
+   "url": "https://www.eci.gov.in",
+   "recruitment_url": null,
+   "location": "New Delhi",
+   "scan": false,
+   "notes": "Site could not be fetched - recruitment URL not confirmed"
+  },
+  {
+   "slug": "hcltech",
+   "name": "HCLTech",
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.hcltech.com",
+   "recruitment_url": "https://careers.hcltech.com/go/India/9553955/",
+   "location": "Noida",
+   "offices": [
+    "Bengaluru",
+    "Chennai"
+   ],
+   "scan": true,
+   "notes": "SuccessFactors portal; fresher roles titled Campus-Beginner/Campus-Trainee/Trainee; registration at freshers.hcltech.com.",
+   "verified_from": [
+    "https://careers.hcltech.com/go/India/9553955/",
+    "https://freshers.hcltech.com/",
+    "https://careers.hcltech.com/job/Campus-Beginner/168116-en_US/",
+    "https://careers.hcltech.com/job/Trainee-Voice-Operations-%28DPO%29/151456-en_US/"
+   ],
+   "fresher_program": "HCLTech Campus Hiring / TechBee"
+  },
+  {
+   "slug": "tech-mahindra",
+   "name": "Tech Mahindra",
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.techmahindra.com",
+   "recruitment_url": "https://careers.techmahindra.com/",
+   "location": "Pune",
+   "offices": [
+    "Chennai"
+   ],
+   "scan": true,
+   "notes": "IT jobs at careers.techmahindra.com/CurrentOpportunity.aspx; BPS jobs page showed none; no 0-1 yr roles seen.",
+   "verified_from": [
+    "https://careers.techmahindra.com/",
+    "https://careers.techmahindra.com/CurrentOpportunity.aspx",
+    "https://careers.techmahindra.com/BPSOpportunity.aspx"
+   ]
+  },
+  {
+   "slug": "persistent-systems",
+   "name": "Persistent Systems",
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.persistent.com",
+   "recruitment_url": "https://careers.persistent.com/",
+   "location": "Pune",
+   "scan": false,
+   "notes": "Early careers page lists Train and Hire / Career Compass; no open drive dates.",
+   "verified_from": [
+    "https://www.persistent.com/careers/early-careers-campus-program/"
+   ],
+   "fresher_program": "Persistent Early Careers Campus Program"
+  },
+  {
+   "slug": "coforge",
+   "name": "Coforge",
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.coforge.com",
+   "recruitment_url": "https://careers.coforge.com/candidate/login",
+   "location": "Noida",
+   "scan": false,
+   "notes": "Login-based candidate portal.",
+   "verified_from": [
+    "https://careers.coforge.com/candidate/login"
+   ]
+  },
+  {
+   "slug": "mphasis",
+   "name": "Mphasis",
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.mphasis.com",
+   "recruitment_url": "https://careers.mphasis.com/home/hot-jobs/location-search/india.html",
+   "location": "Bengaluru",
+   "scan": false,
+   "notes": "Listings sit on a RippleHire portal (geo=IND); not readable.",
+   "verified_from": [
+    "https://careers.mphasis.com/home/hot-jobs/location-search/india.html",
+    "https://careers.mphasis.com/home/hot-jobs/category/campus-programs.html"
+   ],
+   "fresher_program": "Mphasis Campus Programs (Tier-1/Tier-2 & MASE)"
+  },
+  {
+   "slug": "hexaware-technologies",
+   "name": "Hexaware Technologies",
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://hexaware.com",
+   "recruitment_url": "https://hexaware.com/careers/walk-in-jobs/",
+   "location": "Navi Mumbai",
+   "offices": [
+    "Chennai"
+   ],
+   "scan": false,
+   "notes": "Walk-in jobs page and jobs.hexaware.com blocked by robots; Chennai walk-in event pages exist on hexaware.com.",
+   "verified_from": [
+    "https://hexaware.com/careers/walk-in-jobs/",
+    "https://hexaware.com/events/walk-in-drive-chennai/"
+   ]
+  },
+  {
+   "slug": "ltts",
+   "name": "L&T Technology Services",
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.ltts.com",
+   "recruitment_url": "https://jobs.ltts.com/go/INDIA/4590610/",
+   "location": "Vadodara",
+   "offices": [
+    "Bengaluru"
+   ],
+   "scan": true,
+   "notes": "SuccessFactors list; many Bangalore engineering roles, experience not shown in list.",
+   "verified_from": [
+    "https://jobs.ltts.com/go/INDIA/4590610/"
+   ]
+  },
+  {
+   "slug": "cyient",
+   "name": "Cyient",
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.cyient.com",
+   "recruitment_url": "https://www.cyient.com/careers",
+   "location": "Hyderabad",
+   "scan": false,
+   "notes": "Job portal careers.cyient.com/cyient/ (candidate login).",
+   "verified_from": [
+    "https://www.cyient.com/careers"
+   ]
+  },
+  {
+   "slug": "zensar-technologies",
+   "name": "Zensar Technologies",
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.zensar.com",
+   "recruitment_url": "https://www.zensar.com/careers",
+   "location": "Pune",
+   "scan": false,
+   "notes": "Openings at zensarapp.zensar.com/careers/current-opportunities (not read).",
+   "verified_from": [
+    "https://www.zensar.com/careers"
+   ]
+  },
+  {
+   "slug": "birlasoft",
+   "name": "Birlasoft",
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.birlasoft.com",
+   "recruitment_url": "https://jobs.birlasoft.com/",
+   "location": "Noida",
+   "offices": [
+    "Bengaluru"
+   ],
+   "scan": true,
+   "notes": "SuccessFactors portal (jobs.birlasoft.com); Trainee/Management Trainee posts seen are in Hyderabad/Pune.",
+   "verified_from": [
+    "https://jobs.birlasoft.com/job/Bengaluru-Application-Developer-INDI/53626544/"
+   ]
+  },
+  {
+   "slug": "sonata-software",
+   "name": "Sonata Software",
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.sonata-software.com",
+   "recruitment_url": "https://careers.sonata-software.com/",
+   "location": "Bengaluru",
+   "scan": false,
+   "notes": "Careers portal not readable; site lists a Chennai women's hiring drive page.",
+   "verified_from": [
+    "https://www.sonata-software.com/career"
+   ]
+  },
+  {
+   "slug": "kpit-technologies",
+   "name": "KPIT Technologies",
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.kpit.com",
+   "recruitment_url": "https://www.kpit.com/job-listing/",
+   "location": "Pune",
+   "scan": false,
+   "notes": "Graduates page at kpit.com/careers-graduates/ could not be parsed.",
+   "verified_from": [
+    "https://www.kpit.com/careers-graduates/"
+   ]
+  },
+  {
+   "slug": "tata-elxsi",
+   "name": "Tata Elxsi",
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.tataelxsi.com",
+   "recruitment_url": "https://www.tataelxsi.com/careers/job-openings",
+   "location": "Bengaluru",
+   "offices": [
+    "Bengaluru"
+   ],
+   "scan": true,
+   "notes": "Plain paginated list (11 pages); page 1 had no 0-1 yr roles.",
+   "verified_from": [
+    "https://www.tataelxsi.com/careers/job-openings"
+   ]
+  },
+  {
+   "slug": "happiest-minds",
+   "name": "Happiest Minds",
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.happiestminds.com",
+   "recruitment_url": "https://careers.happiestminds.com/",
+   "location": "Bengaluru",
+   "scan": false,
+   "notes": "Job list blocked by robots.",
+   "verified_from": [
+    "https://careers.happiestminds.com/job-list"
+   ]
+  },
+  {
+   "slug": "mastek",
+   "name": "Mastek",
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.mastek.com",
+   "recruitment_url": "https://careers.mastek.com/go/Mastek-India/601244/",
+   "location": "Mumbai",
+   "scan": true,
+   "notes": "SuccessFactors; India list currently shows only UK roles.",
+   "verified_from": [
+    "https://careers.mastek.com/go/Mastek-India/601244/"
+   ]
+  },
+  {
+   "slug": "sasken-technologies",
+   "name": "Sasken Technologies",
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.sasken.com",
+   "recruitment_url": "https://careers.sasken.com/",
+   "location": "Bengaluru",
+   "scan": false,
+   "notes": "SuccessFactors portal; India jobs list fetch failed.",
+   "verified_from": [
+    "https://careers.sasken.com/ (official-domain WebSearch result)"
+   ]
+  },
+  {
+   "slug": "intellect-design-arena",
+   "name": "Intellect Design Arena",
+   "track": "it",
+   "subcategory": "product",
+   "url": "https://www.intellectdesign.com",
+   "recruitment_url": "https://www.intellectdesign.com/careers/",
+   "location": "Chennai",
+   "offices": [
+    "Chennai"
+   ],
+   "scan": false,
+   "notes": "Apply via cloud.myadrenalin.com CandidateMAX portal (JS).",
+   "verified_from": [
+    "https://www.intellectdesign.com/careers/"
+   ]
+  },
+  {
+   "slug": "newgen-software",
+   "name": "Newgen Software",
+   "track": "it",
+   "subcategory": "product",
+   "url": "https://newgensoft.com",
+   "recruitment_url": "https://careers.newgensoft.com/",
+   "location": "Noida",
+   "scan": false,
+   "notes": "careers.newgensoft.com blocks automated reading.",
+   "verified_from": [
+    "https://careers.newgensoft.com/"
+   ]
+  },
+  {
+   "slug": "nucleus-software",
+   "name": "Nucleus Software",
+   "track": "it",
+   "subcategory": "product",
+   "url": "https://www.nucleussoftware.com",
+   "recruitment_url": "https://www.nucleussoftware.com/careers/",
+   "location": "Noida",
+   "scan": false,
+   "notes": "Careers page confirmed via search only.",
+   "verified_from": [
+    "https://www.nucleussoftware.com/careers/ (official-domain WebSearch result)"
+   ]
+  },
+  {
+   "slug": "datamatics",
+   "name": "Datamatics",
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.datamatics.com",
+   "recruitment_url": "https://www.datamatics.com/human-resources/job-openings",
+   "location": "Mumbai",
+   "offices": [
+    "Bengaluru"
+   ],
+   "scan": true,
+   "notes": "Long single-page list; Bengaluru roles seen are 3+ yrs.",
+   "verified_from": [
+    "https://www.datamatics.com/human-resources/job-openings"
+   ]
+  },
+  {
+   "slug": "eclerx",
+   "name": "eClerx",
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://eclerx.com",
+   "recruitment_url": "https://eclerx.com/careers/job-portal/",
+   "location": "Mumbai",
+   "offices": [
+    "Coimbatore"
+   ],
+   "scan": false,
+   "notes": "Oracle Recruiting Cloud portal (fa-ewji-saasfaprod1...CX_1), JS-only; Coimbatore filter available.",
+   "verified_from": [
+    "https://eclerx.com/careers/",
+    "https://eclerx.com/careers/job-portal/"
+   ]
+  },
+  {
+   "slug": "ramco-systems",
+   "name": "Ramco Systems",
+   "track": "it",
+   "subcategory": "product",
+   "url": "https://www.ramco.com",
+   "recruitment_url": "https://www.ramco.com/careers",
+   "location": "Chennai",
+   "offices": [
+    "Chennai"
+   ],
+   "scan": false,
+   "notes": "Job list loads dynamically; individual posts lack apply buttons (SDE1 Chennai needs 1-3 yrs).",
+   "verified_from": [
+    "https://www.ramco.com/careers/jobs-by-locations",
+    "https://www.ramco.com/careers/jobs-by-locations/sde1"
+   ]
+  },
+  {
+   "slug": "sify-technologies",
+   "name": "Sify Technologies",
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.sifytechnologies.com",
+   "recruitment_url": "https://sifytechnologies.com/careers",
+   "location": "Chennai",
+   "scan": false,
+   "notes": "Redirects to sifycareer.tallite.com/jobs (JS-only).",
+   "verified_from": [
+    "https://sifytechnologies.com/careers"
+   ]
+  },
+  {
+   "slug": "movate",
+   "name": "Movate",
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.movate.com",
+   "recruitment_url": "https://movatecareers.movate.com/LatestJobOpenings",
+   "location": "Chennai",
+   "offices": [
+    "Bengaluru",
+    "Chennai"
+   ],
+   "scan": true,
+   "notes": "Plain list with RRF IDs and experience; 0-1 yr Trainee roles currently only in Hyderabad.",
+   "verified_from": [
+    "https://movatecareers.movate.com/LatestJobOpenings"
+   ]
+  },
+  {
+   "slug": "aspire-systems",
+   "name": "Aspire Systems",
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.aspiresys.com",
+   "recruitment_url": "https://www.aspiresys.com/openings",
+   "location": "Chennai",
+   "offices": [
+    "Bengaluru",
+    "Chennai"
+   ],
+   "scan": true,
+   "notes": "Plain paginated list (13 pages); page 1 roles all 6+ yrs.",
+   "verified_from": [
+    "https://www.aspiresys.com/openings"
+   ]
+  },
+  {
+   "slug": "photon",
+   "name": "Photon",
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.photon.com",
+   "recruitment_url": "https://www.photon.com/careers",
+   "location": "Chennai",
+   "scan": false,
+   "notes": "Careers page confirmed via search only.",
+   "verified_from": [
+    "https://www.photon.com/careers (official-domain WebSearch result)"
+   ]
+  },
+  {
+   "slug": "kaar-technologies",
+   "name": "Kaar Technologies",
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.kaartech.com",
+   "recruitment_url": "https://www.kaartech.com/career/search-and-apply/",
+   "location": "Chennai",
+   "scan": true,
+   "notes": "Plain list of 14 SAP/consulting roles; none entry-level.",
+   "verified_from": [
+    "https://www.kaartech.com/career/search-and-apply/"
+   ]
+  },
+  {
+   "slug": "bahwan-cybertek",
+   "name": "Bahwan CyberTek",
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.bahwancybertek.com",
+   "recruitment_url": "https://www.bahwancybertek.com/careers/",
+   "location": "Chennai",
+   "offices": [
+    "Chennai"
+   ],
+   "scan": false,
+   "notes": "Apply via bahwancybertek.ripplehire.com/candidate/careers (portal).",
+   "verified_from": [
+    "https://www.bahwancybertek.com/careers/"
+   ]
+  },
+  {
+   "slug": "latentview-analytics",
+   "name": "LatentView Analytics",
+   "track": "it",
+   "subcategory": "analytics",
+   "url": "https://www.latentview.com",
+   "recruitment_url": "https://www.latentview.com/career/",
+   "location": "Chennai",
+   "scan": true,
+   "notes": "Role pages on latentview.com/career/; 'Associate' page is a US role.",
+   "verified_from": [
+    "https://www.latentview.com/career/associate/"
+   ]
+  },
+  {
+   "slug": "tiger-analytics",
+   "name": "Tiger Analytics",
+   "track": "it",
+   "subcategory": "analytics",
+   "url": "https://www.tigeranalytics.com",
+   "recruitment_url": "https://www.tigeranalytics.com/about-us/current-openings/",
+   "location": "Chennai",
+   "offices": [
+    "Bengaluru",
+    "Chennai"
+   ],
+   "scan": true,
+   "notes": "Plain list with experience; India apply links on careers.tigeranalytics.com (JS).",
+   "verified_from": [
+    "https://www.tigeranalytics.com/about-us/current-openings/"
+   ]
+  },
+  {
+   "slug": "mu-sigma",
+   "name": "Mu Sigma",
+   "track": "it",
+   "subcategory": "analytics",
+   "url": "https://www.mu-sigma.com",
+   "recruitment_url": "https://www.mu-sigma.com/career/",
+   "location": "Bengaluru",
+   "scan": false,
+   "notes": "No listings on site; resumes to DSRecruitment@mu-sigma.com (page's mailto spells DSRecruitments).",
+   "verified_from": [
+    "https://www.mu-sigma.com/career/"
+   ],
+   "fresher_program": "Trainee Decision Scientist"
+  },
+  {
+   "slug": "fractal-analytics",
+   "name": "Fractal Analytics",
+   "track": "it",
+   "subcategory": "analytics",
+   "url": "https://fractal.ai",
+   "recruitment_url": "https://fractal.ai/workday-jobs/",
+   "location": "Mumbai",
+   "scan": false,
+   "notes": "Workday portal; not read.",
+   "verified_from": [
+    "https://fractal.ai/workday-jobs/ (official-domain WebSearch result)"
+   ]
+  },
+  {
+   "slug": "tredence",
+   "name": "Tredence",
+   "track": "it",
+   "subcategory": "analytics",
+   "url": "https://www.tredence.com",
+   "recruitment_url": "https://careers.tredence.com/",
+   "location": "Bengaluru",
+   "scan": false,
+   "notes": "careers.tredence.com blocks automated reading; jobs at career.tredence.com (SuccessFactors).",
+   "verified_from": [
+    "https://careers.tredence.com/ (official-domain WebSearch result)"
+   ]
+  },
+  {
+   "slug": "sutherland",
+   "name": "Sutherland",
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.sutherlandglobal.com",
+   "recruitment_url": "https://www.jobs.sutherlandglobal.com/india",
+   "location": "Rochester, NY",
+   "offices": [
+    "Bengaluru",
+    "Chennai"
+   ],
+   "scan": false,
+   "notes": "Job results load dynamically (jobs.sutherlandglobal.com/job-results#/india).",
+   "verified_from": [
+    "https://www.jobs.sutherlandglobal.com/india"
+   ]
+  },
+  {
+   "slug": "kgisl",
+   "name": "KGiSL",
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.kgisl.com",
+   "recruitment_url": "https://www.kgisl.com/current-openings/",
+   "location": "Coimbatore",
+   "scan": false,
+   "notes": "Openings on careerx.kgisl.com (JS-only); queries to tag@kgisl.com.",
+   "verified_from": [
+    "https://www.kgisl.com/careers",
+    "https://www.kgisl.com/current-openings/"
+   ]
+  },
+  {
+   "slug": "kovai-co",
+   "name": "Kovai.co",
+   "track": "it",
+   "subcategory": "product",
+   "url": "https://www.kovai.co",
+   "recruitment_url": "https://careers.kovai.co/",
+   "location": "London",
+   "offices": [
+    "Chennai",
+    "Coimbatore"
+   ],
+   "scan": true,
+   "notes": "Plain list; current roles experienced (e.g., Product Support Engineer 3+ yrs).",
+   "verified_from": [
+    "https://www.kovai.co/careers/",
+    "https://careers.kovai.co/",
+    "https://www.kovai.co/internship/"
+   ],
+   "fresher_program": "Kovai.co Internship Program (6 months)"
+  },
+  {
+   "slug": "payoda-technologies",
+   "name": "Payoda Technologies",
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.payoda.com",
+   "recruitment_url": "https://www.payoda.com/careers/",
+   "location": "Plano, TX",
+   "offices": [
+    "Chennai",
+    "Coimbatore"
+   ],
+   "scan": true,
+   "notes": "Plain list; apply by email joinus@payoda.com; lowest experience 2 yrs.",
+   "verified_from": [
+    "https://www.payoda.com/careers/"
+   ]
+  },
+  {
+   "slug": "zoho",
+   "name": "Zoho",
+   "track": "it",
+   "subcategory": "product",
+   "url": "https://www.zoho.com",
+   "recruitment_url": "https://careers.zohocorp.com/jobs/careers",
+   "location": "Chennai",
+   "offices": [
+    "Chennai"
+   ],
+   "scan": false,
+   "notes": "Zoho Recruit portal; RSS feed lists evergreen TN roles from 2022-23; Software Developers post now 'no longer available'. Candidate portal registration for alerts.",
+   "verified_from": [
+    "https://www.zoho.com/careers/",
+    "https://careers.zohocorp.com/jobs/Careers/rss"
+   ]
+  },
+  {
+   "slug": "freshworks",
+   "name": "Freshworks",
+   "track": "it",
+   "subcategory": "product",
+   "url": "https://www.freshworks.com",
+   "recruitment_url": "https://careers.smartrecruiters.com/Freshworks",
+   "location": "Chennai",
+   "offices": [
+    "Bengaluru",
+    "Chennai"
+   ],
+   "scan": true,
+   "notes": "SmartRecruiters board; Bengaluru filter had only senior roles; no graduate trainee posts live.",
+   "verified_from": [
+    "https://www.freshworks.com/company/careers/",
+    "https://careers.smartrecruiters.com/freshworks"
+   ]
+  },
+  {
+   "slug": "chargebee",
+   "name": "Chargebee",
+   "track": "it",
+   "subcategory": "product",
+   "url": "https://www.chargebee.com",
+   "recruitment_url": "https://www.chargebee.com/careers/",
+   "location": "Chennai",
+   "scan": false,
+   "notes": "Careers page sends applicants to LinkedIn jobs; no own ATS list.",
+   "verified_from": [
+    "https://www.chargebee.com/careers/"
+   ]
+  },
+  {
+   "slug": "kissflow",
+   "name": "Kissflow",
+   "track": "it",
+   "subcategory": "product",
+   "url": "https://kissflow.com",
+   "recruitment_url": "https://careers.kissflow.com/",
+   "location": "Chennai",
+   "scan": true,
+   "notes": "Plain list; only 2 senior roles open.",
+   "verified_from": [
+    "https://careers.kissflow.com/"
+   ]
+  },
+  {
+   "slug": "avasoft",
+   "name": "Avasoft",
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.avasoft.com",
+   "recruitment_url": null,
+   "location": "Chennai",
+   "scan": false,
+   "notes": "Careers page could not be fetched/confirmed."
+  },
+  {
+   "slug": "mindsprint",
+   "name": "Mindsprint",
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.mindsprint.com",
+   "recruitment_url": null,
+   "location": "Chennai",
+   "scan": false,
+   "notes": "Careers page could not be fetched/confirmed."
+  },
+  {
+   "slug": "virtusa",
+   "name": "Virtusa",
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.virtusa.com",
+   "recruitment_url": "https://www.virtusa.com/careers",
+   "location": "Southborough, MA",
+   "scan": false,
+   "notes": "Job search at virtusa.com/careers/job-search (JS-only).",
+   "verified_from": [
+    "https://www.virtusa.com/careers"
+   ]
+  },
+  {
+   "slug": "ust",
+   "name": "UST",
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.ust.com",
+   "recruitment_url": "https://www.ust.com/en/careers",
+   "location": "Aliso Viejo, CA",
+   "scan": false,
+   "notes": "Landing page only; no listings readable.",
+   "verified_from": [
+    "https://www.ust.com/en/careers"
+   ]
+  },
+  {
+   "slug": "thoughtworks",
+   "name": "Thoughtworks",
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.thoughtworks.com",
+   "recruitment_url": "https://www.thoughtworks.com/en-in/careers/jobs",
+   "location": "Chicago",
+   "scan": false,
+   "notes": "TWU graduate jobs currently none open (seasonal); accepts up to 12 months experience.",
+   "verified_from": [
+    "https://www.thoughtworks.com/careers",
+    "https://www.thoughtworks.com/careers/graduates",
+    "https://www.thoughtworks.com/en-in/careers/jobs"
+   ],
+   "fresher_program": "Thoughtworks University (TWU)"
+  },
+  {
+   "slug": "deloitte-usi",
+   "name": "Deloitte (USI / India)",
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.deloitte.com",
+   "recruitment_url": "https://southasiacareers.deloitte.com/go/Deloitte-India/718244/",
+   "location": "London",
+   "offices": [
+    "Bengaluru",
+    "Chennai"
+   ],
+   "scan": true,
+   "notes": "USI roles on usijobs.deloitte.com (Avature, readable job pages); many fresher reqs are campus-specific (CampusFY27-<college>) and not open to all",
+   "verified_from": [
+    "https://usijobs.deloitte.com/en_US/careersUSI/JobDetail/USI-EH27-Consulting-C-M-AM-C-Workfront-Analyst-Technical-Transformation/353057",
+    "https://usijobs.deloitte.com/en_US/careersUSI/JobDetail/USI-Campus26-Consulting-Associate-Analyst-Off-Campus-BHA/207007"
+   ]
+  },
+  {
+   "slug": "pwc-india-ac",
+   "name": "PwC India (Acceleration Center)",
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.pwc.in",
+   "recruitment_url": null,
+   "location": "Kolkata / Mumbai (India firm); AC Bengaluru",
+   "scan": false,
+   "notes": "Not verified this run (shared web-search budget exhausted before this company was reached); careers URL left null."
+  },
+  {
+   "slug": "ey-gds",
+   "name": "EY GDS",
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.ey.com",
+   "recruitment_url": null,
+   "location": "London",
+   "scan": false,
+   "notes": "Not verified this run (shared web-search budget exhausted before this company was reached); careers URL left null."
+  },
+  {
+   "slug": "kpmg-global-services",
+   "name": "KPMG Global Services",
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://kpmg.com/in/en/home.html",
+   "recruitment_url": null,
+   "location": "Bengaluru (KGS India)",
+   "scan": false,
+   "notes": "Not verified this run (shared web-search budget exhausted before this company was reached); careers URL left null."
+  },
+  {
+   "slug": "dxc-technology",
+   "name": "DXC Technology",
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://dxc.com",
+   "recruitment_url": null,
+   "location": "Ashburn, Virginia",
+   "scan": false,
+   "notes": "Not verified this run (shared web-search budget exhausted before this company was reached); careers URL left null."
+  },
+  {
+   "slug": "ntt-data",
+   "name": "NTT DATA",
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.nttdata.com",
+   "recruitment_url": null,
+   "location": "Tokyo",
+   "scan": false,
+   "notes": "Not verified this run (shared web-search budget exhausted before this company was reached); careers URL left null."
+  },
+  {
+   "slug": "fujitsu",
+   "name": "Fujitsu",
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.fujitsu.com",
+   "recruitment_url": null,
+   "location": "Tokyo",
+   "scan": false,
+   "notes": "Not verified this run (shared web-search budget exhausted before this company was reached); careers URL left null."
+  },
+  {
+   "slug": "kyndryl",
+   "name": "Kyndryl",
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.kyndryl.com",
+   "recruitment_url": null,
+   "location": "New York",
+   "scan": false,
+   "notes": "Not verified this run (shared web-search budget exhausted before this company was reached); careers URL left null."
+  },
+  {
+   "slug": "oracle",
+   "name": "Oracle",
+   "track": "it",
+   "subcategory": "gcc",
+   "url": "https://www.oracle.com",
+   "recruitment_url": null,
+   "location": "Austin, Texas",
+   "scan": false,
+   "notes": "Not verified this run (shared web-search budget exhausted before this company was reached); careers URL left null."
+  },
+  {
+   "slug": "sap-labs-india",
+   "name": "SAP Labs India",
+   "track": "it",
+   "subcategory": "gcc",
+   "url": "https://www.sap.com",
+   "recruitment_url": "https://careers.sap.com/go/SAP-Jobs-in-India/851201/",
+   "location": "Walldorf (SAP SE); SAP Labs India in Bengaluru",
+   "offices": [
+    "Bengaluru"
+   ],
+   "fresher_program": "SAP Academies / STAR programme (early talent)",
+   "scan": true,
+   "notes": "SuccessFactors job list readable; India list had no graduate/0-yr roles open (Associate Data Scientist needs 1-2 yrs); two Bengaluru posts found were already filled",
+   "verified_from": [
+    "https://careers.sap.com/go/SAP-Jobs-in-India/851201/",
+    "https://jobs.sap.com/en/students-and-graduates/",
+    "https://jobs.sap.com/job/Bangalore-Developer-560066/1378302933/"
+   ]
+  },
+  {
+   "slug": "microsoft",
+   "name": "Microsoft",
+   "track": "it",
+   "subcategory": "gcc",
+   "url": "https://www.microsoft.com",
+   "recruitment_url": "https://careers.microsoft.com/v2/global/en/locations/india.html",
+   "location": "Redmond, Washington",
+   "offices": [
+    "Bengaluru"
+   ],
+   "fresher_program": "Microsoft Aspire (recent graduates)",
+   "scan": false,
+   "notes": "Job search on apply.careers.microsoft.com (JS); recent-graduate page showed no India new-grad role at time of check",
+   "verified_from": [
+    "https://careers.microsoft.com/v2/global/en/locations/india.html",
+    "https://careers.microsoft.com/v2/global/en/recentgraduate"
+   ]
+  },
+  {
+   "slug": "google",
+   "name": "Google",
+   "track": "it",
+   "subcategory": "gcc",
+   "url": "https://www.google.com",
+   "recruitment_url": "https://www.google.com/about/careers/applications/jobs/results",
+   "location": "Mountain View, California",
+   "offices": [
+    "Bengaluru"
+   ],
+   "fresher_program": "Google University Graduate / Early Career roles",
+   "scan": true,
+   "notes": "Server-rendered search; filter location=Bengaluru and 'University Graduate' / 'Early Career'; most 2026 B.Tech UG SWE posts already taken down",
+   "verified_from": [
+    "https://www.google.com/about/careers/applications/jobs/results?q=%22Software+Engineer%22&location=Bengaluru,+India",
+    "https://www.google.com/about/careers/applications/jobs/results?q=Graduate&hl=en&location=India"
+   ]
+  },
+  {
+   "slug": "amazon",
+   "name": "Amazon",
+   "track": "it",
+   "subcategory": "gcc",
+   "url": "https://www.amazon.com",
+   "recruitment_url": "https://www.amazon.jobs/teams/jobs-for-grads",
+   "location": "Seattle, Washington",
+   "offices": [
+    "Bengaluru",
+    "Chennai"
+   ],
+   "fresher_program": "Amazon University Talent Acquisition (SDE I / intern hiring)",
+   "scan": true,
+   "notes": "amazon.jobs job pages readable; search 'Amazon University Talent Acquisition' for India new-grad and intern roles",
+   "verified_from": [
+    "https://www.amazon.jobs/teams/jobs-for-grads",
+    "https://www.amazon.jobs/en/jobs/10454438/software-dev-engineer-i-amazon-university-talent-acquisition"
+   ]
+  },
+  {
+   "slug": "adobe",
+   "name": "Adobe",
+   "track": "it",
+   "subcategory": "gcc",
+   "url": "https://www.adobe.com",
+   "recruitment_url": "https://careers.adobe.com/us/en",
+   "location": "San Jose, California",
+   "offices": [
+    "Bengaluru"
+   ],
+   "scan": false,
+   "notes": "Phenom portal; job pages failed to load for reading; search results show MTS roles in Bengaluru and Noida",
+   "verified_from": [
+    "https://careers.adobe.com/us/en/job/R171481/Member-of-Technical-Staff"
+   ]
+  },
+  {
+   "slug": "salesforce",
+   "name": "Salesforce",
+   "track": "it",
+   "subcategory": "gcc",
+   "url": "https://www.salesforce.com",
+   "recruitment_url": "https://www.salesforce.com/company/careers/locations/india/",
+   "location": "San Francisco, California",
+   "offices": [
+    "Bengaluru"
+   ],
+   "fresher_program": "Futureforce (university recruiting)",
+   "scan": false,
+   "notes": "Jobs on Workday (salesforce.wd12.myworkdayjobs.com/External_Career_Site); India offices Hyderabad, Bengaluru, Mumbai",
+   "verified_from": [
+    "https://www.salesforce.com/company/careers/locations/india/",
+    "https://salesforce.wd12.myworkdayjobs.com/en-US/External_Career_Site/job/India---Bangalore/Summer-2027-Intern---Software-Engineer_JR337715?q=AMTS"
+   ]
+  },
+  {
+   "slug": "cisco",
+   "name": "Cisco",
+   "track": "it",
+   "subcategory": "gcc",
+   "url": "https://www.cisco.com",
+   "recruitment_url": "https://careers.cisco.com/global/en",
+   "location": "San Jose, California",
+   "offices": [
+    "Bengaluru"
+   ],
+   "fresher_program": "Cisco Apprenticeship Program (India, NATS) / University hiring",
+   "scan": false,
+   "notes": "Phenom portal; many job pages fail to load; apprentice and summer-intern reqs checked were 'not accepting new applications'",
+   "verified_from": [
+    "https://careers.cisco.com/global/en/india/etr/apprenticeships",
+    "https://careers.cisco.com/global/en/job/2014457/Software-Automation-Trainee-Technical-Graduate-Apprentice-India-UHR"
+   ]
+  },
+  {
+   "slug": "intel",
+   "name": "Intel",
+   "track": "it",
+   "subcategory": "gcc",
+   "url": "https://www.intel.com",
+   "recruitment_url": "https://jobs.intel.com/en/location/bangalore-state-of-karnataka-india-jobs/599/1269750-1267701-1277333/4",
+   "location": "Santa Clara, California",
+   "offices": [
+    "Bengaluru"
+   ],
+   "scan": false,
+   "notes": "Jobs on Workday (intel.wd1.myworkdayjobs.com/External); Bangalore 'Graduate Intern Technical' reqs exist but details did not render",
+   "verified_from": [
+    "https://intel.wd1.myworkdayjobs.com/External/job/India-Bangalore/Graduate-Intern-Technical_JR0272169"
+   ]
+  },
+  {
+   "slug": "qualcomm",
+   "name": "Qualcomm",
+   "track": "it",
+   "subcategory": "gcc",
+   "url": "https://www.qualcomm.com",
+   "recruitment_url": "https://careers.qualcomm.com",
+   "location": "San Diego, California",
+   "offices": [
+    "Bengaluru",
+    "Chennai"
+   ],
+   "scan": false,
+   "notes": "Eightfold portal (JS); Chennai office (Ramanujan IT City, OMR) confirmed via past hiring-drive page",
+   "verified_from": [
+    "https://careers.qualcomm.com/events/candidate/registration?plannedEventId=AAqmXrbMl"
+   ]
+  },
+  {
+   "slug": "texas-instruments",
+   "name": "Texas Instruments",
+   "track": "it",
+   "subcategory": "gcc",
+   "url": "https://www.ti.com",
+   "recruitment_url": "https://careers.ti.com/en/sites/CX/jobs?location=India&locationId=300000000361484&locationLevel=country&mode=location",
+   "location": "Dallas, Texas",
+   "scan": false,
+   "notes": "Oracle HCM portal, JS-only; filter Location = India",
+   "verified_from": [
+    "https://careers.ti.com/en/sites/CX/jobs?location=India&locationId=300000000361484&locationLevel=country&mode=location"
+   ]
+  },
+  {
+   "slug": "nvidia",
+   "name": "NVIDIA",
+   "track": "it",
+   "subcategory": "gcc",
+   "url": "https://www.nvidia.com",
+   "recruitment_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite",
+   "location": "Santa Clara, California",
+   "fresher_program": "NVIDIA New College Grad roles",
+   "scan": false,
+   "notes": "Workday; search 'New College Grad' + India; job pages often render only metadata so India NCG roles could not be confirmed",
+   "verified_from": [
+    "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Systems-Software-Engineer---AI-and-Cloud---New-College-Grad-2026_JR2025458"
+   ]
+  },
+  {
+   "slug": "servicenow",
+   "name": "ServiceNow",
+   "track": "it",
+   "subcategory": "gcc",
+   "url": "https://www.servicenow.com",
+   "recruitment_url": null,
+   "location": "Santa Clara, California",
+   "scan": false,
+   "notes": "Not verified this run (shared web-search budget exhausted before this company was reached); careers URL left null."
+  },
+  {
+   "slug": "intuit",
+   "name": "Intuit",
+   "track": "it",
+   "subcategory": "gcc",
+   "url": "https://www.intuit.com",
+   "recruitment_url": "https://jobs.intuit.com/location/india-jobs/27595/1269750/2",
+   "location": "Mountain View, California",
+   "offices": [
+    "Bengaluru"
+   ],
+   "scan": true,
+   "notes": "Plain list; 28 India jobs all in Bengaluru, none entry-level at time of check",
+   "verified_from": [
+    "https://jobs.intuit.com/location/india-jobs/27595/1269750/2"
+   ]
+  },
+  {
+   "slug": "paypal",
+   "name": "PayPal",
+   "track": "it",
+   "subcategory": "gcc",
+   "url": "https://www.paypal.com",
+   "recruitment_url": null,
+   "location": "San Jose, California",
+   "scan": false,
+   "notes": "Not verified this run (shared web-search budget exhausted before this company was reached); careers URL left null."
+  },
+  {
+   "slug": "walmart-global-tech",
+   "name": "Walmart Global Tech",
+   "track": "it",
+   "subcategory": "gcc",
+   "url": "https://tech.walmart.com",
+   "recruitment_url": "https://walmart.wd5.myworkdayjobs.com/WalmartExternal",
+   "location": "Bentonville, Arkansas",
+   "offices": [
+    "Bengaluru",
+    "Chennai"
+   ],
+   "scan": false,
+   "notes": "Workday; India reqs prefixed IN-KA-BANGALORE / IN-TN-CHENNAI; job pages returned server errors",
+   "verified_from": [
+    "https://walmart.wd5.myworkdayjobs.com/WalmartExternal/job/IN-TN-CHENNAI-Home-Office-Capita-Land/Software-Engineer-III_R-2455214"
+   ]
+  },
+  {
+   "slug": "target-in-india",
+   "name": "Target in India",
+   "track": "it",
+   "subcategory": "gcc",
+   "url": "https://corporate.target.com",
+   "recruitment_url": null,
+   "location": "Minneapolis (Target Corp.); Target in India in Bengaluru",
+   "scan": false,
+   "notes": "Not verified this run (shared web-search budget exhausted before this company was reached); careers URL left null."
+  },
+  {
+   "slug": "bosch-global-software-technologies",
+   "name": "Bosch Global Software Technologies",
+   "track": "it",
+   "subcategory": "gcc",
+   "url": "https://www.bosch-softwaretechnologies.com",
+   "recruitment_url": null,
+   "location": "Bengaluru",
+   "scan": false,
+   "notes": "Not verified this run (shared web-search budget exhausted before this company was reached); careers URL left null."
+  },
+  {
+   "slug": "honeywell",
+   "name": "Honeywell",
+   "track": "it",
+   "subcategory": "gcc",
+   "url": "https://www.honeywell.com",
+   "recruitment_url": null,
+   "location": "Charlotte, North Carolina",
+   "scan": false,
+   "notes": "Not verified this run (shared web-search budget exhausted before this company was reached); careers URL left null."
+  },
+  {
+   "slug": "philips",
+   "name": "Philips",
+   "track": "it",
+   "subcategory": "gcc",
+   "url": "https://www.philips.com",
+   "recruitment_url": null,
+   "location": "Amsterdam",
+   "scan": false,
+   "notes": "Not verified this run (shared web-search budget exhausted before this company was reached); careers URL left null."
+  },
+  {
+   "slug": "ericsson",
+   "name": "Ericsson",
+   "track": "it",
+   "subcategory": "gcc",
+   "url": "https://www.ericsson.com",
+   "recruitment_url": null,
+   "location": "Stockholm",
+   "scan": false,
+   "notes": "Not verified this run (shared web-search budget exhausted before this company was reached); careers URL left null."
+  },
+  {
+   "slug": "nokia",
+   "name": "Nokia",
+   "track": "it",
+   "subcategory": "gcc",
+   "url": "https://www.nokia.com",
+   "recruitment_url": null,
+   "location": "Espoo",
+   "scan": false,
+   "notes": "Not verified this run (shared web-search budget exhausted before this company was reached); careers URL left null."
+  },
+  {
+   "slug": "optum",
+   "name": "Optum",
+   "track": "it",
+   "subcategory": "gcc",
+   "url": "https://www.optum.com",
+   "recruitment_url": "https://careers.unitedhealthgroup.com/location/chennai-jobs/34088/1269750-1255053-1264527/4",
+   "location": "Eden Prairie, Minnesota",
+   "offices": [
+    "Bengaluru",
+    "Chennai"
+   ],
+   "scan": true,
+   "notes": "UnitedHealth Group careers site (TMP, readable); Chennai filter lists ~37 jobs, no 0-yr roles seen (Software Engineer Chennai needs 1+ yr)",
+   "verified_from": [
+    "https://careers.unitedhealthgroup.com/location/chennai-jobs/34088/1269750-1255053-1264527/4",
+    "https://careers.unitedhealthgroup.com/job/chennai/software-engineer/34088/99817972128"
+   ]
+  },
+  {
+   "slug": "athenahealth",
+   "name": "athenahealth",
+   "track": "it",
+   "subcategory": "gcc",
+   "url": "https://www.athenahealth.com",
+   "recruitment_url": null,
+   "location": "Boston, Massachusetts",
+   "scan": false,
+   "notes": "Not verified this run (shared web-search budget exhausted before this company was reached); careers URL left null."
+  },
+  {
+   "slug": "dell-technologies",
+   "name": "Dell Technologies",
+   "track": "it",
+   "subcategory": "gcc",
+   "url": "https://www.dell.com",
+   "recruitment_url": null,
+   "location": "Round Rock, Texas",
+   "scan": false,
+   "notes": "Not verified this run (shared web-search budget exhausted before this company was reached); careers URL left null."
+  },
+  {
+   "slug": "hp-inc",
+   "name": "HP Inc",
+   "track": "it",
+   "subcategory": "gcc",
+   "url": "https://www.hp.com",
+   "recruitment_url": null,
+   "location": "Palo Alto, California",
+   "scan": false,
+   "notes": "Not verified this run (shared web-search budget exhausted before this company was reached); careers URL left null."
+  },
+  {
+   "slug": "hewlett-packard-enterprise",
+   "name": "Hewlett Packard Enterprise",
+   "track": "it",
+   "subcategory": "gcc",
+   "url": "https://www.hpe.com",
+   "recruitment_url": null,
+   "location": "Houston, Texas",
+   "scan": false,
+   "notes": "Not verified this run (shared web-search budget exhausted before this company was reached); careers URL left null."
+  },
+  {
+   "slug": "siemens",
+   "name": "Siemens",
+   "track": "it",
+   "subcategory": "gcc",
+   "url": "https://www.siemens.com",
+   "recruitment_url": null,
+   "location": "Munich",
+   "scan": false,
+   "notes": "Not verified this run (shared web-search budget exhausted before this company was reached); careers URL left null."
+  },
+  {
+   "slug": "nagarro",
+   "name": "Nagarro",
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.nagarro.com",
+   "recruitment_url": null,
+   "location": "Munich",
+   "scan": false,
+   "notes": "Not verified this run (shared web-search budget exhausted before this company was reached); careers URL left null."
+  },
+  {
+   "slug": "epam-systems",
+   "name": "EPAM Systems",
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.epam.com",
+   "recruitment_url": null,
+   "location": "Newtown, Pennsylvania",
+   "scan": false,
+   "notes": "Not verified this run (shared web-search budget exhausted before this company was reached); careers URL left null."
+  },
+  {
+   "slug": "globallogic",
+   "name": "GlobalLogic",
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.globallogic.com",
+   "recruitment_url": null,
+   "location": "San Jose, California",
+   "scan": false,
+   "notes": "Not verified this run (shared web-search budget exhausted before this company was reached); careers URL left null."
+  },
+  {
+   "slug": "altimetrik",
+   "name": "Altimetrik",
+   "track": "it",
+   "subcategory": "it_services",
+   "url": "https://www.altimetrik.com",
+   "recruitment_url": null,
+   "location": "Southfield, Michigan",
+   "scan": false,
+   "notes": "Not verified this run (shared web-search budget exhausted before this company was reached); careers URL left null."
+  },
+  {
+   "slug": "flipkart",
+   "name": "Flipkart",
+   "track": "it",
+   "subcategory": "product",
+   "url": "https://www.flipkart.com",
+   "recruitment_url": null,
+   "location": "Bengaluru",
+   "scan": false,
+   "notes": "Not verified this run (shared web-search budget exhausted before this company was reached); careers URL left null."
+  },
+  {
+   "slug": "swiggy",
+   "name": "Swiggy",
+   "track": "it",
+   "subcategory": "product",
+   "url": "https://www.swiggy.com",
+   "recruitment_url": null,
+   "location": "Bengaluru",
+   "scan": false,
+   "notes": "Not verified this run (shared web-search budget exhausted before this company was reached); careers URL left null."
+  },
+  {
+   "slug": "razorpay",
+   "name": "Razorpay",
+   "track": "it",
+   "subcategory": "product",
+   "url": "https://razorpay.com",
+   "recruitment_url": null,
+   "location": "Bengaluru",
+   "scan": false,
+   "notes": "Not verified this run (shared web-search budget exhausted before this company was reached); careers URL left null. jobs.lever.co/razorpay could not be fetched."
+  },
+  {
+   "slug": "phonepe",
+   "name": "PhonePe",
+   "track": "it",
+   "subcategory": "product",
+   "url": "https://www.phonepe.com",
+   "recruitment_url": "https://job-boards.greenhouse.io/phonepe",
+   "location": "Bengaluru",
+   "offices": [
+    "Bengaluru"
+   ],
+   "scan": false,
+   "notes": "Greenhouse board (list not rendered for reading; individual job pages readable); Bengaluru roles checked needed 1-3+ yrs",
+   "verified_from": [
+    "https://job-boards.greenhouse.io/phonepe",
+    "https://job-boards.greenhouse.io/phonepe/jobs/7684993003"
+   ]
+  },
+  {
+   "slug": "paytm",
+   "name": "Paytm",
+   "track": "it",
+   "subcategory": "product",
+   "url": "https://paytm.com",
+   "recruitment_url": null,
+   "location": "Noida",
+   "scan": false,
+   "notes": "Not verified this run (shared web-search budget exhausted before this company was reached); careers URL left null."
+  },
+  {
+   "slug": "postman",
+   "name": "Postman",
+   "track": "it",
+   "subcategory": "product",
+   "url": "https://www.postman.com",
+   "recruitment_url": "https://job-boards.greenhouse.io/postman",
+   "location": "San Francisco, California",
+   "offices": [
+    "Bengaluru"
+   ],
+   "scan": true,
+   "notes": "Greenhouse board readable; India roles in Bengaluru/Noida, no entry-level role at time of check",
+   "verified_from": [
+    "https://job-boards.greenhouse.io/postman"
+   ]
+  },
+  {
+   "slug": "bhel",
+   "name": "Bharat Heavy Electricals Limited",
+   "track": "psu",
+   "subcategory": "maharatna",
+   "url": "https://www.bhel.com",
+   "recruitment_url": null,
+   "location": "New Delhi",
+   "scan": false,
+   "notes": "Central careers page (careers.bhel.in) could not be read; unit portals seen: ednnet.bhel.in/FTARecruitment, hwr.bhel.com/recruitment",
+   "verified_from": [
+    "https://ednnet.bhel.in/FTARecruitment/",
+    "https://hwr.bhel.com/recruitment/",
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "bpcl",
+   "name": "Bharat Petroleum Corporation Limited",
+   "track": "psu",
+   "subcategory": "maharatna",
+   "url": "https://www.bharatpetroleum.in",
+   "recruitment_url": "https://www.bharatpetroleum.in/bharat-petroleum-for/careers/job-openings",
+   "location": "Mumbai",
+   "scan": false,
+   "notes": "Job openings page (fetch failed this run); advertisements are PDFs under bharatpetroleum.in/images/files/",
+   "verified_from": [
+    "https://www.bharatpetroleum.in/bharat-petroleum-for/careers/job-openings",
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "coal-india",
+   "name": "Coal India Limited",
+   "track": "psu",
+   "subcategory": "maharatna",
+   "url": "https://www.coalindia.in",
+   "recruitment_url": "https://www.coalindia.in/career-cil/jobs-coal-india/",
+   "location": "Kolkata",
+   "scan": true,
+   "notes": "Jobs at Coal India page; MT recruitment via CBT/GATE posted here (MT CBT-26 page exists)",
+   "verified_from": [
+    "https://www.coalindia.in/career-cil/jobs-coal-india/",
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "gail",
+   "name": "GAIL (India) Limited",
+   "track": "psu",
+   "subcategory": "maharatna",
+   "url": "https://www.gailonline.com",
+   "recruitment_url": null,
+   "location": "New Delhi",
+   "scan": false,
+   "notes": "Careers section of gailonline.com (page could not be read); advertisements are PDFs under gailonline.com/careers/currentOpnning/",
+   "verified_from": [
+    "https://www.gailonline.com/careers/currentOpnning/GATE-2027-1st-Advertisement-01092026.pdf",
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "hal",
+   "name": "Hindustan Aeronautics Limited",
+   "track": "psu",
+   "subcategory": "maharatna",
+   "url": "https://hal-india.co.in",
+   "recruitment_url": "https://hal-india.co.in/career",
+   "location": "Bengaluru",
+   "scan": false,
+   "notes": "Careers page is JavaScript-only; notices are PDFs under hal-india.co.in/backend/wp-content/uploads/career/",
+   "verified_from": [
+    "https://hal-india.co.in/career",
+    "https://hal-india.co.in/backend//wp-content/uploads/career/Detailed%20Advt%20JESTB%2007-10-2026_1791362564.pdf",
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "hpcl",
+   "name": "Hindustan Petroleum Corporation Limited",
+   "track": "psu",
+   "subcategory": "maharatna",
+   "url": "https://www.hindustanpetroleum.com",
+   "recruitment_url": "https://www.hindustanpetroleum.com/job-openings",
+   "location": "Mumbai",
+   "scan": true,
+   "notes": "Current openings page; applications via jobs.hpcl.co.in",
+   "verified_from": [
+    "https://www.hindustanpetroleum.com/job-openings",
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "iocl",
+   "name": "Indian Oil Corporation Limited",
+   "track": "psu",
+   "subcategory": "maharatna",
+   "url": "https://iocl.com",
+   "recruitment_url": "https://iocl.com/latest-job-opening",
+   "location": "New Delhi",
+   "scan": false,
+   "notes": "Latest Job Openings page (fetch failed this run); apprentice notices at iocl.com/apprenticeships (readable)",
+   "verified_from": [
+    "https://iocl.com/latest-job-opening",
+    "https://iocl.com/apprenticeships",
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "ntpc",
+   "name": "NTPC Limited",
+   "track": "psu",
+   "subcategory": "maharatna",
+   "url": "https://ntpc.co.in",
+   "recruitment_url": "https://ntpc.co.in/jobs-ntpc",
+   "location": "New Delhi",
+   "scan": true,
+   "notes": "Jobs list on ntpc.co.in (no dates shown); applications on careers.ntpc.co.in/recruitment/",
+   "verified_from": [
+    "https://ntpc.co.in/jobs-ntpc",
+    "https://careers.ntpc.co.in/",
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "ongc",
+   "name": "Oil and Natural Gas Corporation Limited",
+   "track": "psu",
+   "subcategory": "maharatna",
+   "url": "https://ongcindia.com",
+   "recruitment_url": "https://ongcindia.com/web/eng/career/recruitment-notice",
+   "location": "New Delhi",
+   "scan": true,
+   "notes": "Recruitment notices list (posting dates only); apprentices at ongcindia.com/web/eng/apprenticeship-opportunities",
+   "verified_from": [
+    "https://ongcindia.com/web/eng/career/recruitment-notice",
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "oil-india",
+   "name": "Oil India Limited",
+   "track": "psu",
+   "subcategory": "maharatna",
+   "url": "https://www.oil-india.com",
+   "recruitment_url": "https://www.oil-india.com/advertisement-list",
+   "location": "Duliajan (Assam)",
+   "scan": true,
+   "notes": "Advertisement list shows last dates; PDFs open via download links",
+   "verified_from": [
+    "https://www.oil-india.com/advertisement-list",
+    "https://www.oil-india.com/careeroil",
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "pfc",
+   "name": "Power Finance Corporation Limited",
+   "track": "psu",
+   "subcategory": "maharatna",
+   "url": "https://pfcindia.co.in",
+   "recruitment_url": "https://pfcindia.co.in/en/data/careers/jobs-on-offer",
+   "location": "New Delhi",
+   "scan": false,
+   "notes": "Jobs on Offer page blocks automated reading",
+   "verified_from": [
+    "https://pfcindia.co.in/en/data/careers/jobs-on-offer",
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "powergrid",
+   "name": "Power Grid Corporation of India Limited",
+   "track": "psu",
+   "subcategory": "maharatna",
+   "url": "https://www.powergrid.in",
+   "recruitment_url": "https://www.powergrid.in/en/job-opportunities",
+   "location": "Gurugram",
+   "scan": true,
+   "notes": "Job opportunities list with status; applications on careers.powergrid.in",
+   "verified_from": [
+    "https://www.powergrid.in/en/job-opportunities",
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "rec",
+   "name": "REC Limited",
+   "track": "psu",
+   "subcategory": "maharatna",
+   "url": "https://recindia.nic.in",
+   "recruitment_url": null,
+   "location": "Gurugram",
+   "scan": false,
+   "notes": "Careers page path not confirmed; advertisements are PDFs under recindia.nic.in/uploads/files/",
+   "verified_from": [
+    "https://recindia.nic.in/uploads/files/co-hr-application-for-post-of-Advisor-on-contractual-basis-in-REC-dt-22072026.pdf",
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "sail",
+   "name": "Steel Authority of India Limited",
+   "track": "psu",
+   "subcategory": "maharatna",
+   "url": "https://www.sail.co.in",
+   "recruitment_url": "https://sailcareers.com",
+   "location": "New Delhi",
+   "scan": false,
+   "notes": "Recruitment on sailcareers.com (plant-wise advts, e.g. Salem Steel Plant); site blocks automated reading; sail.co.in homepage not readable",
+   "verified_from": [
+    "https://sailcareers.com/Archive.aspx?Section=News",
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "bel",
+   "name": "Bharat Electronics Limited",
+   "track": "psu",
+   "subcategory": "navratna",
+   "url": "https://bel-india.in",
+   "recruitment_url": "https://bel-india.in/job-notifications/",
+   "location": "Bengaluru",
+   "scan": false,
+   "notes": "Job notifications page; content seen this run looked stale (2025 items) — check in browser",
+   "verified_from": [
+    "https://bel-india.in/job-notifications/",
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "cwc",
+   "name": "Central Warehousing Corporation",
+   "track": "psu",
+   "subcategory": "navratna",
+   "url": "https://cewacor.nic.in",
+   "recruitment_url": null,
+   "location": "New Delhi",
+   "scan": false,
+   "notes": "Homepage reachable; careers link not visible to automated reader",
+   "verified_from": [
+    "https://cewacor.nic.in/",
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "concor",
+   "name": "Container Corporation of India Limited",
+   "track": "psu",
+   "subcategory": "navratna",
+   "url": "https://www.concorindia.co.in",
+   "recruitment_url": null,
+   "location": "New Delhi",
+   "scan": false,
+   "notes": "Site blocks automated reading (robots.txt); homepage domain only, careers page not verified this run",
+   "verified_from": [
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "eil",
+   "name": "Engineers India Limited",
+   "track": "psu",
+   "subcategory": "navratna",
+   "url": "https://engineersindia.com",
+   "recruitment_url": "https://engineersindia.com/careers",
+   "location": "New Delhi",
+   "scan": true,
+   "notes": "Careers page links to recruitment portal recruitment.eil.co.in (portal blocks automated reading)",
+   "verified_from": [
+    "https://engineersindia.com/careers",
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "hudco",
+   "name": "Housing and Urban Development Corporation Limited",
+   "track": "psu",
+   "subcategory": "navratna",
+   "url": "https://www.hudco.org.in",
+   "recruitment_url": "https://www.hudco.org.in/careers",
+   "location": "New Delhi",
+   "scan": true,
+   "notes": "Careers list with last dates",
+   "verified_from": [
+    "https://www.hudco.org.in/careers",
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "irctc",
+   "name": "Indian Railway Catering and Tourism Corporation Limited",
+   "track": "psu",
+   "subcategory": "navratna",
+   "url": "https://www.irctc.com",
+   "recruitment_url": null,
+   "location": "New Delhi",
+   "scan": false,
+   "notes": "Homepage reachable; careers link not visible to automated reader",
+   "verified_from": [
+    "https://www.irctc.com/",
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "irfc",
+   "name": "Indian Railway Finance Corporation Limited",
+   "track": "psu",
+   "subcategory": "navratna",
+   "url": "https://irfc.co.in",
+   "recruitment_url": null,
+   "location": "New Delhi",
+   "scan": false,
+   "notes": "Homepage reachable; careers link not visible to automated reader",
+   "verified_from": [
+    "https://irfc.co.in/",
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "ireda",
+   "name": "Indian Renewable Energy Development Agency Limited",
+   "track": "psu",
+   "subcategory": "navratna",
+   "url": "https://www.ireda.in",
+   "recruitment_url": "https://www.ireda.in/IredaWebPortal/careers",
+   "location": "New Delhi",
+   "scan": true,
+   "notes": "Careers page with start/end dates",
+   "verified_from": [
+    "https://www.ireda.in/IredaWebPortal/careers",
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "ircon",
+   "name": "IRCON International Limited",
+   "track": "psu",
+   "subcategory": "navratna",
+   "url": "https://www.ircon.org",
+   "recruitment_url": "https://www.ircon.org/career-ircon",
+   "location": "New Delhi",
+   "scan": true,
+   "notes": "Category pages: regular-employment, contract-employment, apprentice-under-act",
+   "verified_from": [
+    "https://www.ircon.org/career-ircon",
+    "https://www.ircon.org/career-ircon/regular-employment",
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "mtnl",
+   "name": "Mahanagar Telephone Nigam Limited",
+   "track": "psu",
+   "subcategory": "navratna",
+   "url": "https://www.mtnl.in",
+   "recruitment_url": null,
+   "location": "New Delhi",
+   "scan": false,
+   "notes": "Site blocks automated reading (robots.txt); homepage domain only, careers page not verified this run",
+   "verified_from": [
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "mdl",
+   "name": "Mazagon Dock Shipbuilders Limited",
+   "track": "psu",
+   "subcategory": "navratna",
+   "url": "https://mazagondock.in",
+   "recruitment_url": "https://mazagondock.in/English/career/Career-Executives",
+   "location": "Mumbai",
+   "scan": true,
+   "notes": "Separate pages for Executives, Non-Executives and Apprentices; online portal mazagondock.in/app/MDLJobPortal",
+   "verified_from": [
+    "https://mazagondock.in/",
+    "https://mazagondock.in/English/career/Career-Executives",
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "nalco",
+   "name": "National Aluminium Company Limited",
+   "track": "psu",
+   "subcategory": "navratna",
+   "url": "https://nalcoindia.com",
+   "recruitment_url": null,
+   "location": "Bhubaneswar",
+   "scan": false,
+   "notes": "Site blocks automated reading (robots.txt); homepage domain only, careers page not verified this run",
+   "verified_from": [
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "nfl",
+   "name": "National Fertilizers Limited",
+   "track": "psu",
+   "subcategory": "navratna",
+   "url": "https://www.nationalfertilizers.com",
+   "recruitment_url": null,
+   "location": "Noida",
+   "scan": false,
+   "notes": "Site blocks automated reading (robots.txt); homepage domain only, careers page not verified this run",
+   "verified_from": [
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "nbcc",
+   "name": "NBCC (India) Limited",
+   "track": "psu",
+   "subcategory": "navratna",
+   "url": "https://www.nbccindia.in",
+   "recruitment_url": null,
+   "location": "New Delhi",
+   "scan": false,
+   "notes": "Site blocks automated reading (robots.txt); homepage domain only, careers page not verified this run",
+   "verified_from": [
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "nhpc",
+   "name": "NHPC Limited",
+   "track": "psu",
+   "subcategory": "navratna",
+   "url": "https://www.nhpcindia.com",
+   "recruitment_url": null,
+   "location": "Faridabad",
+   "scan": false,
+   "notes": "Homepage not re-verified this run; careers page not verified (fetch error)",
+   "verified_from": [
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "nlc-india",
+   "name": "NLC India Limited",
+   "track": "psu",
+   "subcategory": "navratna",
+   "url": "https://www.nlcindia.in",
+   "recruitment_url": null,
+   "location": "Neyveli (Tamil Nadu)",
+   "scan": false,
+   "notes": "Site blocks automated reading (robots.txt); homepage domain only, careers page not verified this run; big Tamil Nadu employer (Neyveli) — check careers section manually",
+   "verified_from": [
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "nmdc",
+   "name": "NMDC Limited",
+   "track": "psu",
+   "subcategory": "navratna",
+   "url": "https://www.nmdc.co.in",
+   "recruitment_url": null,
+   "location": "Hyderabad",
+   "scan": false,
+   "notes": "Homepage is JavaScript-only; careers page not verified",
+   "verified_from": [
+    "https://www.nmdc.co.in/careers",
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "ongc-videsh",
+   "name": "ONGC Videsh Limited",
+   "track": "psu",
+   "subcategory": "navratna",
+   "url": "https://www.ongcvidesh.com",
+   "recruitment_url": null,
+   "location": "New Delhi",
+   "scan": false,
+   "notes": "Site blocks automated reading (robots.txt); homepage domain only, careers page not verified this run",
+   "verified_from": [
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "rvnl",
+   "name": "Rail Vikas Nigam Limited",
+   "track": "psu",
+   "subcategory": "navratna",
+   "url": "https://rvnl.org",
+   "recruitment_url": null,
+   "location": "New Delhi",
+   "scan": false,
+   "notes": "Site blocks automated reading (robots.txt); homepage domain only, careers page not verified this run",
+   "verified_from": [
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "railtel",
+   "name": "RailTel Corporation of India Limited",
+   "track": "psu",
+   "subcategory": "navratna",
+   "url": "https://www.railtel.in",
+   "recruitment_url": null,
+   "location": "New Delhi",
+   "scan": false,
+   "notes": "Site blocks automated reading (robots.txt); homepage domain only, careers page not verified this run",
+   "verified_from": [
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "rcf",
+   "name": "Rashtriya Chemicals and Fertilizers Limited",
+   "track": "psu",
+   "subcategory": "navratna",
+   "url": "https://www.rcfltd.com",
+   "recruitment_url": "https://www.rcfltd.com/hrrecruitment/recruitment-1",
+   "location": "Mumbai",
+   "scan": true,
+   "notes": "Recruitment page with dates; applications via IBPS portal",
+   "verified_from": [
+    "https://www.rcfltd.com/",
+    "https://www.rcfltd.com/hrrecruitment/recruitment-1",
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "rinl",
+   "name": "Rashtriya Ispat Nigam Limited",
+   "track": "psu",
+   "subcategory": "navratna",
+   "url": "https://www.vizagsteel.com",
+   "recruitment_url": null,
+   "location": "Visakhapatnam",
+   "scan": false,
+   "notes": "Site blocks automated reading (robots.txt); homepage domain only, careers page not verified this run",
+   "verified_from": [
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "rites",
+   "name": "RITES Limited",
+   "track": "psu",
+   "subcategory": "navratna",
+   "url": "https://www.rites.com",
+   "recruitment_url": null,
+   "location": "Gurugram",
+   "scan": false,
+   "notes": "Site blocks automated reading (robots.txt); homepage domain only, careers page not verified this run",
+   "verified_from": [
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "sjvn",
+   "name": "SJVN Limited",
+   "track": "psu",
+   "subcategory": "navratna",
+   "url": "https://www.sjvn.nic.in",
+   "recruitment_url": null,
+   "location": "Shimla",
+   "scan": false,
+   "notes": "Homepage not re-verified this run; careers page not verified (server error)",
+   "verified_from": [
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "seci",
+   "name": "Solar Energy Corporation of India Limited",
+   "track": "psu",
+   "subcategory": "navratna",
+   "url": "https://www.seci.co.in",
+   "recruitment_url": "https://www.seci.co.in/jobs",
+   "location": "New Delhi",
+   "scan": true,
+   "notes": "Jobs page with start/end dates and status",
+   "verified_from": [
+    "https://www.seci.co.in/",
+    "https://www.seci.co.in/jobs",
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "beml",
+   "name": "BEML Limited",
+   "track": "psu",
+   "subcategory": "miniratna",
+   "url": "https://www.bemlindia.in",
+   "recruitment_url": "https://www.bemlindia.in/careers/",
+   "location": "Bengaluru",
+   "scan": true,
+   "notes": "Careers page with closing dates; apply on beml.registrationform.in",
+   "verified_from": [
+    "https://www.bemlindia.in/careers/",
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "cpcl",
+   "name": "Chennai Petroleum Corporation Limited",
+   "track": "psu",
+   "subcategory": "miniratna",
+   "url": "https://cpcl.co.in",
+   "recruitment_url": null,
+   "location": "Chennai",
+   "scan": false,
+   "notes": "Site blocks automated reading (robots.txt); homepage domain only, careers page not verified this run; Tamil Nadu refinery (Manali) — check careers manually",
+   "verified_from": [
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "bdl",
+   "name": "Bharat Dynamics Limited",
+   "track": "psu",
+   "subcategory": "miniratna",
+   "url": "https://bdl-india.in",
+   "recruitment_url": "https://bdl-india.in/recruitments",
+   "location": "Hyderabad",
+   "scan": true,
+   "notes": "Recruitments page (issue dates only; closing dates in PDFs)",
+   "verified_from": [
+    "https://bdl-india.in/recruitments",
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "kamarajar-port",
+   "name": "Kamarajar Port Limited",
+   "track": "psu",
+   "subcategory": "miniratna",
+   "url": "https://www.kplonline.in",
+   "recruitment_url": null,
+   "location": "Chennai (Ennore)",
+   "scan": false,
+   "notes": "Site blocks automated reading (robots.txt); homepage domain only, careers page not verified this run; not on DPE Miniratna-I list — included as a Tamil Nadu CPSE"
+  },
+  {
+   "slug": "iti",
+   "name": "ITI Limited",
+   "track": "psu",
+   "subcategory": "miniratna",
+   "url": "https://www.itiltd.in",
+   "recruitment_url": "https://www.itiltd.in/careers.php?lan=en",
+   "location": "Bengaluru",
+   "scan": true,
+   "notes": "Careers page with dates; not on DPE Miniratna-I list — included as a Bengaluru CPSE",
+   "verified_from": [
+    "https://www.itiltd.in/",
+    "https://www.itiltd.in/careers.php?lan=en"
+   ]
+  },
+  {
+   "slug": "kiocl",
+   "name": "KIOCL Limited",
+   "track": "psu",
+   "subcategory": "miniratna",
+   "url": "https://www.kioclltd.in",
+   "recruitment_url": "https://www.kioclltd.in/table.php?id=299",
+   "location": "Bengaluru",
+   "scan": true,
+   "notes": "Current Vacancies table (empty this run)",
+   "verified_from": [
+    "https://www.kioclltd.in/",
+    "https://www.kioclltd.in/table.php?id=299",
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "mrpl",
+   "name": "Mangalore Refinery and Petrochemicals Limited",
+   "track": "psu",
+   "subcategory": "miniratna",
+   "url": "https://www.mrpl.co.in",
+   "recruitment_url": null,
+   "location": "Mangaluru",
+   "scan": false,
+   "notes": "Site blocks automated reading (robots.txt); homepage domain only, careers page not verified this run",
+   "verified_from": [
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "aai",
+   "name": "Airports Authority of India",
+   "track": "psu",
+   "subcategory": "miniratna",
+   "url": "https://www.aai.aero",
+   "recruitment_url": "https://www.aai.aero/en/careers/recruitment",
+   "location": "New Delhi",
+   "scan": true,
+   "notes": "Recruitment dashboard (post dates; details in release pages/PDFs)",
+   "verified_from": [
+    "https://www.aai.aero/en/careers/recruitment",
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "bsnl",
+   "name": "Bharat Sanchar Nigam Limited",
+   "track": "psu",
+   "subcategory": "miniratna",
+   "url": "https://www.bsnl.co.in",
+   "recruitment_url": null,
+   "location": "New Delhi",
+   "scan": false,
+   "notes": "Homepage reachable; careers link not visible to automated reader",
+   "verified_from": [
+    "https://www.bsnl.co.in/",
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "cochin-shipyard",
+   "name": "Cochin Shipyard Limited",
+   "track": "psu",
+   "subcategory": "miniratna",
+   "url": "https://cochinshipyard.in",
+   "recruitment_url": "https://cochinshipyard.in/career",
+   "location": "Kochi",
+   "scan": true,
+   "notes": "Career page lists unit-wise notices (CSL Kochi, CMSRU, CANSRU, UCSL incl. Chengalpattu TN) with last dates",
+   "verified_from": [
+    "https://cochinshipyard.in/career",
+    "https://www.dpe.gov.in/static/uploads/2026/01/18044d9046b7843a4e5c8007d64c07ac.pdf"
+   ]
+  },
+  {
+   "slug": "sci",
+   "name": "Supreme Court of India",
+   "track": "government",
+   "subcategory": "court",
+   "url": "https://www.sci.gov.in",
+   "recruitment_url": "https://www.sci.gov.in/recruitments/",
+   "location": "New Delhi (exam centres across India)",
+   "scan": true,
+   "post_types": [
+    "clerical"
+   ],
+   "notes": "Junior Court Assistant (about yearly), Court Assistant, PA/Senior PA, Court Master. Notice PDFs on cdnbbsr.s3waas.gov.in."
   }
  ]
 }

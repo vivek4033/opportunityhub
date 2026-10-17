@@ -1,9 +1,11 @@
 // Track registry — configuration, not code paths. Adding a track = one entry here.
 export const TRACKS = [
   { key: "banking", label: "Banking", priority: 1, relevance: 25, career: 10,
-    subs: ["psu_bank", "private_bank", "regulator", "rrb_bank", "cooperative"] },
+    subs: ["psu_bank", "private_bank", "small_finance_bank", "payments_bank", "rrb_bank", "foreign_bank", "regulator", "cooperative"] },
   { key: "government", label: "Government & competitive exams", priority: 2, relevance: 22, career: 9,
-    subs: ["ssc", "railways", "central_govt", "state_govt", "psc", "court", "legislature", "postal"] },
+    subs: ["recruitment_body", "ministry", "research_org", "regulator", "central_govt", "ssc", "railways", "state_govt", "psc", "court", "legislature", "postal"] },
+  { key: "psu", label: "Public sector companies (PSUs)", priority: 3, relevance: 21, career: 9, subs: ["maharatna", "navratna", "miniratna"] },
+  { key: "it", label: "IT & software", priority: 4, relevance: 20, career: 9, subs: ["it_services", "product", "gcc", "analytics"] },
   { key: "insurance", label: "Insurance", priority: 3, relevance: 21, career: 9, subs: ["public_insurer", "regulator", "private_insurer"] },
   { key: "physics_research", label: "Physics, teaching exams & research", priority: 4, relevance: 21, career: 9,
     subs: ["research_exam", "teaching_exam", "research_role", "lab_role"] },
@@ -17,8 +19,11 @@ export const TRACKS = [
 export const TRACK = Object.fromEntries(TRACKS.map((t) => [t.key, t]));
 
 export const SUB_LABELS = {
-  ssc: "SSC", railways: "Railways", central_govt: "Central government", state_govt: "State government", psc: "Public Service Commission", court: "Court / judiciary", legislature: "Parliament / legislature", postal: "India Post",
-  psu_bank: "PSU bank", private_bank: "Private bank", regulator: "Regulator", rrb_bank: "Regional rural bank", cooperative: "Cooperative bank",
+  ssc: "SSC", railways: "Railways", central_govt: "Central government", state_govt: "State government", psc: "Public Service Commission", recruitment_body: "Recruitment boards & commissions", ministry: "Ministries & departments", research_org: "Research organisations",
+  small_finance_bank: "Small finance banks", payments_bank: "Payments banks", foreign_bank: "Foreign banks",
+  maharatna: "Maharatna PSUs", navratna: "Navratna PSUs", miniratna: "Miniratna & other PSUs",
+  it_services: "IT services & consulting", product: "Product & internet companies", gcc: "Global tech companies & capability centres", analytics: "Analytics & data science", court: "Court / judiciary", legislature: "Parliament / legislature", postal: "India Post",
+  psu_bank: "Public sector banks", private_bank: "Private sector banks", regulator: "Regulators & financial institutions", rrb_bank: "Regional rural banks", cooperative: "Cooperative bank",
   research_exam: "Research exam", teaching_exam: "Teaching eligibility exam", research_role: "Research role", lab_role: "Lab role",
   central_school: "Central school", private_school: "Private school", state_school: "State school", iit: "IIT", nit: "NIT",
   central_institute: "Central institute", state_university: "State university", private_institute: "Private institute",

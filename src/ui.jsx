@@ -51,7 +51,7 @@ export const STATUS_TONE = { to_apply: "", applied: "blue", exam: "orange", inte
 
 // ---------------------------------------------------------------- emoji vocabulary (one meaning each, used everywhere)
 export const TAB_EMOJI = { openings: "🔎", applications: "📝", upcoming: "📅", mocks: "📊", profile: "👤", admin: "🛡️" };
-export const TRACK_EMOJI = { banking: "🏦", government: "🏛️", insurance: "☂️", physics_research: "🔬", schools: "🏫", colleges: "🎓", apprenticeship: "🛠️", corporate: "💼" };
+export const TRACK_EMOJI = { it: "💻", psu: "🏭", banking: "🏦", government: "🏛️", insurance: "☂️", physics_research: "🔬", schools: "🏫", colleges: "🎓", apprenticeship: "🛠️", corporate: "💼" };
 export const STATUS_EMOJI = { to_apply: "📝", applied: "📨", exam: "✍️", interview: "🎤", selected: "🎉", rejected: "🙁" };
 export const ELIG_EMOJI = { CURRENTLY_ELIGIBLE: "✅", POTENTIALLY_ELIGIBLE: "🤔", ELIGIBLE_AFTER_BED: "⏳", ELIGIBLE_AFTER_TET: "📘", NOT_ELIGIBLE: "❌" };
 export const E = ({ children }) => <span className="e" aria-hidden="true">{children}</span>;
@@ -76,6 +76,8 @@ export function useInstall() {
 export const ROLE_TYPES = [
   { key: "banking", e: "🏦", label: "Banking", hint: "PO, clerk, bank officer" },
   { key: "government", e: "🏛️", label: "Government jobs & exams", hint: "SSC, railways, TNPSC" },
+  { key: "it", e: "💻", label: "IT & software", hint: "Fresher developer, testing, support, analyst" },
+  { key: "psu", e: "🏭", label: "PSU jobs", hint: "NLC, BEL, ONGC, NTPC — trainees, apprentices, engineers" },
   { key: "clerical", e: "🗂️", label: "Clerk & office assistant", hint: "Court clerk, LDC/JSA, typist, steno, junior assistant" },
   { key: "schools", e: "👩‍🏫", label: "Teaching", hint: "School teacher, PGT/TGT, CTET/TET" },
   { key: "physics_research", e: "🔬", label: "Research", hint: "NET, CSIR, GATE, project roles" },

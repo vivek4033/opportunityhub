@@ -1,7 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "/((?!openings\\.json|assets/|sw\\.js|manifest\\.webmanifest|icon-|apple-touch-icon).*)",
+      "source": "/((?!openings\\.json|directory\\.json|syllabus\\.json|assets/|sw\\.js|manifest\\.webmanifest|icon-|apple-touch-icon).*)",
       "destination": "/index.html"
     }
   ],
@@ -17,6 +17,24 @@
     },
     {
       "source": "/sw.js",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache"
+        }
+      ]
+    },
+    {
+      "source": "/directory.json",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache"
+        }
+      ]
+    },
+    {
+      "source": "/syllabus.json",
       "headers": [
         {
           "key": "Cache-Control",

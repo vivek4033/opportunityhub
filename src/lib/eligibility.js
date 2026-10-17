@@ -78,6 +78,26 @@ export function evaluate(reqIn, p, today) {
       }
     }
   }
+  if (req.min_percentage_school != null) {
+    const need = Number(req.min_percentage_school);
+    for (const lvl of ["10th", "12th"]) {
+      const r = edu.find((e) => e.level === lvl);
+      if (!r || r.percentage == null) add(`school_${lvl}`, `${lvl} marks`, "unknown", `Requires ${need}% in ${lvl}; add your ${lvl} marks in Profile.`);
+      else add(`school_${lvl}`, `${lvl} marks`, Number(r.percentage) >= need ? "pass" : "fail", Number(r.percentage) >= need ? `${r.percentage}% ≥ ${need}% in ${lvl}.` : `${lvl}: ${r.percentage}% < required ${need}%.`);
+    }
+  }
+  if (req.passing_years?.length) {
+    const years = req.passing_years.map(Number);
+    const need = RANK[req.min_education] || RANK.bachelor;
+    const degs = edu.filter((e) => RANK[e.level] >= need && e.level !== "bed");
+    const withYear = degs.filter((e) => e.completion_year);
+    const list = years.join(" / ");
+    if (!withYear.length) add("batch", "Graduation year", "unknown", `Only for ${list} graduates; add your degree's year in Profile.`);
+    else {
+      const ok = withYear.some((e) => years.includes(Number(e.completion_year)));
+      add("batch", "Graduation year", ok ? "pass" : "fail", ok ? `Your graduation year fits the ${list} batch.` : `Only for ${list} graduates (yours: ${withYear.map((e) => e.completion_year).join(", ")}).`);
+    }
+  }
   if (req.phd_required) {
     const has = edu.some((e) => e.level === "phd" && e.status === "completed");
     add("phd", "PhD", has ? "pass" : "fail", has ? "PhD held." : "Requires a PhD.");
@@ -146,7 +166,7 @@ export function evaluate(reqIn, p, today) {
       add("category", "Reserved for", ok ? "pass" : "fail", ok ? `Open to ${p.reservation_category} candidates.` : `Only for ${list} candidates (special recruitment).`);
     }
   }
-  const HARD = ["min_education", "phd_required", "bed_required", "tet_required", "exams_required_any", "experience_years_min", "age_min", "age_max",
+  const HARD = ["passing_years", "min_percentage_school", "min_education", "phd_required", "bed_required", "tet_required", "exams_required_any", "experience_years_min", "age_min", "age_max",
     "languages_required", "domicile_required", "category_only"];
   if (!HARD.some((k) => req[k] != null && !(Array.isArray(req[k]) && !req[k].length)))
     add("requirements", "Eligibility rules", "unknown", "The main rules (education, age) aren't in our data yet — read the official notification.");

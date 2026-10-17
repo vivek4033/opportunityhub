@@ -1,0 +1,215 @@
+{
+ "updated_at": "2026-10-17T16:25:39Z",
+ "syllabi": [
+  {
+   "exam": "SSC CGL 2026",
+   "body": "Staff Selection Commission",
+   "syllabus_url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_cgl_2026.pdf",
+   "pattern_summary": "Tier-I CBT (Reasoning, Quant, English, GA; qualifying/shortlisting) -> Tier-II Paper-I (Maths, English, Reasoning/GA, Computer + DEST, compulsory) + Paper-II Statistics (JSO) + Paper-III Finance & Economics (AAO); merit on Tier-II only",
+   "note": "In notification (uploaded 21-05-2026), section 13: scheme paras 13.8 (Tier-I) and 13.9 (Tier-II); syllabus paras 13.10 and 13.11."
+  },
+  {
+   "exam": "SSC CHSL 2026",
+   "body": "Staff Selection Commission",
+   "syllabus_url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_chsl_2026.pdf",
+   "pattern_summary": "Tier-I CBT (English, General Intelligence, Quant, GA; 25 Qs each) -> Tier-II (Maths+Reasoning, English+GA, qualifying Computer Knowledge test, qualifying Skill/Typing test)",
+   "note": "In notification (uploaded 07-09-2026), section 13: scheme 13.8/13.9, syllabus 13.10/13.11."
+  },
+  {
+   "exam": "SSC MTS (Non-Technical) & Havaldar",
+   "body": "Staff Selection Commission",
+   "syllabus_url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_mts_2025.pdf",
+   "pattern_summary": "CBE in two sessions on the same day (45 min each); Havaldar also PET/PST"
+  },
+  {
+   "exam": "SSC GD Constable 2026",
+   "body": "Staff Selection Commission",
+   "syllabus_url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_CTGD_2026.pdf",
+   "pattern_summary": "CBE (80 Qs/160 marks, 60 min, -0.25: Reasoning, GK/GA, Elementary Maths, English/Hindi; 20 Qs each) -> PET/PST -> DME/DV",
+   "note": "In notification (published 01.12.2025): scheme para 12.1, syllabus para 12.1.11. The calendar placed the GD 2027 notice in September 2026, but it was not found."
+  },
+  {
+   "exam": "SSC Stenographer Grade C & D 2026",
+   "body": "Staff Selection Commission",
+   "syllabus_url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_steno_2026.pdf",
+   "pattern_summary": "CBE (General Intelligence & Reasoning, General Awareness, English; 200 marks, negative marking) -> qualifying Stenography Skill Test",
+   "note": "In notification (dated 24.04.2026): scheme para 13, syllabus para 14 (14.1-14.4), skill test para 15."
+  },
+  {
+   "exam": "IBPS PO/MT (CRP PO/MT-XVI, 2026)",
+   "body": "IBPS",
+   "syllabus_url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+   "pattern_summary": "Prelims -> Mains (objective + descriptive) -> Interview (not verified from this PDF)"
+  },
+  {
+   "exam": "IBPS Clerk (CRP CSA-XVI, 2026)",
+   "body": "IBPS",
+   "syllabus_url": "https://www.ibps.in/wp-content/uploads/Notification_CRP_CSA_XVI-Final.pdf",
+   "pattern_summary": "Prelims -> Mains (not verified from this PDF)"
+  },
+  {
+   "exam": "IBPS RRB Officer Scale I & Office Assistant (CRP RRBs-XV, 2026)",
+   "body": "IBPS",
+   "syllabus_url": "https://www.ibps.in/wp-content/uploads/CRP-RRBs-XV-notification.pdf",
+   "pattern_summary": "OA: Prelims -> Mains; Officer Scale I: Prelims -> Mains -> Interview (not verified from this PDF)"
+  },
+  {
+   "exam": "IBPS SO (CRP SPL-XVI, 2026)",
+   "body": "IBPS",
+   "syllabus_url": "https://www.ibps.in/wp-content/uploads/Detailed-Notification-CRP-SPL-XVI_Final_V1_30.06.2026.pdf",
+   "pattern_summary": "Prelims -> Mains (professional knowledge) -> Interview (not verified from this PDF)"
+  },
+  {
+   "exam": "SBI PO 2026",
+   "body": "State Bank of India",
+   "syllabus_url": "https://sbi.bank.in/csfile/18062026_1_Detailed_Adv.2026.pdf?t=1781759726353",
+   "pattern_summary": "Phase I Prelims (English 40, Quant 30, Reasoning 30; 100 marks/1 hr) -> Phase II Mains (200-mark objective in 3 hrs: Reasoning & Computer Aptitude, DI, GA/Economy/Banking, English; plus 30-mark descriptive) -> Phase III (psychometric test, Group Exercise 20, Interview 30); final merit 75:25",
+   "note": "Advt CRPD/PO/2026-27/09 dated 18.06.2026. Pattern is in section 8, Selection Procedure. The advertisement has no topic-wise syllabus."
+  },
+  {
+   "exam": "SBI Clerk (Junior Associate - Customer Support & Sales) 2026",
+   "body": "State Bank of India",
+   "syllabus_url": "https://sbi.bank.in/webfiles/uploads/files_2627/08/JA_2026_Detailed_Advt_Eng.pdf",
+   "pattern_summary": "Prelims (English 30, Numerical 35, Reasoning 35; 100 marks/1 hr) -> Mains (General/Financial Awareness, English, Quant, Reasoning & Computer Aptitude; 200 marks/2h40m) -> Local Language Test",
+   "note": "Advt CRPD/CR/2026-27/17 dated 11.08.2026. Pattern is in section 4, Selection Procedure. The advertisement has no topic syllabus and refers to the 'Acquaint Yourself' handout. Prelims handout (official): https://sbi.bank.in/webfiles/uploads/files_2627/09/SBI_JA-Customer_Support_Sales-IH_Pre-2026-27_Eng.pdf"
+  },
+  {
+   "exam": "RBI Grade B (DR) General/DEPR/DSIM - PY 2026",
+   "body": "Reserve Bank of India",
+   "syllabus_url": "https://opportunities.rbi.org.in/Scripts/bs_viewcontent.aspx?Id=4997",
+   "pattern_summary": "Phase I (objective) -> Phase II (descriptive/objective papers) -> Interview (not verified from the advertisement)",
+   "note": "This is the advertisement page for Advt No."
+  },
+  {
+   "exam": "RBI Assistant (Panel Year 2025, applications Feb-Mar 2026)",
+   "body": "Reserve Bank of India",
+   "syllabus_url": "https://opportunities.rbi.org.in/scripts/bs_viewcontent.aspx?Id=4912",
+   "pattern_summary": "Prelims (English, Numerical Ability, Reasoning; 100 Qs/60 min) -> Mains (Reasoning, English, Numerical, GA, Computer; 200 Qs/135 min) -> Language Proficiency Test",
+   "note": "Pattern is in section 3, Scheme of Selection. There is no topic syllabus; the page refers to an Information Handout. The same content was read from the rbi.org.in mirror (Id=4912)."
+  },
+  {
+   "exam": "NABARD Assistant Manager Grade A (RDBS/Legal/P&SS) 2025",
+   "body": "NABARD",
+   "syllabus_url": "https://www.nabard.org/auth/writereaddata/CareerNotices/0711254502Final%20Advertisement%20Grade%20A%20(RDBS,%20Legal,%20P&SS)%202025%20(1).pdf",
+   "pattern_summary": "Phase I Prelims -> Phase II Mains -> Interview (not verified)",
+   "note": "Latest Grade A advertisement found (filename suggests 07.11.2025); no 2026 Grade A advertisement was found."
+  },
+  {
+   "exam": "LIC AAO (Generalist) 32nd batch, 2025",
+   "body": "Life Insurance Corporation of India",
+   "syllabus_url": "https://licindia.in/documents/d/guest/aao-generalist-notification-2025-final",
+   "pattern_summary": "Prelims (100 Qs/70 marks, qualifying) -> Mains (300 objective + 25 descriptive) -> Interview (60) -> medical",
+   "note": "Notice dated 16/08/2025; no 2026 notice was found. Pattern is in section 9, Selection Procedure. There is no topic syllabus; the Information Handout comes with the call letter. Specialist notice: https://licindia.in/documents/d/guest/aao-specialist-notification-2025-final"
+  },
+  {
+   "exam": "LIC ADO (Apprentice Development Officer)",
+   "body": "Life Insurance Corporation of India",
+   "syllabus_url": "https://licindia.in/recruitment-of-apprentice-development-officer-22-23",
+   "pattern_summary": "Not verified",
+   "note": "Only the 2022-23 recruitment was found; it was run through zonal employment notices such as https://licindia.in/documents/d/guest/sz-chennai-employment-notice-notification-22-23."
+  },
+  {
+   "exam": "NIACL AO (Generalists & Specialists) Scale-I, 2025",
+   "body": "The New India Assurance Co. Ltd.",
+   "syllabus_url": "https://www.newindia.co.in/assets/docs/recruitment/RECRUITMENT%20OF%20ADMINISTRATIVE%20OFFICERS%202025/RECRUITMENT%20OF%20_5_50%20ADMINISTRATIVE%20OFFICERS%20(GENERALISTS%20&%20SPECIALISTS)%20(SCALE-I)%20202_5.pdf",
+   "pattern_summary": "Phase I Prelims (English, Reasoning, Quant; 100 marks/60 min) -> Phase II Mains (200 objective + 30 descriptive; specialists +40-mark technical) -> Interview; weighted 75:25",
+   "note": "Ref CORP.HRM/AO/2025 dated 07.08.2025. Pattern is in section 8, Selection Procedure. The specialist technical syllabus is in Annexure-A. The recruitment page (updated 11/08/2026) lists no 2026 AO recruitment."
+  },
+  {
+   "exam": "UPSC Civil Services Examination 2026",
+   "body": "UPSC",
+   "syllabus_url": "https://www.upsc.gov.in/sites/default/files/Notif-CSP-2026-Engl-060226Rev.pdf",
+   "pattern_summary": "Prelims (GS Paper I + CSAT Paper II qualifying at 33%; 200 marks each) -> Mains (2 qualifying language papers of 300 each + Essay, GS I-IV, Optional I-II at 250 each) -> Interview (275)",
+   "note": "Notice No. 05/2026-CSE dated 04.02.2026, Appendix I: Section II gives the scheme and Section III gives the syllabi."
+  },
+  {
+   "exam": "TNPSC Group IV (CCSE-IV)",
+   "body": "Tamil Nadu Public Service Commission",
+   "syllabus_url": "https://tnpsc.gov.in/static_pdf/syllabus/final_g4_syll_english.pdf",
+   "pattern_summary": "Single OMR exam: Tamil Eligibility-cum-Scoring Test + Aptitude & Mental Ability + General Studies (SSLC standard); General English only for differently abled",
+   "note": "This is TNPSC's standing syllabus PDF; the pattern was confirmed on https://tnpsc.gov.in/english/syllabus.html."
+  },
+  {
+   "exam": "TNPSC Group II/IIA (CCSE-II)",
+   "body": "Tamil Nadu Public Service Commission",
+   "syllabus_url": "https://tnpsc.gov.in/static_pdf/syllabus/final_g2_2a_syll_english.pdf",
+   "pattern_summary": "Prelims: one paper, 200 Qs (GS 75 degree std, Aptitude 25 SSLC, Language 100) -> Mains: Group II = Tamil Eligibility Test + GS descriptive; Group IIA = Tamil Eligibility Test + GS + Reasoning + Language (objective)",
+   "note": "The prelim syllabus (code 495) is dated 12.12.2024."
+  },
+  {
+   "exam": "TNPSC Group I (CCSE-I)",
+   "body": "Tamil Nadu Public Service Commission",
+   "syllabus_url": "https://tnpsc.gov.in/static_pdf/syllabus/497_group%201%20preliminary%20syllabus.pdf",
+   "pattern_summary": "Prelims (GS, degree standard) -> Mains (Paper I Tamil Eligibility Test SSLC; Papers II-IV GS I-III degree standard) -> Interview",
+   "note": "Mains syllabus: https://tnpsc.gov.in/static_pdf/syllabus/498_group%201%20mains%20syllabus.pdf."
+  },
+  {
+   "exam": "TN TRB PG Assistant",
+   "body": "Teachers Recruitment Board, Tamil Nadu",
+   "syllabus_url": "https://www.trb.tn.gov.in/syllabus_view.php?tid=STC-3&language=LG-1&status=Active",
+   "pattern_summary": "Not verified (CBT/OMR written exam in subject + compulsory Tamil eligibility test, per TRB practice)"
+  },
+  {
+   "exam": "TN TRB BT Assistant (Graduate Teacher)",
+   "body": "Teachers Recruitment Board, Tamil Nadu",
+   "syllabus_url": "https://www.trb.tn.gov.in/admin/pdf/7332271575Ref.3%20TN%20gazette%20no.122%20syllabus%20for%20sgt%20&%20bt%20asst.pdf",
+   "pattern_summary": "Not verified",
+   "note": "TN Government Gazette Extraordinary No."
+  },
+  {
+   "exam": "TNTET (Paper I & II)",
+   "body": "Teachers Recruitment Board, Tamil Nadu",
+   "syllabus_url": "https://www.trb.tn.gov.in/tntet.php?language=LG-1&status=Active",
+   "pattern_summary": "Paper I (classes I-V) and Paper II (classes VI-VIII); OMR (not verified)",
+   "note": "This is the official TNTET page."
+  },
+  {
+   "exam": "CTET (Sept 2026 cycle)",
+   "body": "CBSE",
+   "syllabus_url": "https://ctet.nic.in/document/ctet-sept-2026-information-bulletin/",
+   "pattern_summary": "Paper I (classes I-V) and Paper II (classes VI-VIII); syllabus is in the bulletin (not verified)"
+  },
+  {
+   "exam": "UGC NET December 2026",
+   "body": "NTA / UGC",
+   "syllabus_url": "https://www.ugcnetonline.in/syllabus-new.php",
+   "pattern_summary": "Single CBT, 180 min: Paper I (50 Qs/100 marks, teaching & research aptitude) + Paper II (100 Qs/200 marks, subject); exams 14-18 & 21 Dec 2026",
+   "note": "The syllabus URL is cited in the official Updated Information Bulletin (16.10.2026), section 3.3 and Annexure II."
+  },
+  {
+   "exam": "Joint CSIR-UGC NET December 2026",
+   "body": "NTA / CSIR",
+   "syllabus_url": "https://csirhrdg.res.in/Home/Index/1/Default/3485/78",
+   "pattern_summary": "CBT, 180 min, MCQ in Part A (general aptitude), Part B (subject), Part C (higher-order analytical); exams 19, 22, 27 Dec 2026",
+   "note": "The bulletin (chapter 3.6, Annexure II) points to csirhrdg.res.in for the syllabus. The syllabus link was taken from the CSIR HRDG menu; the page was not opened. Bulletin PDF: https://cdnbbsr.s3waas.gov.in/s3efdf562ce2fb0ad460fd8e9d33e57f57/uploads/2026/10/202610071407707951.pdf"
+  },
+  {
+   "exam": "GATE 2027 - Physics (PH)",
+   "body": "IIT Madras (organising institute)",
+   "syllabus_url": "https://gate2027.iitm.ac.in/static/doc/GATE2027_Syllabus/PH_GATE2027_Syllabus.pdf",
+   "pattern_summary": "One CBT paper, 100 marks: General Aptitude 15 + subject 85",
+   "note": "Sections: Measurements & Error Analysis, Mathematical Physics, Classical Mechanics, Thermo & Stat Mech, EM Theory, Optical Physics, QM, Atomic & Molecular, Solid State, Nuclear & Particle, Electronics. The official papers/syllabus page is https://gate2027.iitm.ac.in/exam_papers_and_syllabus"
+  },
+  {
+   "exam": "JEST (Physics / TCS)",
+   "body": "JEST (SERB-recognised consortium)",
+   "syllabus_url": "https://www.jest.org.in/sites/default/files/2025-12/JEST-Syllabus.pdf",
+   "pattern_summary": "Physics: 180 min/100 marks; Part A 10 MCQ (+1/-1/3), Part B 20 MCQ (+3/-1), Part C 10 numerical (+3, no negative). TCS: Part A 25 MCQ + Part B descriptive",
+   "note": "jest.org.in still shows JEST 2026 (exam 12 Apr 2026); JEST 2027 is not yet announced. The syllabus link and pattern come from the homepage and https://www.jest.org.in/faq; the PDF was not opened."
+  },
+  {
+   "exam": "Supreme Court Junior Court Assistant 2026",
+   "body": "Supreme Court of India",
+   "syllabus_url": "https://cdnbbsr.s3waas.gov.in/s3ec0490f1f4972d133619a60c30f3559e/uploads/2026/09/2026093036.pdf",
+   "pattern_summary": "Not verified (PDF is scanned)",
+   "note": "The detailed JCA advertisement dated 30 September 2026 is listed on https://www.sci.gov.in/recruitments/."
+  },
+  {
+   "exam": "TCS NQT",
+   "body": "TCS iON",
+   "syllabus_url": "https://www.tcsion.com/hub/national-qualifier-test/",
+   "pattern_summary": "Variants: Cognitive (Verbal, Reasoning, Numerical), IT (advanced coding + aptitude + psychometric), Non-Tech, BFSI; English only, no negative marking",
+   "note": "This official product page lists sections and topics but no durations or Foundation/Advanced split, and links no separate syllabus page."
+  }
+ ]
+}
