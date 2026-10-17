@@ -1,7 +1,121 @@
 {
- "updated_at": "2026-10-17T16:25:39Z",
+ "updated_at": "2026-10-17T19:26:35Z",
  "note": "Written by the daily OpportunityHub scan. Facts come from official notifications.",
  "openings": [
+  {
+   "organization": "Canara Bank",
+   "title": "Engagement of Graduate Apprentices under Apprentices Act, 1961 for FY 2026-27",
+   "track": "apprenticeship",
+   "subcategory": "psu_bank",
+   "employment_type": "apprenticeship",
+   "location": "All India (state-wise seats; Tamil Nadu 391, Kerala 240)",
+   "posted_date": "2026-09-25",
+   "application_start": "2026-10-01",
+   "application_end": "2026-10-17",
+   "qualification_text": "Degree in any discipline from a university recognised by Govt. of India (or equivalent), completed between 01.01.2023 and 01.09.2026 (both inclusive). Minimum 60% in 12th/Diploma (55% SC/ST/PwBD) for the merit list.",
+   "age_limit_text": "20–28 years as on 01.09.2026 (born 02.09.1998 to 01.09.2006, both inclusive). Relaxation: SC/ST 5 yrs, OBC-NCL 3 yrs, PwBD 10 yrs; widows/divorced/legally separated women not remarried up to 35 (Gen/EWS), 38 (OBC), 40 (SC/ST).",
+   "salary_text": "Stipend Rs 16,650 per month (Bank Rs 10,500 + Govt Rs 6,150 via DBT); 12-month apprenticeship training",
+   "vacancies": "3,500 training seats (provisional); Tamil Nadu 391, Kerala 240",
+   "notification_url": "https://www.canarabank.bank.in/documents/d/guest/apprenticeship-advertisement-2026-27",
+   "apply_url": "https://ibpsreg.ibps.in/cabgasep26/",
+   "org_website": "https://www.canarabank.bank.in",
+   "requirements": {
+    "_extraction": "ai",
+    "min_education": "bachelor",
+    "subjects": [
+     "any"
+    ],
+    "age_min": 20,
+    "age_max": 28,
+    "age_cutoff_date": "2026-09-01",
+    "age_relaxation": {
+     "OBC": 3,
+     "SC": 5,
+     "ST": 5,
+     "PwBD": 10
+    },
+    "other_requirements": [
+     "Graduation (any discipline) completed between 01.01.2023 and 01.09.2026",
+     "Minimum 60% in 12th/Diploma (55% SC/ST/PwBD); state-wise merit list on these marks",
+     "100% complete profile on NATS portal with enrolment number",
+     "Not eligible if already done/doing apprenticeship, or with 1 year or more of post-qualification job/training experience; ex-servicemen not eligible",
+     "Local language test of opted state at document verification unless that language studied in 10th/12th",
+     "Apply for one state only",
+     "Widows/divorced/legally separated women (not remarried): upper age 35 Gen/EWS, 38 OBC, 40 SC/ST"
+    ]
+   },
+   "ai_summary": "Canara Bank is engaging about 3,500 graduate apprentices (Tamil Nadu 391, Kerala 240) for 12 months on a Rs 16,650 monthly stipend, selected on 12th-standard marks without a written test. Graduates in any discipline who finished their degree between Jan 2023 and Sep 2026, aged 20–28, registered on NATS and without prior apprenticeship or a year of work experience can apply by 17 Oct 2026.",
+   "fee_text": "Rs 500 incl. GST and intimation charges (SC/ST/PwBD: Nil); non-refundable, paid online during application",
+   "experience_text": "Not eligible if you have already done/are doing apprenticeship training, or have 1 year or more of training/job experience after qualifying. Ex-servicemen not eligible.",
+   "selection_text": "No written test: state-wise merit list on 12th/Diploma marks (ties → older first) → document verification with local language test (waived if language studied in 10th/12th) → medical fitness",
+   "how_to_apply_text": "Complete 100% profile on NATS portal (nats.education.gov.in) to get enrolment number, then apply online via Canara Bank Careers > Recruitment (IBPS portal), choosing one state, and pay fee online by 17.10.2026",
+   "verified_from": [
+    "https://www.canarabank.bank.in/documents/d/guest/apprenticeship-advertisement-2026-27",
+    "https://www.canarabank.bank.in/engagement-of-graduate-apprentices-in-canara-bank-under-apprentices-act-1961-for-fy-2026-27",
+    "https://www.canarabank.bank.in/pages/recruitment"
+   ],
+   "id": "canara-bank--engagement-of-graduate-apprentices-under-apprentices-act-1961-for-fy-2026-27",
+   "first_seen_at": "2026-10-17T19:26:35Z",
+   "last_seen_at": "2026-10-17T19:26:35Z"
+  },
+  {
+   "organization": "Hindustan Aeronautics Limited",
+   "title": "Engagement of Junior Executives on Short Term Basis — 150 posts (Advt HAL/CHRC-TAR/RECT-03/2026)",
+   "track": "psu",
+   "subcategory": "maharatna",
+   "employment_type": "contract",
+   "location": "HAL divisions in Bengaluru, Tumakuru, Hyderabad, Nasik, Koraput, Barrackpore, Lucknow, Kanpur, Korwa",
+   "application_start": "2026-10-07",
+   "application_end": "2026-10-17",
+   "vacancies": "150 (Mechanical 78, Electrical 25, Electronics 21, Civil 7, Computer Science 6, Production 6, Metallurgy 3, Aeronautical 2, Chemical 2)",
+   "salary_text": "E0 scale Rs 30,000–1,20,000 (basic Rs 30,000 + DA, HRA, 35% cafeteria allowance); tenure max 3 years",
+   "fee_text": "Rs 500 (incl. GST) via SBI Collect; SC/ST/PwBD exempt",
+   "qualification_text": "Regular full-time engineering degree in the discipline; min 60% aggregate (50% SC/ST/PwBD). Part-time/distance degrees not eligible.",
+   "age_limit_text": "Max 28 years as on 17.10.2026 (UR/EWS); relaxation SC/ST 5, OBC-NCL 3, PwBD 10 years",
+   "experience_text": "Not required",
+   "selection_text": "Shortlist 1:10 by merit → interview (tentatively Nov 2026, min 50%) → medical → document verification",
+   "how_to_apply_text": "Online only via Careers section of hal-india.co.in; window closes 17.10.2026 at 14:00 hrs",
+   "notification_url": "https://hal-india.co.in/backend//wp-content/uploads/career/Detailed%20Advt%20JESTB%2007-10-2026_1791362564.pdf",
+   "apply_url": "https://hal-india.co.in/career",
+   "org_website": "https://hal-india.co.in",
+   "job_id": "HAL/CHRC-TAR/RECT-03/2026",
+   "requirements": {
+    "min_education": "bachelor",
+    "subjects": [
+     "aeronautical",
+     "chemical",
+     "civil",
+     "computer science",
+     "electrical",
+     "electronics",
+     "mechanical",
+     "metallurgy",
+     "production"
+    ],
+    "degree_names": [
+     "B.E.",
+     "B.Tech"
+    ],
+    "min_percentage": 60,
+    "experience_years_min": 0,
+    "age_max": 28,
+    "age_cutoff_date": "2026-10-17",
+    "age_relaxation": "SC/ST 5 yrs, OBC-NCL 3 yrs, PwBD 10 yrs",
+    "other_requirements": [
+     "Engineering graduates only",
+     "Apply for one discipline only",
+     "Closes 2 PM on 17 Oct 2026"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "HAL is hiring 150 engineering graduates as Junior Executives on a 3-year short-term contract at Rs 30,000 basic (E0 scale). Only B.E./B.Tech holders with 60% aged up to 28 can apply, and the window closes at 2 PM today (17 Oct 2026).",
+   "verified_from": [
+    "https://hal-india.co.in/backend//wp-content/uploads/career/Detailed%20Advt%20JESTB%2007-10-2026_1791362564.pdf"
+   ],
+   "id": "hindustan-aeronautics-limited--engagement-of-junior-executives-on-short-term-basis-150-posts-advt-hal-chrc-tar-rect-03-2026",
+   "first_seen_at": "2026-10-17T19:26:35Z",
+   "last_seen_at": "2026-10-17T19:26:35Z"
+  },
   {
    "organization": "IISc Bengaluru",
    "title": "Project Associate (stereo EEG) — Project AMRIT, Brain Computation and Data Science initiative",
@@ -95,7 +209,7 @@
    ],
    "id": "exim-bank--special-recruitment-drive-backlog-sc-st-obc-deputy-manager-banking-operations-and-manager-internal-audit-advt-hrm-dm-m-s",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T16:25:39Z"
+   "last_seen_at": "2026-10-17T19:26:35Z"
   },
   {
    "organization": "ICMR",
@@ -119,7 +233,7 @@
    "track": "government",
    "id": "icmr--young-professional-i-basic-sciences-and-young-professional-ii-it-icmr-headquarters",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T16:25:39Z"
+   "last_seen_at": "2026-10-17T19:26:35Z"
   },
   {
    "organization": "IIT Madras — IC&SR project staff",
@@ -258,7 +372,7 @@
    "track": "government",
    "id": "drdo--dmrl-hyderabad-junior-research-fellow-18-posts-advt-dmrl-hrd-jrf-2026-01",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T16:25:39Z"
+   "last_seen_at": "2026-10-17T19:26:35Z"
   },
   {
    "organization": "Supreme Court of India",
@@ -281,7 +395,7 @@
    "ai_summary": "Re-confirmation: the Supreme Court's Junior Court Assistant Examination-2026 advertisement and online-application link are still listed on the recruitments page. The form is open until 28 Oct 2026 as per the earlier notice.",
    "id": "supreme-court-of-india--junior-court-assistant-examination-2026",
    "first_seen_at": "2026-10-10T17:05:25Z",
-   "last_seen_at": "2026-10-17T16:25:39Z",
+   "last_seen_at": "2026-10-17T19:26:35Z",
    "application_start": "2026-10-07",
    "application_end": "2026-10-28",
    "how_to_apply_text": "Online only, via the application link in the Supreme Court notice of 06.10.2026 (form open 07.10.2026 10:00 AM to 28.10.2026 23:55)",
@@ -409,7 +523,7 @@
    ],
    "id": "uco-bank--engagement-of-apprentices-under-the-apprentices-act-1961-advt-no-ho-hrm-recr-2026-27-com-02",
    "first_seen_at": "2026-10-15T04:21:00Z",
-   "last_seen_at": "2026-10-17T16:25:39Z"
+   "last_seen_at": "2026-10-17T19:26:35Z"
   },
   {
    "organization": "Cochin Shipyard Limited",
@@ -451,7 +565,7 @@
    ],
    "id": "cochin-shipyard-limited--engagement-of-interns-under-the-prime-minister-internship-scheme-pmis-227-seats",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T16:25:39Z"
+   "last_seen_at": "2026-10-17T19:26:35Z"
   },
   {
    "organization": "IIT Hyderabad",
@@ -550,7 +664,7 @@
    "track": "government",
    "id": "drdo--cair-bengaluru-junior-research-fellow-mathematics-advt-cair-hrt-jrf-2026-03",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T16:25:39Z"
+   "last_seen_at": "2026-10-17T19:26:35Z"
   },
   {
    "organization": "DRDO",
@@ -618,7 +732,7 @@
    "track": "government",
    "id": "drdo--rci-hyderabad-graduate-technician-diploma-and-trade-iti-apprentices-advt-rci-hrd-apprenticeship-advt-2027",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T16:25:39Z"
+   "last_seen_at": "2026-10-17T19:26:35Z"
   },
   {
    "organization": "DRDO",
@@ -686,7 +800,7 @@
    "track": "government",
    "id": "drdo--itr-chandipur-graduate-and-technician-diploma-apprentices-advt-itr-hrd-at-11-2026",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T16:25:39Z"
+   "last_seen_at": "2026-10-17T19:26:35Z"
   },
   {
    "organization": "Kerala PSC",
@@ -750,7 +864,7 @@
    "ai_summary": "Re-confirmation: TNPSC Group IV 2026 (Notification 11/2026) is still listed as open on the TNPSC apply portal until 5 Nov 2026. The exam is on 10 Jan 2027.",
    "id": "tnpsc--combined-civil-services-examination-iv-group-iv-services-2026",
    "first_seen_at": "2026-10-10T17:05:25Z",
-   "last_seen_at": "2026-10-17T16:25:39Z",
+   "last_seen_at": "2026-10-17T19:26:35Z",
    "exam_date_text": "Written exam 10 Jan 2027, 9:30 AM - 12:30 PM; application correction window 09-11 Nov 2026",
    "vacancies": "6,574 posts in total across Group IV services (Notification No. 11/2026, Advt. No. 747); post-wise counts in the notification",
    "fee_text": "One-Time Registration Rs 150 (valid 5 years) + examination fee Rs 100, paid online by 05 Nov 2026; specified categories are exempt from the exam fee (see notification)",
@@ -850,7 +964,7 @@
    "track": "government",
    "id": "icmr--icmr-nie-chennai-scientific-positions-8-posts-school-of-public-health",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T16:25:39Z"
+   "last_seen_at": "2026-10-17T19:26:35Z"
   },
   {
    "organization": "GAIL (India) Limited",
@@ -907,7 +1021,7 @@
    ],
    "id": "gail-india-limited--executive-trainee-chemical-instrumentation-electrical-mechanical-through-gate-2027-advt-gail-open-et-1-2026",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T16:25:39Z"
+   "last_seen_at": "2026-10-17T19:26:35Z"
   },
   {
    "organization": "Staff Selection Commission",
@@ -1039,7 +1153,7 @@
    "track": "government",
    "id": "ifsca--young-professional-consultant-grade-i-consultant-grade-ii-and-senior-consultant-in-ifsca-advertisement-dated-09-10-2026",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T16:25:39Z"
+   "last_seen_at": "2026-10-17T19:26:35Z"
   },
   {
    "organization": "Supreme Court of India",
@@ -1063,7 +1177,7 @@
    "track": "government",
    "id": "supreme-court-of-india--junior-court-attendant-detailed-advertisement-15-10-2026",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T16:25:39Z"
+   "last_seen_at": "2026-10-17T19:26:35Z"
   },
   {
    "organization": "HCLTech",
@@ -1093,7 +1207,7 @@
    ],
    "id": "hcltech--campus-beginner-java-developer-fresh-graduates",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T16:25:39Z"
+   "last_seen_at": "2026-10-17T19:26:35Z"
   },
   {
    "organization": "HCLTech",
@@ -1122,7 +1236,7 @@
    ],
    "id": "hcltech--trainee-voice-operations-dpo",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T16:25:39Z"
+   "last_seen_at": "2026-10-17T19:26:35Z"
   },
   {
    "organization": "HCLTech",
@@ -1158,7 +1272,7 @@
    ],
    "id": "hcltech--analyst-support-operations-generative-ai",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T16:25:39Z"
+   "last_seen_at": "2026-10-17T19:26:35Z"
   },
   {
    "organization": "Tiger Analytics",
@@ -1189,7 +1303,7 @@
    ],
    "id": "tiger-analytics--x-ops-trainee-campus-2027-hiring",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T16:25:39Z"
+   "last_seen_at": "2026-10-17T19:26:35Z"
   },
   {
    "track": "it",
@@ -1227,7 +1341,7 @@
    ],
    "id": "amazon--software-dev-engineer-i-amazon-university-talent-acquisition-2026-graduates",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T16:25:39Z"
+   "last_seen_at": "2026-10-17T19:26:35Z"
   },
   {
    "track": "it",
@@ -1266,21 +1380,21 @@
    ],
    "id": "amazon--software-dev-engineer-i-amazon-university-talent-acquisition-2025-2026-graduates",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T16:25:39Z"
+   "last_seen_at": "2026-10-17T19:26:35Z"
   },
   {
    "track": "it",
    "subcategory": "gcc",
    "organization": "Amazon",
-   "title": "SDE I Intern, Amazon University Talent Acquisition (6-month, Jan–Jun 2027 start)",
+   "title": "SDE I Intern, Amazon University Talent Acquisition (6-month, Jan–Jun 2027 start) — req 10508052",
    "employment_type": "internship",
    "location": "Bengaluru / Chennai (also Hyderabad, Pune, Delhi)",
-   "job_id": "10541345",
-   "qualification_text": "Currently enrolled in a Bachelor's or Master's in Computer Science, Computer Engineering or related field; expected graduation 2027",
-   "experience_text": "Students (2027 graduating batch); full-time 6-month internship (24–26 weeks), in person",
-   "how_to_apply_text": "Apply on amazon.jobs; a university-signed declaration confirming availability for the full internship is required",
-   "apply_url": "https://www.amazon.jobs/en/jobs/10541345/sde-i-intern-amazon-university-talent-acquisition",
-   "notification_url": "https://www.amazon.jobs/en/jobs/10541345/sde-i-intern-amazon-university-talent-acquisition",
+   "job_id": "10508052",
+   "qualification_text": "Currently enrolled in a Bachelor's or Master's in Computer Science, Computer Engineering or related field; expected graduation 2027; CS fundamentals and C/C++, Python, Java or Perl",
+   "experience_text": "Students graduating in 2027; full-time 24–26 week internship, in person",
+   "how_to_apply_text": "Apply on amazon.jobs; university-signed availability declaration required",
+   "apply_url": "https://www.amazon.jobs/en/jobs/10508052/sde-i-intern-amazon-university-talent-acquisition",
+   "notification_url": "https://www.amazon.jobs/en/jobs/10508052/sde-i-intern-amazon-university-talent-acquisition",
    "org_website": "https://www.amazon.com",
    "requirements": {
     "min_education": "bachelor",
@@ -1299,27 +1413,27 @@
     ],
     "_extraction": "ai"
    },
-   "ai_summary": "Amazon is hiring 6-month SDE interns from the 2027 graduating batch for its Indian offices including Bengaluru and Chennai, starting January–June 2027. Applicants must be enrolled in a CS/CE or related bachelor's or master's and submit a university availability declaration.",
+   "ai_summary": "Amazon has a second live 6-month SDE intern requisition for 2027 graduates across Indian offices including Bengaluru and Chennai, starting January–June 2027. CS/CE (or related) bachelor's or master's students can apply on amazon.jobs.",
    "verified_from": [
-    "https://www.amazon.jobs/en/jobs/10541345/sde-i-intern-amazon-university-talent-acquisition"
+    "https://www.amazon.jobs/en/jobs/10508052/sde-i-intern-amazon-university-talent-acquisition"
    ],
    "id": "amazon--sde-i-intern-amazon-university-talent-acquisition-6-month-jan-jun-2027-start",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T16:25:39Z"
+   "last_seen_at": "2026-10-17T19:26:35Z"
   },
   {
    "track": "it",
    "subcategory": "gcc",
    "organization": "Amazon",
-   "title": "Systems Development Engineer Intern – 2027",
+   "title": "Systems Development Engineer Intern – 2027 (req 10498158)",
    "employment_type": "internship",
-   "location": "Bengaluru / Chennai (also Hyderabad)",
-   "job_id": "10498161",
-   "qualification_text": "Enrolled in (or holding) a Bachelor's degree in Computer Science, Engineering or related field; knowledge of Java, C/C++ or Python and CS fundamentals",
-   "experience_text": "Student internship; full-time commitment for the entire internship",
-   "how_to_apply_text": "Apply on amazon.jobs; university-signed availability declaration required",
-   "apply_url": "https://www.amazon.jobs/en/jobs/10498161/systems-development-engineer-intern-2027",
-   "notification_url": "https://www.amazon.jobs/en/jobs/10498161/systems-development-engineer-intern-2027",
+   "location": "Bengaluru / Chennai (also Hyderabad, Gurugram)",
+   "job_id": "10498158",
+   "qualification_text": "Enrolled in or completed a Bachelor's (or Master's) in Computer Science, engineering or related field",
+   "experience_text": "Student internship; full-time commitment; university-signed availability declaration required",
+   "how_to_apply_text": "Apply on amazon.jobs",
+   "apply_url": "https://www.amazon.jobs/en/jobs/10498158/systems-development-engineer-intern-2027",
+   "notification_url": "https://www.amazon.jobs/en/jobs/10498158/systems-development-engineer-intern-2027",
    "org_website": "https://www.amazon.com",
    "requirements": {
     "min_education": "bachelor",
@@ -1329,18 +1443,18 @@
     ],
     "experience_years_min": 0,
     "other_requirements": [
-     "Must be enrolled in a bachelor's programme",
-     "Full-time availability for whole internship"
+     "University-signed availability declaration",
+     "No conflicting classes/jobs during internship"
     ],
     "_extraction": "ai"
    },
-   "ai_summary": "Amazon is hiring Systems Development Engineer interns (2027) for Bengaluru, Hyderabad and Chennai. Bachelor's students in CS/engineering with programming knowledge can apply on amazon.jobs.",
+   "ai_summary": "A second Amazon Systems Development Engineer Intern (2027) requisition covers Bengaluru, Chennai, Hyderabad and Gurugram. CS/engineering bachelor's or master's students can apply on amazon.jobs; no deadline is listed.",
    "verified_from": [
-    "https://www.amazon.jobs/en/jobs/10498161/systems-development-engineer-intern-2027"
+    "https://www.amazon.jobs/en/jobs/10498158/systems-development-engineer-intern-2027"
    ],
    "id": "amazon--systems-development-engineer-intern-2027",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T16:25:39Z"
+   "last_seen_at": "2026-10-17T19:26:35Z"
   },
   {
    "track": "it",
@@ -1376,7 +1490,7 @@
    ],
    "id": "amazon--mba-intern-2027-amazon-university-talent-acquisition",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T16:25:39Z"
+   "last_seen_at": "2026-10-17T19:26:35Z"
   },
   {
    "track": "it",
@@ -1411,7 +1525,7 @@
    ],
    "id": "google--silicon-engineer-platform-and-devices-university-graduate-2026",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T16:25:39Z"
+   "last_seen_at": "2026-10-17T19:26:35Z"
   },
   {
    "track": "it",
@@ -1453,7 +1567,7 @@
    ],
    "id": "salesforce--summer-2027-intern-software-engineer-class-of-2028-amts-track",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T16:25:39Z"
+   "last_seen_at": "2026-10-17T19:26:35Z"
   },
   {
    "organization": "Power Grid Corporation of India Limited",
@@ -1511,7 +1625,7 @@
    ],
    "id": "power-grid-corporation-of-india-limited--engineer-trainee-2027-through-gate-2027-electrical-civil-computer-science-electronics-advt-cc-03-2026",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T16:25:39Z"
+   "last_seen_at": "2026-10-17T19:26:35Z"
   },
   {
    "organization": "NTPC Limited",
@@ -1543,7 +1657,575 @@
    ],
    "id": "ntpc-limited--recruitment-of-engineering-executive-trainees-2027-through-gate-2027-advt-11-26",
    "first_seen_at": "2026-10-17T16:25:39Z",
-   "last_seen_at": "2026-10-17T16:25:39Z"
+   "last_seen_at": "2026-10-17T19:26:35Z"
+  },
+  {
+   "organization": "ESAF Small Finance Bank",
+   "title": "Sales Officer / Sales Officer Trainee",
+   "track": "banking",
+   "subcategory": "small_finance_bank",
+   "employment_type": "full_time",
+   "experience_text": "0 to 1 year",
+   "how_to_apply_text": "Apply online on ESAF's Zappyhire careers portal (job 315).",
+   "notification_url": "https://www.esaf.bank.in/career/latestjobs/",
+   "apply_url": "https://esafcareers.zappyhire.com/#/apply?company=11&job=315",
+   "org_website": "https://www.esaf.bank.in",
+   "job_id": "315",
+   "requirements": {
+    "experience_years_min": 0,
+    "_extraction": "ai"
+   },
+   "ai_summary": "ESAF Small Finance Bank (Thrissur, Kerala) lists a Sales Officer / Sales Officer Trainee role open to freshers (0-1 year) on its official Latest Jobs page. The page gives no location, qualification or closing date, so check the Zappyhire posting before applying.",
+   "verified_from": [
+    "https://www.esaf.bank.in/career/latestjobs/",
+    "https://www.esaf.bank.in/career/current-openings/"
+   ],
+   "id": "esaf-small-finance-bank--sales-officer-sales-officer-trainee",
+   "first_seen_at": "2026-10-17T19:26:35Z",
+   "last_seen_at": "2026-10-17T19:26:35Z"
+  },
+  {
+   "organization": "HCLTech",
+   "title": "Process Associate (SAP order management – fresher)",
+   "track": "it",
+   "subcategory": "it_services",
+   "employment_type": "full_time",
+   "location": "Chennai",
+   "job_id": "160146",
+   "experience_text": "0–1 years (fresher)",
+   "qualification_text": "Bachelor's degree in Business Administration, Supply Chain, Logistics, Commerce (B.Com) or related field; SAP ERP (SD/MM) knowledge preferred via classroom learning, certification or internship.",
+   "how_to_apply_text": "Apply online via the 'Apply now' button on the HCLTech careers job page.",
+   "notification_url": "https://careers.hcltech.com/job/Process-Associate/160146-en_US/",
+   "apply_url": "https://careers.hcltech.com/job/Process-Associate/160146-en_US/",
+   "org_website": "https://www.hcltech.com",
+   "requirements": {
+    "min_education": "bachelor",
+    "degree_names": [
+     "BBA",
+     "B.Com"
+    ],
+    "subjects": [
+     "business administration",
+     "supply chain",
+     "logistics",
+     "commerce"
+    ],
+    "experience_years_min": 0,
+    "other_requirements": [
+     "SAP ERP SD/MM knowledge preferred"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "HCLTech is hiring freshers (0–1 yr) as Process Associates in Chennai to manage customer orders in SAP ERP. Commerce/BBA/supply-chain graduates are eligible, with SAP SD/MM exposure preferred.",
+   "verified_from": [
+    "https://careers.hcltech.com/job/Process-Associate/160146-en_US/"
+   ],
+   "id": "hcltech--process-associate-sap-order-management-fresher",
+   "first_seen_at": "2026-10-17T19:26:35Z",
+   "last_seen_at": "2026-10-17T19:26:35Z"
+  },
+  {
+   "organization": "HCLTech",
+   "title": "Process Associate-Voice",
+   "track": "it",
+   "subcategory": "it_services",
+   "employment_type": "full_time",
+   "location": "Bengaluru",
+   "job_id": "162186",
+   "experience_text": "Entry-level position (locations: Bengaluru, Noida)",
+   "qualification_text": "Not stated; customer service/voice training certifications valued.",
+   "how_to_apply_text": "Apply online via the 'Apply now' button on the HCLTech careers job page.",
+   "notification_url": "https://careers.hcltech.com/job/Process-Associate-Voice/162186-en_US/",
+   "apply_url": "https://careers.hcltech.com/job/Process-Associate-Voice/162186-en_US/",
+   "org_website": "https://www.hcltech.com",
+   "requirements": {
+    "experience_years_min": 0,
+    "other_requirements": [
+     "Voice support role (inbound/outbound calls)"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "HCLTech has an entry-level Process Associate (Voice) opening in Bengaluru (also Noida) handling inbound and outbound customer calls. No degree or batch rule is stated on the posting.",
+   "verified_from": [
+    "https://careers.hcltech.com/job/Process-Associate-Voice/162186-en_US/"
+   ],
+   "id": "hcltech--process-associate-voice",
+   "first_seen_at": "2026-10-17T19:26:35Z",
+   "last_seen_at": "2026-10-17T19:26:35Z"
+  },
+  {
+   "organization": "Wipro",
+   "title": "ELITE_VLSI (Wipro Elite graduate role)",
+   "track": "it",
+   "subcategory": "it_services",
+   "employment_type": "full_time",
+   "location": "Bengaluru",
+   "job_id": "203748",
+   "posted_date": "2026-10-13",
+   "experience_text": "Not stated on posting; role is under Wipro's 'Elite' programme, which Wipro's Early Careers page describes as technical graduate hiring for newly graduated engineers. Work is under close guidance (coding/configuration support, unit testing, documentation).",
+   "how_to_apply_text": "Apply online via the 'Apply Now' button on the Wipro careers job page.",
+   "notification_url": "https://careers.wipro.com/job/ELITE_VLSI/203748-en_US/",
+   "apply_url": "https://careers.wipro.com/job/ELITE_VLSI/203748-en_US/",
+   "org_website": "https://www.wipro.com",
+   "requirements": {
+    "experience_years_min": 0,
+    "other_requirements": [
+     "VLSI domain (from title)",
+     "Elite programme = newly graduated engineers"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "Wipro has an ELITE_VLSI posting in Bengaluru (posted 13 Oct 2026) for a junior engineer supporting coding, configuration and unit testing under guidance. It sits under Wipro Elite, the company's hiring track for newly graduated engineers.",
+   "verified_from": [
+    "https://careers.wipro.com/job/ELITE_VLSI/203748-en_US/",
+    "https://careers.wipro.com/content/Early-Careers/?locale=en_US"
+   ],
+   "id": "wipro--elite-vlsi-wipro-elite-graduate-role",
+   "first_seen_at": "2026-10-17T19:26:35Z",
+   "last_seen_at": "2026-10-17T19:26:35Z"
+  },
+  {
+   "organization": "Zoho",
+   "title": "Japanese Bilingual Hiring Drive (Freshers)",
+   "track": "it",
+   "subcategory": "product",
+   "employment_type": "full_time",
+   "location": "Chennai",
+   "experience_text": "Freshers",
+   "qualification_text": "Japanese proficiency at JLPT N1, N2 or N3 (or equivalent); batch/degree not stated on the form.",
+   "how_to_apply_text": "Fill the application form on Zoho's official careers portal.",
+   "notification_url": "https://careers.zohocorp.com/forms/47d20eb0b4ccd9b5e0bf37e801d1c8eafc913c6adf72f42f0a052d085ef89ff6bd9ce7b63eb2cae616d259c441546663",
+   "apply_url": "https://careers.zohocorp.com/forms/47d20eb0b4ccd9b5e0bf37e801d1c8eafc913c6adf72f42f0a052d085ef89ff6bd9ce7b63eb2cae616d259c441546663",
+   "org_website": "https://www.zoho.com",
+   "requirements": {
+    "experience_years_min": 0,
+    "languages_required": [
+     "Japanese"
+    ],
+    "other_requirements": [
+     "JLPT N1/N2/N3 or equivalent"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "Zoho has a live application form for a Japanese bilingual fresher hiring drive in Chennai. Candidates need JLPT N3 or higher; the form states no deadline or batch.",
+   "verified_from": [
+    "https://careers.zohocorp.com/forms/47d20eb0b4ccd9b5e0bf37e801d1c8eafc913c6adf72f42f0a052d085ef89ff6bd9ce7b63eb2cae616d259c441546663"
+   ],
+   "id": "zoho--japanese-bilingual-hiring-drive-freshers",
+   "first_seen_at": "2026-10-17T19:26:35Z",
+   "last_seen_at": "2026-10-17T19:26:35Z"
+  },
+  {
+   "organization": "Movate",
+   "title": "Trainee (Networking – telecom site installation)",
+   "track": "it",
+   "subcategory": "it_services",
+   "employment_type": "full_time",
+   "location": "Chennai",
+   "job_id": "RRF-43468",
+   "experience_text": "0 to 1 year",
+   "qualification_text": "B.E/B.Tech; primary skill Networking, secondary skill Customer support.",
+   "how_to_apply_text": "Use the 'Apply for this position' form on the Movate job page (privacy consent required).",
+   "notification_url": "https://www.movate.com/careers/job/43468-trainee/",
+   "apply_url": "https://www.movate.com/careers/job/43468-trainee/",
+   "org_website": "https://www.movate.com",
+   "requirements": {
+    "min_education": "bachelor",
+    "degree_names": [
+     "B.E.",
+     "B.Tech"
+    ],
+    "experience_years_min": 0,
+    "other_requirements": [
+     "Networking skills",
+     "GSM/UMTS/LTE/SRAN site installation knowledge"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "Movate is hiring B.E/B.Tech Trainees (0–1 yr) in Chennai for telecom site installation and survey work on Nokia GSM/UMTS/LTE equipment. Applications are taken through the form on the official job page.",
+   "verified_from": [
+    "https://www.movate.com/careers/latest-job-openings/",
+    "https://www.movate.com/careers/job/43468-trainee/"
+   ],
+   "id": "movate--trainee-networking-telecom-site-installation",
+   "first_seen_at": "2026-10-17T19:26:35Z",
+   "last_seen_at": "2026-10-17T19:26:35Z"
+  },
+  {
+   "organization": "HCLTech",
+   "title": "Campus-Beginner (GCP Cloud fresher)",
+   "track": "it",
+   "subcategory": "it_services",
+   "employment_type": "full_time",
+   "location": "Madurai",
+   "job_id": "154180",
+   "experience_text": "Fresher",
+   "qualification_text": "Google Cloud certified fresher with foundational GCP/cloud knowledge (Compute Engine, Cloud Storage, IAM, networking, security basics, Kubernetes basics). Degree/batch not specified.",
+   "how_to_apply_text": "Apply online via the 'Apply now' button on the HCLTech careers job page.",
+   "notification_url": "https://careers.hcltech.com/job/Campus-Beginner/154180-en_US/",
+   "apply_url": "https://careers.hcltech.com/job/Campus-Beginner/154180-en_US/",
+   "org_website": "https://www.hcltech.com",
+   "requirements": {
+    "experience_years_min": 0,
+    "other_requirements": [
+     "Google Cloud certification",
+     "Foundational GCP and Kubernetes knowledge"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "HCLTech is hiring Google Cloud certified freshers as Campus-Beginner cloud engineers in Madurai, Tamil Nadu. The role supports cloud infrastructure projects and needs GCP fundamentals.",
+   "verified_from": [
+    "https://careers.hcltech.com/job/Campus-Beginner/154180-en_US/"
+   ],
+   "id": "hcltech--campus-beginner-gcp-cloud-fresher",
+   "first_seen_at": "2026-10-17T19:26:35Z",
+   "last_seen_at": "2026-10-17T19:26:35Z"
+  },
+  {
+   "organization": "Movate",
+   "title": "Campus to Careers – Freshers Hiring Registration",
+   "track": "it",
+   "subcategory": "it_services",
+   "employment_type": "full_time",
+   "location": "Chennai",
+   "experience_text": "Freshers (Campus to Careers programme); preferred work locations on form: Bangalore, Chennai, Hyderabad.",
+   "qualification_text": "Graduates (form asks for under-graduation and graduation date); no degree or batch restriction stated. Programme applicable only to candidates located in India.",
+   "selection_text": "Training through Movate Skill + Learning Academy; roles in Enterprise/Consumer Tech Support, Infrastructure Management Services, GIS, networking.",
+   "how_to_apply_text": "Fill the Freshers Hiring Registration form on movate.com with resume (PDF/DOC/DOCX, max 10 MB).",
+   "notification_url": "https://www.movate.com/careers/campus-to-careers/freshers/",
+   "apply_url": "https://www.movate.com/careers/campus-to-careers/freshers/freshers-hiring-registration/",
+   "org_website": "https://www.movate.com",
+   "requirements": {
+    "min_education": "bachelor",
+    "subjects": [
+     "any"
+    ],
+    "experience_years_min": 0,
+    "other_requirements": [
+     "Must be located in India"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "Movate runs a standing Campus to Careers freshers registration for tech support, infrastructure, GIS and networking roles, with Chennai and Bangalore among the preferred work locations. No deadline or batch rule is stated; this is an evergreen registration rather than a dated drive.",
+   "verified_from": [
+    "https://www.movate.com/careers/campus-to-careers/freshers/",
+    "https://www.movate.com/careers/campus-to-careers/freshers/freshers-hiring-registration/"
+   ],
+   "id": "movate--campus-to-careers-freshers-hiring-registration",
+   "first_seen_at": "2026-10-17T19:26:35Z",
+   "last_seen_at": "2026-10-17T19:26:35Z"
+  },
+  {
+   "organization": "eClerx",
+   "title": "Product Data Management Analyst (Analyst – Fresher)",
+   "track": "it",
+   "subcategory": "it_services",
+   "employment_type": "full_time",
+   "location": "Coimbatore",
+   "job_id": "81203",
+   "experience_text": "Fresher",
+   "qualification_text": "Pass-out years 2022 to 2025; ECE, EEE and Mechanical branches only; no active arrears. Work from office at Tidel Park, Coimbatore.",
+   "how_to_apply_text": "Apply on eClerx's official Oracle careers site job page.",
+   "notification_url": "https://fa-ewji-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/81203",
+   "apply_url": "https://fa-ewji-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/81203",
+   "org_website": "https://eclerx.com",
+   "requirements": {
+    "subjects": [
+     "electronics and communication",
+     "electrical and electronics",
+     "mechanical"
+    ],
+    "passing_years": [
+     2022,
+     2023,
+     2024,
+     2025
+    ],
+    "experience_years_min": 0,
+    "other_requirements": [
+     "No active arrears",
+     "Work from office"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "eClerx is hiring freshers as Product Data Management Analysts at Tidel Park, Coimbatore. ECE, EEE and Mechanical graduates who passed out between 2022 and 2025 with no active arrears can apply.",
+   "verified_from": [
+    "https://fa-ewji-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/81203"
+   ],
+   "id": "eclerx--product-data-management-analyst-analyst-fresher",
+   "first_seen_at": "2026-10-17T19:26:35Z",
+   "last_seen_at": "2026-10-17T19:26:35Z"
+  },
+  {
+   "organization": "HCLTech",
+   "title": "Process Associate – Customer Service Chat Agent",
+   "track": "it",
+   "subcategory": "it_services",
+   "employment_type": "full_time",
+   "location": "Chennai",
+   "job_id": "152868",
+   "experience_text": "E0.1 Fresher or E0.2 (1–2 years)",
+   "qualification_text": "Not specified; good English communication, typing skills and chat support ability; prior customer support experience preferred.",
+   "how_to_apply_text": "Apply online via the 'Apply now' button on the HCLTech careers job page.",
+   "notification_url": "https://careers.hcltech.com/job/Process-Associate/152868-en_US/",
+   "apply_url": "https://careers.hcltech.com/job/Process-Associate/152868-en_US/",
+   "org_website": "https://www.hcltech.com",
+   "requirements": {
+    "experience_years_min": 0,
+    "languages_required": [
+     "English"
+    ],
+    "other_requirements": [
+     "Typing skills",
+     "Chat support (L0/L1)"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "HCLTech is hiring freshers (band E0.1) and 1–2 yr candidates as chat-support Process Associates in Chennai for first-line customer queries. Good English and typing skills are the main requirements.",
+   "verified_from": [
+    "https://careers.hcltech.com/job/Process-Associate/152868-en_US/"
+   ],
+   "id": "hcltech--process-associate-customer-service-chat-agent",
+   "first_seen_at": "2026-10-17T19:26:35Z",
+   "last_seen_at": "2026-10-17T19:26:35Z"
+  },
+  {
+   "organization": "Siemens",
+   "title": "Graduate Trainee Engineer",
+   "track": "it",
+   "subcategory": "gcc",
+   "employment_type": "full_time",
+   "location": "Bengaluru",
+   "posted_date": "2026-09-11",
+   "job_id": "518220",
+   "experience_text": "Early Professional level (graduate trainee)",
+   "how_to_apply_text": "Apply online on the Siemens Jobs portal (jobs.siemens.com)",
+   "apply_url": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/518220",
+   "notification_url": "https://jobs.siemens.com/en_US/externaljobs/JobDetail/518220",
+   "org_website": "https://www.siemens.com",
+   "requirements": {
+    "experience_years_min": 0,
+    "_extraction": "ai"
+   },
+   "ai_summary": "Siemens posted a Graduate Trainee Engineer opening in Bengaluru on 11 Sep 2026 at the Early Professional level. The page shows an active Apply button but does not list degree or batch rules, so check the posting before applying.",
+   "verified_from": [
+    "https://jobs.siemens.com/en_US/externaljobs/JobDetail/518220"
+   ],
+   "id": "siemens--graduate-trainee-engineer",
+   "first_seen_at": "2026-10-17T19:26:35Z",
+   "last_seen_at": "2026-10-17T19:26:35Z"
+  },
+  {
+   "organization": "Target in India",
+   "title": "Apprentice - Technology",
+   "track": "it",
+   "subcategory": "gcc",
+   "employment_type": "apprenticeship",
+   "location": "Bengaluru",
+   "job_id": "R0000348368",
+   "qualification_text": "Pursuing an engineering degree in Computer Science, Information Technology or a circuit branch; must meet the required CGPA/aggregate (not specified) with no active backlogs",
+   "experience_text": "Apprenticeship for engineering students",
+   "how_to_apply_text": "Apply online via the Target careers job page",
+   "apply_url": "https://corporate.target.com/jobs/w83/68/apprentice-technology",
+   "notification_url": "https://corporate.target.com/jobs/w83/68/apprentice-technology",
+   "org_website": "https://corporate.target.com",
+   "requirements": {
+    "min_education": "bachelor",
+    "subjects": [
+     "computer science",
+     "information technology",
+     "circuit branches"
+    ],
+    "degree_names": [
+     "B.E.",
+     "B.Tech"
+    ],
+    "experience_years_min": 0,
+    "other_requirements": [
+     "No active backlogs",
+     "Minimum CGPA/aggregate as per Target norms (not stated)"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "Target in India (Bengaluru) is taking Technology Apprentices from engineering programmes in CS, IT or circuit branches. Candidates need no active backlogs; the page shows an Apply button but gives no closing date, stipend or duration.",
+   "verified_from": [
+    "https://corporate.target.com/jobs/w83/68/apprentice-technology"
+   ],
+   "id": "target-in-india--apprentice-technology",
+   "first_seen_at": "2026-10-17T19:26:35Z",
+   "last_seen_at": "2026-10-17T19:26:35Z"
+  },
+  {
+   "organization": "PhonePe",
+   "title": "Operations Associate, Merchant KYC (Offline Merchant Business)",
+   "track": "it",
+   "subcategory": "product",
+   "employment_type": "full_time",
+   "location": "Bengaluru",
+   "job_id": "7659792003",
+   "experience_text": "0 to 2 years experience",
+   "how_to_apply_text": "Apply online through the Greenhouse application form on the job page",
+   "apply_url": "https://job-boards.greenhouse.io/phonepe/jobs/7659792003",
+   "notification_url": "https://job-boards.greenhouse.io/phonepe/jobs/7659792003",
+   "org_website": "https://www.phonepe.com",
+   "requirements": {
+    "experience_years_min": 0,
+    "_extraction": "ai"
+   },
+   "ai_summary": "PhonePe is hiring an Operations Associate (Merchant KYC) in Bengaluru for its offline merchant business, open to 0–2 years of experience. The Greenhouse page has a live application form; no education rule or closing date is stated.",
+   "verified_from": [
+    "https://job-boards.greenhouse.io/phonepe/jobs/7659792003"
+   ],
+   "id": "phonepe--operations-associate-merchant-kyc-offline-merchant-business",
+   "first_seen_at": "2026-10-17T19:26:35Z",
+   "last_seen_at": "2026-10-17T19:26:35Z"
+  },
+  {
+   "organization": "Amazon",
+   "title": "Data Engineer Intern – 2027",
+   "track": "it",
+   "subcategory": "gcc",
+   "employment_type": "internship",
+   "location": "Bengaluru / Chennai (also Hyderabad, Greater Noida)",
+   "job_id": "10496769",
+   "qualification_text": "Final-year Bachelor's or Master's in Computer Science, Engineering or related field",
+   "experience_text": "Student internship; full-time commitment for the whole internship",
+   "how_to_apply_text": "Apply on amazon.jobs (considered for all Amazon India hiring locations)",
+   "apply_url": "https://www.amazon.jobs/en/jobs/10496769/data-engineer-intern-2027",
+   "notification_url": "https://www.amazon.jobs/en/jobs/10496769/data-engineer-intern-2027",
+   "org_website": "https://www.amazon.com",
+   "requirements": {
+    "min_education": "bachelor",
+    "subjects": [
+     "computer science",
+     "engineering"
+    ],
+    "experience_years_min": 0,
+    "other_requirements": [
+     "Must commit full-time for the internship duration",
+     "Must be in final year of degree"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "Amazon India is hiring 2027 Data Engineer interns for Bengaluru, Chennai, Hyderabad and Greater Noida. Final-year bachelor's or master's students in CS/engineering or related fields can apply; no duration or deadline is listed.",
+   "verified_from": [
+    "https://www.amazon.jobs/en/jobs/10496769/data-engineer-intern-2027"
+   ],
+   "id": "amazon--data-engineer-intern-2027",
+   "first_seen_at": "2026-10-17T19:26:35Z",
+   "last_seen_at": "2026-10-17T19:26:35Z"
+  },
+  {
+   "organization": "Amazon",
+   "title": "Support Engineer Intern – 2027",
+   "track": "it",
+   "subcategory": "gcc",
+   "employment_type": "internship",
+   "location": "Bengaluru / Chennai",
+   "job_id": "10498163",
+   "qualification_text": "Enrolled in or completed a Bachelor's degree in Computer Science, Engineering or related field",
+   "experience_text": "Student internship; full-time commitment for the whole internship",
+   "how_to_apply_text": "Apply on amazon.jobs (considered for all Amazon India hiring locations)",
+   "apply_url": "https://www.amazon.jobs/en/jobs/10498163/support-engineer-intern-2027",
+   "notification_url": "https://www.amazon.jobs/en/jobs/10498163/support-engineer-intern-2027",
+   "org_website": "https://www.amazon.com",
+   "requirements": {
+    "min_education": "bachelor",
+    "subjects": [
+     "computer science",
+     "engineering"
+    ],
+    "experience_years_min": 0,
+    "other_requirements": [
+     "Must commit full-time for the internship duration"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "Amazon India is hiring 2027 Support Engineer interns at Bengaluru and Chennai. Students enrolled in (or holding) a CS/engineering bachelor's can apply on amazon.jobs; no deadline is shown.",
+   "verified_from": [
+    "https://www.amazon.jobs/en/jobs/10498163/support-engineer-intern-2027"
+   ],
+   "id": "amazon--support-engineer-intern-2027",
+   "first_seen_at": "2026-10-17T19:26:35Z",
+   "last_seen_at": "2026-10-17T19:26:35Z"
+  },
+  {
+   "organization": "Amazon",
+   "title": "Software Development Engineer Intern – Jan 2027 (6 month), Amazon University Talent Acquisition",
+   "track": "it",
+   "subcategory": "gcc",
+   "employment_type": "internship",
+   "location": "Bengaluru",
+   "job_id": "10517894",
+   "qualification_text": "Enrolled in (or completed) a Bachelor's or higher in Computer Science, Computer Engineering, Data Science, Information Systems or related STEM field; for students graduating in 2027; one general-purpose language and DS/algorithms/OOD",
+   "experience_text": "Students graduating in 2027; 22–24 week internship starting January 2027",
+   "how_to_apply_text": "Apply on amazon.jobs",
+   "apply_url": "https://www.amazon.jobs/en/jobs/10517894/software-development-engineer-intern-jan-2027-6-month-amazon-university-talent-acquisition",
+   "notification_url": "https://www.amazon.jobs/en/jobs/10517894/software-development-engineer-intern-jan-2027-6-month-amazon-university-talent-acquisition",
+   "org_website": "https://www.amazon.com",
+   "age_limit_text": "Must be 18 or older",
+   "requirements": {
+    "min_education": "bachelor",
+    "subjects": [
+     "computer science",
+     "computer engineering",
+     "data science",
+     "information systems"
+    ],
+    "passing_years": [
+     2027
+    ],
+    "experience_years_min": 0,
+    "age_min": 18,
+    "_extraction": "ai"
+   },
+   "ai_summary": "Amazon Bengaluru is hiring 6-month SDE interns starting January 2027 for students graduating in 2027. CS/CE/Data Science/IS (or related STEM) students with programming and DS/algorithms skills can apply on amazon.jobs.",
+   "verified_from": [
+    "https://www.amazon.jobs/en/jobs/10517894/software-development-engineer-intern-jan-2027-6-month-amazon-university-talent-acquisition"
+   ],
+   "id": "amazon--software-development-engineer-intern-jan-2027-6-month-amazon-university-talent-acquisition",
+   "first_seen_at": "2026-10-17T19:26:35Z",
+   "last_seen_at": "2026-10-17T19:26:35Z"
+  },
+  {
+   "organization": "Amazon",
+   "title": "Applied Scientist I Intern - Jan 2027 (6 months)",
+   "track": "it",
+   "subcategory": "gcc",
+   "employment_type": "internship",
+   "location": "Bengaluru",
+   "job_id": "10477346",
+   "qualification_text": "Currently enrolled in a Bachelor's, Master's or PhD in Computer Science, Electrical Engineering, Mathematics or related field specialising in ML, NLP, Deep Learning, Computer Vision or Data Science; strong programming (Python preferred) and practical ML experience",
+   "experience_text": "For students graduating between June 2027 and June 2028; 6-month full-time internship from January 2027 (flexible start)",
+   "how_to_apply_text": "Apply on amazon.jobs",
+   "apply_url": "https://www.amazon.jobs/en/jobs/10477346/applied-scientist-i-intern-jan-2027-6-months",
+   "notification_url": "https://www.amazon.jobs/en/jobs/10477346/applied-scientist-i-intern-jan-2027-6-months",
+   "org_website": "https://www.amazon.com",
+   "requirements": {
+    "min_education": "bachelor",
+    "subjects": [
+     "computer science",
+     "electrical engineering",
+     "mathematics"
+    ],
+    "passing_years": [
+     2027,
+     2028
+    ],
+    "experience_years_min": 0,
+    "other_requirements": [
+     "Specialisation in ML/NLP/DL/CV/Data Science",
+     "English proficiency"
+    ],
+    "_extraction": "ai"
+   },
+   "ai_summary": "Amazon Bengaluru is hiring 6-month Applied Scientist interns from January 2027 for students graduating June 2027–June 2028. Bachelor's, master's or PhD students in CS/EE/Maths with ML specialisation can apply on amazon.jobs.",
+   "verified_from": [
+    "https://www.amazon.jobs/en/jobs/10477346/applied-scientist-i-intern-jan-2027-6-months"
+   ],
+   "id": "amazon--applied-scientist-i-intern-jan-2027-6-months",
+   "first_seen_at": "2026-10-17T19:26:35Z",
+   "last_seen_at": "2026-10-17T19:26:35Z"
   }
  ]
 }
