@@ -61,6 +61,18 @@ function OpeningCard({ o, app, onTrack, onOpen, onHide, hidden }) {
   );
 }
 
+/** Which group an opening's organisation belongs to, for the "Applications open now" strip. */
+const ORG_TYPES = [["it", "💻", "IT companies"], ["bank", "🏦", "Banks"], ["psu", "🏭", "PSUs"], ["gov", "🏛️", "Government"], ["edu", "🎓", "Education & research"], ["ins", "☂️", "Insurance"]];
+const orgType = (o) => {
+  const sub = o.subcategory || "";
+  if (o.track === "it" || o.track === "corporate") return "it";
+  if (o.track === "psu" || /psu_apprentice/.test(sub)) return "psu";
+  if (o.track === "banking" || /bank/.test(sub)) return "bank";
+  if (o.track === "insurance" || sub === "public_insurer") return "ins";
+  if (["schools", "colleges", "physics_research"].includes(o.track)) return "edu";
+  return "gov";
+};
+
 const hello = () => { const h = new Date().getHours(); return h < 12 ? "Good morning" : h < 17 ? "Good afternoon" : "Good evening"; };
 
 export default function Openings() {
@@ -95,6 +107,13 @@ export default function Openings() {
   const live = rated.filter((o) => o.daysLeft == null || o.daysLeft >= 0);
   const visible = live.filter((o) => !hiddenSet.has(o.id));
   const hiddenItems = live.filter((o) => hiddenSet.has(o.id));
+  // Organisations with applications open right now, grouped by type (counts every open opening, not just ones that fit).
+  const openOrgs = ORG_TYPES.map(([k, e, label]) => {
+    const m = new Map();
+    for (const o of visible) if (orgType(o) === k) m.set(o.organization, { n: (m.get(o.organization)?.n || 0) + 1, fit: (m.get(o.organization)?.fit || false) || ["ok", "check"].includes(groupOf(o)) });
+    return { k, e, label, orgs: [...m.entries()].sort((a, b) => b[1].n - a[1].n || a[0].localeCompare(b[0])) };
+  }).filter((g) => g.orgs.length);
+  const showOrg = (name) => { setQ(name); setFilter("all"); setTimeout(() => document.querySelector(".toolbar")?.scrollIntoView({ behavior: "smooth", block: "start" }), 0); };
   const fits = (o) => ["ok", "check"].includes(groupOf(o));
   const counts = { mine: visible.filter((o) => o.mine && fits(o)).length, fit: visible.filter(fits).length, all: visible.length };
   const matchQ = (o) => (!track || o.roles.includes(track)) && (!q || `${o.title} ${o.organization} ${o.location || ""}`.toLowerCase().includes(q.toLowerCase()));
@@ -153,6 +172,24 @@ export default function Openings() {
         <p className="tiny muted">Checked on official sites{openings.updatedAt ? `, last updated ${fmtDate(openings.updatedAt.slice(0, 10))}` : ""}.</p>
       </section>
       {openings.error && <div className="error mb">{openings.error}</div>}
+      {openOrgs.length > 0 && !showHidden && (
+        <section className="open-now" aria-label="Applications open now">
+          <div className="open-now-head">
+            <h2><span className="live-dot" aria-hidden="true" />Applications open now</h2>
+            <span className="small muted">{visible.length} openings at {openOrgs.reduce((a, g) => a + g.orgs.length, 0)} organisations. Tap one to see its openings.</span>
+          </div>
+          {openOrgs.map((g) => (
+            <div key={g.k} className="open-row">
+              <span className="open-type"><E>{g.e}</E>{g.label}</span>
+              <div className="open-orgs">{g.orgs.map(([name, v]) => (
+                <button key={name} className={`org-chip ${v.fit ? "fit" : ""} ${q === name ? "on" : ""}`} onClick={() => showOrg(name)} title={v.fit ? "At least one fits your profile" : "None fit your profile yet"}>
+                  {name}<span className="n">{v.n}</span>
+                </button>
+              ))}</div>
+            </div>
+          ))}
+        </section>
+      )}
       {needs.length > 0 && !showHidden && (
         <div className="nudge">
           <span className="e">✍️</span>
@@ -189,6 +226,8 @@ export default function Openings() {
         <div className="small muted">
           {myRoles.length ? <>Your roles: {myRoles.map((r) => ROLE[r] && `${ROLE[r].e} ${ROLE[r].label}`).filter(Boolean).join(", ")}. </> : "You haven't picked your roles yet. "}
           <button className="linkish" onClick={() => openProfile("roles")}>Change roles</button>
+          {q && <> &nbsp;|&nbsp; <button className="linkish" onClick={() => setQ("")}>Clear search “{q.length > 28 ? q.slice(0, 28) + "…" : q}”</button></>}
+          &nbsp;|&nbsp; <Link className="linkish" to="/sources">📚 Career sites & exam syllabus</Link>
           {(hiddenItems.length > 0 || showHidden) && <> &nbsp;|&nbsp; <button className="linkish" onClick={() => setShowHidden(!showHidden)}>{showHidden ? "← Back to openings" : `🙈 Not interested (${hiddenItems.length})`}</button></>}
         </div>
       </div>

@@ -89,7 +89,6 @@ export default function App() {
               <NavLink to="/openings"><E>{T.openings}</E>Openings</NavLink>
               <NavLink to="/applications"><E>{T.applications}</E>Applications</NavLink>
               <NavLink to="/upcoming"><E>{T.upcoming}</E>Upcoming</NavLink>
-              <NavLink to="/employers"><E>🏢</E>Employers</NavLink>
               <NavLink to="/mocks"><E>{T.mocks}</E>Mocks</NavLink>
               {admin && <NavLink to="/admin"><E>{T.admin}</E>Admin</NavLink>}
             </nav>
@@ -103,6 +102,7 @@ export default function App() {
             <Route path="/applications" element={<Applications />} />
             <Route path="/upcoming" element={<Upcoming />} />
             <Route path="/employers" element={<Employers />} />
+            <Route path="/sources" element={<Employers />} />
             <Route path="/mocks" element={<Mocks />} />
             <Route path="/profile" element={<OpenProfile onOpen={openPanel} />} />
             <Route path="/admin" element={admin ? <Admin /> : <Navigate to="/openings" replace />} />

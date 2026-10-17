@@ -101,8 +101,8 @@ export default function Employers() {
     <>
       <div className="head">
         <div>
-          <h1><E>🏢</E>Employers</h1>
-          <p>Official careers pages for {dir.length} organisations ({withCareers} with a direct careers link), grouped by type. “Open now” counts come from the openings we've checked.</p>
+          <h1><E>📚</E>Career sites & exam syllabus</h1>
+          <p>The {dir.length} organisations our scan checks for new openings ({withCareers} with a direct careers link). You don't need to visit these yourself — anything open appears on <Link to="/openings">Openings</Link>. Use this page to open a careers site directly or read an exam's official syllabus.</p>
         </div>
       </div>
       <div className="seg emp-tabs" role="tablist" aria-label="Employer type">
