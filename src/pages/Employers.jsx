@@ -102,7 +102,7 @@ export default function Employers() {
       <div className="head">
         <div>
           <h1><E>📚</E>Career sites & exam syllabus</h1>
-          <p>The {dir.length} organisations our scan checks for new openings ({withCareers} with a direct careers link). You don't need to visit these yourself — anything open appears on <Link to="/openings">Openings</Link>. Use this page to open a careers site directly or read an exam's official syllabus.</p>
+          <p>The {dir.length} organisations our scan checks — jobs in Tamil Nadu, Kerala and Karnataka, plus central government jobs from anywhere in India ({withCareers} with a direct careers link). You don't need to visit these yourself — anything open appears on <Link to="/openings">Openings</Link>. Use this page to open a careers site directly or read an exam's official syllabus.</p>
         </div>
       </div>
       <div className="seg emp-tabs" role="tablist" aria-label="Employer type">

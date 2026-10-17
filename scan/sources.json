@@ -1,5 +1,5 @@
 {
- "note": "Official sources the daily scan reads. Set scan:false to skip a source; add new ones in the same shape. post_types lists the kinds of posts a source often has (\"clerical\" = clerk, assistant, typist, steno).",
+ "note": "Official sources the daily scan reads. Scope: Tamil Nadu, Kerala and Karnataka for state, bank, company and college jobs; central government (ministries, research organisations, central recruitment bodies, PSUs) from anywhere in India. Set scan:false to skip a source.",
  "sources": [
   {
    "slug": "sbi",
@@ -341,22 +341,6 @@
    "notes": "Homepage JS-only; careers URL not confirmed",
    "verified_from": [
     "https://en.wikipedia.org/wiki/List_of_banks_in_India"
-   ]
-  },
-  {
-   "slug": "bandhan-bank",
-   "name": "Bandhan Bank",
-   "track": "banking",
-   "subcategory": "private_bank",
-   "url": "https://bandhan.bank.in",
-   "recruitment_url": "https://bandhan.bank.in/careers",
-   "location": "Kolkata",
-   "scan": false,
-   "notes": "No listed openings; generic application form at bandhan.bank.in/join-our-team",
-   "fresher_program": "Aspiring Bank Champions Programme",
-   "verified_from": [
-    "https://bandhan.bank.in/careers",
-    "https://bandhan.bank.in/join-our-team"
    ]
   },
   {
@@ -772,50 +756,6 @@
    "notes": null
   },
   {
-   "slug": "iitb",
-   "name": "IIT Bombay",
-   "track": "colleges",
-   "subcategory": "iit",
-   "url": "https://www.iitb.ac.in",
-   "recruitment_url": "https://www.iitb.ac.in",
-   "location": "Mumbai",
-   "scan": true,
-   "notes": null
-  },
-  {
-   "slug": "iitd",
-   "name": "IIT Delhi",
-   "track": "colleges",
-   "subcategory": "iit",
-   "url": "https://home.iitd.ac.in",
-   "recruitment_url": "https://home.iitd.ac.in",
-   "location": "Delhi",
-   "scan": true,
-   "notes": null
-  },
-  {
-   "slug": "iitk",
-   "name": "IIT Kanpur",
-   "track": "colleges",
-   "subcategory": "iit",
-   "url": "https://www.iitk.ac.in",
-   "recruitment_url": "https://www.iitk.ac.in",
-   "location": "Kanpur",
-   "scan": true,
-   "notes": null
-  },
-  {
-   "slug": "iitkgp",
-   "name": "IIT Kharagpur",
-   "track": "colleges",
-   "subcategory": "iit",
-   "url": "https://www.iitkgp.ac.in",
-   "recruitment_url": "https://www.iitkgp.ac.in",
-   "location": "Kharagpur",
-   "scan": true,
-   "notes": null
-  },
-  {
    "slug": "iith",
    "name": "IIT Hyderabad",
    "track": "colleges",
@@ -823,28 +763,6 @@
    "url": "https://iith.ac.in",
    "recruitment_url": "https://iith.ac.in",
    "location": "Hyderabad",
-   "scan": true,
-   "notes": null
-  },
-  {
-   "slug": "iitr",
-   "name": "IIT Roorkee",
-   "track": "colleges",
-   "subcategory": "iit",
-   "url": "https://iitr.ac.in",
-   "recruitment_url": "https://iitr.ac.in",
-   "location": "Roorkee",
-   "scan": true,
-   "notes": null
-  },
-  {
-   "slug": "iitg",
-   "name": "IIT Guwahati",
-   "track": "colleges",
-   "subcategory": "iit",
-   "url": "https://www.iitg.ac.in",
-   "recruitment_url": "https://www.iitg.ac.in",
-   "location": "Guwahati",
    "scan": true,
    "notes": null
   },
@@ -867,17 +785,6 @@
    "url": "https://www.nitt.edu",
    "recruitment_url": "https://www.nitt.edu",
    "location": "Tamil Nadu",
-   "scan": true,
-   "notes": null
-  },
-  {
-   "slug": "nitw",
-   "name": "NIT Warangal",
-   "track": "colleges",
-   "subcategory": "nit",
-   "url": "https://nitw.ac.in",
-   "recruitment_url": "https://nitw.ac.in",
-   "location": "Warangal",
    "scan": true,
    "notes": null
   },
@@ -1439,20 +1346,6 @@
    ]
   },
   {
-   "slug": "jk-bank",
-   "name": "Jammu & Kashmir Bank",
-   "track": "banking",
-   "subcategory": "private_bank",
-   "url": "https://www.jkb.bank.in",
-   "recruitment_url": null,
-   "location": "Srinagar",
-   "scan": false,
-   "notes": "Site blocks automated fetch (robots); careers URL not confirmed",
-   "verified_from": [
-    "https://en.wikipedia.org/wiki/List_of_banks_in_India"
-   ]
-  },
-  {
    "slug": "karnataka-bank",
    "name": "Karnataka Bank",
    "track": "banking",
@@ -1478,21 +1371,6 @@
    "notes": "Careers link from homepage; portal fetch failed",
    "verified_from": [
     "https://www.kvb.bank.in/"
-   ]
-  },
-  {
-   "slug": "nainital-bank",
-   "name": "Nainital Bank",
-   "track": "banking",
-   "subcategory": "private_bank",
-   "url": "https://www.nainitalbank.bank.in",
-   "recruitment_url": "https://www.nainitalbank.bank.in/en/Careers/careerslist",
-   "location": "Nainital",
-   "scan": true,
-   "notes": "Plain list; only active item is 2026 SO recruitment (IBPS-run, test held 04.10.2026)",
-   "verified_from": [
-    "https://www.nainitalbank.bank.in/",
-    "https://www.nainitalbank.bank.in/en/Careers/careerslist"
    ]
   },
   {
@@ -1560,21 +1438,6 @@
    ]
   },
   {
-   "slug": "capital-small-finance-bank",
-   "name": "Capital Small Finance Bank",
-   "track": "banking",
-   "subcategory": "small_finance_bank",
-   "url": "https://www.capital.bank.in",
-   "recruitment_url": "https://www.capital.bank.in/careers",
-   "location": "Jalandhar",
-   "scan": true,
-   "notes": "Plain page lists roles (no locations/dates); apply via on-page form",
-   "verified_from": [
-    "https://www.capital.bank.in/",
-    "https://www.capital.bank.in/careers"
-   ]
-  },
-  {
    "slug": "equitas-small-finance-bank",
    "name": "Equitas Small Finance Bank",
    "track": "banking",
@@ -1621,37 +1484,6 @@
    ]
   },
   {
-   "slug": "shivalik-small-finance-bank",
-   "name": "Shivalik Small Finance Bank",
-   "track": "banking",
-   "subcategory": "small_finance_bank",
-   "url": "https://www.shivalik.bank.in",
-   "recruitment_url": null,
-   "location": "New Delhi",
-   "scan": false,
-   "notes": "Site blocks automated fetch (robots); careers URL not confirmed",
-   "verified_from": [
-    "https://en.wikipedia.org/wiki/List_of_banks_in_India"
-   ]
-  },
-  {
-   "slug": "slice-small-finance-bank",
-   "name": "slice Small Finance Bank",
-   "track": "banking",
-   "subcategory": "small_finance_bank",
-   "url": "https://slice.bank.in",
-   "recruitment_url": "https://slice.bank.in/careers/open-positions",
-   "location": "Guwahati",
-   "scan": false,
-   "notes": "Formerly North East SFB (per RBI/Wikipedia list); listings load from careers.kula.ai/slice; corporate office Bengaluru",
-   "verified_from": [
-    "https://en.wikipedia.org/wiki/List_of_banks_in_India",
-    "https://www.slice.bank.in/",
-    "https://slice.bank.in/careers",
-    "https://slice.bank.in/careers/open-positions"
-   ]
-  },
-  {
    "slug": "suryoday-small-finance-bank",
    "name": "Suryoday Small Finance Bank",
    "track": "banking",
@@ -1681,34 +1513,6 @@
     "https://www.ujjivansfb.bank.in/careers-home",
     "https://www.ujjivansfb.bank.in/careers-home/uspark-ujjivan-bankers-programme",
     "https://ujjivansfb.manipalbfsi.com/"
-   ]
-  },
-  {
-   "slug": "unity-small-finance-bank",
-   "name": "Unity Small Finance Bank",
-   "track": "banking",
-   "subcategory": "small_finance_bank",
-   "url": "https://www.unity.bank.in",
-   "recruitment_url": "https://www.unity.bank.in/careers",
-   "location": "New Delhi",
-   "scan": false,
-   "notes": "Careers link from homepage; page fetch failed",
-   "verified_from": [
-    "https://www.unity.bank.in/"
-   ]
-  },
-  {
-   "slug": "utkarsh-small-finance-bank",
-   "name": "Utkarsh Small Finance Bank",
-   "track": "banking",
-   "subcategory": "small_finance_bank",
-   "url": "https://www.utkarsh.bank.in",
-   "recruitment_url": null,
-   "location": "Varanasi",
-   "scan": false,
-   "notes": "Homepage JS-only; careers link not found",
-   "verified_from": [
-    "https://en.wikipedia.org/wiki/List_of_banks_in_India"
    ]
   },
   {
@@ -1850,163 +1654,6 @@
    ]
   },
   {
-   "slug": "andhra-pradesh-grameena-bank",
-   "name": "Andhra Pradesh Grameena Bank",
-   "track": "banking",
-   "subcategory": "rrb_bank",
-   "url": "https://apgb.bank.in",
-   "recruitment_url": null,
-   "location": "Guntur",
-   "scan": false,
-   "notes": "Sponsor: Union Bank of India. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (common process for all RRBs; not stated on this bank's site). Site: homepage 'Careers' item has no link.",
-   "verified_from": [
-    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
-    "https://apgb.bank.in/"
-   ]
-  },
-  {
-   "slug": "arunachal-pradesh-rural-bank",
-   "name": "Arunachal Pradesh Rural Bank",
-   "track": "banking",
-   "subcategory": "rrb_bank",
-   "url": "https://aprb.bank.in",
-   "recruitment_url": null,
-   "location": "Naharlagun",
-   "scan": false,
-   "notes": "Sponsor: State Bank of India. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (common process for all RRBs; not stated on this bank's site). Site: no careers link on homepage; old domain apruralbank.co.in.",
-   "verified_from": [
-    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
-    "https://aprb.bank.in/"
-   ]
-  },
-  {
-   "slug": "assam-gramin-bank",
-   "name": "Assam Gramin Bank",
-   "track": "banking",
-   "subcategory": "rrb_bank",
-   "url": "https://agvb.bank.in",
-   "recruitment_url": "https://agvb.bank.in/menu-content/get-content-single/careers",
-   "location": "Guwahati",
-   "scan": true,
-   "notes": "Sponsor: Punjab National Bank. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (common process for all RRBs; not stated on this bank's site). Site: formerly Assam Gramin Vikash Bank (renamed Oct 2025).",
-   "verified_from": [
-    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
-    "https://agvb.bank.in/",
-    "https://agvb.bank.in/menu-content/get-content-single/careers"
-   ]
-  },
-  {
-   "slug": "bihar-gramin-bank",
-   "name": "Bihar Gramin Bank",
-   "track": "banking",
-   "subcategory": "rrb_bank",
-   "url": "https://bgb.bank.in",
-   "recruitment_url": "https://bgb.bank.in/welcome/career",
-   "location": "Patna",
-   "scan": true,
-   "notes": "Sponsor: Punjab National Bank. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (bank site shows CRP-RRB/IBPS recruitment notices). Site: site lists CRP RRB-XIV Office Assistant joining notice.",
-   "verified_from": [
-    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
-    "https://bgb.bank.in/",
-    "https://bgb.bank.in/welcome/career"
-   ]
-  },
-  {
-   "slug": "chhattisgarh-gramin-bank",
-   "name": "Chhattisgarh Gramin Bank",
-   "track": "banking",
-   "subcategory": "rrb_bank",
-   "url": "https://cgb.bank.in",
-   "recruitment_url": "https://cgb.bank.in/Home/Page/Career",
-   "location": "Nava Raipur",
-   "scan": true,
-   "notes": "Sponsor: State Bank of India. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (common process for all RRBs; not stated on this bank's site). Site: crgb.bank.in (DFS link) redirects to cgb.bank.in.",
-   "verified_from": [
-    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
-    "https://cgb.bank.in/",
-    "https://cgb.bank.in/Home/Page/Career"
-   ]
-  },
-  {
-   "slug": "gujarat-gramin-bank",
-   "name": "Gujarat Gramin Bank",
-   "track": "banking",
-   "subcategory": "rrb_bank",
-   "url": "https://www.ggb.bank.in",
-   "recruitment_url": "https://www.ggb.bank.in/recru.php",
-   "location": "Vadodara",
-   "scan": true,
-   "notes": "Sponsor: Bank of Baroda. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (bank site shows CRP-RRB/IBPS recruitment notices). Site: site lists CRP-RRB-XII allotment notice.",
-   "verified_from": [
-    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
-    "https://www.ggb.bank.in/",
-    "https://www.ggb.bank.in/recru.php"
-   ]
-  },
-  {
-   "slug": "haryana-gramin-bank",
-   "name": "Haryana Gramin Bank",
-   "track": "banking",
-   "subcategory": "rrb_bank",
-   "url": "https://shgb.bank.in",
-   "recruitment_url": null,
-   "location": "Rohtak",
-   "scan": false,
-   "notes": "Sponsor: Punjab National Bank. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (common process for all RRBs; not stated on this bank's site). Site: no careers link on homepage.",
-   "verified_from": [
-    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
-    "https://shgb.bank.in/"
-   ]
-  },
-  {
-   "slug": "himachal-pradesh-gramin-bank",
-   "name": "Himachal Pradesh Gramin Bank",
-   "track": "banking",
-   "subcategory": "rrb_bank",
-   "url": "https://www.hpgb.bank.in",
-   "recruitment_url": "https://www.hpgb.bank.in/page/recruitment-promotion",
-   "location": "Mandi",
-   "scan": true,
-   "notes": "Sponsor: Punjab National Bank. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (bank site shows CRP-RRB/IBPS recruitment notices). Site: site lists IBPS CRP RRBs-XIV reserve list notices.",
-   "verified_from": [
-    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
-    "https://www.hpgb.bank.in/",
-    "https://www.hpgb.bank.in/page/recruitment-promotion"
-   ]
-  },
-  {
-   "slug": "jammu-kashmir-grameen-bank",
-   "name": "Jammu and Kashmir Grameen Bank",
-   "track": "banking",
-   "subcategory": "rrb_bank",
-   "url": "https://www.jkgrameen.bank.in",
-   "recruitment_url": "https://www.jkgrameen.bank.in/career.aspx",
-   "location": "Jammu",
-   "scan": true,
-   "notes": "Sponsor: J&K Bank. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (bank site shows CRP-RRB/IBPS recruitment notices). Site: site lists IBPS CRP RRB-XIV allotment notices (16 Oct 2026).",
-   "verified_from": [
-    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
-    "https://www.jkgrameen.bank.in/",
-    "https://www.jkgrameen.bank.in/career.aspx"
-   ]
-  },
-  {
-   "slug": "jharkhand-gramin-bank",
-   "name": "Jharkhand Gramin Bank",
-   "track": "banking",
-   "subcategory": "rrb_bank",
-   "url": "https://www.jrgbank.bank.in",
-   "recruitment_url": "https://www.jrgbank.bank.in/career",
-   "location": "Ranchi",
-   "scan": true,
-   "notes": "Sponsor: State Bank of India. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (common process for all RRBs; not stated on this bank's site). Site: news lists mainly empanelment/contract notices.",
-   "verified_from": [
-    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
-    "https://www.jrgbank.bank.in/",
-    "https://www.jrgbank.bank.in/career"
-   ]
-  },
-  {
    "slug": "karnataka-grameena-bank",
    "name": "Karnataka Grameena Bank",
    "track": "banking",
@@ -2038,161 +1685,6 @@
    ]
   },
   {
-   "slug": "madhya-pradesh-gramin-bank",
-   "name": "Madhya Pradesh Gramin Bank",
-   "track": "banking",
-   "subcategory": "rrb_bank",
-   "url": "https://mpgb.bank.in",
-   "recruitment_url": "https://mpgb.bank.in/career.php",
-   "location": "Indore",
-   "scan": true,
-   "notes": "Sponsor: Bank of India. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (common process for all RRBs; not stated on this bank's site). Site: career page currently lists auditor engagement only.",
-   "verified_from": [
-    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
-    "https://mpgb.bank.in/",
-    "https://mpgb.bank.in/career.php"
-   ]
-  },
-  {
-   "slug": "maharashtra-gramin-bank",
-   "name": "Maharashtra Gramin Bank",
-   "track": "banking",
-   "subcategory": "rrb_bank",
-   "url": "https://www.mahagramin.bank.in",
-   "recruitment_url": "https://www.mahagramin.bank.in/careers",
-   "location": "Chhatrapati Sambhajinagar",
-   "scan": false,
-   "notes": "Sponsor: Bank of Maharashtra. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (common process for all RRBs; not stated on this bank's site). Site: careers page linked from homepage (content not read).",
-   "verified_from": [
-    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
-    "https://www.mahagramin.bank.in/",
-    "https://www.mahagramin.bank.in/careers"
-   ]
-  },
-  {
-   "slug": "manipur-rural-bank",
-   "name": "Manipur Rural Bank",
-   "track": "banking",
-   "subcategory": "rrb_bank",
-   "url": "https://manipurrural.bank.in",
-   "recruitment_url": null,
-   "location": "Imphal",
-   "scan": false,
-   "notes": "Sponsor: Punjab National Bank. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (common process for all RRBs; not stated on this bank's site). Site: no careers link on homepage.",
-   "verified_from": [
-    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
-    "https://manipurrural.bank.in/"
-   ]
-  },
-  {
-   "slug": "meghalaya-rural-bank",
-   "name": "Meghalaya Rural Bank",
-   "track": "banking",
-   "subcategory": "rrb_bank",
-   "url": "https://megrb.bank.in",
-   "recruitment_url": "https://megrb.bank.in/careers",
-   "location": "Shillong",
-   "scan": false,
-   "notes": "Sponsor: State Bank of India. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (common process for all RRBs; not stated on this bank's site). Site: DFS link meghalayaruralbank.bank.in points to megrb.bank.in; careers page not read.",
-   "verified_from": [
-    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
-    "https://megrb.bank.in/",
-    "https://megrb.bank.in/careers"
-   ]
-  },
-  {
-   "slug": "mizoram-rural-bank",
-   "name": "Mizoram Rural Bank",
-   "track": "banking",
-   "subcategory": "rrb_bank",
-   "url": "https://mrb.bank.in",
-   "recruitment_url": null,
-   "location": "Aizawl",
-   "scan": false,
-   "notes": "Sponsor: State Bank of India. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (common process for all RRBs; not stated on this bank's site). Site: no careers link on homepage.",
-   "verified_from": [
-    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
-    "https://mrb.bank.in/"
-   ]
-  },
-  {
-   "slug": "nagaland-rural-bank",
-   "name": "Nagaland Rural Bank",
-   "track": "banking",
-   "subcategory": "rrb_bank",
-   "url": "https://www.nrb.bank.in",
-   "recruitment_url": null,
-   "location": "Kohima",
-   "scan": false,
-   "notes": "Sponsor: State Bank of India. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (common process for all RRBs; not stated on this bank's site). Site: no careers link on homepage.",
-   "verified_from": [
-    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
-    "https://www.nrb.bank.in/"
-   ]
-  },
-  {
-   "slug": "odisha-grameen-bank",
-   "name": "Odisha Grameen Bank",
-   "track": "banking",
-   "subcategory": "rrb_bank",
-   "url": "https://odishabank.bank.in",
-   "recruitment_url": null,
-   "location": "Bhubaneswar",
-   "scan": false,
-   "notes": "Sponsor: Indian Overseas Bank. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (common process for all RRBs; not stated on this bank's site). Site: formed 1 May 2025 (Odisha Gramya + Utkal Grameen); DFS link odishabank.in shows old Odisha Gramya content.",
-   "verified_from": [
-    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
-    "https://odishabank.bank.in/"
-   ]
-  },
-  {
-   "slug": "puducherry-grama-bank",
-   "name": "Puducherry Grama Bank",
-   "track": "banking",
-   "subcategory": "rrb_bank",
-   "url": "https://pygb.bank.in",
-   "recruitment_url": "https://pygb.bank.in/careers",
-   "location": "Puducherry",
-   "scan": true,
-   "notes": "Sponsor: Indian Bank. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (bank site shows CRP-RRB/IBPS recruitment notices). Site: careers page says PO and Office Assistant recruitment is conducted through IBPS RRB.",
-   "verified_from": [
-    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
-    "https://pygb.bank.in/",
-    "https://pygb.bank.in/careers"
-   ]
-  },
-  {
-   "slug": "punjab-gramin-bank",
-   "name": "Punjab Gramin Bank",
-   "track": "banking",
-   "subcategory": "rrb_bank",
-   "url": "https://pgb.bank.in",
-   "recruitment_url": null,
-   "location": "Kapurthala",
-   "scan": false,
-   "notes": "Sponsor: Punjab National Bank. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (common process for all RRBs; not stated on this bank's site). Site: homepage 'Careers' link is a placeholder.",
-   "verified_from": [
-    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
-    "https://pgb.bank.in/"
-   ]
-  },
-  {
-   "slug": "rajasthan-gramin-bank",
-   "name": "Rajasthan Gramin Bank",
-   "track": "banking",
-   "subcategory": "rrb_bank",
-   "url": "https://rgb.bank.in",
-   "recruitment_url": "https://rgb.bank.in/recruitment",
-   "location": "Jaipur",
-   "scan": true,
-   "notes": "Sponsor: State Bank of India. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (bank site shows CRP-RRB/IBPS recruitment notices). Site: site lists IBPS CRP RRBs-IX reallotment notice.",
-   "verified_from": [
-    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
-    "https://rgb.bank.in/",
-    "https://rgb.bank.in/recruitment"
-   ]
-  },
-  {
    "slug": "tamil-nadu-grama-bank",
    "name": "Tamil Nadu Grama Bank",
    "track": "banking",
@@ -2206,84 +1698,6 @@
     "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
     "https://tngb.bank.in/",
     "https://tngb.bank.in/careers"
-   ]
-  },
-  {
-   "slug": "telangana-grameena-bank",
-   "name": "Telangana Grameena Bank",
-   "track": "banking",
-   "subcategory": "rrb_bank",
-   "url": "https://tgb.bank.in",
-   "recruitment_url": "https://tgb.bank.in/careers",
-   "location": "Hyderabad",
-   "scan": true,
-   "notes": "Sponsor: State Bank of India. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (common process for all RRBs; not stated on this bank's site). Site: tgbhyd.in (DFS link) redirects to tgb.bank.in; Officer/OA reserve lists Aug 2026.",
-   "verified_from": [
-    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
-    "https://tgb.bank.in/",
-    "https://tgb.bank.in/careers"
-   ]
-  },
-  {
-   "slug": "tripura-gramin-bank",
-   "name": "Tripura Gramin Bank",
-   "track": "banking",
-   "subcategory": "rrb_bank",
-   "url": "https://tripuragramin.bank.in",
-   "recruitment_url": null,
-   "location": "Agartala",
-   "scan": false,
-   "notes": "Sponsor: Punjab National Bank. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (common process for all RRBs; not stated on this bank's site). Site: homepage content not readable.",
-   "verified_from": [
-    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
-    "https://tripuragramin.bank.in/"
-   ]
-  },
-  {
-   "slug": "uttar-pradesh-gramin-bank",
-   "name": "Uttar Pradesh Gramin Bank",
-   "track": "banking",
-   "subcategory": "rrb_bank",
-   "url": "https://upgb.bank.in",
-   "recruitment_url": null,
-   "location": "Lucknow",
-   "scan": false,
-   "notes": "Sponsor: Bank of Baroda. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (common process for all RRBs; not stated on this bank's site). Site: no careers link found; homepage text still mentions Gorakhpur HO (pre-2025 text), DFS gives Lucknow.",
-   "verified_from": [
-    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
-    "https://upgb.bank.in/"
-   ]
-  },
-  {
-   "slug": "uttarakhand-gramin-bank",
-   "name": "Uttarakhand Gramin Bank",
-   "track": "banking",
-   "subcategory": "rrb_bank",
-   "url": "https://www.ukgb.bank.in",
-   "recruitment_url": "https://ukgb.bank.in/career",
-   "location": "Dehradun",
-   "scan": true,
-   "notes": "Sponsor: State Bank of India. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (bank site shows CRP-RRB/IBPS recruitment notices). Site: site lists IBPS-CRP-RRB XIV reserve list selections.",
-   "verified_from": [
-    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
-    "https://www.ukgb.bank.in/",
-    "https://ukgb.bank.in/career"
-   ]
-  },
-  {
-   "slug": "west-bengal-gramin-bank",
-   "name": "West Bengal Gramin Bank",
-   "track": "banking",
-   "subcategory": "rrb_bank",
-   "url": "https://www.wbgb.bank.in",
-   "recruitment_url": "https://www.wbgb.bank.in/Recruitment.aspx",
-   "location": "Kolkata",
-   "scan": false,
-   "notes": "Sponsor: Punjab National Bank. Officer Scale I/II/III and Office Assistant (Multipurpose) posts are filled through IBPS CRP-RRBs (ibps.in) (common process for all RRBs; not stated on this bank's site). Site: Recruitment page linked from homepage (content not read).",
-   "verified_from": [
-    "https://financialservices.gov.in/dfs/list-rrbs-functioning-country",
-    "https://www.wbgb.bank.in/",
-    "https://www.wbgb.bank.in/Recruitment.aspx"
    ]
   },
   {
